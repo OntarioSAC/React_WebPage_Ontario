@@ -1,0 +1,887 @@
+.trminosycondiciones {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.trminosycondiciones .overlap-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 1365px;
+}
+
+.trminosycondiciones .overlap {
+    position: relative;
+    width: 1441px;
+    height: 1365px;
+}
+
+.trminosycondiciones .ELEMENTOS {
+    position: absolute;
+    width: 383px;
+    height: 128px;
+    top: 853px;
+    left: 0;
+}
+
+.trminosycondiciones .trminos-y {
+    position: absolute;
+    width: 1440px;
+    height: 978px;
+    top: 0;
+    left: 0;
+}
+
+.trminosycondiciones .img {
+    position: absolute;
+    width: 461px;
+    height: 124px;
+    top: 0;
+    left: 979px;
+}
+
+.trminosycondiciones .t-RMINOS-y {
+    width: 582px;
+    top: 155px;
+    left: 121px;
+    font-weight: 400;
+    color: #1c284c;
+    font-size: 40px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Inter", Helvetica;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .text-wrapper {
+    font-weight: 600;
+}
+
+.trminosycondiciones .span {
+    font-weight: 900;
+}
+
+.trminosycondiciones .mlecula {
+    position: absolute;
+    width: 256px;
+    height: 60px;
+    top: 255px;
+    left: 162px;
+    background-color: #1c284c;
+    border-radius: 74px;
+}
+
+.trminosycondiciones .div {
+    top: 13px;
+    left: 96px;
+    font-weight: 600;
+    color: #cbf000;
+    font-size: 16px;
+    position: absolute;
+    font-family: "Inter", Helvetica;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .paper-writing {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 4px;
+    left: 31px;
+}
+
+.trminosycondiciones .mlecula-btnreferidos {
+    top: 340px;
+    left: 162px;
+    position: absolute;
+    width: 256px;
+    height: 60px;
+    background-color: #cbf000;
+    border-radius: 74px;
+}
+
+.trminosycondiciones .text-wrapper-2 {
+    position: absolute;
+    top: 21px;
+    left: 101px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #1c284c;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.trminosycondiciones .good-friends-iconsvg {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    top: 12px;
+    left: 44px;
+}
+
+.trminosycondiciones .mlecula-2 {
+    top: 425px;
+    left: 163px;
+    position: absolute;
+    width: 256px;
+    height: 60px;
+    background-color: #cbf000;
+    border-radius: 74px;
+}
+
+.trminosycondiciones .accordion {
+    display: flex;
+    flex-direction: column;
+    width: 871px;
+    height: 423px;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    position: absolute;
+    top: 256px;
+    left: 491px;
+    background-color: #efeade;
+    border-radius: 51px 51px 40px 40px;
+    box-shadow: 1px 0px 5.6px #00000040;
+}
+
+.trminosycondiciones .headline-and-icon {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #efeade;
+}
+
+.trminosycondiciones .headline {
+    position: relative;
+    flex: 1;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #1c284c;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .text-wrapper-3 {
+    font-weight: 800;
+}
+
+.trminosycondiciones .frame {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+}
+
+.trminosycondiciones .overlap-group {
+    position: relative;
+    height: 45px;
+}
+
+.trminosycondiciones .down-arrow {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.trminosycondiciones .ellipse {
+    height: 45px;
+    background-color: #1c284c;
+    border-radius: 22.5px;
+    transform: rotate(-90deg);
+}
+
+.trminosycondiciones .vector {
+    position: absolute;
+    width: 18px;
+    height: 11px;
+    top: 17px;
+    left: 13px;
+}
+
+.trminosycondiciones .vector-2 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 3px;
+    margin-left: -1.5px;
+    margin-right: -1.5px;
+}
+
+.trminosycondiciones .los-presentes-t {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #1c284c;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .organismo-top-bar {
+    position: absolute;
+    width: 1441px;
+    height: 65px;
+    top: 0;
+    left: 0;
+    background-color: #1c284c;
+    border-radius: 60px;
+}
+
+.trminosycondiciones .overlap-2 {
+    position: relative;
+    height: 65px;
+    background-color: #1c284c;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.trminosycondiciones .frame-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 35px;
+    position: absolute;
+    top: 23px;
+    left: 566px;
+}
+
+.trminosycondiciones .molcula {
+    position: relative;
+    width: 80px;
+    height: 17px;
+}
+
+.trminosycondiciones .text-wrapper-4 {
+    position: absolute;
+    width: 80px;
+    top: -1px;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #cbf000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .molcula-2 {
+    display: flex;
+    width: 118.93px;
+    height: 19px;
+    align-items: center;
+    gap: 6px;
+    position: relative;
+}
+
+.trminosycondiciones .text-wrapper-5 {
+    position: relative;
+    width: 110px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #cbf000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .recurso {
+    position: relative;
+    width: 16.14px;
+    height: 9px;
+    margin-right: -13.21px;
+}
+
+.trminosycondiciones .molcula-3 {
+    position: relative;
+    width: 147px;
+    height: 17px;
+}
+
+.trminosycondiciones .text-wrapper-6 {
+    position: absolute;
+    width: 129px;
+    top: -1px;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #cbf000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .vector-3 {
+    position: absolute;
+    width: 14px;
+    height: 7px;
+    top: 4px;
+    left: 133px;
+}
+
+.trminosycondiciones .div-wrapper {
+    position: relative;
+    width: 188px;
+    height: 17px;
+}
+
+.trminosycondiciones .text-wrapper-7 {
+    position: absolute;
+    width: 429px;
+    top: -1px;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #cbf000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .molcula-4 {
+    position: relative;
+    width: 79px;
+    height: 17px;
+}
+
+.trminosycondiciones .text-wrapper-8 {
+    position: absolute;
+    width: 79px;
+    top: -1px;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #cbf000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .tomo-idioma {
+    position: absolute;
+    width: 63px;
+    height: 20px;
+    top: 22px;
+    left: 1349px;
+    border-radius: 100px;
+    border: 1px solid;
+    border-color: #cbf000;
+}
+
+.trminosycondiciones .overlap-group-2 {
+    position: absolute;
+    width: 34px;
+    height: 20px;
+    top: 0;
+    left: 29px;
+    background-color: #cbf000;
+    border-radius: 100px;
+}
+
+.trminosycondiciones .text-wrapper-9 {
+    position: absolute;
+    top: 3px;
+    left: 11px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #1c284c;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.trminosycondiciones .text-wrapper-10 {
+    position: absolute;
+    top: 2px;
+    left: 8px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #cbf000;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.trminosycondiciones .ONTARIOSVG {
+    position: absolute;
+    width: 148px;
+    height: 43px;
+    top: 12px;
+    left: 45px;
+}
+
+.trminosycondiciones .FOOTERVERDE {
+    position: absolute;
+    width: 1440px;
+    height: 387px;
+    top: 978px;
+    left: 0;
+    background-color: #1c284c;
+}
+
+.trminosycondiciones .av-v-ctor-andr-s {
+    position: absolute;
+    width: 271px;
+    top: 99px;
+    left: 1019px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .text-wrapper-11 {
+    position: absolute;
+    width: 84px;
+    top: 98px;
+    left: 435px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.trminosycondiciones .p {
+    position: absolute;
+    width: 240px;
+    top: 344px;
+    left: 141px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .text-wrapper-12 {
+    position: absolute;
+    width: 156px;
+    top: 343px;
+    left: 452px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .text-wrapper-13 {
+    position: absolute;
+    width: 179px;
+    top: 133px;
+    left: 435px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.trminosycondiciones .text-wrapper-14 {
+    position: absolute;
+    width: 179px;
+    top: 123px;
+    left: 732px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .text-wrapper-15 {
+    position: absolute;
+    width: 179px;
+    top: 144px;
+    left: 732px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .text-wrapper-16 {
+    position: absolute;
+    width: 179px;
+    top: 219px;
+    left: 732px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .text-wrapper-17 {
+    position: absolute;
+    width: 179px;
+    top: 289px;
+    left: 732px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .text-wrapper-18 {
+    position: absolute;
+    width: 179px;
+    top: 196px;
+    left: 732px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .text-wrapper-19 {
+    position: absolute;
+    width: 179px;
+    top: 241px;
+    left: 732px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .text-wrapper-20 {
+    width: 206px;
+    top: 168px;
+    left: 435px;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Inter", Helvetica;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .text-wrapper-21 {
+    position: absolute;
+    width: 60px;
+    top: 99px;
+    left: 732px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.trminosycondiciones .text-wrapper-22 {
+    position: absolute;
+    width: 236px;
+    top: 170px;
+    left: 732px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.trminosycondiciones .text-wrapper-23 {
+    position: absolute;
+    width: 236px;
+    top: 267px;
+    left: 732px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.trminosycondiciones .text-wrapper-24 {
+    position: absolute;
+    width: 211px;
+    top: 205px;
+    left: 1019px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .element {
+    position: absolute;
+    width: 125px;
+    top: 153px;
+    left: 1019px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .text-wrapper-25 {
+    position: absolute;
+    width: 131px;
+    top: 65px;
+    left: 1002px;
+    font-family: "Inter", Helvetica;
+    font-weight: 800;
+    color: #cbf000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .text-wrapper-26 {
+    position: absolute;
+    width: 143px;
+    top: 65px;
+    left: 720px;
+    font-family: "Inter", Helvetica;
+    font-weight: 800;
+    color: #cbf000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .text-wrapper-27 {
+    position: absolute;
+    width: 188px;
+    top: 65px;
+    left: 418px;
+    font-family: "Inter", Helvetica;
+    font-weight: 800;
+    color: #cbf000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.trminosycondiciones .CIRCLE {
+    top: 107px;
+    left: 423px;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+}
+
+.trminosycondiciones .CIRCLE-2 {
+    top: 107px;
+    left: 721px;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+}
+
+.trminosycondiciones .CIRCLE-3 {
+    top: 107px;
+    left: 1003px;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+}
+
+.trminosycondiciones .CIRCLE-4 {
+    top: 177px;
+    left: 423px;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+}
+
+.trminosycondiciones .CIRCLE-5 {
+    top: 178px;
+    left: 721px;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+}
+
+.trminosycondiciones .CIRCLE-6 {
+    top: 161px;
+    left: 1003px;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+}
+
+.trminosycondiciones .CIRCLE-7 {
+    top: 142px;
+    left: 423px;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+}
+
+.trminosycondiciones .CIRCLE-8 {
+    top: 276px;
+    left: 721px;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+}
+
+.trminosycondiciones .CIRCLE-9 {
+    top: 215px;
+    left: 1003px;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+}
+
+.trminosycondiciones .overlap-3 {
+    position: absolute;
+    width: 200px;
+    height: 32px;
+    top: 117px;
+    left: 145px;
+}
+
+.trminosycondiciones .rectangle {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    left: 166px;
+    background-color: #cbf000;
+    border-radius: 200px;
+}
+
+.trminosycondiciones .group {
+    position: absolute;
+    width: 200px;
+    height: 32px;
+    top: 0;
+    left: 0;
+}
+
+.trminosycondiciones .overlap-group-3 {
+    position: relative;
+    width: 198px;
+    height: 32px;
+    background-color: #cbf000;
+    border-radius: 50px;
+}
+
+.trminosycondiciones .text-wrapper-28 {
+    position: absolute;
+    width: 130px;
+    top: 7px;
+    left: 20px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #1c284c;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.trminosycondiciones .icon-keyboard-arrow {
+    position: absolute;
+    width: 8px;
+    height: 14px;
+    top: 10px;
+    left: 178px;
+}
+
+.trminosycondiciones .libro {
+    position: absolute;
+    width: 17px;
+    height: 12px;
+    top: 345px;
+    left: 429px;
+}
+
+.trminosycondiciones .FACEBOOK {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 241px;
+    left: 1018px;
+}
+
+.trminosycondiciones .INSTAGRAM {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 241px;
+    left: 1046px;
+}
+
+.trminosycondiciones .TIKTOK {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 241px;
+    left: 1074px;
+}
+
+.trminosycondiciones .YOUTUBE {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 241px;
+    left: 1102px;
+}
+
+.trminosycondiciones .whatsapp {
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    top: -42px;
+    left: 1299px;
+    object-fit: cover;
+}
+
+.trminosycondiciones .ontariopos {
+    position: absolute;
+    width: 181px;
+    height: 53px;
+    top: 46px;
+    left: 145px;
+}

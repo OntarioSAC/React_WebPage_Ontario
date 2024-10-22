@@ -1,0 +1,344 @@
+{
+  "apartmentsData": [
+    {
+      "id": "o2",
+      "slider": [{ "type": "image", "src": "/img/slider/slider-o2.webp" }],
+      "infoBox": {
+        "logo": "/img/logo/logo-o2.webp",
+        "price": {
+          "title": "CUOTAS DESDE",
+          "amount": "$900",
+          "altO": "ó ",
+          "altAmount": "S/ 3762 *",
+          "conditions": "(*) Aplican términos y condiciones."
+        },
+        "infoBoxes": [
+          {
+            "icon": "/img/icons/area-white.svg",
+            "text": "DESDE",
+            "value": "100 m²"
+          },
+          {
+            "icon": "/img/icons/tag-white.svg",
+            "value": "PRE",
+            "highlighted": "VENTA"
+          },
+          {
+            "icon": "/img/icons/location-white.svg",
+            "text": "CERRO COLORADO",
+            "value": "AREQUIPA"
+          }
+        ],
+        "colors": {
+          "primaryColor": "#12B092",
+          "secondaryColor": "#1c284c",
+          "textColor": "#fff"
+        }
+      },
+      "area": {
+        "title": "CARACTERÍSTICAS",
+        "titleBold": "DEL PROYECTO",
+        "description": "Está ubicado en una de las zonas más privilegiadas de la ciudad, O2 ofrece la combinación perfecta de confort y conveniencia. Este desarrollo exclusivo está diseñado pensando en tu bienestar y el de tu familia, brindándote acceso inmediato a todo lo que necesitas para una vida plena.",
+        "icons": [
+          {
+            "src": "/img/features/icons_36.svg",
+            "alt": "Descripción imagen 1",
+            "text": "Área de gimnasio"
+          },
+          {
+            "src": "/img/features/icons_19.svg",
+            "alt": "Descripción imagen 2",
+            "text": "Juegos para niños"
+          },
+          {
+            "src": "/img/features/icons_03.svg",
+            "alt": "Descripción imagen 4",
+            "text": "Área de skybar"
+          },
+          {
+            "src": "/img/features/icons_25.svg",
+            "alt": "Descripción imagen 3",
+            "text": "Piscina"
+          },
+
+          {
+            "src": "/img/features/icons_38.svg",
+            "alt": "Descripción imagen 5",
+            "text": "Coworking"
+          },
+          {
+            "src": "/img/features/icons_37.svg",
+            "alt": "Descripción imagen 6",
+            "text": "Parking"
+          }
+        ],
+        "contact": {
+          "documents": [
+            { "id": "1", "label": "DNI" },
+            { "id": "2", "label": "Pasaporte" }
+          ],
+          "projects": [
+            { "id": "1", "label": "O2" },
+            { "id": "2", "label": "Killa" }
+          ],
+          "showProjectSelect": false,
+          "projectId": "1",
+          "backgroundColor": "#12b092",
+          "texts": {
+            "formTitle": "QUIERO RECIBIR INFORMACIÓN",
+            "namePlaceholder": "*Nombres",
+            "surnamePlaceholder": "*Apellidos",
+            "emailPlaceholder": "*Correo electrónico",
+            "documentPlaceholder": "Documento...",
+            "dniPlaceholder": "Nro. Documento",
+            "phonePlaceholder": "*Teléfono",
+            "termsLabel1": "Acepto los términos y condiciones y la Política de Privacidad",
+            "termsLabel2": "Acepto el envío de Publicidad según la Política de Privacidad",
+            "submitButton": "ENVIAR",
+            "conditionsLabel": "Campos obligatorios."
+          }
+        },
+        "building": "/img/images/edificio-o2.webp"
+      },
+      "gallery": {
+        "title": "¿CUÁNTOS DORMITORIOS",
+        "subtitle": "ESTÁS BUSCANDO?",
+        "note": "*Imágenes referenciales",
+        "gallerySlide": {
+          "slider1": [
+            { "type": "image", "src": "/img/apartments/apartments1.webp" },
+            { "type": "image", "src": "/img/apartments/apartments2.webp" },
+            { "type": "image", "src": "/img/apartments/apartments3.webp" },
+            { "type": "image", "src": "/img/apartments/apartments4.webp" },
+            { "type": "image", "src": "/img/apartments/apartments5.webp" },
+            { "type": "image", "src": "/img/apartments/apartments6.webp" },
+            { "type": "image", "src": "/img/apartments/apartments7.webp" }
+          ],
+          "slider2": [
+            { "type": "image", "src": "/img/apartments/details1.webp" },
+            { "type": "image", "src": "/img/apartments/details2.webp" },
+            { "type": "image", "src": "/img/apartments/details1.webp" },
+            { "type": "image", "src": "/img/apartments/details2.webp" },
+            { "type": "image", "src": "/img/apartments/details1.webp" },
+            { "type": "image", "src": "/img/apartments/details2.webp" },
+            { "type": "image", "src": "/img/apartments/details1.webp" }
+          ]
+        },
+        "cta": {
+          "headline": "¿Te interesa nuestro proyecto?",
+          "description": "Reserva una visita guiada para conocerlo a fondo.",
+          "buttonText": "Programar visita",
+          "buttonIcon": "/img/icons/arrow-icon.svg"
+        }
+      },
+      "virtual": {
+        "title": "RECORRIDO",
+        "titleBold": "VIRTUAL",
+        "subtitle": "Sumérgete en tu nuevo departamento",
+        "note": "*Imágenes referenciales",
+        "videoUrl": "/video/o2.mp4",
+        "posterUrl": "/img/images/posterO2.webp"
+      },
+      "promoBanner": {
+        "title": "¡ÚLTIMOS DÍAS DE",
+        "titleBold": "PREVENTA!",
+        "subtitle": "1er edificio en Arequipa como",
+        "designation": "Tower Design",
+        "ctaText": "Visita nuestro depa",
+        "ctaHighlight": "PILOTO",
+        "imageSrc": "/img/images/building.webp",
+        "imageAlt": "Edificio"
+      },
+      "location": {
+        "title": "LA MEJOR",
+        "titleBold": "UBICACIÓN",
+        "buttons": [
+          {
+            "id": "location",
+            "label": "Cerro Colorado",
+            "icon": "ico-location",
+            "type": "image",
+            "src": "/img/map/o2.webp",
+            "alt": "Mapa Dinámico"
+          },
+          {
+            "id": "google",
+            "label": "Maps",
+            "icon": "ico-google",
+            "type": "link",
+            "href": "https://www.google.com/maps/search/?api=1&query=-16.3714167,-71.5559722",
+            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-16.3714167,-71.5559722&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-16.3714167,-71.5559722&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "alt": "Google Maps"
+          },
+          {
+            "id": "waze",
+            "label": "Waze",
+            "icon": "ico-waze",
+            "type": "iframe",
+            "src": "https://embed.waze.com/iframe?zoom=16&lat=-16.3714167&lon=-71.5559722&ct=livema",
+            "href": "https://waze.com/ul?ll=-16.3714167,-71.5559722&navigate=yes"
+          }
+        ]
+      },
+      "contact": {
+        "title": "TU ESPACIO PERFECTO"
+      }
+    },
+    {
+      "id": "killa",
+      "slider": [{ "type": "image", "src": "/img/slider/slider-killa.webp" }],
+      "infoBox": {
+        "logo": "/img/logo/logo-killa.webp",
+        "price": {
+          "title": "",
+          "amount": "100%",
+          "altO": "",
+          "altAmount": "VENDIDO",
+          "conditions": "Imágenes referenciales"
+        },
+        "infoBoxes": [
+          {
+            "icon": "/img/icons/area-white.svg",
+            "text": "DESDE",
+            "value": "60 m²"
+          },
+          {
+            "icon": "/img/icons/edifice.svg",
+            "value": "",
+            "highlighted": "ENTREGADO"
+          },
+          {
+            "icon": "/img/icons/location-white.svg",
+            "bold": "",
+            "value": "CUSCO"
+          }
+        ],
+        "colors": {
+          "primaryColor": "#12B092",
+          "secondaryColor": "#1c284c",
+          "textColor": "#fff"
+        }
+      },
+      "area": {
+        "title": "CARACTERÍSTICAS",
+        "titleBold": "DEL PROYECTO",
+        "description": "Killa es el proyecto ideal para quienes buscan vivir en la ciudad del Cusco con todas las comodidades modernas. A solo 5 minutos del centro de la ciudad, este desarrollo te ofrece una conexión única entre la vida urbana y la tranquilidad de un entorno diseñado para tu bienestar. Con espacios pensados para el disfrute y comodidad de toda la familia, Killa combina una excelente ubicación con la calidad de vida que siempre has deseado.",
+        "icons": [
+          {
+            "src": "/img/features/icons_19.svg",
+            "alt": "Descripción imagen 2",
+            "text": "Juegos para niños"
+          },
+          {
+            "src": "/img/features/icons_34.svg",
+            "alt": "Descripción imagen 4",
+            "text": "Zona de parrillas"
+          },
+          {
+            "src": "/img/features/icons_35.svg",
+            "alt": "Descripción imagen 7",
+            "text": "Cerca a zonas comerciales"
+          }
+        ],
+        "contact": {
+          "documents": [
+            { "id": "1", "label": "DNI" },
+            { "id": "2", "label": "Pasaporte" }
+          ],
+          "projects": [
+            { "id": "1", "label": "O2" },
+            { "id": "2", "label": "Killa" }
+          ],
+          "showProjectSelect": false,
+          "projectId": "1",
+          "backgroundColor": "#12b092",
+          "texts": {
+            "formTitle": "QUIERO RECIBIR INFORMACIÓN",
+            "namePlaceholder": "*Nombres",
+            "surnamePlaceholder": "*Apellidos",
+            "emailPlaceholder": "*Correo electrónico",
+            "documentPlaceholder": "Documento...",
+            "dniPlaceholder": "Nro. Documento",
+            "phonePlaceholder": "*Teléfono",
+            "termsLabel1": "Acepto los términos y condiciones y la Política de Privacidad",
+            "termsLabel2": "Acepto el envío de Publicidad según la Política de Privacidad",
+            "submitButton": "ENVIAR",
+            "conditionsLabel": "Campos obligatorios."
+          }
+        },
+        "building": "/img/images/edificio-killa.webp"
+      },
+      "gallery": {
+        "title": "PROYECTO",
+        "subtitle": "ENTREGADO",
+        "note": "*Imágenes referenciales",
+        "gallerySlide": {
+          "slider1": [
+            { "type": "image", "src": "/img/apartments/killa-slide1.webp" },
+            { "type": "image", "src": "/img/apartments/killa-slide2.webp" }
+          ],
+          "slider2": [
+            { "type": "image", "src": "/img/apartments/details1.webp" }
+          ]
+        },
+        "cta": {
+          "headline": "¿Te interesa algunos de nuestros proyectos?",
+          "description": "Reserva una visita guiada para conocerlo a fondo.",
+          "buttonText": "Programar visita",
+          "buttonIcon": "/img/icons/arrow-icon.svg"
+        }
+      },
+      "virtual": {
+        "title": "RECORRIDO",
+        "titleBold": "VIRTUAL",
+        "subtitle": "Sumérgete en tu nuevo departamento",
+        "note": "*Imágenes referenciales",
+        "kuulaUrl": "https://kuula.co/share/h45pb?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1"
+      },
+      "promoBanner": {
+        "title": "¡PROYECTO",
+        "titleBold": "ENTREGADO!",
+        "subtitle": "Edificio en cusco",
+        "designation": "",
+        "ctaText": "Visitanos ",
+        "ctaHighlight": "",
+        "imageSrc": "/img/images/building-killa.webp",
+        "imageAlt": "Edificio"
+      },
+      "location": {
+        "title": "LA MEJOR",
+        "titleBold": "UBICACIÓN",
+        "buttons": [
+          {
+            "id": "location",
+            "label": "Cusco",
+            "icon": "ico-location",
+            "type": "image",
+            "src": "/img/map/7.webp",
+            "alt": "Mapa Dinámico"
+          },
+          {
+            "id": "google",
+            "label": "Maps",
+            "icon": "ico-google",
+            "type": "link",
+            "href": "https://www.google.com/maps/search/?api=1&query=-17.1030278,-71.8897222",
+            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-17.1030278,-71.8897222&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-17.1030278,-71.8897222&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "alt": "Google Maps"
+          },
+          {
+            "id": "waze",
+            "label": "Waze",
+            "icon": "ico-waze",
+            "type": "iframe",
+            "src": "https://embed.waze.com/iframe?zoom=16&lat=-17.1030278&lon=-71.8897222&ct=livema",
+            "href": "https://waze.com/ul?ll=-17.1030278,-71.8897222&navigate=yes"
+          }
+        ]
+      },
+      "contact": {
+        "title": "TU ESPACIO PERFECTO"
+      }
+    }
+  ]
+}

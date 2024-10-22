@@ -1,0 +1,137 @@
+.content{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.custom-container {
+    padding: clamp(4.0625rem, 2.632rem + 6.1033vw, 8.125rem);
+    padding-bottom: 0 !important;
+}
+
+.fixedContactForm {
+    position: absolute;
+    right: calc((100vw - 1440px) / 2 + 50px);
+    z-index: 20;
+    
+    transition: top 0.4s ease, position 0.4s ease;
+}
+
+.fixedContactForm.scrolled {
+    position: fixed;
+    top: 20px;
+    right: calc((100vw - 1440px) / 2 + 50px);
+    transition: top 0.4s ease, position 0.4s ease;
+}
+
+.contact {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-family: "Inter", sans-serif;
+    line-height: 1;
+    font-size: clamp(0.875rem, 0.1832rem + 2.5743vw, 2.5rem);
+    font-weight: 600;
+    margin-top:clamp(0.625rem, -7.1875rem + 33.3333vw, 4.8125rem);
+}
+
+.title-span {
+    font-family: "Inter", sans-serif;
+    font-weight: 900 !important;
+}
+
+.custom-description {
+    margin-top: clamp(1.3125rem, 1.073rem + 0.8911vw, 1.875rem);
+    font-size: clamp(0.75rem, 0.5903rem + 0.5941vw, 1.125rem);
+    text-align: justify;
+}
+
+.custom-card {
+    margin-top: clamp(3rem, 2.6807rem + 1.1881vw, 3.75rem);
+    text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+.icon-size {
+    flex: 1 1 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    min-width: 120px;
+    min-height: 150px;
+    max-width: 150px;
+    
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.icon-image {
+    height: clamp(2.1875rem, 1.4425rem + 2.7723vw, 3.9375rem);
+    max-width: 100%;
+}
+
+.icon-text {
+    font-size: 16px;
+    font-family: "Inter";
+    text-align: center;
+    margin-top: 10px;
+}
+.content-building{
+    position: relative;
+    height: 450px;
+    top: -100px;
+}
+
+.image-building{
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    object-fit: cover;
+}
+@media (max-width: 1280px) {
+    .fixedContactForm {
+        position: relative;
+        top: auto;
+        right: auto;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+@media (max-width: 576px) {
+    .title {
+        text-align: center;
+    }
+
+    .icon-size {
+        min-width: 60px;
+        min-height: 120px;
+        max-width: 80px;
+        padding: 5px;
+    }
+
+    .fixedContactForm {
+        position: relative;
+        top: auto;
+        right: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: clamp(2.5rem, -2.1642rem + 19.9005vw, 5rem);
+    }
+    .custom-container {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .content-building {
+        position: relative;
+        height: 215px;
+        top: -75px;
+    }
+}

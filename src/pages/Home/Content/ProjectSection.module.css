@@ -1,0 +1,404 @@
+.f10 {
+  font-size: 0.625rem;
+  font-weight: 600;
+  line-height: 0.5;
+}
+
+.f12 {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.f12-light {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.f12-bold {
+  font-size: 0.75rem;
+  font-weight: 900;
+}
+
+.fw600 {
+  font-weight: 600;
+}
+
+.fw900 {
+  font-weight: 900;
+}
+
+.lightText {
+  font-weight: 600;
+}
+
+.boldText {
+  font-weight: 900;
+}
+
+.swiper-modify {
+  justify-content: center;
+}
+
+.conector {
+  font-weight: 500;
+}
+
+.customNav {
+  font-size: clamp(0.625rem, 0.493rem + 0.5634vw, 1rem);
+  font-weight: 900;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  align-content: center;
+  justify-content: center;
+}
+
+.nav2 {
+  padding-top: clamp(0rem, -1.4369rem + 5.3465vw, 3.375rem);
+}
+
+.terms {
+  text-align: end;
+  margin: 10px;
+  font-size: clamp(0.625rem, 0.493rem + 0.5634vw, 1rem);
+  font-weight: 600;
+}
+
+.customCardTitle {
+  max-width: 702px;
+  width: clamp(26.875rem, 19.6374rem + 26.9307vw, 43.875rem);
+  height: clamp(4.5625rem, -1.2116rem + 21.4851vw, 18.125rem);
+  background-color: var(--primary-color);
+  border-radius: 108px 0 108px 0;
+  flex: 1;
+}
+
+.customMargin h1 {
+  font-size: clamp(1.3125rem, 0.8069rem + 1.8812vw, 2.5rem);
+  padding: clamp(1.25rem, 0.3453rem + 3.3663vw, 3.375rem) 0 0 clamp(1.875rem, -1.2649rem + 11.6832vw, 9.25rem);
+  margin: 0;
+}
+
+.customMargin h2 {
+  font-size: clamp(0.875rem, 0.396rem + 1.7822vw, 2rem);
+  padding: 0 0 clamp(1.25rem, 0.3453rem + 3.3663vw, 3.375rem) clamp(1.875rem, -1.2649rem + 11.6832vw, 9.25rem);
+  margin: 0;
+}
+
+.customLine {
+  max-width: 514px;
+  width: 100%;
+  padding: 0.125rem;
+  margin: 1.8125rem auto 0;
+  background-color: var(--secondary-color);
+}
+
+.customCard {
+  position: relative;
+  width: 374px;
+  height: 441px;
+  border-radius: 50px 50px 0 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.customCard::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, transparent 40%, #000000 100%);
+  z-index: -1;
+}
+
+.customCard h4 {
+  font-weight: 700;
+  padding-top: 2rem;
+  margin: 0;
+  color: #fff;
+  z-index: 2;
+  padding-left: clamp(0.75rem, 0.2438rem + 2.1596vw, 2.1875rem);
+  font-size: clamp(0.875rem, 0.6549rem + 0.939vw, 1.5rem);
+}
+
+.customCard p {
+  font-size: clamp(0.5rem, 0.368rem + 0.5634vw, 0.875rem);
+  padding-left: clamp(0.75rem, 0.2438rem + 2.1596vw, 2.1875rem);
+  color: #fff;
+  z-index: 2;
+}
+
+.backgroundImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  transition: transform 0.5s ease;
+}
+
+.customCard:hover .backgroundImage {
+  transform: scale(1.5);
+}
+
+.descriptionCard {
+  position: absolute;
+  bottom: 0;
+  width: 181px;
+  height: 101px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 63px 14px 0 0;
+  padding: 28px;
+  z-index: 3;
+}
+
+.descriptionCard img {
+  margin-right: 5px;
+}
+
+.priceCard {
+  font-family: "Inter";
+  position: absolute;
+  bottom: 0;
+  width: 183px;
+  height: 101px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 10px;
+  z-index: 3;
+}
+
+.detailTitle {
+  background-color: var(--secondary-color);
+  width: 8.5em;
+  height: 1.625em;
+  border-radius: 1.25em;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textLine {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 0.5rem;
+  color: #fff;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 6px;
+  line-height: 1.2;
+  text-align: start;
+  width: 30px;
+}
+
+.price {
+  font-weight: 900;
+  font-style: italic;
+  color: #fff;
+  font-size: clamp(0.875rem, 0.6109rem + 1.1268vw, 1.625rem);
+  margin-left: 0.625rem;
+  line-height: 1.2;
+}
+
+.priceFooter {
+  font-family: "Bw Modelica";
+  font-weight: 900;
+  font-style: italic;
+  font-size: clamp(0.625rem, 0.537rem + 0.3756vw, 0.875rem);
+  line-height: 1.2;
+}
+
+.cardIcon1,
+.cardIcon2,
+.priceIcon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.cardOverlap {
+  position: relative;
+  top: -90px;
+  z-index: 10;
+  padding: 1rem clamp(0.625rem, -0.5464rem + 9.0099vw, 7.5625rem);
+}
+
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.line {
+  display: none;
+}
+
+@media (max-width: 1200px) and (min-width: 768px) {
+  .customCardTitle {
+    max-width: 960px;
+    width: 100%;
+    padding: 0;
+    border-radius: 20px 20px;
+  }
+
+  .customCard {
+    width: 300px;
+    height: 360px;
+    border-radius: 30px;
+  }
+
+  .priceCard {
+    width: 150px;
+    height: 80px;
+    padding: 12px;
+    margin: 0;
+    font-size: 0.625em;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .cardOverlap {
+    top: 0px;
+  }
+
+  .nav2 {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .customCardTitle {
+    min-width: 100%;
+    border-radius: 0 0 20px 20px;
+    width: 100%;
+  }
+
+  .customMargin {
+    text-align: center;
+  }
+
+  .customMargin h1,
+  .customMargin h2 {
+    line-height: 1.2;
+    padding-left: 0;
+  }
+
+  .customNav a {
+    padding-inline: 6px;
+  }
+
+  .customCard {
+    width: 179px;
+    height: 215px;
+    border-radius: 17px;
+    margin: 0;
+  }
+
+  .priceCard {
+    width: 97px;
+    height: 61px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 4px;
+    margin: 0;
+    font-size: 0.625em;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .price {
+    color: var(--secondary-color);
+  }
+
+  .textLine {
+    color: var(--secondary-color);
+    line-height: 1;
+  }
+
+  .detailTitle span {
+    color: #fff;
+    font-size: 0.5rem;
+  }
+
+  .priceIcon {
+    width: 8px;
+    height: 8px;
+  }
+
+  .cardOverlap {
+    top: 0px;
+  }
+
+  .link {
+    padding: 0 4px !important;
+    border-radius: 3px !important;
+  }
+
+  .cardContainer {
+    display: grid;
+    justify-content: center;
+  }
+
+  .priceContainer {
+    align-items: center;
+  }
+
+  .textLine {
+    margin-top: 0;
+    align-items: center;
+    width: 100%;
+  }
+
+  .price {
+    margin-left: 0;
+  }
+
+  .detailTitle {
+    width: 4.5rem;
+  }
+
+  .priceFooter {
+    font-family: "Inter";
+  }
+
+  .terms {
+    text-align: center;
+    margin: 10px;
+    font-weight: 500;
+  }
+
+  .line {
+    display: block;
+    border: solid var(--primary-text-color) 1px;
+    color: var(--primary-active-text-color);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 576px) {
+  .priceCard {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .customMargin h1,
+  .customMargin h2 {
+    line-height: 1.2;
+    padding-left: 0;
+  }
+
+  .customCard::before {
+    background: linear-gradient(315deg, transparent 40%, #000000 100%);
+  }
+}

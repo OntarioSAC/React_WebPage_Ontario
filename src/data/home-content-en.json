@@ -1,0 +1,318 @@
+{
+  "homeSlider": [
+    {
+      "type": "video",
+      "src": "/video/home-slide.mp4"
+    }
+  ],
+  "homeInfoBoxes": [
+    {
+      "icon": "/img/icons/medal-icon.svg",
+      "number": "+ 10",
+      "line1": "Years of",
+      "line2": "Experience"
+    },
+    {
+      "icon": "/img/icons/project-icon.svg",
+      "number": "+ 8",
+      "line1": "Projects",
+      "line2": ""
+    },
+    {
+      "icon": "/img/icons/family-icon.svg",
+      "number": "+ 1000",
+      "line1": "Happy",
+      "line2": "Families"
+    }
+  ],
+  "homeAboutSection": {
+    "flag": "About Us",
+    "flag2": "About Us",
+    "title": "YOUR HOME ",
+    "titlhighlights": "WITH ONTARIO!",
+    "partners": "Partners of:",
+    "certificate": "Double international certification:",
+    "introText": "We take pride in having over 10 years of experience in the real estate sector, operating in both the southern and northern regions of the country. We develop projects with high-quality standards and excellent profitability, including beach, countryside condominiums, and apartments.",
+    "highlights": [
+      {
+        "text": "10 years of experience",
+        "strong": true
+      },
+      {
+        "text": "high-quality standards",
+        "strong": true
+      },
+      {
+        "text": "profitability",
+        "strong": true
+      },
+      {
+        "text": "your well-being and satisfaction",
+        "strong": true
+      }
+    ],
+    "recognitionText": "Recognized for the second consecutive year as one of the best companies nationwide.",
+    "certifications": {
+      "epa2022": "/img/logo/epa-2022.svg",
+      "epa2023": "/img/logo/epa-2023.svg",
+      "iso9001": "/img/logo/iso-9001.svg",
+      "iso14001": "/img/logo/iso-14001.svg",
+      "ccia": "/img/logo/ccia.webp"
+    },
+    "advisorImage": "/img/images/img-asesor.webp"
+  },
+  "homeSectionData": {
+    "title": "OUR",
+    "titleBold": "PROJECTS",
+    "subtitle": "Condominiums",
+    "conditionsLabel": "Terms and conditions apply.",
+    "navLinks": [
+      {
+        "label": "PRE-SALE",
+        "href": "#"
+      },
+      {
+        "label": "MEJÍA",
+        "href": "#"
+      },
+      {
+        "label": "PUNTA DE BOMBÓN",
+        "href": "#"
+      },
+      {
+        "label": "LA JOYA",
+        "href": "#"
+      }
+    ],
+    "projects": [
+      {
+        "title": "PRADO PIAMONTE",
+        "description": "Country Condominiums",
+        "image": "/img/cards/prado.webp",
+        "from": "From ",
+        "area": "300",
+        "unit": "m&sup2",
+        "location": {
+          "city": "La Joya",
+          "region": "Arequipa"
+        },
+        "price": "$229",
+        "priceAlt": "or S/ 899*",
+        "detail1": "From",
+        "detail2": "",
+        "icon": "/img/icons/tag.svg",
+        "filterStatus": 1,
+        "status": "PRE-",
+        "status2": "SALE",
+        "combineStatus": true,
+        "label": "LA JOYA",
+        "url": "/projects/prado-piamonte"
+      },
+      {
+        "title": "ZAFIRO",
+        "description": "Beach Residential",
+        "image": "/img/cards/zafiro.webp",
+        "from": "From ",
+        "area": "110",
+        "unit": "m2",
+        "location": {
+          "city": "Punta de Bombón",
+          "region": "Arequipa"
+        },
+        "price": "$169",
+        "priceAlt": "or S/ 649*",
+        "detail1": "From",
+        "detail2": "",
+        "icon": "/img/icons/tag.svg",
+        "filterStatus": 1,
+        "status": "PRE-",
+        "status2": "SALE",
+        "combineStatus": true,
+        "label": "PUNTA DE BOMBÓN",
+        "url": "/projects/zafiro"
+      },
+      {
+        "title": "SANTORINI",
+        "description": "Beach Residential",
+        "image": "/img/cards/santorini.webp",
+        "from": "From ",
+        "area": "100",
+        "unit": "m2",
+        "location": {
+          "city": "Mejía",
+          "region": "Arequipa"
+        },
+        "price": "$239",
+        "priceAlt": "or S/ 919*",
+        "detail1": "From",
+        "detail2": "",
+        "icon": "/img/icons/tag.svg",
+        "filterStatus": 1,
+        "status": "PRE-",
+        "status2": "SALE",
+        "combineStatus": true,
+        "label": "MEJÍA",
+        "url": "/projects/santorini"
+      },
+      {
+        "title": "CORAL",
+        "description": "Real Estate Project",
+        "image": "/img/cards/coral.webp",
+        "from": "From ",
+        "area": "100",
+        "unit": "m2",
+        "location": {
+          "city": "Punta de Bombón",
+          "region": "Arequipa"
+        },
+        "price": "100%",
+        "priceAlt": "SOLD OUT",
+        "detail1": "",
+        "detail2": "",
+        "icon": "/img/icons/car.svg",
+        "filterStatus": 0,
+        "status": "IN",
+        "status2": " PROGRESS",
+        "combineStatus": false,
+        "label": "PUNTA DE BOMBÓN",
+        "url": "/projects/coral"
+      },
+      {
+        "title": "MYKONOS",
+        "description": "Beach Residential",
+        "image": "/img/cards/mykonos.webp",
+        "from": "From ",
+        "area": "110",
+        "unit": "m2",
+        "location": {
+          "city": "Mejía",
+          "region": "Arequipa"
+        },
+        "price": "100%",
+        "priceAlt": "SOLD OUT",
+        "detail1": "",
+        "detail2": "",
+        "icon": "/img/icons/car.svg",
+        "filterStatus": 0,
+        "status": "IN",
+        "status2": " PROGRESS",
+        "combineStatus": false,
+        "label": "MEJÍA",
+        "url": "/projects/mykonos"
+      },
+      {
+        "title": "PUNTA ARENA",
+        "description": "Country Condominiums",
+        "image": "/img/cards/arena.webp",
+        "from": "From ",
+        "area": "110",
+        "unit": "m2",
+        "location": {
+          "city": "Punta de Bombón",
+          "region": "Arequipa"
+        },
+        "price": "100%",
+        "priceAlt": "SOLD OUT",
+        "detail1": "",
+        "detail2": "",
+        "icon": "/img/icons/car.svg",
+        "filterStatus": 0,
+        "status": "IN",
+        "status2": " PROGRESS",
+        "combineStatus": false,
+        "label": "PUNTA DE BOMBÓN",
+        "url": "/projects/punta-arena"
+      }
+    ]
+  },
+  "homeTestimonialsData": {
+    "titleMain": "INSPIRING",
+    "titleHighlight": "TESTIMONIALS",
+    "subtitle": "Our clients share their dreams come true in Ontario",
+    "projectLabel": "PROJECT:",
+    "testimonials": [
+      {
+        "quote": "Thanks to Ontario, we finally have our own little piece of paradise on the beach! We couldn't be more excited to start this new adventure together. Ontario made everything so easy and exciting!",
+        "clientImage": "/img/clients/client-1.webp",
+        "clientNames": "HILDA MEDINA",
+        "clientPartner": "JESÚS TEJADA",
+        "projectName": "SANTORINI"
+      },
+      {
+        "quote": "As a family, we celebrate the achievement of acquiring our dream Country House.",
+        "clientImage": "/img/clients/client-2.webp",
+        "clientNames": "FAMILY",
+        "clientPartner": "HUARSAYA",
+        "projectName": "PRADO PIAMONTE"
+      },
+      {
+        "quote": "It was great how the advisors assisted us; they have excellent financing plans for all cases. I was delighted with the agreement we reached. Thank you, Ontario.",
+        "clientImage": "/img/clients/client-3.webp",
+        "clientNames": "FAMILY",
+        "clientPartner": "CANAZAS CHINO",
+        "projectName": "CORAL"
+      }
+    ]
+  },
+  "homeFormSection": {
+    "title1": "YOUR FUTURE ",
+    "title2": "STARTS HERE",
+    "ctaText": "Take advantage of our offers!",
+    "backgroundColor": "#cbf000",
+    "imageSrc": "/img/images/family.webp",
+    "imageAlt": "Family",
+    "documents": [
+      {
+        "id": "1",
+        "label": "ID"
+      },
+      {
+        "id": "2",
+        "label": "Passport"
+      }
+    ],
+    "projects": [
+      {
+        "id": "1",
+        "label": "Santorini"
+      },
+      {
+        "id": "2",
+        "label": "Mykonos"
+      },
+      {
+        "id": "3",
+        "label": "Coral"
+      },
+      {
+        "id": "4",
+        "label": "Punta Arena"
+      },
+      {
+        "id": "5",
+        "label": "Zafiro"
+      },
+      {
+        "id": "6",
+        "label": "Prado Piamonte"
+      }
+    ],
+    "showProjectSelect": true,
+    "projectId": "",
+    "texts": {
+      "formTitle": "I WANT TO RECEIVE ",
+      "formTitleBold": "INFORMATION",
+      "namePlaceholder": "*First Name",
+      "surnamePlaceholder": "*Last Name",
+      "emailPlaceholder": "*Email",
+      "documentPlaceholder": "Document...",
+      "projectPlaceholder": "Project...",
+      "dniPlaceholder": "Document Number",
+      "phonePlaceholder": "*Phone",
+      "termsLabel1": "I accept the terms and conditions and the Privacy Policy",
+      "termsLabel2": "I accept receiving advertisements according to the Privacy Policy",
+      "submitButton": "Submit",
+      "conditionsLabel": "Required fields."
+    }
+  }
+}

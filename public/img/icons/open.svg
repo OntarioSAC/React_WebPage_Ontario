@@ -1,0 +1,55 @@
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 189">
+<circle id="Ellipse 15" cx="22" cy="22" r="22" fill="#1C284C"/>
+<g id="Group">
+<g id="Clip path group">
+<mask id="mask0_1170_6018" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="12" y="13" width="8" height="8">
+<g id="d">
+<path id="Vector" d="M12.8779 13.9453H19.2842V20.3516H12.8779V13.9453Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_1170_6018)">
+<g id="Group_2">
+<path id="Vector_2" d="M19.2632 15.7698V13.9453H12.8779V20.3306H14.7024V17.0467L17.9862 20.3306L19.2633 19.0535L15.9794 15.7697L19.2632 15.7698Z" fill="#CBF000"/>
+</g>
+</g>
+</g>
+<g id="Clip path group_2">
+<mask id="mask1_1170_6018" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="12" y="25" width="8" height="8">
+<g id="c">
+<path id="Vector_3" d="M12.8779 25.7852H19.2842V32.191H12.8779V25.7852Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask1_1170_6018)">
+<g id="Group_3">
+<path id="Vector_4" d="M17.9862 25.8086L14.7024 29.0924V25.8086H12.8779V32.1938H19.2632V30.3695H15.9793L19.2632 27.0855L17.9862 25.8086Z" fill="#CBF000"/>
+</g>
+</g>
+</g>
+<g id="Clip path group_3">
+<mask id="mask2_1170_6018" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="24" y="25" width="8" height="8">
+<g id="b">
+<path id="Vector_5" d="M24.7158 25.7852H31.1217V32.191H24.7158V25.7852Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask2_1170_6018)">
+<g id="Group_4">
+<path id="Vector_6" d="M29.2974 29.0924L26.0134 25.8086L24.7363 27.0856L28.0202 30.3696H24.7363V32.1939H31.1216V25.8087H29.2972L29.2974 29.0924Z" fill="#CBF000"/>
+</g>
+</g>
+</g>
+<g id="Clip path group_4">
+<mask id="mask3_1170_6018" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="24" y="13" width="8" height="8">
+<g id="a">
+<path id="Vector_7" d="M24.7158 13.9453H31.1217V20.3516H24.7158V13.9453Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask3_1170_6018)">
+<g id="Group_5">
+<path id="Vector_8" d="M24.7363 13.9453V15.7698H28.0202L24.7363 19.0536L26.0134 20.3307L29.2974 17.0468V20.3307H31.1217V13.9454L24.7363 13.9453Z" fill="#CBF000"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

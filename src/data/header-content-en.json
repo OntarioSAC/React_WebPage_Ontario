@@ -1,0 +1,43 @@
+{
+  "links": [
+    {
+      "name": "About Us",
+      "to": "/about",
+      "icon": "/img/icons/about.svg"
+    },
+    {
+      "name": "Condominiums",
+      "icon": "/img/icons/condominios.svg",
+      "subItems": [
+        { "name": "Santorini", "to": "/projects/santorini" },
+        { "name": "Punta Arena", "to": "/projects/punta-arena" },
+        { "name": "Coral", "to": "/projects/coral" },
+        { "name": "Mykonos", "to": "/projects/mykonos" },
+        { "name": "Zafiro", "to": "/projects/zafiro" },
+        { "name": "Prado Piamonte", "to": "/projects/prado-piamonte" }
+      ]
+    },
+    {
+      "name": "Multifamily",
+      "icon": "/img/icons/multifamiliares.svg",
+      "subItems": [
+        { "name": "O2", "to": "/apartments/o2" },
+        { "name": "Killa", "to": "/apartments/killa" }
+      ]
+    },
+    {
+      "name": "Social Responsibility",
+      "to": "/social-responsibility",
+      "icon": "/img/icons/social.svg"
+    },
+    {
+      "name": "Referrals",
+      "to": "/referrals",
+      "icon": "/img/icons/referals.svg"
+    }
+  ],
+  "languages": [
+    { "label": "EN", "value": "en" },
+    { "label": "ES", "value": "es" }
+  ]
+}

@@ -1,0 +1,53 @@
+.custom-content {
+  position: relative;
+  z-index: 30;
+  padding: clamp(1.875rem, 1.2148rem + 2.8169vw, 3.75rem) 0;
+  background-color: #fff;
+
+}
+
+.custom-title {
+  font-size: clamp(1.3125rem, 0.8069rem + 1.8812vw, 2.5rem);
+  padding: 0 0 0 clamp(1.875rem, -1.2649rem + 11.6832vw, 9.25rem);
+  margin: 0;
+}
+
+
+.swiperButtonPrevCustom, .swiperButtonNextCustom {
+  width: 40px;
+  height: 40px;
+  background-color: #b7db12; 
+  color: #fff; 
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%; 
+  z-index: 10;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 24px; 
+  font-weight: bold;
+}
+
+.swiperButtonPrevCustom {
+  left: -20px; 
+}
+
+.swiperButtonNextCustom {
+  right: -20px; 
+}
+
+.swiperButtonPrevCustom:hover, .swiperButtonNextCustom:hover {
+  background-color: #9bbb0b; 
+}
+
+@media (max-width: 576px) {
+  .custom-title{
+    text-align: center;
+    margin: 0 50px;
+    padding: 0 30px;
+  }
+}
+

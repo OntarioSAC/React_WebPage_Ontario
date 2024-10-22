@@ -1,0 +1,91 @@
+{
+  "contact": {
+    "title": "Contáctanos",
+    "route": "/"
+  },
+  "about": {
+    "title": "SOBRE ONTARIO",
+    "items": [
+      { "text": "Nosotros", "route": "/about" },
+      { "text": "Política de Privacidad", "route": "/terms" },
+      { "text": "Términos y Condiciones", "route": "/terms" }
+    ]
+  },
+  "projects": {
+    "title": "CONDOMINIOS",
+    "categories": [
+      {
+        "name": "MEJÍA",
+        "items": [
+          { "text": "Santorini", "route": "/projects/santorini" },
+          { "text": "Mykonos", "route": "/projects/mykonos" }
+        ]
+      },
+      {
+        "name": "PUNTA DE BOMBÓN",
+        "items": [
+          { "text": "Zafiro", "route": "/projects/zafiro" },
+          { "text": "Punta Arena", "route": "/projects/punta-arena" },
+          { "text": "Coral", "route": "/projects/coral" }
+        ]
+      },
+      {
+        "name": "LA JOYA",
+        "items": [
+          { "text": "Prado Piamonte", "route": "/projects/prado-piamonte" }
+        ]
+      }
+    ]
+  },
+  "conditions": {
+    "title": "UBÍCANOS",
+    "items": [
+      {
+        "type": "address",
+        "text": "Av. Víctor Andrés Belaunde N°405\nUmacollo-Arequipa"
+      },
+      {
+        "type": "phone",
+        "text": "(054) 522 935",
+        "href": "tel:054522935"
+      },
+      {
+        "type": "phone",
+        "text": "972 582 490",
+        "href": "tel:972582490"
+      },
+      {
+        "type": "email",
+        "text": "contacto@ontario.com.pe",
+        "href": "mailto:contacto@ontario.com.pe"
+      }
+    ]
+  },
+  "socialMedia": [
+    {
+      "src": "ico-face",
+      "alt": "Facebook",
+      "link": "https://www.facebook.com/inmobiliariaontario"
+    },
+    {
+      "src": "ico-ins",
+      "alt": "Instagram",
+      "link": "https://www.instagram.com/ontarioinmobiliaria/"
+    },
+    {
+      "src": "ico-tik",
+      "alt": "TikTok",
+      "link": "https://www.tiktok.com/@ontario_inmobiliaria"
+    },
+    {
+      "src": "ico-you",
+      "alt": "YouTube",
+      "link": "https://www.youtube.com/@ontarioinmobiliaria9132"
+    }
+  ],
+  "footerText": "2024 @ All rights reserved by ONTARIO",
+  "footerComplaintBook": {
+    "text": " Libro de Reclamaciones",
+    "route": "/libro-de-reclamaciones"
+  }
+}

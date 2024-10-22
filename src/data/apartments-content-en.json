@@ -1,0 +1,342 @@
+{
+  "apartmentsData": [
+    {
+      "id": "o2",
+      "slider": [{ "type": "image", "src": "/img/slider/slider-o2.webp" }],
+      "infoBox": {
+        "logo": "/img/logo/logo-o2.webp",
+        "price": {
+          "title": "INSTALLMENTS FROM",
+          "amount": "$900",
+          "altO": "or ",
+          "altAmount": "S/3762*",
+          "conditions": "(*) Terms and conditions apply."
+        },
+        "infoBoxes": [
+          {
+            "icon": "/img/icons/area-white.svg",
+            "text": "FROM",
+            "value": "100 m²"
+          },
+          {
+            "icon": "/img/icons/tag-white.svg",
+            "value": "PRE",
+            "highlighted": "SALE"
+          },
+          {
+            "icon": "/img/icons/location-white.svg",
+            "bold": "AREQUIPA",
+            "value": "CERRO COLORADO"
+          }
+        ],
+        "colors": {
+          "primaryColor": "#12B092",
+          "secondaryColor": "#1c284c",
+          "textColor": "#fff"
+        }
+      },
+      "area": {
+        "title": "PROJECT",
+        "titleBold": "FEATURES",
+        "description": "Located in one of the most privileged areas of the city, O2 offers the perfect combination of comfort and convenience. This exclusive development is designed with your well-being and that of your family in mind, providing immediate access to everything you need for a fulfilling life.",
+        "icons": [
+          {
+            "src": "/img/features/icons_36.svg",
+            "alt": "Image description 1",
+            "text": "Gym area"
+          },
+          {
+            "src": "/img/features/icons_19.svg",
+            "alt": "Image description 2",
+            "text": "Children's playground"
+          },
+          {
+            "src": "/img/features/icons_03.svg",
+            "alt": "Image description 3",
+            "text": "Skybar area"
+          },
+          {
+            "src": "/img/features/icons_25.svg",
+            "alt": "Image description 4",
+            "text": "Swimming pool"
+          },
+          {
+            "src": "/img/features/icons_38.svg",
+            "alt": "Image description 5",
+            "text": "Coworking"
+          },
+          {
+            "src": "/img/features/icons_37.svg",
+            "alt": "Image description 6",
+            "text": "Parking"
+          }
+        ],
+        "contact": {
+          "documents": [
+            { "id": "1", "label": "ID" },
+            { "id": "2", "label": "Passport" }
+          ],
+          "projects": [
+            { "id": "1", "label": "O2" },
+            { "id": "2", "label": "Killa" }
+          ],
+          "showProjectSelect": false,
+          "projectId": "1",
+          "backgroundColor": "#12b092",
+          "texts": {
+            "formTitle": "I WANT TO RECEIVE INFORMATION",
+            "namePlaceholder": "*First Name",
+            "surnamePlaceholder": "*Last Name",
+            "emailPlaceholder": "*Email",
+            "documentPlaceholder": "Document...",
+            "dniPlaceholder": "Document Number",
+            "phonePlaceholder": "*Phone",
+            "termsLabel1": "I accept the terms and conditions and the Privacy Policy",
+            "termsLabel2": "I accept receiving advertisements according to the Privacy Policy",
+            "submitButton": "SUBMIT",
+            "conditionsLabel": "Required fields."
+          }
+        },
+        "building": "/img/images/edificio-o2.webp"
+      },
+      "gallery": {
+        "title": "HOW MANY BEDROOMS",
+        "subtitle": "ARE YOU LOOKING FOR?",
+        "note": "*Reference images",
+        "gallerySlide": {
+          "slider1": [
+            { "type": "image", "src": "/img/apartments/apartments1.webp" },
+            { "type": "image", "src": "/img/apartments/apartments2.webp" },
+            { "type": "image", "src": "/img/apartments/apartments3.webp" },
+            { "type": "image", "src": "/img/apartments/apartments4.webp" },
+            { "type": "image", "src": "/img/apartments/apartments5.webp" },
+            { "type": "image", "src": "/img/apartments/apartments6.webp" },
+            { "type": "image", "src": "/img/apartments/apartments7.webp" }
+          ],
+          "slider2": [
+            { "type": "image", "src": "/img/apartments/details1.webp" },
+            { "type": "image", "src": "/img/apartments/details2.webp" },
+            { "type": "image", "src": "/img/apartments/details1.webp" },
+            { "type": "image", "src": "/img/apartments/details2.webp" },
+            { "type": "image", "src": "/img/apartments/details1.webp" },
+            { "type": "image", "src": "/img/apartments/details2.webp" },
+            { "type": "image", "src": "/img/apartments/details1.webp" }
+          ]
+        },
+        "cta": {
+          "headline": "Are you interested in our project?",
+          "description": "Schedule a guided visit to get to know it in depth.",
+          "buttonText": "Schedule a visit",
+          "buttonIcon": "/img/icons/arrow-icon.svg"
+        }
+      },
+      "virtual": {
+        "title": "VIRTUAL",
+        "titleBold": "TOUR",
+        "subtitle": "Immerse yourself in your new apartment",
+        "note": "*Reference images",
+        "videoUrl": "/video/o2.mp4"
+      },
+      "promoBanner": {
+        "title": "LAST DAYS OF",
+        "titleBold": "PRE-SALE!",
+        "subtitle": "1st building in Arequipa as",
+        "designation": "Tower Design",
+        "ctaText": "Visit our model apartment",
+        "ctaHighlight": "PILOT",
+        "imageSrc": "/img/images/building.webp",
+        "imageAlt": "Building"
+      },
+      "location": {
+        "title": "THE BEST",
+        "titleBold": "LOCATION",
+        "buttons": [
+          {
+            "id": "location",
+            "label": "Cerro Colorado",
+            "icon": "ico-location",
+            "type": "image",
+            "src": "/img/map/o2.webp",
+            "alt": "Dynamic Map"
+          },
+          {
+            "id": "google",
+            "label": "Maps",
+            "icon": "ico-google",
+            "type": "link",
+            "href": "https://www.google.com/maps/search/?api=1&query=-16.3714167,-71.5559722",
+            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-16.3714167,-71.5559722&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-16.3714167,-71.5559722&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "alt": "Google Maps"
+          },
+          {
+            "id": "waze",
+            "label": "Waze",
+            "icon": "ico-waze",
+            "type": "iframe",
+            "src": "https://embed.waze.com/iframe?zoom=16&lat=-16.3714167&lon=-71.5559722&ct=livema",
+            "href": "https://waze.com/ul?ll=-16.3714167,-71.5559722&navigate=yes"
+          }
+        ]
+      },
+      "contact": {
+        "title": "YOUR PERFECT SPACE"
+      }
+    },
+    {
+      "id": "killa",
+      "slider": [{ "type": "image", "src": "/img/slider/slider-killa.webp" }],
+      "infoBox": {
+        "logo": "/img/logo/logo-killa.webp",
+        "price": {
+          "title": "",
+          "amount": "100%",
+          "altO": "",
+          "altAmount": "SOLD OUT",
+          "conditions": "Reference images"
+        },
+        "infoBoxes": [
+          {
+            "icon": "/img/icons/area-white.svg",
+            "text": "FROM",
+            "value": "60 m²"
+          },
+          {
+            "icon": "/img/icons/edifice.svg",
+            "value": "",
+            "highlighted": "DELIVERED"
+          },
+          {
+            "icon": "/img/icons/location-white.svg",
+            "bold": "",
+            "value": "CUSCO"
+          }
+        ],
+        "colors": {
+          "primaryColor": "#12B092",
+          "secondaryColor": "#1c284c",
+          "textColor": "#fff"
+        }
+      },
+      "area": {
+        "title": "PROJECT",
+        "titleBold": "FEATURES",
+        "description": "Killa is the ideal project for those looking to live in the city of Cusco with all modern amenities. Just 5 minutes from downtown, this development offers a unique connection between urban life and the tranquility of an environment designed for your well-being. With spaces designed for the enjoyment and comfort of the whole family, Killa combines an excellent location with the quality of life you have always desired.",
+        "icons": [
+          {
+            "src": "/img/features/icons_19.svg",
+            "alt": "Image description 2",
+            "text": "Children's playground"
+          },
+          {
+            "src": "/img/features/icons_34.svg",
+            "alt": "Image description 4",
+            "text": "BBQ area"
+          },
+          {
+            "src": "/img/features/icons_35.svg",
+            "alt": "Image description 7",
+            "text": "Close to commercial areas"
+          }
+        ],
+        "contact": {
+          "documents": [
+            { "id": "1", "label": "ID" },
+            { "id": "2", "label": "Passport" }
+          ],
+          "projects": [
+            { "id": "1", "label": "O2" },
+            { "id": "2", "label": "Killa" }
+          ],
+          "showProjectSelect": false,
+          "projectId": "1",
+          "backgroundColor": "#12b092",
+          "texts": {
+            "formTitle": "I WANT TO RECEIVE INFORMATION",
+            "namePlaceholder": "*First Name",
+            "surnamePlaceholder": "*Last Name",
+            "emailPlaceholder": "*Email",
+            "documentPlaceholder": "Document...",
+            "dniPlaceholder": "Document Number",
+            "phonePlaceholder": "*Phone",
+            "termsLabel1": "I accept the terms and conditions and the Privacy Policy",
+            "termsLabel2": "I accept receiving advertisements according to the Privacy Policy",
+            "submitButton": "SUBMIT",
+            "conditionsLabel": "Required fields."
+          }
+        },
+        "building": "/img/images/edificio-killa.webp"
+      },
+      "gallery": {
+        "title": "PROJECT",
+        "subtitle": "DELIVERED",
+        "note": "*Reference images",
+        "gallerySlide": {
+          "slider1": [
+            { "type": "image", "src": "/img/apartments/killa-slide1.webp" },
+            { "type": "image", "src": "/img/apartments/killa-slide2.webp" }
+          ],
+          "slider2": [
+            { "type": "image", "src": "/img/apartments/details1.webp" }
+          ]
+        },
+        "cta": {
+          "headline": "Are you interested in any of our projects?",
+          "description": "Schedule a guided visit to get to know it in depth.",
+          "buttonText": "Schedule a visit",
+          "buttonIcon": "/img/icons/arrow-icon.svg"
+        }
+      },
+      "virtual": {
+        "title": "VIRTUAL",
+        "titleBold": "TOUR",
+        "subtitle": "Immerse yourself in your new apartment",
+        "note": "*Reference images",
+        "kuulaUrl": "https://kuula.co/share/h45pb?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1"
+      },
+      "promoBanner": {
+        "title": "PROJECT",
+        "titleBold": "DELIVERED!",
+        "subtitle": "Building in Cusco",
+        "designation": "",
+        "ctaText": "Visit us",
+        "ctaHighlight": "",
+        "imageSrc": "/img/images/building-killa.webp",
+        "imageAlt": "Building"
+      },
+      "location": {
+        "title": "THE BEST",
+        "titleBold": "LOCATION",
+        "buttons": [
+          {
+            "id": "location",
+            "label": "Cusco",
+            "icon": "ico-location",
+            "type": "image",
+            "src": "/img/map/7.webp",
+            "alt": "Dynamic Map"
+          },
+          {
+            "id": "google",
+            "label": "Maps",
+            "icon": "ico-google",
+            "type": "link",
+            "href": "https://www.google.com/maps/search/?api=1&query=-17.1030278,-71.8897222",
+            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-17.1030278,-71.8897222&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-17.1030278,-71.8897222&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "alt": "Google Maps"
+          },
+          {
+            "id": "waze",
+            "label": "Waze",
+            "icon": "ico-waze",
+            "type": "iframe",
+            "src": "https://embed.waze.com/iframe?zoom=16&lat=-17.1030278&lon=-71.8897222&ct=livema",
+            "href": "https://waze.com/ul?ll=-17.1030278,-71.8897222&navigate=yes"
+          }
+        ]
+      },
+      "contact": {
+        "title": "YOUR PERFECT SPACE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "referredHeader": {
+    "image": "/img/images/pareja1.webp",
+    "alt": "Couple"
+  },
+  "referredSteps": {
+    "introText": "With Ontario, you can refer a family member or friend, register their information, and if they buy, you can win great prizes. Just follow these steps:",
+    "steps": [
+      {
+        "icon": "/img/icons/icon-c1.svg",
+        "image": "/img/icons/icons-referals3.svg",
+        "title": "Register your referral in the form",
+        "description": "You must register your referral's information in the REFER HERE form that you will find on our website.",
+        "link": "http://"
+      },
+      {
+        "icon": "/img/icons/icon-c2.svg",
+        "image": "/img/icons/icons-referals2.svg",
+        "title": "Your referral must buy at least one lot and prove that you referred them",
+        "description": "Your referral must be listed as the owner or co-owner at the time of signing their contract."
+      },
+      {
+        "icon": "/img/icons/icon-c3.svg",
+        "image": "/img/icons/icons-referals1.svg",
+        "title": "If your referral buys, YOU WIN!",
+        "description": "You can win up to s/700 in cash with your successful referral made before the deadline."
+      }
+    ],
+    "referredForm": {
+      "backgroundColor": "#cbf000",
+      "documents": [
+        { "id": "1", "label": "ID" },
+        { "id": "2", "label": "Passport" }
+      ],
+      "texts": {
+        "formTitle": "REFER HERE!",
+        "namePlaceholder": "*First Name",
+        "surnamePlaceholder": "*Last Name",
+        "emailPlaceholder": "*Email",
+        "documentPlaceholder": "Document...",
+        "dniPlaceholder": "ID Number",
+        "phonePlaceholder": "*Phone",
+        "referredNamePlaceholder": "*Referral's First Name",
+        "referredSurnamePlaceholder": "*Referral's Last Name",
+        "referredDocumentPlaceholder": "Referral's Document...",
+        "referredDniPlaceholder": "Referral's ID Number",
+        "referredPhonePlaceholder": "*Referral's Phone",
+        "termsLabel1": "I accept the Terms and Conditions and the Privacy Policy",
+        "submitButton": "SUBMIT REFERRAL",
+        "conditionsLabel": "(*) Required fields.",
+        "referredNameRequired": "Please enter the referral's first name.",
+        "referredSurnameRequired": "Please enter the referral's last name.",
+        "referredDocumentRequired": "Please select a document for the referral.",
+        "referredDniRequired": "Please enter the referral's ID number.",
+        "referredPhoneRequired": "Please enter the referral's phone number.",
+        "celularRequired": "Please enter your phone number.",
+        "registerReferrals": "REGISTER YOUR",
+        "referrals": "REFERRALS",
+        "addReferralButton": "Add Referral"
+      }
+    }
+  },
+  "referredBaner": {
+    "backgroundImage": "/img/images/modelo-circulo.webp",
+    "title": "WIN",
+    "titleBold": "WITH US",
+    "rewards": [
+      {
+        "icon": "/img/icons/icon-copa.svg",
+        "amount": "S/300",
+        "description": "1st Referral"
+      },
+      {
+        "icon": "/img/icons/icon-copa.svg",
+        "amount": "S/500",
+        "description": "2nd Referral"
+      },
+      {
+        "icon": "/img/icons/icon-copa.svg",
+        "amount": "S/700",
+        "description": "3rd Referral"
+      }
+    ]
+  }
+}

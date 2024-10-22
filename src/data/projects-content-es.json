@@ -1,0 +1,1903 @@
+{
+  "projectsData": [
+    {
+      "id": "santorini",
+      "slider": [
+        { "type": "image", "src": "/img/slider/slider-santorini1.webp" },
+        { "type": "image", "src": "/img/slider/slider-santorini2.webp" },
+        { "type": "image", "src": "/img/slider/slider-santorini3.webp" }
+      ],
+      "infoBox": {
+        "logo": "/img/logo/logo-santorini.webp",
+        "price": {
+          "title": "CUOTAS DESDE",
+          "amount": "$239",
+          "altO": "ó ",
+          "altAmount": "S/ 919 *",
+          "conditions": "(*) Aplican términos y condiciones."
+        },
+        "infoBoxes": [
+          {
+            "icon": "/img/icons/area2.svg",
+            "text": "DESDE",
+            "value": "100 m²"
+          },
+          {
+            "icon": "/img/icons/tag2.svg",
+            "value": "PRE",
+            "highlighted": "VENTA"
+          },
+          {
+            "icon": "/img/icons/location2.svg",
+            "bold": "MEJÍA",
+            "value": "AREQUIPA"
+          }
+        ],
+        "colors": {
+          "primaryColor": "#cbf000",
+          "secondaryColor": "#1c284c",
+          "textColor": "#1c284c"
+        }
+      },
+      "area": {
+        "title": "ÁREAS PARA",
+        "titleBold": "DISFRUTAR",
+        "description": "Descubre Santorini, un exclusivo proyecto de lotes que combina la tranquilidad del campo con la majestuosidad del mar. Perfecto para aquellos que buscan un refugio sereno, Santorini ofrece el equilibrio ideal entre la vida moderna y la paz rural.",
+        "icons": [
+          {
+            "src": "/img/features/icons_07.svg",
+            "alt": "Descripción imagen 1",
+            "text": "Club House"
+          },
+          {
+            "src": "/img/features/icons_19.svg",
+            "alt": "Descripción imagen 2",
+            "text": "Juegos para niños"
+          },
+          {
+            "src": "/img/features/icons_25.svg",
+            "alt": "Descripción imagen 3",
+            "text": "Piscina temperada"
+          },
+          {
+            "src": "/img/features/icons_18.svg",
+            "alt": "Descripción imagen 4",
+            "text": "Hamacas"
+          },
+          {
+            "src": "/img/features/icons_05.svg",
+            "alt": "Descripción imagen 5",
+            "text": "Canchas de voley-futbol"
+          },
+          {
+            "src": "/img/features/icons_31.svg",
+            "alt": "Descripción imagen 6",
+            "text": "Zona de picnic"
+          },
+          {
+            "src": "/img/features/icons_26.svg",
+            "alt": "Descripción imagen 7",
+            "text": "Pórtico de ingreso"
+          },
+          {
+            "src": "/img/features/icons_09.svg",
+            "alt": "Descripción imagen 8",
+            "text": "Club House para niños"
+          }
+        ],
+        "contact": {
+          "documents": [
+            { "id": "1", "label": "DNI" },
+            { "id": "2", "label": "Pasaporte" }
+          ],
+          "projects": [
+            { "id": "1", "label": "Santorini" },
+            { "id": "2", "label": "Mykonos" },
+            { "id": "3", "label": "Coral" },
+            { "id": "4", "label": "Punta Arena" },
+            { "id": "5", "label": "Zafiro" },
+            { "id": "6", "label": "Prado Piamonte" }
+          ],
+          "showProjectSelect": false,
+          "projectId": "1",
+          "texts": {
+            "formTitle": "QUIERO RECIBIR INFORMACIÓN",
+            "namePlaceholder": "*Nombres",
+            "surnamePlaceholder": "*Apellidos",
+            "emailPlaceholder": "*Correo electrónico",
+            "documentPlaceholder": "Documento...",
+            "dniPlaceholder": "Nro. Documento",
+            "phonePlaceholder": "*Teléfono",
+            "termsLabel1": "Acepto los términos y condiciones y la Política de Privacidad",
+            "termsLabel2": "Acepto el envío de Publicidad según la Política de Privacidad",
+            "submitButton": "ENVIAR",
+            "conditionsLabel": "Campos obligatorios."
+          }
+        }
+      },
+      "gallery": {
+        "title": "TU ESPACIO PERFECTO",
+        "subtitle": "TE ESPERA",
+        "note": "*Imágenes referenciales",
+        "backgroundImage": "/img/gallery/santorini-01.webp",
+        "slider": [
+          { "type": "image", "src": "/img/slider-gallery/santorini1.webp" },
+          { "type": "image", "src": "/img/slider-gallery/santorini2.webp" },
+          { "type": "image", "src": "/img/slider-gallery/santorini3.webp" },
+          { "type": "image", "src": "/img/slider-gallery/santorini4.webp" },
+          { "type": "image", "src": "/img/slider-gallery/santorini5.webp" },
+          { "type": "image", "src": "/img/slider-gallery/santorini6.webp" }
+        ],
+        "kuulaUrl": "https://kuula.co/share/h455x?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
+        "videoUrl": "/video/santorini-slide.mp4",
+        "cta": {
+          "headline": "¿Te interesa nuestro proyecto?",
+          "description": "Reserva una visita guiada para conocerlo a fondo.",
+          "buttonText": "Programar visita",
+          "buttonIcon": "/img/icons/arrow-icon.svg"
+        }
+      },
+      "progress": {
+        "title": "PROYECTO EN",
+        "titleBold": "MARCHA",
+        "subtitle": "Avance de Obras",
+        "description": "Visualiza la evolución de nuestro proyecto que captura cada avance y nuestro compromiso continuo.",
+        "images": [
+          "/img/project/1.webp",
+          "/img/project/2.webp",
+          "/img/project/3.webp",
+          "/img/project/4.webp"
+        ]
+      },
+      "location": {
+        "title": "LA MEJOR",
+        "titleBold": "UBICACIÓN",
+        "buttons": [
+          {
+            "id": "location",
+            "label": "Mejia",
+            "icon": "ico-location",
+            "type": "image",
+            "src": "/img/map/1.webp",
+            "alt": "Mapa Dinámico"
+          },
+          {
+            "id": "google",
+            "label": "Maps",
+            "icon": "ico-google",
+            "type": "link",
+            "href": "https://www.google.com/maps/search/?api=1&query=-17.1030278,-71.8897222",
+            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-17.1030278,-71.8897222&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-17.1030278,-71.8897222&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "alt": "Google Maps"
+          },
+          {
+            "id": "waze",
+            "label": "Waze",
+            "icon": "ico-waze",
+            "type": "iframe",
+            "src": "https://embed.waze.com/iframe?zoom=16&lat=-17.1030278&lon=-71.8897222&ct=livema",
+            "href": "https://waze.com/ul?ll=-17.1030278,-71.8897222&navigate=yes"
+          }
+        ]
+      },
+      "sliderProjects": {
+        "title": "TAMBIÉN TE PUEDE",
+        "titleBold": "INTERESAR",
+        "subtitle": "Condominios",
+        "navLinks": [
+          { "label": "PREVENTA", "href": "#" },
+          { "label": "MEJÍA", "href": "#" },
+          { "label": "PUNTA DE BOMBÓN", "href": "#" },
+          { "label": "LA JOYA", "href": "#" }
+        ],
+        "projects": [
+          {
+            "title": "PRADO PIAMONTE",
+            "description": "Condominios de Campo",
+            "image": "/img/cards/prado.webp",
+            "from": "Desde ",
+            "area": "300",
+            "unit": "m2",
+            "location": { "city": "La Joya", "region": "Arequipa" },
+            "price": "$229",
+            "conector": "ó",
+            "priceAlt": "S/ 899*",
+            "detail1": "Cuotas",
+            "detail2": "desde",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE",
+            "status2": "VENTA",
+            "combineStatus": true,
+            "label": "LA JOYA",
+            "url": "/projects/prado-piamonte"
+          },
+          {
+            "title": "ZAFIRO",
+            "description": "Residencial Playa",
+            "image": "/img/cards/zafiro.webp",
+            "from": "Desde ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "$169",
+            "conector": "ó",
+            "priceAlt": "S/ 649*",
+            "detail1": "Cuotas",
+            "detail2": "desde",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE",
+            "status2": "VENTA",
+            "combineStatus": true,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/zafiro"
+          },
+          {
+            "title": "SANTORINI",
+            "description": "Residencial Playa",
+            "image": "/img/cards/santorini.webp",
+            "from": "Desde ",
+            "area": "100",
+            "unit": "m2",
+            "location": { "city": "Mejía", "region": "Arequipa" },
+            "price": "$239",
+            "conector": "ó",
+            "priceAlt": "S/ 919*",
+            "detail1": "Cuotas",
+            "detail2": "desde",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE",
+            "status2": "VENTA",
+            "combineStatus": true,
+            "label": "MEJÍA",
+            "url": "/projects/santorini"
+          },
+          {
+            "title": "CORAL",
+            "description": "Proyecto Inmobiliario",
+            "image": "/img/cards/coral.webp",
+            "from": "Desde ",
+            "area": "100",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "100%",
+            "conector": "",
+            "priceAlt": "VENDIDO",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "EN",
+            "status2": " OBRAS",
+            "combineStatus": false,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/coral"
+          },
+          {
+            "title": "MYKONOS",
+            "description": "Residencial Playa",
+            "image": "/img/cards/mykonos.webp",
+            "from": "Desde ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Mejía", "region": "Arequipa" },
+            "price": "100%",
+            "conector": "",
+            "priceAlt": "VENDIDO",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "EN",
+            "status2": " OBRAS",
+            "combineStatus": false,
+            "label": "MEJÍA",
+            "url": "/projects/mykonos"
+          },
+          {
+            "title": "PUNTA ARENA",
+            "description": "Condominios de Campo",
+            "image": "/img/cards/arena.webp",
+            "from": "Desde ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "100%",
+            "conector": "",
+            "priceAlt": "VENDIDO",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "EN",
+            "status2": " OBRAS",
+            "combineStatus": false,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/punta-arena"
+          }
+        ]
+      },
+      "contact": {
+        "title": "TU ESPACIO PERFECTO"
+      }
+    },
+    {
+      "id": "mykonos",
+      "slider": [
+        { "type": "image", "src": "/img/slider/slider-mykonos1.webp" },
+        { "type": "image", "src": "/img/slider/slider-mykonos2.webp" },
+        { "type": "image", "src": "/img/slider/slider-mykonos3.webp" }
+      ],
+      "infoBox": {
+        "logo": "/img/logo/logo-mykonos.webp",
+        "price": {
+          "title": "",
+          "amount": "100%",
+          "altO": "",
+          "altAmount": "VENDIDO",
+          "conditions": "Imágenes referenciales"
+        },
+        "infoBoxes": [
+          {
+            "icon": "/img/icons/area2.svg",
+            "text": "DESDE",
+            "value": "110 m²"
+          },
+          {
+            "icon": "/img/icons/car2.svg",
+            "value": "EN ",
+            "highlighted": "OBRAS"
+          },
+          {
+            "icon": "/img/icons/location2.svg",
+            "bold": "MEJÍA",
+            "value": "AREQUIPA"
+          }
+        ],
+        "colors": {
+          "primaryColor": "#cbf000",
+          "secondaryColor": "#1c284c",
+          "textColor": "#1c284c"
+        }
+      },
+      "area": {
+        "title": "ÁREAS PARA",
+        "titleBold": "DISFRUTAR",
+        "description": "Explora Mykonos, un proyecto único de terrenos que fusiona la serenidad del campo con la grandeza del mar. Ideal para quienes anhelan un refugio tranquilo, Mykonos brinda el equilibrio perfecto entre la vida contemporánea y la tranquilidad rural.",
+        "icons": [
+          {
+            "src": "/img/features/icons_07.svg",
+            "alt": "Descripción imagen 1",
+            "text": "Club House"
+          },
+          {
+            "src": "/img/features/icons_19.svg",
+            "alt": "Descripción imagen 2",
+            "text": "Juegos para niños"
+          },
+          {
+            "src": "/img/features/icons_11.svg",
+            "alt": "Descripción imagen 4",
+            "text": "Estares"
+          },
+          {
+            "src": "/img/features/icons_26.svg",
+            "alt": "Descripción imagen 7",
+            "text": "Pórtico de ingreso"
+          },
+          {
+            "src": "/img/features/icons_25.svg",
+            "alt": "Descripción imagen 3",
+            "text": "Piscina temperada"
+          }
+        ],
+        "contact": {
+          "documents": [
+            { "id": "1", "label": "DNI" },
+            { "id": "2", "label": "Pasaporte" }
+          ],
+          "projects": [
+            { "id": "1", "label": "Santorini" },
+            { "id": "2", "label": "Mykonos" },
+            { "id": "3", "label": "Coral" },
+            { "id": "4", "label": "Punta Arena" },
+            { "id": "5", "label": "Zafiro" },
+            { "id": "6", "label": "Prado Piamonte" }
+          ],
+          "showProjectSelect": false,
+          "projectId": "1",
+          "texts": {
+            "formTitle": "QUIERO RECIBIR INFORMACIÓN",
+            "namePlaceholder": "*Nombres",
+            "surnamePlaceholder": "*Apellidos",
+            "emailPlaceholder": "*Correo electrónico",
+            "documentPlaceholder": "Documento...",
+            "dniPlaceholder": "Nro. Documento",
+            "phonePlaceholder": "*Teléfono",
+            "termsLabel1": "Acepto los términos y condiciones y la Política de Privacidad",
+            "termsLabel2": "Acepto el envío de Publicidad según la Política de Privacidad",
+            "submitButton": "ENVIAR",
+            "conditionsLabel": "Campos obligatorios."
+          }
+        }
+      },
+      "gallery": {
+        "title": "TU ESPACIO PERFECTO",
+        "subtitle": "TE ESPERA",
+        "note": "*Imágenes referenciales",
+        "slider": [
+          { "type": "image", "src": "/img/slider-gallery/4.webp" },
+          { "type": "image", "src": "/img/slider-gallery/5.webp" },
+          { "type": "image", "src": "/img/slider-gallery/6.webp" }
+        ],
+        "kuulaUrl": "https://kuula.co/share/collection/7KBTh?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es",
+        "videoUrl": "/video/mykonos-slide.mp4",
+        "cta": {
+          "headline": "¿Te interesa nuestro proyecto?",
+          "description": "Reserva una visita guiada para conocerlo a fondo.",
+          "buttonText": "Programar visita",
+          "buttonIcon": "/img/icons/arrow-icon.svg"
+        }
+      },
+      "progress": {
+        "title": "PROYECTO EN",
+        "titleBold": "MARCHA",
+        "subtitle": "Avance de Obras",
+        "description": "Visualiza la evolución de nuestro proyecto que captura cada avance y nuestro compromiso continuo.",
+        "images": [
+          "/img/project/5.webp",
+          "/img/project/7.webp",
+          "/img/project/6.webp",
+          "/img/project/8.webp"
+        ]
+      },
+      "location": {
+        "title": "LA MEJOR",
+        "titleBold": "UBICACIÓN",
+        "buttons": [
+          {
+            "id": "location",
+            "label": "Mejia",
+            "icon": "ico-location",
+            "type": "image",
+            "src": "/img/map/2.webp",
+            "alt": "Mapa Dinámico"
+          },
+          {
+            "id": "google",
+            "label": "Maps",
+            "icon": "ico-google",
+            "type": "link",
+            "href": "https://www.google.com/maps/search/?api=1&query=-17.0992778,-71.8976389",
+            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-17.0992778,-71.8976389&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-17.0992778,-71.8976389&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "alt": "Google Maps"
+          },
+          {
+            "id": "waze",
+            "label": "Waze",
+            "icon": "ico-waze",
+            "type": "iframe",
+            "src": "https://embed.waze.com/iframe?zoom=16&lat=-17.0992778&lon=-71.8976389&ct=livema",
+            "href": "https://waze.com/ul?ll=-17.0992778,-71.8976389&navigate=yes"
+          }
+        ]
+      },
+      "sliderProjects": {
+        "title": "TAMBIÉN TE PUEDE",
+        "titleBold": "INTERESAR",
+        "subtitle": "Condominios",
+        "navLinks": [
+          { "label": "PREVENTA", "href": "#" },
+          { "label": "MEJÍA", "href": "#" },
+          { "label": "PUNTA DE BOMBÓN", "href": "#" },
+          { "label": "LA JOYA", "href": "#" }
+        ],
+        "projects": [
+          {
+            "title": "PRADO PIAMONTE",
+            "description": "Condominios de Campo",
+            "image": "/img/cards/prado.webp",
+            "from": "Desde ",
+            "area": "300",
+            "unit": "m2",
+            "location": { "city": "La Joya", "region": "Arequipa" },
+            "price": "$229",
+            "conector": "ó",
+            "priceAlt": "S/ 899*",
+            "detail1": "Cuotas",
+            "detail2": "desde",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE",
+            "status2": "VENTA",
+            "combineStatus": true,
+            "label": "LA JOYA",
+            "url": "/projects/prado-piamonte"
+          },
+          {
+            "title": "ZAFIRO",
+            "description": "Residencial Playa",
+            "image": "/img/cards/zafiro.webp",
+            "from": "Desde ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "$169",
+            "conector": "ó",
+            "priceAlt": "S/ 649*",
+            "detail1": "Cuotas",
+            "detail2": "desde",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE",
+            "status2": "VENTA",
+            "combineStatus": true,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/zafiro"
+          },
+          {
+            "title": "SANTORINI",
+            "description": "Residencial Playa",
+            "image": "/img/cards/santorini.webp",
+            "from": "Desde ",
+            "area": "100",
+            "unit": "m2",
+            "location": { "city": "Mejía", "region": "Arequipa" },
+            "price": "$239",
+            "conector": "ó",
+            "priceAlt": "S/ 919*",
+            "detail1": "Cuotas",
+            "detail2": "desde",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE",
+            "status2": "VENTA",
+            "combineStatus": true,
+            "label": "MEJÍA",
+            "url": "/projects/santorini"
+          },
+          {
+            "title": "CORAL",
+            "description": "Proyecto Inmobiliario",
+            "image": "/img/cards/coral.webp",
+            "from": "Desde ",
+            "area": "100",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "100%",
+            "conector": "",
+            "priceAlt": "VENDIDO",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "EN",
+            "status2": " OBRAS",
+            "combineStatus": false,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/coral"
+          },
+          {
+            "title": "MYKONOS",
+            "description": "Residencial Playa",
+            "image": "/img/cards/mykonos.webp",
+            "from": "Desde ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Mejía", "region": "Arequipa" },
+            "price": "100%",
+            "conector": "",
+            "priceAlt": "VENDIDO",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "EN",
+            "status2": " OBRAS",
+            "combineStatus": false,
+            "label": "MEJÍA",
+            "url": "/projects/mykonos"
+          },
+          {
+            "title": "PUNTA ARENA",
+            "description": "Condominios de Campo",
+            "image": "/img/cards/arena.webp",
+            "from": "Desde ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "100%",
+            "conector": "",
+            "priceAlt": "VENDIDO",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "EN",
+            "status2": " OBRAS",
+            "combineStatus": false,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/punta-arena"
+          }
+        ]
+      },
+      "contact": {
+        "title": "TU ESPACIO PERFECTO"
+      }
+    },
+    {
+      "id": "punta-arena",
+      "slider": [
+        { "type": "image", "src": "/img/slider/slider-arena1.webp" },
+        { "type": "image", "src": "/img/slider/slider-arena2.webp" },
+        { "type": "image", "src": "/img/slider/slider-arena3.webp" }
+      ],
+      "infoBox": {
+        "logo": "/img/logo/logo-arena.webp",
+        "price": {
+          "title": "",
+          "amount": "100%",
+          "altO": "",
+          "altAmount": "VENDIDO",
+          "conditions": "Imágenes referenciales"
+        },
+        "infoBoxes": [
+          {
+            "icon": "/img/icons/area2.svg",
+            "text": "DESDE",
+            "value": "110 m²"
+          },
+          {
+            "icon": "/img/icons/car2.svg",
+            "value": "EN ",
+            "highlighted": "OBRAS"
+          },
+          {
+            "icon": "/img/icons/location2.svg",
+            "bold": "PUNTA DE BOMBÓN",
+            "value": "AREQUIPA"
+          }
+        ],
+        "colors": {
+          "primaryColor": "#cbf000",
+          "secondaryColor": "#1c284c",
+          "textColor": "#1c284c"
+        }
+      },
+      "area": {
+        "title": "ÁREAS PARA",
+        "titleBold": "DISFRUTAR",
+        "description": "Descubre Punta Arena, un exclusivo desarrollo de casas de playa que combina la serenidad costera con el lujo moderno. Perfecto para aquellos que buscan un refugio junto al mar, Punta Arena ofrece el equilibrio ideal entre comodidad contemporánea y tranquilidad marina.",
+        "icons": [
+          {
+            "src": "/img/features/icons_08.svg",
+            "alt": "Descripción imagen 1",
+            "text": "Club House"
+          },
+          {
+            "src": "/img/features/icons_24.svg",
+            "alt": "Descripción imagen 2",
+            "text": "Parque acuático"
+          },
+          {
+            "src": "/img/features/icons_35.svg",
+            "alt": "Descripción imagen 3",
+            "text": "Zonas comerciales"
+          },
+          {
+            "src": "/img/features/icons_26.svg",
+            "alt": "Descripción imagen 7",
+            "text": "Pórtico de ingreso"
+          },
+          {
+            "src": "/img/features/icons_33.svg",
+            "alt": "Descripción imagen 4",
+            "text": "Zona de fogata"
+          },
+          {
+            "src": "/img/features/icons_02.svg",
+            "alt": "Descripción imagen 5",
+            "text": "Áreas verdes"
+          }
+        ],
+        "contact": {
+          "documents": [
+            { "id": "1", "label": "DNI" },
+            { "id": "2", "label": "Pasaporte" }
+          ],
+          "projects": [
+            { "id": "1", "label": "Santorini" },
+            { "id": "2", "label": "Mykonos" },
+            { "id": "3", "label": "Coral" },
+            { "id": "4", "label": "Punta Arena" },
+            { "id": "5", "label": "Zafiro" },
+            { "id": "6", "label": "Prado Piamonte" }
+          ],
+          "showProjectSelect": false,
+          "projectId": "1",
+          "texts": {
+            "formTitle": "QUIERO RECIBIR INFORMACIÓN",
+            "namePlaceholder": "*Nombres",
+            "surnamePlaceholder": "*Apellidos",
+            "emailPlaceholder": "*Correo electrónico",
+            "documentPlaceholder": "Documento...",
+            "dniPlaceholder": "Nro. Documento",
+            "phonePlaceholder": "*Teléfono",
+            "termsLabel1": "Acepto los términos y condiciones y la Política de Privacidad",
+            "termsLabel2": "Acepto el envío de Publicidad según la Política de Privacidad",
+            "submitButton": "ENVIAR",
+            "conditionsLabel": "Campos obligatorios."
+          }
+        }
+      },
+      "gallery": {
+        "title": "TU ESPACIO PERFECTO",
+        "subtitle": "TE ESPERA",
+        "note": "*Imágenes referenciales",
+        "backgroundImage": "/img/gallery/santorini-01.webp",
+        "slider": [
+          { "type": "image", "src": "/img/slider-gallery/7.webp" },
+          { "type": "image", "src": "/img/slider-gallery/8.webp" },
+          { "type": "image", "src": "/img/slider-gallery/9.webp" }
+        ],
+        "kuulaUrl": "https://kuula.co/share/h455R?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
+        "videoUrl": "/video/arena.mp4",
+        "cta": {
+          "headline": "¿Te interesa nuestro proyecto?",
+          "description": "Reserva una visita guiada para conocerlo a fondo.",
+          "buttonText": "Programar visita",
+          "buttonIcon": "/img/icons/arrow-icon.svg"
+        }
+      },
+      "progress": {
+        "title": "PROYECTO EN",
+        "titleBold": "MARCHA",
+        "subtitle": "Avance de Obras",
+        "description": "Visualiza la evolución de nuestro proyecto que captura cada avance y nuestro compromiso continuo.",
+        "images": [
+          "/img/project/9.webp",
+          "/img/project/11.webp",
+          "/img/project/10.webp",
+          "/img/project/12.webp"
+        ]
+      },
+      "location": {
+        "title": "LA MEJOR",
+        "titleBold": "UBICACIÓN",
+        "buttons": [
+          {
+            "id": "location",
+            "label": "Mejia",
+            "icon": "ico-location",
+            "type": "image",
+            "src": "/img/map/3.webp",
+            "alt": "Mapa Dinámico"
+          },
+          {
+            "id": "google",
+            "label": "Maps",
+            "icon": "ico-google",
+            "type": "link",
+            "href": "https://www.google.com/maps/search/?api=1&query=-17.1970369,-71.7492598",
+            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-17.1970369,-71.7492598&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-17.1970369,-71.7492598&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "alt": "Google Maps"
+          },
+          {
+            "id": "waze",
+            "label": "Waze",
+            "icon": "ico-waze",
+            "type": "iframe",
+            "src": "https://embed.waze.com/iframe?zoom=16&lat=-17.1970369&lon=-71.7492598&ct=livema",
+            "href": "https://waze.com/ul?ll=-17.1970369,-71.7492598&navigate=yes"
+          }
+        ]
+      },
+      "sliderProjects": {
+        "title": "TAMBIÉN TE PUEDE",
+        "titleBold": "INTERESAR",
+        "subtitle": "Condominios",
+        "navLinks": [
+          { "label": "PREVENTA", "href": "#" },
+          { "label": "MEJÍA", "href": "#" },
+          { "label": "PUNTA DE BOMBÓN", "href": "#" },
+          { "label": "LA JOYA", "href": "#" }
+        ],
+        "projects": [
+          {
+            "title": "PRADO PIAMONTE",
+            "description": "Condominios de Campo",
+            "image": "/img/cards/prado.webp",
+            "from": "Desde ",
+            "area": "300",
+            "unit": "m2",
+            "location": { "city": "La Joya", "region": "Arequipa" },
+            "price": "$229",
+            "conector": "ó",
+            "priceAlt": "S/ 899*",
+            "detail1": "Cuotas",
+            "detail2": "desde",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE",
+            "status2": "VENTA",
+            "combineStatus": true,
+            "label": "LA JOYA",
+            "url": "/projects/prado-piamonte"
+          },
+          {
+            "title": "ZAFIRO",
+            "description": "Residencial Playa",
+            "image": "/img/cards/zafiro.webp",
+            "from": "Desde ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "$169",
+            "conector": "ó",
+            "priceAlt": "S/ 649*",
+            "detail1": "Cuotas",
+            "detail2": "desde",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE",
+            "status2": "VENTA",
+            "combineStatus": true,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/zafiro"
+          },
+          {
+            "title": "SANTORINI",
+            "description": "Residencial Playa",
+            "image": "/img/cards/santorini.webp",
+            "from": "Desde ",
+            "area": "100",
+            "unit": "m2",
+            "location": { "city": "Mejía", "region": "Arequipa" },
+            "price": "$239",
+            "conector": "ó",
+            "priceAlt": "S/ 919*",
+            "detail1": "Cuotas",
+            "detail2": "desde",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE",
+            "status2": "VENTA",
+            "combineStatus": true,
+            "label": "MEJÍA",
+            "url": "/projects/santorini"
+          },
+          {
+            "title": "CORAL",
+            "description": "Proyecto Inmobiliario",
+            "image": "/img/cards/coral.webp",
+            "from": "Desde ",
+            "area": "100",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "100%",
+            "conector": "",
+            "priceAlt": "VENDIDO",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "EN",
+            "status2": " OBRAS",
+            "combineStatus": false,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/coral"
+          },
+          {
+            "title": "MYKONOS",
+            "description": "Residencial Playa",
+            "image": "/img/cards/mykonos.webp",
+            "from": "Desde ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Mejía", "region": "Arequipa" },
+            "price": "100%",
+            "conector": "",
+            "priceAlt": "VENDIDO",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "EN",
+            "status2": " OBRAS",
+            "combineStatus": false,
+            "label": "MEJÍA",
+            "url": "/projects/mykonos"
+          },
+          {
+            "title": "PUNTA ARENA",
+            "description": "Condominios de Campo",
+            "image": "/img/cards/arena.webp",
+            "from": "Desde ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "100%",
+            "conector": "",
+            "priceAlt": "VENDIDO",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "EN",
+            "status2": " OBRAS",
+            "combineStatus": false,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/punta-arena"
+          }
+        ]
+      },
+      "contact": {
+        "title": "TU ESPACIO PERFECTO"
+      }
+    },
+    {
+      "id": "prado-piamonte",
+      "slider": [
+        { "type": "image", "src": "/img/slider/slider-prado1.webp" },
+        { "type": "image", "src": "/img/slider/slider-prado2.webp" },
+        { "type": "image", "src": "/img/slider/slider-prado3.webp" }
+      ],
+      "infoBox": {
+        "logo": "/img/logo/logo-prado.webp",
+        "price": {
+          "title": "CUOTAS DESDE",
+          "amount": "$229",
+          "altO": "ó ",
+          "altAmount": "S/ 899 *",
+          "conditions": "(*) Aplican términos y condiciones."
+        },
+        "infoBoxes": [
+          {
+            "icon": "/img/icons/area2.svg",
+            "text": "DESDE",
+            "value": "300 m²"
+          },
+          {
+            "icon": "/img/icons/tag2.svg",
+            "value": "PRE",
+            "highlighted": "VENTA"
+          },
+          {
+            "icon": "/img/icons/location2.svg",
+            "bold": "LA JOYA",
+            "value": "AREQUIPA"
+          }
+        ],
+        "colors": {
+          "primaryColor": "#cbf000",
+          "secondaryColor": "#1c284c",
+          "textColor": "#1c284c"
+        }
+      },
+      "area": {
+        "title": "ÁREAS PARA",
+        "titleBold": "DISFRUTAR",
+        "description": "Descubre Prado Piamonte, un exclusivo desarrollo de casas de campo que fusiona la serenidad rural con el confort moderno. Perfecto para quienes buscan un refugio en la naturaleza, Prado Piamonte ofrece el equilibrio ideal entre la vida contemporánea y la paz del campo.",
+        "icons": [
+          {
+            "src": "/img/features/icons_30.svg",
+            "alt": "Descripción imagen 1",
+            "text": "Viñedo toscano"
+          },
+          {
+            "src": "/img/features/icons_20.svg",
+            "alt": "Descripción imagen 2",
+            "text": "Laberinto para niños"
+          },
+          {
+            "src": "/img/features/icons_25.svg",
+            "alt": "Descripción imagen 3",
+            "text": "Piscina"
+          },
+          {
+            "src": "/img/features/icons_18.svg",
+            "alt": "Descripción imagen 4",
+            "text": "Hamacas"
+          },
+          {
+            "src": "/img/features/icons_06.svg",
+            "alt": "Descripción imagen 6",
+            "text": "Cine al aire libre"
+          },
+          {
+            "src": "/img/features/icons_04.svg",
+            "alt": "Descripción imagen 8",
+            "text": "Bungalows"
+          },
+          {
+            "src": "/img/features/icons_26.svg",
+            "alt": "Descripción imagen 7",
+            "text": "Pórtico de ingreso"
+          }
+        ],
+        "contact": {
+          "documents": [
+            { "id": "1", "label": "DNI" },
+            { "id": "2", "label": "Pasaporte" }
+          ],
+          "projects": [
+            { "id": "1", "label": "Santorini" },
+            { "id": "2", "label": "Mykonos" },
+            { "id": "3", "label": "Coral" },
+            { "id": "4", "label": "Punta Arena" },
+            { "id": "5", "label": "Zafiro" },
+            { "id": "6", "label": "Prado Piamonte" }
+          ],
+          "showProjectSelect": false,
+          "projectId": "1",
+          "texts": {
+            "formTitle": "QUIERO RECIBIR INFORMACIÓN",
+            "namePlaceholder": "*Nombres",
+            "surnamePlaceholder": "*Apellidos",
+            "emailPlaceholder": "*Correo electrónico",
+            "documentPlaceholder": "Documento...",
+            "dniPlaceholder": "Nro. Documento",
+            "phonePlaceholder": "*Teléfono",
+            "termsLabel1": "Acepto los términos y condiciones y la Política de Privacidad",
+            "termsLabel2": "Acepto el envío de Publicidad según la Política de Privacidad",
+            "submitButton": "ENVIAR",
+            "conditionsLabel": "Campos obligatorios."
+          }
+        }
+      },
+      "gallery": {
+        "title": "TU ESPACIO PERFECTO",
+        "subtitle": "TE ESPERA",
+        "note": "*Imágenes referenciales",
+        "slider": [
+          { "type": "image", "src": "/img/slider-gallery/prado01.webp" },
+          { "type": "image", "src": "/img/slider-gallery/prado02.webp" },
+          { "type": "image", "src": "/img/slider-gallery/prado03.webp" },
+          { "type": "image", "src": "/img/slider-gallery/prado04.webp" },
+          { "type": "image", "src": "/img/slider-gallery/prado05.webp" },
+          { "type": "image", "src": "/img/slider-gallery/prado06.webp" },
+          { "type": "image", "src": "/img/slider-gallery/prado07.webp" },
+          { "type": "image", "src": "/img/slider-gallery/prado08.webp" },
+          { "type": "image", "src": "/img/slider-gallery/prado09.webp" },
+          { "type": "image", "src": "/img/slider-gallery/prado10.webp" },
+          { "type": "image", "src": "/img/slider-gallery/prado11.webp" },
+          { "type": "image", "src": "/img/slider-gallery/prado12.webp" },
+          { "type": "image", "src": "/img/slider-gallery/prado13.webp" },
+          { "type": "image", "src": "/img/slider-gallery/prado14.webp" }
+        ],
+        "kuulaUrl": "https://kuula.co/share/collection/7KBTL?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es",
+        "videoUrl": "/video/piamonte-slide.mp4",
+        "cta": {
+          "headline": "¿Te interesa nuestro proyecto?",
+          "description": "Reserva una visita guiada para conocerlo a fondo.",
+          "buttonText": "Programar visita",
+          "buttonIcon": "/img/icons/arrow-icon.svg"
+        }
+      },
+      "progress": {
+        "title": "PROYECTO EN",
+        "titleBold": "MARCHA",
+        "subtitle": "Avance de Obras",
+        "description": "Visualiza la evolución de nuestro proyecto que captura cada avance y nuestro compromiso continuo.",
+        "images": [
+          "/img/project/13.webp",
+          "/img/project/14.webp",
+          "/img/project/15.webp",
+          "/img/project/16.webp"
+        ]
+      },
+      "location": {
+        "title": "LA MEJOR",
+        "titleBold": "UBICACIÓN",
+        "buttons": [
+          {
+            "id": "location",
+            "label": "Mejia",
+            "icon": "ico-location",
+            "type": "image",
+            "src": "/img/map/4.webp",
+            "alt": "Mapa Dinámico"
+          },
+          {
+            "id": "google",
+            "label": "Maps",
+            "icon": "ico-google",
+            "type": "link",
+            "href": "https://www.google.com/maps/search/?api=1&query=-16.5587222,-71.9240000",
+            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-16.5587222,-71.9240000&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-16.5587222,-71.9240000&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "alt": "Google Maps"
+          },
+          {
+            "id": "waze",
+            "label": "Waze",
+            "icon": "ico-waze",
+            "type": "iframe",
+            "src": "https://embed.waze.com/iframe?zoom=16&lat=-16.5587222&lon=-71.9240000&ct=livema",
+            "href": "https://waze.com/ul?ll=-16.5587222,-71.9240000&navigate=yes"
+          }
+        ]
+      },
+      "sliderProjects": {
+        "title": "TAMBIÉN TE PUEDE",
+        "titleBold": "INTERESAR",
+        "subtitle": "Condominios",
+        "navLinks": [
+          { "label": "PREVENTA", "href": "#" },
+          { "label": "MEJÍA", "href": "#" },
+          { "label": "PUNTA DE BOMBÓN", "href": "#" },
+          { "label": "LA JOYA", "href": "#" }
+        ],
+        "projects": [
+          {
+            "title": "PRADO PIAMONTE",
+            "description": "Condominios de Campo",
+            "image": "/img/cards/prado.webp",
+            "from": "Desde ",
+            "area": "300",
+            "unit": "m2",
+            "location": { "city": "La Joya", "region": "Arequipa" },
+            "price": "$229",
+            "conector": "ó",
+            "priceAlt": "S/ 899*",
+            "detail1": "Cuotas",
+            "detail2": "desde",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE",
+            "status2": "VENTA",
+            "combineStatus": true,
+            "label": "LA JOYA",
+            "url": "/projects/prado-piamonte"
+          },
+          {
+            "title": "ZAFIRO",
+            "description": "Residencial Playa",
+            "image": "/img/cards/zafiro.webp",
+            "from": "Desde ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "$169",
+            "conector": "ó",
+            "priceAlt": "S/ 649*",
+            "detail1": "Cuotas",
+            "detail2": "desde",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE",
+            "status2": "VENTA",
+            "combineStatus": true,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/zafiro"
+          },
+          {
+            "title": "SANTORINI",
+            "description": "Residencial Playa",
+            "image": "/img/cards/santorini.webp",
+            "from": "Desde ",
+            "area": "100",
+            "unit": "m2",
+            "location": { "city": "Mejía", "region": "Arequipa" },
+            "price": "$239",
+            "conector": "ó",
+            "priceAlt": "S/ 919*",
+            "detail1": "Cuotas",
+            "detail2": "desde",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE",
+            "status2": "VENTA",
+            "combineStatus": true,
+            "label": "MEJÍA",
+            "url": "/projects/santorini"
+          },
+          {
+            "title": "CORAL",
+            "description": "Proyecto Inmobiliario",
+            "image": "/img/cards/coral.webp",
+            "from": "Desde ",
+            "area": "100",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "100%",
+            "conector": "",
+            "priceAlt": "VENDIDO",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "EN",
+            "status2": " OBRAS",
+            "combineStatus": false,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/coral"
+          },
+          {
+            "title": "MYKONOS",
+            "description": "Residencial Playa",
+            "image": "/img/cards/mykonos.webp",
+            "from": "Desde ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Mejía", "region": "Arequipa" },
+            "price": "100%",
+            "conector": "",
+            "priceAlt": "VENDIDO",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "EN",
+            "status2": " OBRAS",
+            "combineStatus": false,
+            "label": "MEJÍA",
+            "url": "/projects/mykonos"
+          },
+          {
+            "title": "PUNTA ARENA",
+            "description": "Condominios de Campo",
+            "image": "/img/cards/arena.webp",
+            "from": "Desde ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "100%",
+            "conector": "",
+            "priceAlt": "VENDIDO",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "EN",
+            "status2": " OBRAS",
+            "combineStatus": false,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/punta-arena"
+          }
+        ]
+      },
+      "contact": {
+        "title": "TU ESPACIO PERFECTO"
+      }
+    },
+    {
+      "id": "zafiro",
+      "slider": [
+        { "type": "image", "src": "/img/slider/slider-zafiro1.webp" },
+        { "type": "image", "src": "/img/slider/slider-zafiro2.webp" },
+        { "type": "image", "src": "/img/slider/slider-zafiro3.webp" }
+      ],
+      "infoBox": {
+        "logo": "/img/logo/logo-zafiro.webp",
+        "price": {
+          "title": "CUOTAS DESDE",
+          "amount": "$169",
+          "altO": "ó ",
+          "altAmount": "S/ 649 *",
+          "conditions": "(*) Aplican términos y condiciones."
+        },
+        "infoBoxes": [
+          {
+            "icon": "/img/icons/area2.svg",
+            "text": "DESDE",
+            "value": "100 m²"
+          },
+          {
+            "icon": "/img/icons/tag2.svg",
+            "value": "PRE",
+            "highlighted": "VENTA"
+          },
+          {
+            "icon": "/img/icons/location2.svg",
+            "bold": "PUNTA DE BOMBÓN",
+            "value": "AREQUIPA"
+          }
+        ],
+        "colors": {
+          "primaryColor": "#cbf000",
+          "secondaryColor": "#1c284c",
+          "textColor": "#1c284c"
+        }
+      },
+      "area": {
+        "title": "ÁREAS PARA",
+        "titleBold": "DISFRUTAR",
+        "description": "Descubre Zafiro, un exclusivo proyecto de lotes que combina la tranquilidad de la playa con la majestuosidad del mar. Perfecto para aquellos que buscan un refugio sereno, Zafiro ofrece el equilibrio ideal entre la vida moderna y la paz costera.",
+        "icons": [
+          {
+            "src": "/img/features/icons_08.svg",
+            "alt": "Descripción imagen 1",
+            "text": "Club House"
+          },
+          {
+            "src": "/img/features/icons_19.svg",
+            "alt": "Descripción imagen 2",
+            "text": "Juegos para niños"
+          },
+          {
+            "src": "/img/features/icons_25.svg",
+            "alt": "Descripción imagen 3",
+            "text": "Piscina"
+          },
+          {
+            "src": "/img/features/icons_34.svg",
+            "alt": "Descripción imagen 4",
+            "text": "Área de parrillas"
+          },
+          {
+            "src": "/img/features/icons_12.svg",
+            "alt": "Descripción imagen 5",
+            "text": "Estares privados"
+          },
+          {
+            "src": "/img/features/icons_26.svg",
+            "alt": "Descripción imagen 7",
+            "text": "Pórtico de ingreso"
+          }
+        ],
+        "contact": {
+          "documents": [
+            { "id": "1", "label": "DNI" },
+            { "id": "2", "label": "Pasaporte" }
+          ],
+          "projects": [
+            { "id": "1", "label": "Santorini" },
+            { "id": "2", "label": "Mykonos" },
+            { "id": "3", "label": "Coral" },
+            { "id": "4", "label": "Punta Arena" },
+            { "id": "5", "label": "Zafiro" },
+            { "id": "6", "label": "Prado Piamonte" }
+          ],
+          "showProjectSelect": false,
+          "projectId": "1",
+          "texts": {
+            "formTitle": "QUIERO RECIBIR INFORMACIÓN",
+            "namePlaceholder": "*Nombres",
+            "surnamePlaceholder": "*Apellidos",
+            "emailPlaceholder": "*Correo electrónico",
+            "documentPlaceholder": "Documento...",
+            "dniPlaceholder": "Nro. Documento",
+            "phonePlaceholder": "*Teléfono",
+            "termsLabel1": "Acepto los términos y condiciones y la Política de Privacidad",
+            "termsLabel2": "Acepto el envío de Publicidad según la Política de Privacidad",
+            "submitButton": "ENVIAR",
+            "conditionsLabel": "Campos obligatorios."
+          }
+        }
+      },
+      "gallery": {
+        "title": "TU ESPACIO PERFECTO",
+        "subtitle": "TE ESPERA",
+        "note": "*Imágenes referenciales",
+        "backgroundImage": "/img/gallery/santorini-01.webp",
+        "slider": [
+          { "type": "image", "src": "/img/slider-gallery/13.webp" },
+          { "type": "image", "src": "/img/slider-gallery/14.webp" },
+          { "type": "image", "src": "/img/slider-gallery/15.webp" }
+        ],
+        "kuulaUrl": "https://kuula.co/share/h45mw?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
+        "videoUrl": "/video/zafiro-slide.mp4",
+        "cta": {
+          "headline": "¿Te interesa nuestro proyecto?",
+          "description": "Reserva una visita guiada para conocerlo a fondo.",
+          "buttonText": "Programar visita",
+          "buttonIcon": "/img/icons/arrow-icon.svg"
+        }
+      },
+      "progress": {
+        "title": "PROYECTO EN",
+        "titleBold": "MARCHA",
+        "subtitle": "Avance de Obras",
+        "description": "Visualiza la evolución de nuestro proyecto que captura cada avance y nuestro compromiso continuo.",
+        "images": [
+          "/img/project/17.webp",
+          "/img/project/18.webp",
+          "/img/project/19.webp",
+          "/img/project/20.webp"
+        ]
+      },
+      "location": {
+        "title": "LA MEJOR",
+        "titleBold": "UBICACIÓN",
+        "buttons": [
+          {
+            "id": "location",
+            "label": "Mejia",
+            "icon": "ico-location",
+            "type": "image",
+            "src": "/img/map/5.webp",
+            "alt": "Mapa Dinámico"
+          },
+          {
+            "id": "google",
+            "label": "Maps",
+            "icon": "ico-google",
+            "type": "link",
+            "href": "https://www.google.com/maps/search/?api=1&query=-17.196111,-71.750333",
+            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-17.196111,-71.750333&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-17.196111,-71.750333&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "alt": "Google Maps"
+          },
+          {
+            "id": "waze",
+            "label": "Waze",
+            "icon": "ico-waze",
+            "type": "iframe",
+            "src": "https://embed.waze.com/iframe?zoom=16&lat=-17.196111&lon=-71.750333&ct=livema",
+            "href": "https://waze.com/ul?ll=-17.196111,-71.750333&navigate=yes"
+          }
+        ]
+      },
+      "sliderProjects": {
+        "title": "TAMBIÉN TE PUEDE",
+        "titleBold": "INTERESAR",
+        "subtitle": "Condominios",
+        "navLinks": [
+          { "label": "PREVENTA", "href": "#" },
+          { "label": "MEJÍA", "href": "#" },
+          { "label": "PUNTA DE BOMBÓN", "href": "#" },
+          { "label": "LA JOYA", "href": "#" }
+        ],
+        "projects": [
+          {
+            "title": "PRADO PIAMONTE",
+            "description": "Condominios de Campo",
+            "image": "/img/cards/prado.webp",
+            "from": "Desde ",
+            "area": "300",
+            "unit": "m2",
+            "location": { "city": "La Joya", "region": "Arequipa" },
+            "price": "$229",
+            "conector": "ó",
+            "priceAlt": "S/ 899*",
+            "detail1": "Cuotas",
+            "detail2": "desde",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE",
+            "status2": "VENTA",
+            "combineStatus": true,
+            "label": "LA JOYA",
+            "url": "/projects/prado-piamonte"
+          },
+          {
+            "title": "ZAFIRO",
+            "description": "Residencial Playa",
+            "image": "/img/cards/zafiro.webp",
+            "from": "Desde ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "$169",
+            "conector": "ó",
+            "priceAlt": "S/ 649*",
+            "detail1": "Cuotas",
+            "detail2": "desde",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE",
+            "status2": "VENTA",
+            "combineStatus": true,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/zafiro"
+          },
+          {
+            "title": "SANTORINI",
+            "description": "Residencial Playa",
+            "image": "/img/cards/santorini.webp",
+            "from": "Desde ",
+            "area": "100",
+            "unit": "m2",
+            "location": { "city": "Mejía", "region": "Arequipa" },
+            "price": "$239",
+            "conector": "ó",
+            "priceAlt": "S/ 919*",
+            "detail1": "Cuotas",
+            "detail2": "desde",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE",
+            "status2": "VENTA",
+            "combineStatus": true,
+            "label": "MEJÍA",
+            "url": "/projects/santorini"
+          },
+          {
+            "title": "CORAL",
+            "description": "Proyecto Inmobiliario",
+            "image": "/img/cards/coral.webp",
+            "from": "Desde ",
+            "area": "100",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "100%",
+            "conector": "",
+            "priceAlt": "VENDIDO",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "EN",
+            "status2": " OBRAS",
+            "combineStatus": false,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/coral"
+          },
+          {
+            "title": "MYKONOS",
+            "description": "Residencial Playa",
+            "image": "/img/cards/mykonos.webp",
+            "from": "Desde ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Mejía", "region": "Arequipa" },
+            "price": "100%",
+            "conector": "",
+            "priceAlt": "VENDIDO",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "EN",
+            "status2": " OBRAS",
+            "combineStatus": false,
+            "label": "MEJÍA",
+            "url": "/projects/mykonos"
+          },
+          {
+            "title": "PUNTA ARENA",
+            "description": "Condominios de Campo",
+            "image": "/img/cards/arena.webp",
+            "from": "Desde ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "100%",
+            "conector": "",
+            "priceAlt": "VENDIDO",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "EN",
+            "status2": " OBRAS",
+            "combineStatus": false,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/punta-arena"
+          }
+        ]
+      },
+      "contact": {
+        "title": "TU ESPACIO PERFECTO"
+      }
+    },
+    {
+      "id": "coral",
+      "slider": [
+        { "type": "image", "src": "/img/slider/slider-coral1.webp" },
+        { "type": "image", "src": "/img/slider/slider-coral2.webp" }
+      ],
+      "infoBox": {
+        "logo": "/img/logo/logo-coral.webp",
+        "price": {
+          "title": "",
+          "amount": "100%",
+          "altO": "",
+          "altAmount": "VENDIDO",
+          "conditions": "Imágenes referenciales"
+        },
+        "infoBoxes": [
+          {
+            "icon": "/img/icons/area2.svg",
+            "text": "DESDE",
+            "value": "110 m²"
+          },
+          {
+            "icon": "/img/icons/car2.svg",
+            "value": "EN ",
+            "highlighted": "OBRAS"
+          },
+          {
+            "icon": "/img/icons/location2.svg",
+            "bold": "PUNTA DE BOMBÓN",
+            "value": "AREQUIPA"
+          }
+        ],
+        "colors": {
+          "primaryColor": "#cbf000",
+          "secondaryColor": "#1c284c",
+          "textColor": "#1c284c"
+        }
+      },
+      "area": {
+        "title": "ÁREAS PARA",
+        "titleBold": "DISFRUTAR",
+        "description": "Descubre Coral, un proyecto exclusivo de casas que combina la tranquilidad del entorno con el esplendor del mar. Perfecto para quienes buscan un refugio sereno, Coral ofrece el equilibrio ideal entre la vida moderna y la paz costera.",
+        "icons": [
+          {
+            "src": "/img/features/icons_08.svg",
+            "alt": "Descripción imagen 1",
+            "text": "Club House"
+          },
+          {
+            "src": "/img/features/icons_24.svg",
+            "alt": "Descripción imagen 4",
+            "text": "Juegos acuáticos para niños"
+          },
+          {
+            "src": "/img/features/icons_35.svg",
+            "alt": "Descripción imagen 5",
+            "text": "Strip Comercial"
+          },
+          {
+            "src": "/img/features/icons_25.svg",
+            "alt": "Descripción imagen 3",
+            "text": "Piscinas"
+          },
+          {
+            "src": "/img/features/icons_16.svg",
+            "alt": "Descripción imagen 6",
+            "text": "Campo de minigolf (18 hoyos)"
+          },
+          {
+            "src": "/img/features/icons_26.svg",
+            "alt": "Descripción imagen 7",
+            "text": "Pórtico de ingreso"
+          },
+          {
+            "src": "/img/features/icons_34.svg",
+            "alt": "Descripción imagen 2",
+            "text": "Área de parrillas"
+          },
+          {
+            "src": "/img/features/icons_03.svg",
+            "alt": "Descripción imagen 8",
+            "text": "Barra acuática"
+          },
+          {
+            "src": "/img/features/icons_19.svg",
+            "alt": "Descripción imagen 2",
+            "text": "Juegos para niños"
+          },
+          {
+            "src": "/img/features/icons_32.svg",
+            "alt": "Descripción imagen 8",
+            "text": "Zona de descanso"
+          }
+        ],
+        "contact": {
+          "documents": [
+            { "id": "1", "label": "DNI" },
+            { "id": "2", "label": "Pasaporte" }
+          ],
+          "projects": [
+            { "id": "1", "label": "Santorini" },
+            { "id": "2", "label": "Mykonos" },
+            { "id": "3", "label": "Coral" },
+            { "id": "4", "label": "Punta Arena" },
+            { "id": "5", "label": "Zafiro" },
+            { "id": "6", "label": "Prado Piamonte" }
+          ],
+          "showProjectSelect": false,
+          "projectId": "1",
+          "texts": {
+            "formTitle": "QUIERO RECIBIR INFORMACIÓN",
+            "namePlaceholder": "*Nombres",
+            "surnamePlaceholder": "*Apellidos",
+            "emailPlaceholder": "*Correo electrónico",
+            "documentPlaceholder": "Documento...",
+            "dniPlaceholder": "Nro. Documento",
+            "phonePlaceholder": "*Teléfono",
+            "termsLabel1": "Acepto los términos y condiciones y la Política de Privacidad",
+            "termsLabel2": "Acepto el envío de Publicidad según la Política de Privacidad",
+            "submitButton": "ENVIAR",
+            "conditionsLabel": "Campos obligatorios."
+          }
+        }
+      },
+      "gallery": {
+        "title": "TU ESPACIO PERFECTO",
+        "subtitle": "TE ESPERA",
+        "note": "*Imágenes referenciales",
+        "slider": [
+          { "type": "image", "src": "/img/slider-gallery/16.webp" },
+          { "type": "image", "src": "/img/slider-gallery/17.webp" }
+        ],
+        "kuulaUrl": "https://kuula.co/share/collection/7KBMQ?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es",
+        "videoUrl": "/video/coral.mp4",
+        "cta": {
+          "headline": "¿Te interesa nuestro proyecto?",
+          "description": "Reserva una visita guiada para conocerlo a fondo.",
+          "buttonText": "Programar visita",
+          "buttonIcon": "/img/icons/arrow-icon.svg"
+        }
+      },
+      "progress": {
+        "title": "PROYECTO EN",
+        "titleBold": "MARCHA",
+        "subtitle": "Avance de Obras",
+        "description": "Visualiza la evolución de nuestro proyecto que captura cada avance y nuestro compromiso continuo.",
+        "images": [
+          "/img/project/21.webp",
+          "/img/project/23.webp",
+          "/img/project/22.webp",
+          "/img/project/24.webp"
+        ]
+      },
+      "location": {
+        "title": "LA MEJOR",
+        "titleBold": "UBICACIÓN",
+        "buttons": [
+          {
+            "id": "location",
+            "label": "Mejia",
+            "icon": "ico-location",
+            "type": "image",
+            "src": "/img/map/6.webp",
+            "alt": "Mapa Dinámico"
+          },
+          {
+            "id": "google",
+            "label": "Maps",
+            "icon": "ico-google",
+            "type": "link",
+            "href": "https://www.google.com/maps/search/?api=1&query=-17.196848,-71.746948",
+            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-17.196848,-71.746948&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-17.196848,-71.746948&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "alt": "Google Maps"
+          },
+          {
+            "id": "waze",
+            "label": "Waze",
+            "icon": "ico-waze",
+            "type": "iframe",
+            "src": "https://embed.waze.com/iframe?zoom=16&lat=-17.196848&lon=-71.746948&ct=livema",
+            "href": "https://waze.com/ul?ll=-17.196848,-71.746948&navigate=yes"
+          }
+        ]
+      },
+      "sliderProjects": {
+        "title": "TAMBIÉN TE PUEDE",
+        "titleBold": "INTERESAR",
+        "subtitle": "Condominios",
+        "navLinks": [
+          { "label": "PREVENTA", "href": "#" },
+          { "label": "MEJÍA", "href": "#" },
+          { "label": "PUNTA DE BOMBÓN", "href": "#" },
+          { "label": "LA JOYA", "href": "#" }
+        ],
+        "projects": [
+          {
+            "title": "PRADO PIAMONTE",
+            "description": "Condominios de Campo",
+            "image": "/img/cards/prado.webp",
+            "from": "Desde ",
+            "area": "300",
+            "unit": "m2",
+            "location": { "city": "La Joya", "region": "Arequipa" },
+            "price": "$229",
+            "conector": "ó",
+            "priceAlt": "S/ 899*",
+            "detail1": "Cuotas",
+            "detail2": "desde",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE",
+            "status2": "VENTA",
+            "combineStatus": true,
+            "label": "LA JOYA",
+            "url": "/projects/prado-piamonte"
+          },
+          {
+            "title": "ZAFIRO",
+            "description": "Residencial Playa",
+            "image": "/img/cards/zafiro.webp",
+            "from": "Desde ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "$169",
+            "conector": "ó",
+            "priceAlt": "S/ 649*",
+            "detail1": "Cuotas",
+            "detail2": "desde",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE",
+            "status2": "VENTA",
+            "combineStatus": true,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/zafiro"
+          },
+          {
+            "title": "SANTORINI",
+            "description": "Residencial Playa",
+            "image": "/img/cards/santorini.webp",
+            "from": "Desde ",
+            "area": "100",
+            "unit": "m2",
+            "location": { "city": "Mejía", "region": "Arequipa" },
+            "price": "$239",
+            "conector": "ó",
+            "priceAlt": "S/ 919*",
+            "detail1": "Cuotas",
+            "detail2": "desde",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE",
+            "status2": "VENTA",
+            "combineStatus": true,
+            "label": "MEJÍA",
+            "url": "/projects/santorini"
+          },
+          {
+            "title": "CORAL",
+            "description": "Proyecto Inmobiliario",
+            "image": "/img/cards/coral.webp",
+            "from": "Desde ",
+            "area": "100",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "100%",
+            "conector": "",
+            "priceAlt": "VENDIDO",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "EN",
+            "status2": " OBRAS",
+            "combineStatus": false,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/coral"
+          },
+          {
+            "title": "MYKONOS",
+            "description": "Residencial Playa",
+            "image": "/img/cards/mykonos.webp",
+            "from": "Desde ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Mejía", "region": "Arequipa" },
+            "price": "100%",
+            "conector": "",
+            "priceAlt": "VENDIDO",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "EN",
+            "status2": " OBRAS",
+            "combineStatus": false,
+            "label": "MEJÍA",
+            "url": "/projects/mykonos"
+          },
+          {
+            "title": "PUNTA ARENA",
+            "description": "Condominios de Campo",
+            "image": "/img/cards/arena.webp",
+            "from": "Desde ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "100%",
+            "conector": "",
+            "priceAlt": "VENDIDO",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "EN",
+            "status2": " OBRAS",
+            "combineStatus": false,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/punta-arena"
+          }
+        ]
+      },
+      "contact": {
+        "title": "TU ESPACIO PERFECTO"
+      }
+    }
+  ]
+}

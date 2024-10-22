@@ -1,0 +1,30 @@
+.custom-container {
+  padding: clamp(3rem, 0.8181rem + 8.1188vw, 8.125rem)
+    clamp(3.125rem, -0.0681rem + 11.8812vw, 10.625rem)
+    clamp(3.875rem, 3.4493rem + 1.5842vw, 4.875rem)
+    clamp(3.125rem, -0.0681rem + 11.8812vw, 10.625rem);
+}
+.customTitle {
+  font-size: clamp(1.3125rem, 0.8069rem + 1.8812vw, 2.5rem);
+  line-height: 1.2;
+}
+.customTitle h1 {
+  font-weight: 600;
+}
+.customTitle span {
+  font-weight: 900;
+}
+.extra-bold {
+  font-weight: 900 !important;
+}
+
+@media (max-width: 1200px) {
+  .custom-container {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    top: -3rem;
+  }
+}

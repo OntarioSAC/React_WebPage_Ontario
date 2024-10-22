@@ -1,0 +1,315 @@
+// Importar funciones y variables de Bootstrap
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+// Importar fuentes personalizadas
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,700;1,900&display=swap");
+
+@font-face {
+  font-family: "Bw Modelica Hairline";
+  src: url("./assets/fonts/modelica/BwModelica-HairlineItalic.woff2")
+      format("woff2"),
+    url("./assets/fonts/modelica/BwModelica-HairlineItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bw Modelica";
+  src: url("./assets/fonts/modelica/BwModelica-LightItalic.woff2")
+      format("woff2"),
+    url("./assets/fonts/modelica/BwModelica-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bw Modelica";
+  src: url("./assets/fonts/modelica/BwModelica-RegularItalic.woff2")
+      format("woff2"),
+    url("./assets/fonts/modelica/BwModelica-RegularItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bw Modelica";
+  src: url("./assets/fonts/modelica/BwModelica-BoldItalic.woff2")
+      format("woff2"),
+    url("./assets/fonts/modelica/BwModelica-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bw Modelica";
+  src: url("./assets/fonts/modelica/BwModelica-BlackItalic.woff2")
+      format("woff2"),
+    url("./assets/fonts/modelica/BwModelica-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bw Modelica";
+  src: url("./assets/fonts/modelica/BwModelica-ThinItalic.woff2")
+      format("woff2"),
+    url("./assets/fonts/modelica/BwModelica-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bw Modelica";
+  src: url("./assets/fonts/modelica/BwModelica-ExtraBoldItalic.woff2")
+      format("woff2"),
+    url("./assets/fonts/modelica/BwModelica-ExtraBoldItalic.woff")
+      format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bw Modelica Hairline";
+  src: url("./assets/fonts/modelica/BwModelica-Hairline.woff2") format("woff2"),
+    url("./assets/fonts/modelica/BwModelica-Hairline.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bw Modelica";
+  src: url("./assets/fonts/modelica/BwModelica-MediumItalic.woff2")
+      format("woff2"),
+    url("./assets/fonts/modelica/BwModelica-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bw Modelica";
+  src: url("./assets/fonts/modelica/BwModelica-Light.woff2") format("woff2"),
+    url("./assets/fonts/modelica/BwModelica-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bw Modelica";
+  src: url("./assets/fonts/modelica/BwModelica-Black.woff2") format("woff2"),
+    url("./assets/fonts/modelica/BwModelica-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bw Modelica";
+  src: url("./assets/fonts/modelica/BwModelica-Regular.woff2") format("woff2"),
+    url("./assets/fonts/modelica/BwModelica-Regular.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bw Modelica";
+  src: url("./assets/fonts/modelica/BwModelica-Thin.woff2") format("woff2"),
+    url("./assets/fonts/modelica/BwModelica-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bw Modelica";
+  src: url("./assets/fonts/modelica/BwModelica-Medium.woff2") format("woff2"),
+    url("./assets/fonts/modelica/BwModelica-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bw Modelica";
+  src: url("./assets/fonts/modelica/BwModelica-Bold.woff2") format("woff2"),
+    url("./assets/fonts/modelica/BwModelica-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bw Modelica";
+  src: url("./assets/fonts/modelica/BwModelica-ExtraBold.woff2") format("woff2"),
+    url("./assets/fonts/modelica/BwModelica-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Definir variables globales para colores y tipografías
+$color-primary: #cbf000;
+$color-secondary: #1c284c;
+$color-success: #4eb488;
+$color-info: #efeade;
+$color-danger: #dc3545;
+$color-warning: #ffc107;
+$color-light: $color-primary;
+$color-dark: $color-secondary;
+
+$font-family-inter: "Inter", sans-serif;
+$font-family-modelica: "Bw Modelica", sans-serif;
+
+$border-radius-default: 0.9375rem;
+
+// Variables personalizadas de tema
+$theme-colors: (
+  "primary": $color-primary,
+  "secondary": $color-secondary,
+  "success": $color-success,
+  "info": $color-info,
+  "light": $color-light,
+  "dark": $color-dark,
+  "danger": $color-danger,
+  "warning": $color-warning,
+);
+
+// Variables adicionales
+$nav-pills-link-active-color: $color-primary;
+$nav-pills-link-active-bg: $color-secondary;
+$nav-link-color: $color-secondary;
+$font-family-base: $font-family-inter;
+$font-family-headings: $font-family-modelica;
+
+$input-border-radius: $border-radius-default;
+$border-radius: $border-radius-default;
+
+$container-max-widths: (
+  sm: 430px,
+  md: 720px,
+  lg: 960px,
+  xl: 1440px,
+  xxl: 1440px,
+);
+
+// Variables CSS personalizadas
+:root {
+  --primary-color: #cbf000;
+  --primary-text-color: #1c284c;
+  --primary-hover-color: #1c284c;
+  --primary-hover-text-color: #cbf000;
+  --primary-active-color: #cbf000;
+  --primary-active-text-color: #1c284c;
+
+  --secondary-color: #1c284c;
+  --secondary-text-color: #fff;
+  --secondary-hover-color: #b2d600;
+  --secondary-hover-text-color: #1c284c;
+  --secondary-active-color: #b2d600;
+
+  --tertiary-color: #12b092;
+  --tertiary-text-color: #fff;
+  --tertiary-hover-color: #0e9076;
+  --tertiary-hover-text-color: #fff;
+  --tertiary-active-color: #0c7a63;
+  --tertiary-active-text-color: #fff;
+}
+
+// Estilos globales
+
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+nav li {
+  font-size: 0.875rem; // 14px en rem
+  font-family: $font-family-inter;
+  font-weight: bold;
+}
+
+h1,
+h2,
+h4,
+p,
+ul {
+  font-family: $font-family-inter;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font-family: $font-family-modelica;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+input::placeholder {
+  font-family: $font-family-inter;
+  font-weight: 400;
+  color: #999;
+}
+
+.whatsapp {
+  position: fixed;
+  right: clamp(1.25rem, 0.5898rem + 2.8169vw, 3.125rem);
+  bottom: 30px;
+  z-index: 40;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #1c284c;
+  background-color: #cbf000;
+  border-radius: 50%;
+  padding: 15px;
+  width: clamp(1.4375rem, 1.2174rem + 0.939vw, 2.0625rem);
+  height: clamp(1.4375rem, 1.2174rem + 0.939vw, 2.0625rem);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.swiper-button-next {
+  background-image: url("/img/ico/next.svg");
+}
+
+.swiper-button-prev {
+  background-image: url("/img/ico/prev.svg");
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size:0;
+  height: clamp(0.4375rem, 0.3715rem + 0.2817vw, 0.625rem);
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+@import "bootstrap/scss/bootstrap";

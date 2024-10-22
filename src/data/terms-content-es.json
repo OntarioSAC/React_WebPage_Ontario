@@ -1,0 +1,54 @@
+{
+  "termsData": {
+    "title": "TÉRMINOS Y",
+    "highlight": "CONDICIONES",
+    "terms": [
+      {
+        "key": "terminos",
+        "title": "TÉRMINOS Y CONDICIONES",
+        "icon": "icon ico-ico08",
+        "accordions": [
+          {
+            "key": "terminos1",
+            "title": "Programa Términos y Condiciones 2024",
+            "content": "Los presentes Términos y Condiciones regulan el uso de nuestros sitios web www.inmobiliariaontario.com. Este contrato describe los términos y condiciones generales (en adelante, los «Términos y Condiciones Generales») aplicables al uso de los servicios ofrecidos por Ontario Inversiones Inmobiliarias S.A.C., dentro del sitio www.inmobiliariaontario.com y el Sitio serán referidos en el Sitio y en estos Términos y Condiciones Generales, indistintamente, como Ontario. Cualquier persona que desee acceder y/o usar el sitio o los servicios podrá hacerlo sujetándose a los Términos y Condiciones Generales, junto con todas las demás políticas y principios que rigen y que son incorporados al presente por referencia. El usuario que accede al sitio web deberá respetar en todo momento los términos y condiciones establecidos. De esta forma el usuario asumirá cualquier responsabilidad que pudiera derivarse del incumplimiento de las normas."
+          },
+          {
+            "key": "terminos2",
+            "title": "Política de Privacidad",
+            "content": "Esta es la política de privacidad..."
+          }
+        ]
+      },
+      {
+        "key": "referidos",
+        "title": "REFERIDOS",
+        "icon": "icon ico-ico08",
+        "accordions": [
+          {
+            "key": "referidos1",
+            "title": "Programa Referidos 2024",
+            "content": "Este es el contenido de referidos 2024."
+          }
+        ]
+      },
+      {
+        "key": "promociones",
+        "title": "PROMOCIONES",
+        "icon": "icon ico-ico08",
+        "accordions": [
+          {
+            "key": "promociones1",
+            "title": "Promociones 2024",
+            "content": "Este es el contenido de promociones 2024."
+          },
+          {
+            "key": "promociones2",
+            "title": "Descuentos Especiales",
+            "content": "Contenido sobre descuentos especiales."
+          }
+        ]
+      }
+    ]
+  }
+}

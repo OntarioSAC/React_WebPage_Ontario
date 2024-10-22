@@ -1,0 +1,27 @@
+.custom-container {
+    width: 100%;
+    min-height: 800px;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  
+  
+  .custom-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 383px;
+    height: 128px;
+    background-image: url("/img/textures/textura-5.webp");
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+  

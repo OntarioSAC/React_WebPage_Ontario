@@ -1,0 +1,142 @@
+.customContent {
+  position: relative; 
+  z-index: 30;
+  padding: 45px 85px 0; 
+}
+.textPrimary{
+  color: var(--primary-color); 
+}
+.customFooter {
+  position: relative;
+  font-family: "Inter";
+  font-weight: 600;
+  bottom: 0;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.contactButton {
+  display: block;
+  width: 12em;
+  /* height: 2em; */
+  background-color: var(--primary-color); 
+  border-radius: 3.125em;
+  color: var(--primary-text-color); 
+  text-align: center;
+  font-family: "Inter";
+  font-size: 1em;
+  font-weight: 800 !important; 
+  line-height: 2em; 
+  transition: all 0.3s ease;
+  margin-top: 1.25rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactButton:hover {
+  background-color: var(--secondary-hover-color); 
+  transform: scale(1.05);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.customLink {
+  text-decoration: none;
+  color: #fff; 
+}
+
+.link {
+  color: white; 
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline; 
+}
+.circle{
+  font-size: 5px;
+}
+.ubication{
+  font-size: 5px;
+  margin-top: clamp(0.25rem, 0.118rem + 0.5634vw, 0.625rem);
+}
+.arrow{
+  color: var(--primary-text-color);
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+@media (max-width: 576px) {
+  .customContent {
+    position: relative;
+    z-index: 30;
+    padding: 0;
+  }
+  .customFooter {
+    padding: 28px;
+    font-size: 10px;
+    font-weight: 400;
+    margin-left: 0; 
+  }
+
+  .contactButton {
+    width: 100%;
+    height: auto;
+    line-height: normal;
+    font-size: 0.875em;
+    margin-top: 1rem;
+  }
+
+  .customLink {
+    font-size: 0.875em;
+  }
+}
+
+@media (min-width: 576px) { 
+  .customFooter {
+    padding: 30px;
+    font-size: 12px;
+  }
+
+  .contactButton {
+    width: 10em;
+    font-size: 0.95em;
+  }
+
+  .customLink {
+    font-size: 0.95em;
+  }
+}
+
+@media (min-width: 768px) { 
+  .customFooter {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  .contactButton {
+    width: 11em;
+    font-size: 1em;
+  }
+
+  .customLink {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 992px) { 
+  .customFooter {
+    padding: 1rem 0;
+    font-size: 16px;
+  }
+
+  .contactButton {
+    width: 12em;
+  }
+
+  .customLink {
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,80 @@
+.custom-container {
+  display: grid;
+  place-items: center;
+  height: 810px;
+  justify-content: center;
+}
+
+.overlap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+  width: 100%;
+  max-width: 1200px;
+}
+
+.rectangle,
+.rectangle-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.rectangle {
+  font-size: clamp(1.125rem, 0.6408rem + 2.0657vw, 2.5rem);
+  line-height: 1.2;
+}
+.flag{
+  font-size: clamp(0.6875rem, 0.4014rem + 1.2207vw, 1.5rem);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.rectangle h2 {
+  font-weight: 600;
+}
+
+.span-style {
+  font-weight: 900;
+}
+
+.img-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1024px) {
+  .img-content {
+    display: none;
+  }
+
+  .overlap {
+    grid-template-columns: 1fr;
+  }
+
+  .rectangle {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-container {
+    height: auto;
+  }
+
+  .rectangle {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .rectangle-2 {
+    content: "";
+    background-image: url("/img/textures/textura-7.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

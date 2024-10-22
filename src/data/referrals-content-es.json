@@ -1,0 +1,85 @@
+{
+  "referredHeader": {
+    "image": "/img/images/pareja1.webp",
+    "alt": "Pareja"
+  },
+  "referredSteps": {
+    "introText": "Con Ontario, puedes referir a un familiar o amigo, registrar sus datos, y si compran, podrás ganar grandes premios. Solo sigue los siguientes pasos:",
+    "steps": [
+      {
+        "icon": "/img/icons/icon-c1.svg",
+        "image": "/img/icons/icons-referals3.svg",
+        "title": "Registra a tu referido en el formulario",
+        "description": "Debes registrar los datos de tu referido en el formulario REFIERE AQUÍ que encontrarás en nuestra página web.",
+        "link": "http://"
+      },
+      {
+        "icon": "/img/icons/icon-c2.svg",
+        "image": "/img/icons/icons-referals2.svg",
+        "title": "Tu referido debe comprar al menos un terreno y comprobar que tú lo referiste",
+        "description": "Tu referido debe figurar como propietario o copropietario al momento de la firma de su contrato."
+      },
+      {
+        "icon": "/img/icons/icon-c3.svg",
+        "image": "/img/icons/icons-referals1.svg",
+        "title": "Si tu referido compra, ¡GANAS!",
+        "description": "Puedes ganar hasta s/700 en efectivo con tu referencia exitosa realizada antes de la fecha límite."
+      }
+    ],
+    "referredForm": {
+      "backgroundColor": "#cbf000",
+      "documents": [
+        { "id": "1", "label": "DNI" },
+        { "id": "2", "label": "Pasaporte" }
+      ],
+      "texts": {
+        "formTitle": "¡REFIERE AQUI!",
+        "namePlaceholder": "*Nombres",
+        "surnamePlaceholder": "*Apellidos",
+        "emailPlaceholder": "*Correo electrónico",
+        "documentPlaceholder": "Documento...",
+        "dniPlaceholder": "Nro. Documento",
+        "phonePlaceholder": "*Teléfono",
+        "referredNamePlaceholder": "*Nombre de tu referido",
+        "referredSurnamePlaceholder": "*Apellidos de tu referido",
+        "referredDocumentPlaceholder": "Documento del referido...",
+        "referredDniPlaceholder": "Nro. Documento del referido",
+        "referredPhonePlaceholder": "*Teléfono del referido",
+        "termsLabel1": "Acepto los términos y condiciones y la Política de Privacidad",
+        "submitButton": "REGISTRAR REFERIDO",
+        "conditionsLabel": "(*) Campos obligatorios.",
+        "referredNameRequired": "Por favor, ingresa el nombre del referido.",
+        "referredSurnameRequired": "Por favor, ingresa los apellidos del referido.",
+        "referredDocumentRequired": "Por favor, selecciona un documento para el referido.",
+        "referredDniRequired": "Por favor, ingresa el número de documento del referido.",
+        "referredPhoneRequired": "Por favor, ingresa el número de teléfono del referido.",
+        "celularRequired": "Por favor, ingresa tu número de teléfono.",
+        "registerReferrals": "REGISTRA TUS",
+        "referrals": "REFERIDOS",
+        "addReferralButton": "Agregar Referido"
+      }
+    }
+  },
+  "referredBaner": {
+    "backgroundImage": "/img/images/modelo-circulo.webp",
+    "title": "PODRÁS",
+    "titleBold": "GANAR",
+    "rewards": [
+      {
+        "icon": "/img/icons/icon-copa.svg",
+        "amount": "S/300",
+        "description": "1er Referido"
+      },
+      {
+        "icon": "/img/icons/icon-copa.svg",
+        "amount": "S/500",
+        "description": "2do Referido"
+      },
+      {
+        "icon": "/img/icons/icon-copa.svg",
+        "amount": "S/700",
+        "description": "3er Referido"
+      }
+    ]
+  }
+}

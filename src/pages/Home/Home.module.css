@@ -1,0 +1,29 @@
+.custom-conten {
+  position: relative;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.over-lap {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.whatsapp {
+  position: absolute;
+  right: 0;
+  bottom: -28px;
+  z-index: 40;
+}
+
+@media (max-width: 576px) {
+  .over-lap {
+    width: 100%;
+    min-height: 98px;
+  }
+}

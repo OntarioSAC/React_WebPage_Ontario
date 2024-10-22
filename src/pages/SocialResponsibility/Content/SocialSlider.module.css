@@ -1,0 +1,77 @@
+.container {
+  width: 100%;
+  height: 862px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.background-wrapper {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+}
+
+.carouselContainer {
+  position: absolute;
+  bottom: 64px;
+  right: 0;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+.cardImage {
+  width: 211px;
+  height: 268px;
+  cursor: pointer;
+  border-radius: 40px;
+  overflow: hidden;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .slideImage {
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    margin-bottom: 20px;
+  }
+
+  .carouselContainer {
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .background-wrapper {
+    height: auto;
+  }
+
+  .background-image {
+    background-size: cover;
+    height: 50vh;
+  }
+}

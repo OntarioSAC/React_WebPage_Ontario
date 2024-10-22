@@ -1,0 +1,145 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.textSection {
+  flex: 1;
+  max-width: 29%;
+  background-color: #1c284c;
+  color: var(--secondary-text-color);
+  padding: 2rem 2rem 2rem 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
+
+.textSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 30px;
+  background-color: #00d084;
+  border-bottom-right-radius: 15px;
+}
+
+.textSection::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 30px;
+  background-color: #00d084;
+  border-top-left-radius: 15px;
+}
+
+.title {
+  font-size: clamp(1.125rem, 0.6408rem + 2.0657vw, 2.5rem);
+  font-weight: bold;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.title span {
+  color: var(--secondary-text-color);
+  font-weight: 800;
+}
+
+.subtitle {
+  font-size: clamp(0.6875rem, 0.5335rem + 0.6573vw, 1.125rem);
+  margin-bottom: 2rem;
+}
+
+.subtitle span {
+  font-weight: bold;
+}
+
+.ctaButton {
+  padding: 0 1rem;
+  background-color: #00d084;
+  color: var(--primary-text-color);
+  font-size: clamp(0.6875rem, 0.5775rem + 0.4695vw, 1rem);
+  border: none;
+  border-radius: 15px 0 0 15px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  height: 61px;
+  width: 283px;
+  z-index: 1;
+  font-weight: 600;
+}
+
+.ctaButton span {
+  color: var(--secondary-text-color);
+}
+
+.ctaButton:hover {
+  background-color: #00b874;
+}
+
+.imageSection {
+  flex: 3;
+  max-width: 75%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buildingImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .textSection {
+    max-width: 100%;
+    width: 100%;
+    padding: 3rem 5rem;
+    align-items: center;
+  }
+
+  .imageSection {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+
+  .buildingImage {
+    height: auto;
+  }
+
+  .ctaButton {
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    height: 41px;
+    width: 153px;
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 3px;
+  }
+
+  .subtitle {
+    text-align: center;
+    margin-bottom: 3px;
+  }
+}

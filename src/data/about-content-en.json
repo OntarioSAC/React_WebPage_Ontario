@@ -1,0 +1,124 @@
+{
+  "welcomeSection": {
+    "flag": "About Us",
+    "title": "WELCOME TO",
+    "highlight": "ONTARIO",
+    "description": "We are a group of companies with more than 10 years in the real estate business with operations in the south and north of the country. We have business lines of beach condominiums, countryside properties, and apartments. We are fully committed to the development of the country and to making our clients' dream of owning their own home a reality.",
+    "vision": {
+      "icon": "/img/icons/vision.svg",
+      "text": "To be the leading national developer of beach and countryside condominiums with a green and sustainable concept."
+    },
+    "mision": {
+      "icon": "/img/icons/mision.svg",
+      "text": "To be the leading national developer of beach and countryside condominiums with a green and sustainable concept."
+    },
+    "images": {
+      "banner": "/img/images/baner-about.webp",
+      "ontarioLogo": "/img/images/ontario.webp"
+    }
+  },
+  "valuesSection": {
+    "flag": "Values",
+    "title": "WHAT DO WE ",
+    "highlight": "BELIEVE IN?",
+    "values": [
+      {
+        "title": "INNOVATION",
+        "description": "We always innovate",
+        "icon": "/img/icons/icon-a1.svg"
+      },
+      {
+        "title": "FULFILLMENT",
+        "description": "We strive to deliver what we offer",
+        "icon": "/img/icons/icon-a2.svg"
+      },
+      {
+        "title": "SERIOUSNESS",
+        "description": "We offer the best of the market in a realistic way",
+        "icon": "/img/icons/icon-a3.svg"
+      },
+      {
+        "title": "TRUST",
+        "description": "We have the backing of the great Ontario family",
+        "icon": "/img/icons/icon-a4.svg"
+      }
+    ],
+    "mainImage": "/img/images/family2.webp"
+  },
+  "titleSection": {
+    "mainTitle": "CORPORATE CHRONOLOGY",
+    "highlight": "CORPORATE",
+    "subtitle": "Growth to excellence"
+  },
+  "chronologySection": {
+    "chronology": [
+      {
+        "year": "2018",
+        "image": "/img/images/2018.webp",
+        "imageSm": "/img/images/2018sm.webp",
+        "description": "KILLA CUSCO"
+      },
+      {
+        "year": "2019",
+        "image": "/img/images/2019.webp",
+        "imageSm": "/img/images/2019sm.webp",
+        "description": "PUNTA ARENA"
+      },
+      {
+        "year": "2021",
+        "image": "/img/images/2021.webp",
+        "imageSm": "/img/images/2021sm.webp",
+        "description": "SANTORINI MEJÍA"
+      },
+      {
+        "year": "2022",
+        "image": "/img/images/2022.webp",
+        "imageSm": "/img/images/2022sm.webp",
+        "description": "PRADO PIAMONTE"
+      },
+      {
+        "year": "2024",
+        "image": "/img/images/2024.webp",
+        "imageSm": "/img/images/2024sm.webp",
+        "description": "OTRO LUGAR"
+      }
+    ]
+  },
+  "bannerSection": {
+    "items": [
+      { "type": "image", "src": "/img/logo/epa-2022.svg", "alt": "Logo 2022" },
+      { "type": "image", "src": "/img/logo/epa-2023.svg", "alt": "Logo 2023" },
+      { "type": "text", "content": "Double International Certification:" },
+      { "type": "image", "src": "/img/logo/iso-9001.svg", "alt": "ISO 9001" },
+      { "type": "image", "src": "/img/logo/iso-14001.svg", "alt": "ISO 14001" },
+      { "type": "text", "content": "Members of:" },
+      { "type": "image", "src": "/img/logo/ccia.webp", "alt": "Cia" },
+      {
+        "type": "text",
+        "content": "Recognition for the 2nd consecutive year as one of the best companies nationwide:"
+      }
+    ]
+  },
+  "infoBoxAbout": {
+    "boxes": [
+      {
+        "icon": "/img/icons/medal-icon.svg",
+        "number": "+ 10",
+        "description": "Years of",
+        "highlight": "Experience"
+      },
+      {
+        "icon": "/img/icons/project-icon.svg",
+        "number": "+ 8",
+        "description": "Real Estate",
+        "highlight": "Projects"
+      },
+      {
+        "icon": "/img/icons/family-icon.svg",
+        "number": "+ 1000",
+        "description": "Happy",
+        "highlight": "Families"
+      }
+    ]
+  }
+}

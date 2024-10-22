@@ -1,0 +1,43 @@
+.loader {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 100vw; 
+  height: 100vh; 
+}
+
+.svg-icon {
+  max-width: 100%; 
+  width: 150px; 
+  height: auto; 
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .svg-icon {
+    width: 100px; 
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  
+  .svg-icon {
+    width: 80px; 
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.loading-square {
+  animation: blink 1s infinite;
+}

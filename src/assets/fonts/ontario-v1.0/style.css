@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'ontario';
+  src:
+    url('fonts/ontario.ttf?9wjgo6') format('truetype'),
+    url('fonts/ontario.woff?9wjgo6') format('woff'),
+    url('fonts/ontario.svg?9wjgo6#ontario') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  
+  font-family: 'ontario' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-face:before {
+  content: "\e906";
+}
+.ico-tik:before {
+  content: "\e907";
+}
+.ico-you:before {
+  content: "\e908";
+}
+.ico-ins:before {
+  content: "\e909";
+}
+.ico-plus:before {
+  content: "\e90a";
+}
+.ico-pas1:before {
+  content: "\e90b";
+}
+.ico-pas2:before {
+  content: "\e90c";
+}
+.ico-arrow:before {
+  content: "\e90d";
+}
+.ico-area:before {
+  content: "\e90e";
+}
+.ico-book:before {
+  content: "\e900";
+}
+.ico-car:before {
+  content: "\e901";
+}
+.ico-circle:before {
+  content: "\e902";
+}
+.ico-close:before {
+  content: "\e903";
+}
+.ico-drop:before {
+  content: "\1f386";
+}
+.ico-google:before {
+  content: "\e90f";
+}
+.ico-location:before {
+  content: "\e910";
+}
+.ico-waze:before {
+  content: "\e905";
+}
+.ico-ico02:before {
+  content: "\e911";
+}
+.ico-ico03:before {
+  content: "\e912";
+}
+.ico-ico04:before {
+  content: "\e913";
+}
+.ico-ico05:before {
+  content: "\e914";
+}
+.ico-ico06:before {
+  content: "\e915";
+}
+.ico-ico08:before {
+  content: "\e916";
+}
+.ico-ico11:before {
+  content: "\e917";
+}
+.ico-ico12:before {
+  content: "\e918";
+}
+.ico-ico14:before {
+  content: "\e919";
+}
+.ico-ico16:before {
+  content: "\e91a";
+}
+.ico-ico17:before {
+  content: "\e91b";
+}
+.ico-ico18:before {
+  content: "\e91c";
+}
+.ico-max:before {
+  content: "\e91d";
+}
+.ico-ico19:before {
+  content: "\e91e";
+}
+.ico-ico20:before {
+  content: "\e91f";
+}
+.ico-ico21:before {
+  content: "\e920";
+}
+.ico-ico22:before {
+  content: "\e921";
+}
+.ico-ico23:before {
+  content: "\e922";
+}
+.ico-ico24:before {
+  content: "\e923";
+}
+.ico-ico25:before {
+  content: "\e924";
+}
+.ico-ico26:before {
+  content: "\e925";
+}
+.ico-ico28:before {
+  content: "\e926";
+}
+.ico-ico30:before {
+  content: "\e927";
+}
+.ico-ico31:before {
+  content: "\e928";
+}
+.ico-ico32:before {
+  content: "\e929";
+}
+.ico-ico33:before {
+  content: "\e92a";
+}
+.ico-ico34:before {
+  content: "\e92b";
+}
+.ico-ico09:before {
+  content: "\e92c";
+}
+.ico-ico10:before {
+  content: "\e92d";
+}

@@ -1,0 +1,79 @@
+.fw600 {
+    font-weight: 600;
+}
+
+.fw900 {
+    font-weight: 900;
+}
+
+.content {
+    position: relative;
+}
+
+.custom-card-title {
+    max-width: 722px;
+    width: clamp(21.875rem, 13.6884rem + 34.9296vw, 45.125rem);
+    height: clamp(4.375rem, 2.4604rem + 8.169vw, 9.8125rem);
+    padding: clamp(0.9375rem, 0.3873rem + 2.3474vw, 2.5rem) 0;
+    background-color: var(--primary-color);
+    border-radius: 0 60px 0 0;
+    flex: 1;
+    padding-left: 130px;
+    position: relative;
+    z-index: 2;
+}
+
+.content::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 550px;
+    height: clamp(4.375rem, 2.4604rem + 8.169vw, 9.8125rem);
+    background-image: url("/img/textures/textura-4.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+    z-index: 1;
+}
+
+.custom-margin h1 {
+    font-size: clamp(1.3125rem, 0.8069rem + 1.8812vw, 2.5rem);
+    margin: 0;
+}
+
+.custom-margin h2 {
+    font-size: clamp(0.875rem, 0.396rem + 1.7822vw, 2rem);
+    margin: 0;
+}
+
+@media (max-width: 1200px) and (min-width: 768px) {
+    .custom-card-title {
+        max-width: 960px;
+        width: 100%;
+        padding: 0;
+        border-radius: 20px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-card-title {
+        min-width: 100%;
+        border-radius: 0 0 20px 20px;
+        width: 100%;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .custom-margin {
+        text-align: center;
+    }
+
+    .custom-margin h1,
+    .custom-margin h2 {
+        line-height: 1.2;
+        padding-left: 0;
+    }
+}

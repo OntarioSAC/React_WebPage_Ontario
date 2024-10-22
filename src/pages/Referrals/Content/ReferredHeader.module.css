@@ -1,0 +1,65 @@
+.custom-container {
+  width: 100%;
+  height: 467px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1C284C;
+}
+
+.custom-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 136px;
+  height: 156px;
+  background-image: url("/img/textures/hojas-1.webp");
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.custom-container::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 130px;
+  height: 130px;
+  background-image: url("/img/textures/hojas-2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.custom-img {
+  max-width: 85%;
+  height: auto;
+  z-index: 20;
+  display: block;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 480px) {
+  .custom-img {
+    content: url('/img/images/refiere.webp');
+  }
+
+  .custom-container {
+    height: 353px;
+  }
+
+  .custom-container::before {
+    top: 56px;
+    width: 68px;
+    height: 78px;
+    background-size: contain;
+  }
+
+  .custom-container::after {
+    width: 65px;
+    height: 81px;
+    background-size: contain;
+  }
+}

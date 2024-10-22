@@ -1,0 +1,21 @@
+
+  .container {
+    width: clamp(20.0625rem, 9.9245rem + 37.7228vw, 43.875rem);
+    height: clamp(20.25rem, 17.1101rem + 11.6832vw, 27.625rem);
+    border-radius: 1.25rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .contentArea {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

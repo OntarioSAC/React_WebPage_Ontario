@@ -1,0 +1,54 @@
+{
+  "termsData": {
+    "title": "TERMS AND",
+    "highlight": "CONDITIONS",
+    "terms": [
+      {
+        "key": "terminos",
+        "title": "TERMS AND CONDITIONS",
+        "icon": "icon ico-ico08",
+        "accordions": [
+          {
+            "key": "terminos1",
+            "title": "Program Terms and Conditions 2024",
+            "content": "These Terms and Conditions govern the use of our websites www.inmobiliariaontario.com. This contract describes the general terms and conditions (hereinafter, the \"General Terms and Conditions\") applicable to the use of the services offered by Ontario Inversiones Inmobiliarias S.A.C., within the site www.inmobiliariaontario.com and the Site will be referred to on the Site and in these General Terms and Conditions, interchangeably, as Ontario. Any person who wishes to access and/or use the site or the services may do so subject to the General Terms and Conditions, together with all other policies and principles that govern and that are incorporated herein by reference. The user who accesses the website must respect at all times the terms and conditions established. In this way, the user will assume any responsibility that may arise from the breach of the rules."
+          },
+          {
+            "key": "terminos2",
+            "title": "Privacy Policy",
+            "content": "This is the privacy policy..."
+          }
+        ]
+      },
+      {
+        "key": "referidos",
+        "title": "REFERRALS",
+        "icon": "icon ico-ico08",
+        "accordions": [
+          {
+            "key": "referidos1",
+            "title": "Referral Program 2024",
+            "content": "This is the content of referrals 2024."
+          }
+        ]
+      },
+      {
+        "key": "promociones",
+        "title": "PROMOTIONS",
+        "icon": "icon ico-ico08",
+        "accordions": [
+          {
+            "key": "promociones1",
+            "title": "Promotions 2024",
+            "content": "This is the content of promotions 2024."
+          },
+          {
+            "key": "promociones2",
+            "title": "Special Discounts",
+            "content": "Content about special discounts."
+          }
+        ]
+      }
+    ]
+  }
+}

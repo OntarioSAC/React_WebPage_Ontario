@@ -1,0 +1,172 @@
+.container {
+  max-width: 654px;
+  width: 654px;
+}
+
+.top-section {
+  display: flex;
+  background-color: var(--secondary-color);
+  color: var(--primary-text-color);
+  border-radius: 30px 30px 0 0;
+  width: clamp(10.875rem, 7.2296rem + 13.5644vw, 19.4375rem);
+  height: clamp(10.875rem, 7.2296rem + 13.5644vw, 19.4375rem);
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.top-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.title {
+  font-family: "Inter";
+  font-weight: 600;
+  font-style: italic;
+  font-size: clamp(0.6875rem, 0.5012rem + 0.6931vw, 1.125rem);
+  text-align: center;
+  margin: 0;
+}
+
+.price-info {
+  margin-top: 1em;
+  background-color: var(--primary-color);
+  text-align: center;
+  width: clamp(8.1875rem, 5.5532rem + 9.802vw, 14.375rem);
+  height: clamp(5.6875rem, 3.6652rem + 7.5248vw, 10.4375rem);
+  border-radius: 30px 30px 0 0;
+  padding: 1rem;
+}
+
+.price {
+  font-size: clamp(1.75rem, 1.2178rem + 1.9802vw, 3rem);
+  font-family: "Inter";
+  font-weight: 900;
+  color: var(--highlight-color);
+  line-height: 1.05;
+  margin: 0;
+}
+
+.span {
+  font-size: clamp(0.875rem, 0.5025rem + 1.3861vw, 1.75rem);
+  font-weight: 400;
+}
+
+.price-alt {
+  font-size: clamp(0.875rem, 0.5025rem + 1.3861vw, 1.75rem);
+  font-weight: 900;
+  word-spacing: -4px;
+
+}
+
+.conditions {
+  font-size: clamp(0.3125rem, 0.1528rem + 0.5941vw, 0.6875rem);
+  text-align: center;
+  margin: 0;
+
+}
+
+.logo {
+  width: clamp(5.125rem, 2.3843rem + 10.198vw, 11.5625rem);
+  height: auto;
+}
+
+
+.bottom-section {
+  height: 141px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: var(--primary-color);
+  padding: 1.5em 0;
+  text-align: center;
+  border-radius: 0 50px;
+  align-content: center;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+
+}
+
+.info-box-middle {
+  border-left: 1px solid rgb(119, 119, 119);
+  border-right: 1px solid rgb(119, 119, 119);
+}
+
+.icon {
+  font-size: clamp(1.125rem, 0.8057rem + 1.1881vw, 1.875rem);
+  margin-bottom: 0.1em;
+}
+.icon img {
+  height: clamp(1.125rem, 0.8057rem + 1.1881vw, 1.875rem);
+}
+.bold-text {
+  font-family: "Inter";
+  font-size: clamp(0.875rem, 0.5025rem + 1.3861vw, 1.75rem);
+  font-weight: 800;
+  margin: 0;
+}
+
+.semi-bold-text {
+  font-family: "Inter";
+  font-size: clamp(0.875rem, 0.5025rem + 1.3861vw, 1.75rem);
+  font-weight: 500;
+  margin: 0;
+}
+
+.extra-bold-text {
+  font-family: "Inter";
+  font-weight: 900;
+  margin: 0;
+}
+
+.info-text {
+  margin: 0;
+  font-size: clamp(0.6875rem, 0.5012rem + 0.6931vw, 1.125rem);
+  font-weight: 500;
+  font-style: italic;
+  margin: 0;
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .bottom-section {
+    display: grid;
+    max-height: 90px;
+    min-height: 75px;
+    min-width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--primary-color);
+    padding: 0;
+    text-align: center;
+    border-radius: 0;
+    align-items: start;
+    align-content: center;
+    grid-auto-flow: column;
+  }
+
+  .info-box {
+    padding: 0;
+  }
+
+  .icon {
+    font-size: clamp(1.125rem, 0.8057rem + 1.1881vw, 1.875rem);
+    margin-bottom: 0.3rem;
+  }
+}

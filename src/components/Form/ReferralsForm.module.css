@@ -1,0 +1,334 @@
+.cardCustomForm {
+  width: clamp(18.125rem, 14.1417rem + 16.9953vw, 29.4375rem);
+  min-width: 18.1875rem;
+  min-height: 23.625rem;
+  max-width: 471px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  background-color: #cbf000;
+  padding: 1rem;
+  overflow: auto;
+  box-shadow: 3px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+
+.customTitle {
+  font-size: clamp(0.8125rem, 0.3944rem + 1.784vw, 2rem);
+  text-align: center;
+  font-weight: 900;
+}
+
+
+.customTerms label {
+  font-size: clamp(0.5rem, 0.3137rem + 0.6931vw, 0.9375rem);
+  font-weight: 600;
+}
+
+
+.inputSmall {
+  font-size: clamp(0.75rem, 0.5rem + 1vw, 1rem) !important;
+  padding: clamp(0.4rem, 0.3rem + 0.5vw, 0.6rem) clamp(0.5rem, 0.3rem + 0.5vw, 0.75rem) !important;
+  border-radius: 0.5em !important;
+}
+.inputSmall2 {
+  font-size: clamp(0.75rem, 0.5rem + 1vw, 1rem) !important;
+  padding: clamp(0.4rem, 0.3rem + 0.5vw, 0.6rem) clamp(0.5rem, 0.3rem + 0.5vw, 0.75rem) clamp(0.5rem, 0.3rem + 0.5vw, 0.75rem) 60px !important;
+  border-radius: 0.5em !important;
+}
+
+.inputSmall::placeholder {
+  font-size: clamp(0.75rem, 0.5rem + 0.5vw, 1rem);
+  color: gray;
+}
+
+.inputGroupSmall {
+  font-size: clamp(0.75rem, 0.5rem + 1vw, 1rem) !important;
+  padding: clamp(0.4rem, 0.3rem + 0.5vw, 0.6rem) clamp(0.5rem, 0.3rem + 0.5vw, 0.75rem) !important;
+  border-radius: 0.5em !important;
+  color: gray !important;
+}
+
+
+.selectInput {
+  font-size: 1rem;
+}
+
+.placeholderOption {
+  color: gray !important;
+  font-size: 12px !important;
+}
+
+
+.refered {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.refered p {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.refered span {
+  font-weight: 900;
+}
+
+
+.gridForm {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem;
+}
+
+.formGroupFull {
+  grid-column: span 2;
+}
+
+.terms {
+  font-size: 11px;
+}
+
+
+.formButton {
+  font-size: clamp(0.75rem, 0.5rem + 1vw, 1rem);
+  color: #fff;
+  background-color: #1C284C;
+  padding: clamp(0.4rem, 0.3rem + 0.5vw, 0.6rem) clamp(1.5rem, 1rem + 1vw, 2.5rem);
+  border-radius: 50rem;
+  border-style: none;
+}
+
+.button {
+  font-size: 0.8rem;
+  color: #fff;
+  background-color: #1C284C;
+  padding: 0 0.3rem;
+  margin: 0 auto;
+  border-style: none;
+}
+
+
+.formCheckInput {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.formCheckLabel {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: clamp(0.5rem, 0.346rem + 0.6573vw, 0.9375rem);
+  line-height: 1;
+}
+
+.formCheckLabel::before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  transition: background-color 0.3s ease;
+}
+
+.formCheckInput:checked+.formCheckLabel::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.formCustom {
+  align-items: center;
+}
+
+.error-message {
+  font-size: 8px;
+  color: red;
+  text-align: center;
+}
+
+
+.success-message {
+  font-size: 14px;
+  color: green;
+  animation: fadeInOut 3s ease-in-out;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.iconForm {
+  font-size: 14px;
+  margin-left: 10px;
+  color: var(--primary-color);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Circles.module.css */
+.circleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 15px;
+
+
+}
+
+.circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  position: relative;
+
+}
+
+.filled {
+  background-color: #18244f;
+  /* Color del círculo lleno */
+  color: #ffffff;
+  /* Color del texto */
+}
+
+.outline {
+  border: 2px solid #18244f;
+  /* Color del borde */
+  color: #18244f;
+  /* Color del texto */
+  background-color: transparent;
+}
+
+.conditions {
+  font-size: clamp(0.3125rem, 0.1528rem + 0.5941vw, 0.6875rem);
+  margin: 0;
+  text-align: end;
+  grid-column: span 2;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .cardCustomForm {
+    padding: 2rem;
+  }
+
+  /* .customTitle {
+    margin-bottom: 30px;
+  } */
+}
+
+@media (max-width: 768px) {
+  .formGroup {
+    margin: 0 !important;
+    margin-bottom: 0rem !important;
+  }
+
+  .inputSmall {
+    font-size: 0.65rem !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+  }
+
+  .inputGroupSmall {
+    font-size: 0.65rem !important;
+    padding: 0.25rem 0.5rem !important;
+  }
+
+  .gridForm {
+    gap: 0.6rem;
+  }
+
+  .formCheckLabel::before {
+    top: 3px;
+    left: 3px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .circleContainer {
+    display: none;
+  }
+  .register{
+    display: none;
+  }
+}
+/* Contenedor del input de teléfono */
+.phoneInputContainer {
+  width: 100%; /* Ajusta el ancho del contenedor */
+  display: flex;
+  align-items: center;
+}
+
+/* Botón de selección de país */
+.phoneInputButton {
+  background-color: transparent; /* Fondo transparente */
+  border: none; /* Sin borde */
+  cursor: pointer; /* Cambia el cursor al seleccionar */
+  display: flex;
+  align-items: center;
+}
+
+/* Estilo para el separador en el botón */
+.phoneInputButton::after {
+  content: "";
+  width: 2px; /* Ancho del separador */
+  height: 70%; /* Altura relativa al botón */
+  background-color: #001d4a; /* Color del separador */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Caja de entrada de teléfono */
+.phoneInput {
+  border: none; /* Sin borde */
+  outline: none; /* Sin outline */
+  flex: 1; /* Se expande para ocupar todo el espacio */
+  padding-left: 50px; /* Espacio después del separador */
+  font-size: 16px; /* Tamaño del texto */
+}
+
+
+
+/* Dropdown del país */
+.phoneInputDropdown {
+  max-height: 200px; /* Altura máxima del dropdown */
+  overflow-y: auto; /* Scroll si hay muchas opciones */
+}

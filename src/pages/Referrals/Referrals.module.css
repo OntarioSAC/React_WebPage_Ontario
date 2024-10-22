@@ -1,0 +1,21 @@
+.custom-conten {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.fixedContactForm {
+  position: absolute;
+  right: 265px;
+  width: 300px;
+  z-index: 20;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  top: 83%;
+  transition: top 0.4s ease, position 0.4s ease;
+}
+
+.fixedContactForm.scrolled {
+  position: fixed;
+  top: 20px;
+  transition: top 0.4s ease, position 0.4s ease;
+}

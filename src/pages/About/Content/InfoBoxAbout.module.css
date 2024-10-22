@@ -1,0 +1,115 @@
+:root {
+  --main-bg-color: #1c284c;
+  --main-text-color: #D4EF35;
+  --main-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-info-boxes {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  box-shadow: var(--main-box-shadow);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 1440px;
+  max-height: 176px;
+  padding: 1.25em 0;
+  line-height: 1.2;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  align-items: start;
+  justify-content: space-evenly;
+}
+
+.custom-info-box {
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0 1em;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-info-box::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  height: 80%;
+  width: 2px;
+  background-color: var(--main-text-color);
+}
+
+.custom-info-box:last-child::after {
+  display: none;
+}
+
+.custom-info-number {
+  font-size: clamp(1.8em, 5vw, 4em);
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  margin: 0;
+  min-width: 3em;
+  text-align: center;
+  /* display: ruby-text; */
+  line-height: 1.2;
+}
+
+.custom-info-description {
+  font-size: clamp(0.8em, 2.5vw, 1.5em);
+  margin: 0;
+  font-weight: 600;
+}
+
+.custom-info-description-bold {
+  font-weight: 900;
+}
+
+.custom-info-icon {
+  width: clamp(2.5em, 4vw, 4.5em);
+  margin-right: clamp(0.2em, 2vw, 1em);
+  box-sizing: border-box;
+}
+
+@media (max-width: 576px) {
+
+  .grid-container {
+      gap: 0;
+  }
+
+  .custom-info-box {
+      padding: 0;
+  }
+
+  .custom-info-box::after {
+      display: none;
+  }
+
+  .custom-info-boxes {
+      border-radius: 0 0 20px 20px;
+      padding: 0.75em 0;
+      max-height: 98px;
+      width: 100%;
+  }
+
+  .custom-info-icon {
+      display: none;
+  }
+
+  .custom-info-number {
+      font-size: clamp(1.7em, 5vw, 4em);
+      font-family: 'Inter', sans-serif;
+      font-weight: 900;
+      margin: 0;
+      min-width: 3em;
+      text-align: center;
+      display: contents;
+  }
+}

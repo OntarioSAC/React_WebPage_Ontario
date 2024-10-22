@@ -1,0 +1,66 @@
+{
+  "socialSlider": {
+    "images": [
+      "/img/social/1.webp",
+      "/img/social/2.webp",
+      "/img/social/3.webp",
+      "/img/social/4.webp"
+    ]
+  },
+  "socialHeader": {
+    "bannerImage": "/img/images/baner-social.webp",
+    "leftColumn": {
+      "flag": "DESARROLLO SOSTENIBLE Y",
+      "title": "RESPONSABILIDAD",
+      "highlight": "SOCIAL"
+    },
+    "rightColumn": {
+      "description": "Somos un grupo inmobiliario con un compromiso fundacional con el respeto al medio ambiente minimizando el impacto de nuestras intervenciones en los ecosistemas que trabajamos, nos consideramos una empresa verde, pues privilegiamos la elección de materiales que no generan CO2 y que son biodegradables; utilizamos cercos vivos, privilegiamos la energía solar o fotovoltaica, reutilizamos el agua, y nuestros diseños arquitectónicos privilegian el disfrute de los espacios al aire libre y el contacto con la naturaleza, nuestras concepciones de vías internas y manzanas están pensadas para trasmitir quietud y paz, cualidades fundamentales de nuestros diseños paisajísticos."
+    },
+    "recycleSection": {
+      "image": "/img/textures/hojas-3.webp",
+      "description": "Nuestros proyectos tendrán la certificación internacional en sostenibilidad Edge, lo que demuestra nuestra responsabilidad con los ecosistemas que intervenimos."
+    },
+    "studentsSection": {
+      "image": "/img/images/student2.webp",
+      "description": "Como parte de nuestra responsabilidad social, damos apoyo permanente a los gobiernos locales con la donación de víveres y provisiones diversas para las comunidades de las zonas de influencia más desfavorecidas, y próximamente implementaremos la donación de becas de estudio para los mejores estudiantes de colegios nacionales."
+    }
+  },
+  "formSection": {
+    "title1": "TU FUTURO ",
+    "title2": "COMIENZA AQUÍ",
+    "ctaText": "¡Aprovecha nuestras ofertas!",
+    "backgroundColor": "#cbf000",
+    "imageSrc": "/img/images/family.webp",
+    "imageAlt": "Familia",
+    "documents": [
+      { "id": "1", "label": "DNI" },
+      { "id": "2", "label": "Pasaporte" }
+    ],
+    "projects": [
+      { "id": "1", "label": "Santorini" },
+      { "id": "2", "label": "Mykonos" },
+      { "id": "3", "label": "Coral" },
+      { "id": "4", "label": "Punta Arena" },
+      { "id": "5", "label": "Zafiro" },
+      { "id": "6", "label": "Prado Piamonte" }
+    ],
+    "showProjectSelect": true,
+    "projectId": "",
+    "texts": {
+      "formTitle": "QUIERO RECIBIR",
+      "formTitleBold": "INFORMACIÓN",
+      "namePlaceholder": "*Nombres",
+      "surnamePlaceholder": "*Apellidos",
+      "emailPlaceholder": "*Correo electrónico",
+      "documentPlaceholder": "Documento...",
+      "projectPlaceholder": "Proyecto...",
+      "dniPlaceholder": "Nro. Documento",
+      "phonePlaceholder": "*Teléfono",
+      "termsLabel1": "Acepto los términos y condiciones y la Política de Privacidad",
+      "termsLabel2": "Acepto el envío de Publicidad según la Política de Privacidad",
+      "submitButton": "Enviar",
+      "conditionsLabel": "Campos obligatorios."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "socialSlider": {
+    "images": [
+      "/img/social/1.webp",
+      "/img/social/2.webp",
+      "/img/social/3.webp",
+      "/img/social/4.webp"
+    ]
+  },
+  "socialHeader": {
+    "bannerImage": "/img/images/baner-social.webp",
+    "leftColumn": {
+      "flag": "SUSTAINABLE DEVELOPMENT AND",
+      "title": "SOCIAL",
+      "highlight": "RESPONSIBILITY"
+    },
+    "rightColumn": {
+      "description": "We are a real estate group with a foundational commitment to respecting the environment by minimizing the impact of our interventions in the ecosystems we work in. We consider ourselves a green company, as we prioritize the choice of materials that do not generate CO2 and are biodegradable; we use living fences, prioritize solar or photovoltaic energy, reuse water, and our architectural designs favor the enjoyment of outdoor spaces and contact with nature. Our conceptions of internal roads and blocks are designed to convey tranquility and peace, fundamental qualities of our landscaping designs."
+    },
+    "recycleSection": {
+      "image": "/img/textures/hojas-3.webp",
+      "description": "Our projects will have the international Edge sustainability certification, which demonstrates our responsibility towards the ecosystems we intervene in."
+    },
+    "studentsSection": {
+      "image": "/img/images/student2.webp",
+      "description": "As part of our social responsibility, we provide ongoing support to local governments by donating food and various supplies to the most disadvantaged communities in the areas of influence, and soon we will implement the donation of scholarships for the best students in national schools."
+    }
+  },
+  "formSection": {
+    "title1": "YOUR FUTURE ",
+    "title2": "STARTS HERE",
+    "ctaText": "Take advantage of our offers!",
+    "backgroundColor": "#cbf000",
+    "imageSrc": "/img/images/family.webp",
+    "imageAlt": "Family",
+    "documents": [
+      { "id": "1", "label": "ID" },
+      { "id": "2", "label": "Passport" }
+    ],
+    "projects": [
+      { "id": "1", "label": "Santorini" },
+      { "id": "2", "label": "Mykonos" },
+      { "id": "3", "label": "Coral" },
+      { "id": "4", "label": "Punta Arena" },
+      { "id": "5", "label": "Zafiro" },
+      { "id": "6", "label": "Prado Piamonte" }
+    ],
+    "showProjectSelect": true,
+    "projectId": "",
+    "texts": {
+      "formTitle": "I WANT TO RECEIVE ",
+      "formTitleBold": "INFORMATION",
+      "namePlaceholder": "*First Name",
+      "surnamePlaceholder": "*Last Name",
+      "emailPlaceholder": "*Email",
+      "documentPlaceholder": "Document...",
+      "projectPlaceholder": "Project...",
+      "dniPlaceholder": "Document Number",
+      "phonePlaceholder": "*Phone",
+      "termsLabel1": "I accept the terms and conditions and the Privacy Policy",
+      "termsLabel2": "I accept receiving advertisements according to the Privacy Policy",
+      "submitButton": "Submit",
+      "conditionsLabel": "Required fields."
+    }
+  }
+}

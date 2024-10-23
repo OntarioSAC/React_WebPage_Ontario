@@ -79,6 +79,14 @@ const Complaints = () => {
             fontWeight: 'bold',
             paddingLeft: '10%'
         },
+        separator: {
+            borderTop: '1px solid #ccc',
+            margin: '20px 0',
+        },
+        formTitle: {
+            fontWeight: 'bold',
+            marginBottom: '10px',
+        }
     };
 
     return (
@@ -120,6 +128,61 @@ const Complaints = () => {
                 <p style={styles.note}>
                     Nota: Si la queja o reclamo se relaciona con un proyecto entregado, consignar a la oficina principal.
                 </p>
+            </div>
+
+            {/* Separador */}
+            <div style={styles.separator}></div>
+
+            {/* Formulario de Identificación del consumidor */}
+            <h2 style={styles.formTitle}>1. Identificación del consumidor reclamante</h2>
+            <div style={styles.formSection}>
+                <div style={styles.formRow}>
+                    <div style={styles.formGroup}>
+                        <input type="text" id="nombres" name="nombres" placeholder="Nombres" style={styles.input} />
+                    </div>
+                    <div style={styles.formGroup}>
+                        <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" style={styles.input} />
+                    </div>
+                </div>
+
+                <div style={styles.formRow}>
+                    <div style={styles.formGroup}>
+                        <input type="email" id="correo" name="correo" placeholder="Correo Electrónico" style={styles.input} />
+                    </div>
+                    <div style={styles.formGroup}>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" style={styles.input} />
+                    </div>
+                </div>
+
+                <div style={styles.formRow}>
+                    <div style={styles.formGroup}>
+                        <select id="tipoDocumento" name="tipoDocumento" style={styles.customSelect}>
+                            <option value="">Tipo de Documento</option>
+                            {/* Añade más opciones aquí */}
+                        </select>
+                    </div>
+                    <div style={styles.formGroup}>
+                        <input type="text" id="numDocumento" name="numDocumento" placeholder="No. de Documento" style={styles.input} />
+                    </div>
+                </div>
+
+                <div style={styles.formRow}>
+                    <div style={styles.formGroup}>
+                        <input type="text" id="departamento" name="departamento" placeholder="Departamento" style={styles.input} />
+                    </div>
+                    <div style={styles.formGroup}>
+                        <input type="text" id="provincia" name="provincia" placeholder="Provincia" style={styles.input} />
+                    </div>
+                </div>
+
+                <div style={styles.formRow}>
+                    <div style={styles.formGroup}>
+                        <input type="text" id="distrito" name="distrito" placeholder="Distrito" style={styles.input} />
+                    </div>
+                    <div style={styles.formGroup}>
+                        <input type="text" id="direccion" name="direccion" placeholder="Dirección" style={styles.input} />
+                    </div>
+                </div>
             </div>
         </div>
     );

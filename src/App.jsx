@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation, useNavigate, Navigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next'; // Importar hook de traducción
 import './i18n'; // Importar configuración de i18n
@@ -13,6 +13,7 @@ import Projects from './pages/Projects/Projects';
 import Apartments from './pages/Apartments/Apartments';
 import TermsConditions from './pages/TermsConditions/TermsConditions';
 import Loader from './pages/Loader/Loader'; // Importar el loader
+import Complaints from './pages/complaints/complaints';
 
 
 /**
@@ -82,6 +83,7 @@ const App = () => {
           <Route path="/social-responsibility" element={<SocialResponsibility />} />
           <Route path="/referrals" element={<Referrals />} />
           <Route path="/terms" element={<TermsConditions />} />
+          <Route path="/complaints" element={<Complaints />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </main>

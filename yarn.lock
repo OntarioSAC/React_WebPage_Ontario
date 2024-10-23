@@ -834,6 +834,11 @@ bluebird@^3.7.2:
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
 
+bootstrap-icons@^1.11.3:
+  version "1.11.3"
+  resolved "https://registry.yarnpkg.com/bootstrap-icons/-/bootstrap-icons-1.11.3.tgz#03f9cb754ec005c52f9ee616e2e84a82cab3084b"
+  integrity sha512-+3lpHrCw/it2/7lBL15VR0HEumaBss0+f/Lb6ZvHISn1mlK83jjFpooTLsMWbIjJMDjDjOExMsTxnXSIT4k4ww==
+
 bootstrap@^5.3.3:
   version "5.3.3"
   resolved "https://registry.npmjs.org/bootstrap/-/bootstrap-5.3.3.tgz"

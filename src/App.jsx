@@ -13,7 +13,7 @@ import Projects from './pages/Projects/Projects';
 import Apartments from './pages/Apartments/Apartments';
 import TermsConditions from './pages/TermsConditions/TermsConditions';
 import Loader from './pages/Loader/Loader'; // Importar el loader
-import Complaints from './pages/complaints/complaints';
+import Complaints from './pages/Complaints/complaints';
 
 
 /**

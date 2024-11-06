@@ -7,16 +7,16 @@
         "logo": "/img/logo/logo-o2.webp",
         "price": {
           "title": "CUOTAS DESDE",
-          "amount": "$900",
-          "altO": "ó ",
-          "altAmount": "S/ 3762 *",
+          "amount": "$990",
+          "altO": "",
+          "altAmount": "",
           "conditions": "(*) Aplican términos y condiciones."
         },
         "infoBoxes": [
           {
             "icon": "/img/icons/area-white.svg",
             "text": "DESDE",
-            "value": "100 m²"
+            "value": "48 m²"
           },
           {
             "icon": "/img/icons/tag-white.svg",

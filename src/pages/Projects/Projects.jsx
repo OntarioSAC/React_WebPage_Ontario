@@ -82,7 +82,7 @@ const Projects = () => {
             <InfoBoxContent data={projectInfoBoxData} />
           </div>
         </div>
-        <ProjectsLeisureArea data={projectLeisureAreaData} formRef={formRef} />
+        <ProjectsLeisureArea data={projectLeisureAreaData} formRef={formRef} projectId={projectId} />
         <ProjectsGallery data={projectGalleryData} onButtonClick={scrollToForm} />
         <ProjectsProgress data={projectProgressData} />
         <ProjectsLocationMap data={projectLocationMapData} />

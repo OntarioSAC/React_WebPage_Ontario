@@ -14,7 +14,8 @@
         { "name": "Coral", "to": "/projects/coral" },
         { "name": "Mykonos", "to": "/projects/mykonos" },
         { "name": "Zafiro", "to": "/projects/zafiro" },
-        { "name": "Prado Piamonte", "to": "/projects/prado-piamonte" }
+        { "name": "Prado Piamonte", "to": "/projects/prado-piamonte" },
+        { "name": "Punta Arena II", "to": "/projects/punta-arena-2" }
       ]
     },
     {

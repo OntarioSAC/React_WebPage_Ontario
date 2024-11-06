@@ -114,3 +114,205 @@
     }
     
 }
+
+
+.icon-column-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    align-items: start;
+}
+
+.custom-card-pt2 {
+    display: grid;
+    grid-template-columns: auto 1fr 2px 1fr auto;
+    align-items: start;
+    gap: 20px;
+    margin-top: clamp(3rem, 2.6807rem + 1.1881vw, 3.75rem);
+    padding: 20px;
+    max-width: 100%; /* Asegura que el contenedor no se desborde */
+
+}
+
+.title-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* max-width: 30px;  */
+    overflow-wrap: break-word; /* Permite que el texto se ajuste al espacio */
+}
+
+
+.title-column-compartidas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* max-width: 30px;  */
+    overflow-wrap: break-word; /* Permite que el texto se ajuste al espacio */
+    margin-left: 30px;
+}
+
+
+
+.icon-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.divider {
+    width: 2px;
+    background-color: #1C284C;
+    height: 90%;
+    align-self: stretch;
+}
+
+.vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    color: #1C284C;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    line-height: 1.2;
+    text-align: center;
+    transform: rotate(180deg); /* Esto ajusta la orientación */
+
+    font-size: 1.2em; /* Aumenta el tamaño de la fuente */
+    line-height: 1.3; /* Ajusta el espaciado entre las letras */
+    width: 100%;
+}
+
+.text-light {
+    font-weight: normal;
+}
+
+.text-bold {
+    font-weight: bold;
+    color: #1C284C; /* Asegúrate de que el color sea el adecuado para que resalte */
+}
+
+
+/* Ajustes para pantallas medianas */
+@media (max-width: 1280px) {
+    .custom-card-pt2 {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 10px;
+        text-align: center;
+        max-width: auto;
+        justify-content: center; /* Centra el contenido horizontalmente */
+    }
+    
+    .title-column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .title-column-compartidas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    
+    .title-column .vertical-text {
+        writing-mode: horizontal-tb;
+        transform: none;
+        text-orientation: initial;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+    }
+
+    .title-column-compartidas .vertical-text {
+        writing-mode: horizontal-tb;
+        transform: none;
+        text-orientation: initial;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+    }
+    
+    .divider {
+        width: 100%;
+        height: 2px;
+        background-color: #1C284C;
+        margin: 10px auto;
+    }
+    
+    .icon-size {
+        max-width: 300px;
+        justify-content: center; /* Centra los iconos */
+    }
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .custom-card-pt2 {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 10px;
+        text-align: center;
+        justify-content: center; /* Centra el contenido horizontalmente */
+    }
+    
+    .title-column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .title-column-compartidas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .title-column .vertical-text {
+        writing-mode: horizontal-tb;
+        transform: none;
+        text-orientation: initial;
+        margin-bottom: 5px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+    }
+
+    .title-column-compartidas .vertical-text {
+        writing-mode: horizontal-tb;
+        transform: none;
+        text-orientation: initial;
+        margin-bottom: 5px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+    }
+    
+    .divider {
+        width: 100%;
+        height: 2px;
+        background-color: #1C284C;
+        margin: 10px auto;
+    }
+    
+    .icon-size {
+        max-width: 300px;
+        justify-content: center; /* Centra los iconos */
+    }
+}

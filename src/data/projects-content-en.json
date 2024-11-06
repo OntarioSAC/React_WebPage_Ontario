@@ -96,7 +96,8 @@
             { "id": "3", "label": "Coral" },
             { "id": "4", "label": "Punta Arena" },
             { "id": "5", "label": "Zafiro" },
-            { "id": "6", "label": "Prado Piamonte" }
+            { "id": "6", "label": "Prado Piamonte" },
+            { "id": "7", "label": "Punta Arena II" }
           ],
           "showProjectSelect": false,
           "projectId": "1",
@@ -310,6 +311,26 @@
             "combineStatus": false,
             "label": "PUNTA DE BOMBÓN",
             "url": "/projects/punta-arena"
+          },
+          {
+            "title": "PUNTA ARENA II",
+            "description": "Country Condominiums",
+            "image": "/img/cards/arena.webp",
+            "from": "From ",
+            "area": "90",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "$180",
+            "priceAlt": "or S/ 675*",
+            "detail1": "From",
+            "detail2": "",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 0,
+            "status": "PRE-",
+            "status2": " SALE",
+            "combineStatus": true,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/punta-arena-2"
           }
         ]
       },
@@ -620,9 +641,9 @@
     {
       "id": "punta-arena",
       "slider": [
-        { "type": "image", "src": "/img/slider/slider-arena1.webp" },
-        { "type": "image", "src": "/img/slider/slider-arena2.webp" },
-        { "type": "image", "src": "/img/slider/slider-arena3.webp" }
+        { "type": "image", "src": "/img/slider/slider-arena1.jpg" },
+        { "type": "image", "src": "/img/slider/slider-arena2.jpg" },
+        { "type": "image", "src": "/img/slider/slider-arena3.jpg" }
       ],
       "infoBox": {
         "logo": "/img/logo/logo-arena.webp",
@@ -690,6 +711,317 @@
             "src": "/img/features/icons_02.svg",
             "alt": "Image description 5",
             "text": "Green areas"
+          }
+        ],
+        "contact": {
+          "documents": [
+            { "id": "1", "label": "ID" },
+            { "id": "2", "label": "Passport" }
+          ],
+          "projects": [
+            { "id": "1", "label": "Santorini" },
+            { "id": "2", "label": "Mykonos" },
+            { "id": "3", "label": "Coral" },
+            { "id": "4", "label": "Punta Arena" },
+            { "id": "5", "label": "Zafiro" },
+            { "id": "6", "label": "Prado Piamonte" }
+          ],
+          "showProjectSelect": false,
+          "projectId": "1",
+          "texts": {
+            "formTitle": "I WANT TO RECEIVE INFORMATION",
+            "namePlaceholder": "*First Name",
+            "surnamePlaceholder": "*Last Name",
+            "emailPlaceholder": "*Email",
+            "documentPlaceholder": "Document...",
+            "dniPlaceholder": "Document Number",
+            "phonePlaceholder": "*Phone",
+            "termsLabel1": "I accept the terms and conditions and the Privacy Policy",
+            "termsLabel2": "I accept receiving advertisements according to the Privacy Policy",
+            "submitButton": "SUBMIT",
+            "conditionsLabel": "Required fields."
+          }
+        }
+      },
+      "gallery": {
+        "title": "YOUR PERFECT SPACE",
+        "subtitle": "IS WAITING FOR YOU",
+        "note": "*Reference images",
+        "backgroundImage": "/img/gallery/santorini-01.webp",
+        "slider": [
+          { "type": "image", "src": "/img/slider-gallery/7.webp" },
+          { "type": "image", "src": "/img/slider-gallery/8.webp" },
+          { "type": "image", "src": "/img/slider-gallery/9.webp" }
+        ],
+        "kuulaUrl": "https://kuula.co/share/h455R?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
+        "videoUrl": "/video/arena.mp4",
+        "cta": {
+          "headline": "Are you interested in our project?",
+          "description": "Book a guided tour to get to know it in depth.",
+          "buttonText": "Schedule visit",
+          "buttonIcon": "/img/icons/arrow-icon.svg"
+        }
+      },
+      "progress": {
+        "title": "PROJECT IN",
+        "titleBold": "PROGRESS",
+        "subtitle": "Work Progress",
+        "description": "See the evolution of our project, capturing every advancement and our ongoing commitment.",
+        "images": [
+          "/img/project/9.webp",
+          "/img/project/11.webp",
+          "/img/project/10.webp",
+          "/img/project/12.webp"
+        ]
+      },
+      "location": {
+        "title": "THE BEST",
+        "titleBold": "LOCATION",
+        "buttons": [
+          {
+            "id": "location",
+            "label": "Mejia",
+            "icon": "ico-location",
+            "type": "image",
+            "src": "/img/map/3.webp",
+            "alt": "Dynamic Map"
+          },
+          {
+            "id": "google",
+            "label": "Maps",
+            "icon": "ico-google",
+            "type": "link",
+            "href": "https://www.google.com/maps/search/?api=1&query=-17.1970369,-71.7492598",
+            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-17.1970369,-71.7492598&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-17.1970369,-71.7492598&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "alt": "Google Maps"
+          },
+          {
+            "id": "waze",
+            "label": "Waze",
+            "icon": "ico-waze",
+            "type": "iframe",
+            "src": "https://embed.waze.com/iframe?zoom=16&lat=-17.1970369&lon=-71.7492598&ct=livema",
+            "href": "https://waze.com/ul?ll=-17.1970369,-71.7492598&navigate=yes"
+          }
+        ]
+      },
+      "sliderProjects": {
+        "title": "YOU MAY ALSO",
+        "titleBold": "BE INTERESTED",
+        "subtitle": "Condominiums",
+        "navLinks": [
+          { "label": "PRE-SALE", "href": "#" },
+          { "label": "MEJÍA", "href": "#" },
+          { "label": "PUNTA DE BOMBÓN", "href": "#" },
+          { "label": "LA JOYA", "href": "#" }
+        ],
+        "projects": [
+          {
+            "title": "PRADO PIAMONTE",
+            "description": "Country Condominiums",
+            "image": "/img/cards/prado.webp",
+            "from": "From ",
+            "area": "300",
+            "unit": "m&sup2",
+            "location": { "city": "La Joya", "region": "Arequipa" },
+            "price": "$229",
+            "priceAlt": "or S/ 899*",
+            "detail1": "From",
+            "detail2": "",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE-",
+            "status2": "SALE",
+            "combineStatus": true,
+            "label": "LA JOYA",
+            "url": "/projects/prado-piamonte"
+          },
+          {
+            "title": "ZAFIRO",
+            "description": "Beach Residential",
+            "image": "/img/cards/zafiro.webp",
+            "from": "From ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "$169",
+            "priceAlt": "or S/ 649*",
+            "detail1": "From",
+            "detail2": "",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE-",
+            "status2": "SALE",
+            "combineStatus": true,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/zafiro"
+          },
+          {
+            "title": "SANTORINI",
+            "description": "Beach Residential",
+            "image": "/img/cards/santorini.webp",
+            "from": "From ",
+            "area": "100",
+            "unit": "m2",
+            "location": { "city": "Mejía", "region": "Arequipa" },
+            "price": "$239",
+            "priceAlt": "or S/ 919*",
+            "detail1": "From",
+            "detail2": "",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE-",
+            "status2": "SALE",
+            "combineStatus": true,
+            "label": "MEJÍA",
+            "url": "/projects/santorini"
+          },
+          {
+            "title": "CORAL",
+            "description": "Real Estate Project",
+            "image": "/img/cards/coral.webp",
+            "from": "From ",
+            "area": "100",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "100%",
+            "priceAlt": "SOLD OUT",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "IN",
+            "status2": " PROGRESS",
+            "combineStatus": false,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/coral"
+          },
+          {
+            "title": "MYKONOS",
+            "description": "Beach Residential",
+            "image": "/img/cards/mykonos.webp",
+            "from": "From ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Mejía", "region": "Arequipa" },
+            "price": "100%",
+            "priceAlt": "SOLD OUT",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "IN",
+            "status2": " PROGRESS",
+            "combineStatus": false,
+            "label": "MEJÍA",
+            "url": "/projects/mykonos"
+          },
+          {
+            "title": "PUNTA ARENA",
+            "description": "Country Condominiums",
+            "image": "/img/cards/arena.webp",
+            "from": "From ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "100%",
+            "priceAlt": "SOLD OUT",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "IN",
+            "status2": " PROGRESS",
+            "combineStatus": false,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/punta-arena"
+          }
+        ]
+      },
+      "contact": {
+        "title": "YOUR PERFECT SPACE"
+      }
+    },
+
+    {
+      "id": "punta-arena-2",
+      "slider": [
+        { "type": "image", "src": "/img/slider/slider-arena-2-1.webp" },
+        { "type": "image", "src": "/img/slider/slider-arena-2-2.webp" },
+        { "type": "image", "src": "/img/slider/slider-arena-2-3.webp" }
+      ],
+      "infoBox": {
+        "logo": "/img/logo/logo-arena-2.webp",
+        "price": {
+          "title": "INSTALLMENTS FROM",
+          "amount": "$180",
+          "altO": "or ",
+          "altAmount": "S/675*",
+          "conditions": "(*) Terms and conditions apply."
+        },
+        "infoBoxes": [
+          {
+            "icon": "/img/icons/area2.svg",
+            "text": "FROM",
+            "value": "90 m²"
+          },
+          {
+            "icon": "/img/icons/tag2.svg",
+            "value": "PRE",
+            "highlighted": "SALE"
+          },
+          {
+            "icon": "/img/icons/location2.svg",
+            "bold": "PUNTA DE BOMBÓN",
+            "value": "AREQUIPA"
+          }
+        ],
+        "colors": {
+          "primaryColor": "#cbf000",
+          "secondaryColor": "#1c284c",
+          "textColor": "#1c284c"
+        }
+      },
+      "area": {
+        "title": "AREAS TO",
+        "titleBold": "ENJOY",
+        "description": "Here we present Punta Arena II, the perfect opportunity to make your dream of living by the sea come true! Following the success of Punta Arena I, we are expanding this exclusive development with more lots so you can be part of this unique community. Here, you’ll find the ideal balance between coastal tranquility and modern comfort.",
+        "icons": [
+          {
+            "src": "/img/features/icons_08.svg",
+            "alt": "Image description 1",
+            "text": "Club House",
+            "type": "propia"
+          },
+          {
+            "src": "/img/features/icons_24.svg",
+            "alt": "Image description 2",
+            "text": "Water park",
+            "type": "compartida"
+          },
+          {
+            "src": "/img/features/icons_35.svg",
+            "alt": "Image description 3",
+            "text": "Commercial areas",
+            "type": "compartida"
+          },
+          {
+            "src": "/img/features/icons_26.svg",
+            "alt": "Image description 7",
+            "text": "Entrance gate",
+            "type": "compartida"
+          },
+          {
+            "src": "/img/features/icons_33.svg",
+            "alt": "Image description 4",
+            "text": "Bonfire area",
+            "type": "compartida"
+          },
+          {
+            "src": "/img/features/icons_02.svg",
+            "alt": "Image description 5",
+            "text": "Green areas",
+            "type": "propia"
           }
         ],
         "contact": {

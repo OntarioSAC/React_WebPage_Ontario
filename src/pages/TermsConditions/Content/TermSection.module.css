@@ -276,3 +276,50 @@
     margin-top: 0;
   }
 }
+
+
+
+
+.subAccordionButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.mainTitle {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.subtitle {
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.sectionTitle {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.numbered {
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+
+.paragraph {
+  margin-bottom: 1em;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.listItem {
+  margin-left: 1.5em;
+  list-style-type: disc;
+}

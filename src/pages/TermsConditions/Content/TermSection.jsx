@@ -35,9 +35,41 @@ const TermSection = ({ data }) => {
   const [selectedSection, setSelectedSection] = useState(terms[0]?.key || "");
   const [openAccordion, setOpenAccordion] = useState(null);
 
+  // --- added
+  const [openSubAccordion, setOpenSubAccordion] = useState(null);
+
+
+
   const toggleAccordion = (key) => {
     setOpenAccordion(openAccordion === key ? null : key);
   };
+
+  // --- added
+  const toggleSubAccordion = (key) => {
+    setOpenSubAccordion(openSubAccordion === key ? null : key);
+  };
+
+
+  // Renderiza cada sección de acuerdo a su tipo
+  const renderSection = (section, index) => {
+    switch (section.type) {
+      case "title":
+        return <h2 key={index} className={styles.mainTitle}>{section.text}</h2>;
+      case "subtitle":
+        return <h3 key={index} className={styles.subtitle}>{section.text}</h3>;
+      case "sectionTitle":
+        return <h4 key={index} className={styles.sectionTitle}>{section.text}</h4>;
+      case "numbered":
+        return <p key={index} className={styles.numbered}>{section.text}</p>;
+      case "paragraph":
+        return <p key={index} className={styles.paragraph}>{section.text}</p>;
+      case "list":
+        return <li key={index} className={styles.listItem}>{section.text}</li>;
+      default:
+        return <p key={index}>{section.text}</p>;
+    }
+  };
+
 
   return (
     <div className={styles.customContent}>
@@ -66,7 +98,7 @@ const TermSection = ({ data }) => {
             ({ key, accordions }) =>
               selectedSection === key && (
                 <div key={key} className={styles.accordion}>
-                  {accordions.map(({ key: accordionKey, title, content }) => (
+                  {accordions.map(({ key: accordionKey, title, content, subitems }) => (
                     <div
                       key={accordionKey}
                       className={`${styles.accordionItem} ${
@@ -97,7 +129,44 @@ const TermSection = ({ data }) => {
                       {openAccordion === accordionKey && (
                         <>
                           <div className={styles.accordionDivider}></div>
-                          <div className={styles.accordionBody}>{content}</div>
+                          {/* <div className={styles.accordionBody}>
+                            {content}
+                          </div> */}
+
+                          <div className={styles.accordionBody}>
+                            <p>{content}</p>
+                            {/* Renderizar subitems si existen */}
+                            {subitems && subitems.map(({ key, title, sections }) => (
+                              <div
+                                key={key}
+                                className={`${styles.subAccordionItem} ${
+                                  openSubAccordion === key ? styles.subAccordionActive : ""
+                                }`}
+                              >
+                                <div className={styles.subAccordionHeader}>
+                                  <h4>{title}</h4>
+                                  <button
+                                    className={styles.subAccordionButton}
+                                    onClick={() => toggleSubAccordion(key)}
+                                  >
+                                    <span className={styles.circle}>
+                                      <img
+                                        src={openSubAccordion === key ? ArrowUp : ArrowDown}
+                                        alt="toggle subitem"
+                                        loading="lazy"
+                                      />
+                                    </span>
+                                  </button>
+                                </div>
+                                {openSubAccordion === key && (
+                                  <div className={styles.subAccordionBody}>
+                                    {sections.map((section, index) => renderSection(section, index))}
+                                  </div>
+                                )}
+                              </div>
+                            ))}
+                          </div>
+
                         </>
                       )}
                     </div>

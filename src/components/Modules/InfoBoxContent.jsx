@@ -32,6 +32,7 @@ const InfoBoxContent = ({ data }) => {
             <p className={styles['price']}> {price.amount} </p>
             <span className={styles['span']} style={altAmountStyle} >{price.altO}</span>
             <span className={styles['price-alt']} style={altAmountStyle}>{price.altAmount} </span>
+            {/* <p/> separación de 1 línea */}
             <p className={styles['conditions']}>{price.conditions}</p>
           </div>
         </div>

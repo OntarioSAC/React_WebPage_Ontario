@@ -102,9 +102,9 @@
     }
 }
 
-@media (max-height: 768px) {
+@media (max-height: 768px ) {
     .popup-content {
-      /* max-width: 40%; */
+      max-width: 40%;
       /* max-height: 100%; */
     }
   

@@ -35,6 +35,11 @@
       "name": "Referidos",
       "to": "/referrals",
       "icon": "/img/icons/referals.svg"
+    },
+    {
+      "name": "Noticias",
+      "to": "/referrals",
+      "icon": "/img/icons/referals.svg"
     }
   ],
   "languages": [

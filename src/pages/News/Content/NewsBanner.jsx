@@ -58,7 +58,9 @@ const NewsBanner = () => {
     fetchBannerData();
   }, [i18n.language]);
 
- 
+  if (!bannerData || !bannerData.image) {
+    return <div>Cargando...</div>; // Muestra un estado de carga mientras no haya datos
+  }
 
   return (
     <section style={bannerStyle(bannerData.image)}>

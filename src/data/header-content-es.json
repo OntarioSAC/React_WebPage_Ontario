@@ -38,7 +38,7 @@
     },
     {
       "name": "Noticias",
-      "to": "/referrals",
+      "to": "/news",
       "icon": "/img/icons/referals.svg"
     }
   ],

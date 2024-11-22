@@ -14,6 +14,7 @@ import Apartments from './pages/Apartments/Apartments';
 import TermsConditions from './pages/TermsConditions/TermsConditions';
 import Loader from './pages/Loader/Loader'; // Importar el loader
 import Complaints from './pages/Complaints/complaints';
+import News from './pages/News/News';
 
 
 /**
@@ -65,9 +66,6 @@ const App = () => {
   if (loading) {
     return <Loader />;
   }
-
-
-
   
   // Estructura principal de la aplicación
   return (
@@ -84,6 +82,7 @@ const App = () => {
           <Route path="/referrals" element={<Referrals />} />
           <Route path="/terms" element={<TermsConditions />} />
           <Route path="/complaints" element={<Complaints />} />
+          <Route path="/news" element={<News/>} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </main>

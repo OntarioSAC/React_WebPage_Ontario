@@ -35,6 +35,11 @@
       "name": "Referrals",
       "to": "/referrals",
       "icon": "/img/icons/referals.svg"
+    },
+    {
+      "name": "News",
+      "to": "/news"
+    
     }
   ],
   "languages": [

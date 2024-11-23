@@ -4,7 +4,7 @@ import newsContentEN from "../../../data/news-content-en.json";
 import newsContentES from "../../../data/news-content-es.json";
 
 const bannerStyle = (image) => ({
-  position: "relative",
+  // position: "relative",
   textAlign: "center",
   color: "var(--secondary-color)",
   backgroundImage: `url(${image})`,
@@ -18,7 +18,7 @@ const bannerStyle = (image) => ({
 
 const contentWrapperStyle = {
   position: "relative",
-  top: "-15vh", // Sube el contenido un poco más arriba
+  top: "-15vh", 
   textAlign: "center", // Asegura que todo esté centrado
 };
 
@@ -28,7 +28,10 @@ const titleStyle = {
   color: "var(--secondary-color)",
 };
 
-
+const highlightStyle = {
+  color: "var(--primary-color)", // Color resaltado
+  fontWeight: "bold", // Resalta en negrita
+};
 
 const descriptionStyle = {
   marginTop: "1rem", // Espacio entre el título y el texto de descripción
@@ -62,25 +65,13 @@ const NewsBanner = () => {
   return (
     <section style={bannerStyle(bannerData.image)}>
       <div style={contentWrapperStyle}>
-        <div>
-          <h1 style={titleStyle}>
-            {bannerData.title} {bannerData.highlight}
-
-            {bannerData.title} <span style={highlightStyle}>{bannerData.highlight}</span>
-
-          </h1>
-
-        </div>
-        <div>
-          
-          <p style={descriptionStyle}>{bannerData.description}</p>
-          
-        </div>
+        <h1 style={titleStyle}>
+          {bannerData.title} <span style={highlightStyle}>{bannerData.highlight}</span>
+        </h1>
+        <p style={descriptionStyle}>{bannerData.description}</p>
       </div>
     </section>
   );
 };
 
 export default NewsBanner;
-
-

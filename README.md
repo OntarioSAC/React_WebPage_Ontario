@@ -10,6 +10,7 @@ Este proyecto está construido con React utilizando Vite como herramienta de com
 
 Para verificar que Node.js y Yarn están instalados correctamente, ejecuta los siguientes comandos en tu terminal:
 
+
 ```bash
 node -v
 yarn -v

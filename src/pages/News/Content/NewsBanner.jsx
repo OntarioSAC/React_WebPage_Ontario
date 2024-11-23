@@ -65,10 +65,16 @@ const NewsBanner = () => {
         <div>
           <h1 style={titleStyle}>
             {bannerData.title} {bannerData.highlight}
+
+            {bannerData.title} <span style={highlightStyle}>{bannerData.highlight}</span>
+
           </h1>
+
         </div>
         <div>
+          
           <p style={descriptionStyle}>{bannerData.description}</p>
+          
         </div>
       </div>
     </section>

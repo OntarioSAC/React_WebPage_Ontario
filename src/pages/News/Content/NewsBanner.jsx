@@ -18,7 +18,7 @@ const bannerStyle = (image) => ({
 
 const contentWrapperStyle = {
   position: "relative",
-  top: "-5vh", // Sube el contenido un poco más arriba
+  top: "-15vh", // Sube el contenido un poco más arriba
   textAlign: "center", // Asegura que todo esté centrado
 };
 
@@ -28,10 +28,7 @@ const titleStyle = {
   color: "var(--secondary-color)",
 };
 
-const highlightStyle = {
-  fontWeight: "bold",
-  color: "var(--primary-color)", // Ajusta el color si es necesario
-};
+
 
 const descriptionStyle = {
   marginTop: "1rem", // Espacio entre el título y el texto de descripción
@@ -67,7 +64,7 @@ const NewsBanner = () => {
       <div style={contentWrapperStyle}>
         <div>
           <h1 style={titleStyle}>
-            {bannerData.title} <span style={highlightStyle}>{bannerData.highlight}</span>
+            {bannerData.title} {bannerData.highlight}
           </h1>
         </div>
         <div>

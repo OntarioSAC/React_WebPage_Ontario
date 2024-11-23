@@ -33,6 +33,7 @@ const NewsTabs = () => {
       <button style={tabStyle}>Celebridades y Embajadores</button>
       <button style={tabStyle}>Eventos y Ferias</button>
       <button style={tabStyle}>Prensa</button>
+      
     </div>
   );
 };

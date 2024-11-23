@@ -1,0 +1,14 @@
+{
+    "cards": [
+     {
+       "id": 1,
+       "image": "/img/news/o2lanzamiento.png",
+       "title": "¡Nuevos Departamentos en Arequipa! Descubre O2 by Ontario",
+       "text": "ONTARIO",
+       "description": "¡Vive en el futuro de Arequipa! Presentamos O2 by Ontario, nuestro nuevo proyecto de departamentos diseñado para quienes buscan una vida moderna y equilibrada en Cerro Colorado.",
+       "buttonText": "Ver más",
+       "redirectTo": "/proyecto-ontario"
+     }
+   ]
+   }
+   

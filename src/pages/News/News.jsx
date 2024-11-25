@@ -12,7 +12,7 @@ const News = () => {
     <div style={containerStyle}>
       <NewsBanner />
       <NewsTabs />
-      <Cards />
+      <Cards/>
     </div>
   );
 };

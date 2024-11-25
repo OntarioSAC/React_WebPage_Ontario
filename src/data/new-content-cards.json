@@ -6,8 +6,91 @@
       "title": "¡Nuevos Departamentos en Arequipa! Descubre O2 by Ontario",
       "text": "ONTARIO",
       "description": "¡Vive en el futuro de Arequipa! Presentamos O2 by Ontario, nuestro nuevo proyecto de departamentos diseñado para quienes buscan una vida moderna y equilibrada en Cerro Colorado.",
-      "buttonText": "Ver más",
-      "redirectTo": "/proyecto-ontario"
+      "buttonText": "Leer más",
+      "redirectTo": "/proyecto-ontario",
+      "etiqueta": "Lanzamiento"
+    },
+    {
+      "id": 2,
+      "image": "/img/news/cuestanoticia.png",
+      "title": "¡Bernardo Cuesta se une a Ontario!",
+      "text": "ONTARIO",
+      "description": "¡Nos complace anunciar la incorporación del goleador histórico del equipo representativo de la ciudad de Arequipa! Este fichaje nos fortalece como marca. ",
+      "buttonText": "Leer más",
+      "redirectTo": "/proyecto-ontario",
+      "etiqueta": "Lanzamiento"
+    },
+    {
+      "id": 3,
+      "image": "/img/news/puntaarenaiilanzamiento.png",
+      "title": "¡Punta Arena II: Tu nuevo hogar frente al mar en Arequipa!",
+      "text": "ONTARIO",
+      "description": "Estamos emocionados de anunciar el lanzamiento de nuestro nuevo proyecto: Punta Arena II. Este exclusivo desarrollo residencial te ofrece la oportunidad de vivir en un paraíso junto al mar, en la hermosa localidad de Punta de Bombón.",
+      "buttonText": "Leer más",
+      "redirectTo": "/proyecto-ontario",
+      "etiqueta": "Lanzamiento"
+    },
+    {
+      "id": 4,
+      "image": "/img/news/avancedeobramykonos.png",
+      "title": "¡Mykonos cobra vida! Nuestro sueño se hace realidad",
+      "text": "ONTARIO",
+      "description": "Desde los cimientos hasta los acabados, cada aspecto de nuestro proyecto está siendo ejecutado con la máxima precisión y cuidado. Estamos comprometidos en crear espacios únicos que combinen a la perfección el lujo, la comodidad y la belleza natural de Mejía.",
+      "buttonText": "Leer más",
+      "redirectTo": "/proyecto-ontario",
+      "etiqueta": "Lanzamiento"
+    },
+    {
+      "id": 5,
+      "image": "/img/news/fiastandontario.png",
+      "title": "Diario Gestión: Grupo Ontario lidera la innovación inmobiliaria en el sur del Perú con proyectos sostenibles",
+      "text": "ONTARIO",
+      "description": "Nuestra visión es clara: crear espacios que no solo sean hermosos y funcionales, sino que también sean respetuosos con el medio ambiente",
+      "buttonText": "Leer más",
+      "redirectTo": "/proyecto-ontario",
+      "etiqueta": "Lanzamiento"
+    },
+    {
+      "id": 6,
+      "image": "/img/news/fiainauguracionontario.png",
+      "title": "¡Ontario está presente en la última edición de FIA 2024!",
+      "text": "ONTARIO",
+      "description": "En esta edición, presentamos nuestros proyectos más innovadores, diseñados para transformar la forma en que vivimos y trabajamos.",
+      "buttonText": "Leer más",
+      "redirectTo": "/proyecto-ontario",
+      "etiqueta": "Lanzamiento"
+    }
+  ],
+  "notiMini": [
+    {
+      "id": 1,
+      "title": "¡Punta Arena II: Tu nuevo hogar frente al mar en Arequipa!",
+      "fecha": "16 de octubre"
+    },
+    {
+      "id": 2,
+      "title": "¡Mykonos cobra vida! Nuestro sueño se hace realidad",
+      "fecha": "11 de octubre"
+    },
+    {
+      "id": 3,
+      "title": "¡Bernardo Cuesta se une a Ontario!",
+      "fecha": "15 de agosto"
+    },
+    {
+      "id": 4,
+      "title": "Diario Gestión: Grupo Ontario lidera la innovación inmobiliaria en el sur del Perú con proyectos sostenibles",
+      "fecha": "10 de agosto"
+    },
+    {
+      "id": 5,
+      "title": "¡Punta Arena II: Tu nuevo hogar frente al mar en Arequipa!",
+      "fecha": "16 de octubre"
+    },
+    {
+      "id": 6,
+      "title": "¡Punta Arena II: Tu nuevo hogar frente al mar en Arequipa!",
+      "fecha": "16 de octubre"
     }
   ]
 }

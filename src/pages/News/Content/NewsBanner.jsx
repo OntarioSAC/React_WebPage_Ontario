@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import newsContentEN from "../../../data/news-content-en.json";
 import newsContentES from "../../../data/news-content-es.json";
 
+
 const bannerStyle = (image) => ({
   position: "relative",
   textAlign: "center",
@@ -18,7 +19,7 @@ const bannerStyle = (image) => ({
 
 const contentWrapperStyle = {
   position: "relative",
-  top: "-5vh", // Sube el contenido un poco más arriba
+  top: "-15vh", // Sube el contenido un poco más arriba
   textAlign: "center", // Asegura que todo esté centrado
 };
 
@@ -28,10 +29,7 @@ const titleStyle = {
   color: "var(--secondary-color)",
 };
 
-const highlightStyle = {
-  fontWeight: "bold",
-  color: "var(--primary-color)", // Ajusta el color si es necesario
-};
+
 
 const descriptionStyle = {
   marginTop: "1rem", // Espacio entre el título y el texto de descripción
@@ -44,7 +42,10 @@ const descriptionStyle = {
   fontWeight: "400", // Asegúrate de que la fuente no esté en negrita
   margin: "0 auto", // Centra el texto horizontalmente
 };
-
+const highlightStyle = {
+  backgroundColor: 'yellow',
+  fontWeight: 'bold',
+};
 const NewsBanner = () => {
   const { i18n } = useTranslation();
   const [bannerData, setBannerData] = useState(null);
@@ -67,6 +68,7 @@ const NewsBanner = () => {
       <div style={contentWrapperStyle}>
         <div>
           <h1 style={titleStyle}>
+            {bannerData.title} {bannerData.highlight}
 
             {bannerData.title} <span style={highlightStyle}>{bannerData.highlight}</span>
 

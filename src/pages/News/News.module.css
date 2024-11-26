@@ -1,28 +1,38 @@
 .ContentNotice{
-    background-color: rgb(173, 142, 142);
-    display: flex;
     
+    width: 1300px;
+    display: flex;
     flex-direction: row;
     justify-content: center;
 }
-
-.generalcards{
-    background-color: rgb(37, 202, 202);
+.padre{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     
+   
 }
-
-/* Media query para pantallas más pequeñas */
-@media (max-width: 768px) {
+.eventos{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.generalcards {
+    width: 100%; /* Por defecto, ocupa el 50% del ancho */
+  }
+  
+  @media (max-width: 768px) {
     .ContentNotice {
-      flex-direction: column;
+      flex-direction: column; /* Cambia a columna en pantallas pequeñas */
     }
-    .padrecards{
-        
-        width: 100%;
-    }
+  
+   
   }
 
 .padrecards{
-    background-color: rgb(178, 130, 67);
-    width: 50%;
+   
+    display: flex;
+    justify-content: center;
 }
+
+

@@ -1,96 +1,9 @@
 
 import { useNavigate } from "react-router-dom";
 import data from "../../../data/new-content-cards.json"; // Asegúrate de que este archivo contiene las tarjetas
-
+import styles from './CardStyle.module.css';
 import React , {useState} from 'react';
 
-
-const bodycard ={
-   backgroundColor:'orange',
-   
-   position:'relative',
-   display:'flex',
-   flexDirection:'row',
-   rowGap: '72px', 
-   columnGap: '36px', 
-   flexWrap: 'wrap',
-   justifyContent: 'center'
-};
-
-const cards ={
-    backgroundColor: 'transparent',
-    height:'501px',
-    width: '374px',
-    borderTopLeftRadius:30,
-    borderTopRightRadius:30,
-    borderBottomRightRadius:30,
-    boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)"
-
- };
-
- const insidecards ={
-   height:'432px',
-    width: '374px',
- }
-
- const fatherimage={
-    backgroundColor: 'transparent',
-    borderTopRightRadius: '30px',
-    borderTopLeftRadius: '30px',
-    borderBottomLeftRadius: '30px',
-    height: '216px',
-    width: '100%',
-    overflow:'hidden'
- };
- const image ={
-    backgroundColor: 'transparent',
-    height: '100%',
-    width: '100%',
-    
- };
-
- const fathertitle ={
-   paddingTop:20,
-   backgroundColor: 'transparent',
-   width: '100%',
-   display: 'flex',
-   justifyContent: 'center',
-   alignItems: 'center',
-   flexDirection: 'column',
-   fontSize:'20px'
-   
-   
-   
-
-};
- const h1text ={
-    backgroundColor: 'transparent',
-    width: '85%',
-    fontFamily: "Inter",
-    lineHeight: "normal",
-    fontStyle: "normal",
-    
-
- };
- const h1texttitle = {
-   backgroundColor: 'white',
-   fontWeight: 800,
-   fontSize:"20px",
-   color:'#1C284C'
-
-   
-};
- const content_text ={
-    backgroundColor: 'transparent',
-    width: '85%',
-    color: "#1C284C",
-   fontFamily: "Inter",
-   fontSize: "15px",
-   fontStyle: "normal",
-   fontWeight: 400,
-   lineHeight: "normal",
-
- };
 
  const texto ={ 
     fontSize:'15px' 
@@ -141,24 +54,24 @@ const Cards = () => {
 
   return (
    
-<div style={bodycard} >
+<div className={styles.bodycard} >
 {data.cards.map((card) => (
   <div
     key={card.id}
-    style={cards}
+    className={styles.cards}
     onMouseEnter={() => setHovered(card.id)} // Al pasar el mouse, establece el id de la tarjeta
     onMouseLeave={() => setHovered(null)} // Al quitar el mouse, borra el id
     onClick={() => navigate(`/card/${card.id}`)}
               
   >
-    <div style={insidecards}>
+    <div className={styles.insidecards}>
       {/* Imagen */}
-      <div style={fatherimage}>
+      <div className={styles.fatherimage}>
         <img
           src={card.image}
           alt={card.title}
+          className={styles.image}
           style={{
-            ...image,
             transform: hovered === card.id ? 'scale(1.2)' : 'scale(1)',  // Solo hace zoom si el id coincide
             transition: 'transform 0.3s ease',  // Suaviza la animación
             objectFit: 'cover',  // Asegura que la imagen se ajuste bien
@@ -168,13 +81,13 @@ const Cards = () => {
       </div>
 
       {/* Título */}
-      <div style={fathertitle}>
-        <div style={h1text}>
-          <p style={h1texttitle}>{card.title}</p>
+      <div className={styles.fathertitle}>
+        <div className={styles.h1text}>
+          <p className={styles.h1texttitle}>{card.title}</p>
         </div>
 
         {/* Descripción */}
-        <div style={content_text}>
+        <div className={styles.content_text}>
           <p style={texto}>{card.description}</p>
         </div>
       </div>

@@ -4,10 +4,7 @@ import styles from "./Banner.module.css";
 function Banner() {
 
     
-    const image ={
-        width:'640px',
-        height: '418px',
-    }
+  
 
   return (
     <div className={styles.bodybanner}>
@@ -19,9 +16,7 @@ function Banner() {
                 <div className={styles.img}>
                     <img
                     src={banner.image}
-                    style={{
-                        ...image,
-                    }}
+                    className={styles.image}
                     />
                 </div>
 
@@ -38,7 +33,7 @@ function Banner() {
                             </p>
                         </div>
                     </div>
-               
+
 
                 <div  className={styles.icons}>
                     <div className={styles.iconsint}>

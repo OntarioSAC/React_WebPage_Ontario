@@ -1,32 +1,42 @@
 .bodybanner{
-  background-color: white;
+  background-color: aqua;
+  height: 450px;
   display: flex;
+  
   justify-content: center;
   align-items: center;
-  height: 600px;
-  
+  justify-content: flex-end;
+  flex-direction: column;
   
 }
 .bannerinterent{
     background-color: #EFEADE;
     display: flex;
     flex-direction:row;
-    width: 80%;
     height: 356px;
     align-items: center;
 }
 .img{
-    
+   
     display: flex;
-    
+
 }
+
 .fathertitle{
   
+    
     height: 152px;
+    margin-left: -50px;
     display: flex;
     flex-direction: column;
    
     
+}
+.image{
+    width: 640px;
+    height: 418px;
+   
+    margin-bottom: 60px;
 }
 .title{
     width: 300px;
@@ -50,6 +60,7 @@ line-height: normal;
 }
 .icons{
     background-color: #CBF000;
+    margin-left: 50px;
     height: 100%;
     width: 353px;
     border-radius: 50px 0px;
@@ -85,3 +96,63 @@ line-height: normal;
     font-weight: 400;
     line-height: normal;
 }
+
+@media (max-width: 1268px) {
+    .bodybanner {
+      flex-direction: column;
+      height: auto;
+    }
+    .bannerinterent{
+        display: flex;
+        flex-direction:column;
+        height: auto;
+    }
+   
+  }
+@media (max-width: 768px) {
+    .bodybanner {
+      flex-direction: column;
+      height: auto;
+    }
+    .bannerinterent{
+        display: flex;
+        flex-direction:column;
+        height: auto;
+    }
+    .img{
+        display: flex;
+        justify-content: center;
+        background-color: transparent;
+        overflow: hidden;
+        margin-top: 25px;
+    }
+    .image{
+        width: 388px;
+        height: 240px;
+
+        
+    }
+    .fathertitle{
+        background-color: transparent;
+        height: 240px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .bannerinterent{
+        display: flex;
+        justify-content: center;
+    }
+    .icons{
+        height: 140.416px;
+        margin: 0;
+        border-radius: 20px 0px;
+
+    }
+    .iconredes{
+        width: 32.415px;
+        height: 32.405px;
+    }
+   
+  }

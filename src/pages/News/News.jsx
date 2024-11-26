@@ -24,25 +24,34 @@ const News = () => {
  
 
   return (
-    <div>
+    <div className={styles.padre}>
       <NewsBanner />
       <NewsTabs />
-      <div className={styles.ContentNotice}>
+
+    <div className={styles.eventos}>
+        <div className={styles.ContentNotice}>
+
         <div className={styles.padrecards}>
           <Cards className={styles.generalcards}>
           </Cards>
         </div>
-        <div>
-          <Sidebar>
+        <div className={styles.padrecards}>
+          <Sidebar className={styles.generalcards}>
           </Sidebar>
+        </div>  
+
         </div>
-        
-      </div>
+    </div>
+      
       
 
 
-       {/* Sección de Banner */}
-       <Banner></Banner>
+       {/* Sección de Banner
+       
+       */}
+       <Banner>
+        
+       </Banner>
 
        {/* Sección de formulario */}
        <FormSection data={formSection} />

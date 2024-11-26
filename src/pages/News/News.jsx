@@ -3,16 +3,16 @@ import { useTranslation } from "react-i18next"; // Importa el hook de traducció
 import NewsBanner from './Content/NewsBanner';
 import NewsTabs from './Content/NewsTabs';
 import Cards from './Content/Cards';
-<<<<<<< HEAD
+import FormSection from '../Home/Content/FormSection';
+import WhatsappButton from '../../components/Modules/WhatsappButton';
+
+
 
 const containerStyle = {
   position: 'relative', // Para posicionar las pestañas relativas al banner
 };
 
-=======
-import FormSection from '../Home/Content/FormSection';
-import WhatsappButton from "../../components/Modules/WhatsappButton";
->>>>>>> 0201039713c7f59a0008f4c30371923ba338f921
+
 const News = () => {
   // Hook para obtener las traducciones
   const { t } = useTranslation(); // Hook para obtener las traducciones
@@ -31,9 +31,6 @@ const News = () => {
     <div style={containerStyle}>
       <NewsBanner />
       <NewsTabs />
-<<<<<<< HEAD
-      <Cards/>
-=======
       <Cards>
       </Cards>
        {/* Sección de formulario */}
@@ -47,7 +44,6 @@ const News = () => {
         </div>
       </div>
 
->>>>>>> 0201039713c7f59a0008f4c30371923ba338f921
     </div>
   );
 };

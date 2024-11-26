@@ -10,7 +10,7 @@ const tabsContainerStyle = {
   borderBottomRightRadius: "40px", // Esquina inferior derecha
   padding: "1.3rem", // Espaciado superior
   boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", // Sombra para un mejor diseño
-  width: "60%", // Ajusta el ancho
+  width: "80%", // Ajusta el ancho
   zIndex: 10, // Asegura que esté por encima de la imagen
 };
 

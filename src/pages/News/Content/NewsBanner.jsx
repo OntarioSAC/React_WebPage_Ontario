@@ -28,10 +28,7 @@ const titleStyle = {
   color: "var(--secondary-color)",
 };
 
-const highlightStyle = {
-  color: "var(--primary-color)", // Color resaltado
-  fontWeight: "bold", // Resalta en negrita
-};
+
 
 const descriptionStyle = {
   marginTop: "1rem", // Espacio entre el título y el texto de descripción
@@ -66,7 +63,7 @@ const NewsBanner = () => {
     <section style={bannerStyle(bannerData.image)}>
       <div style={contentWrapperStyle}>
         <h1 style={titleStyle}>
-          {bannerData.title} <span style={highlightStyle}>{bannerData.highlight}</span>
+          {bannerData.title} {bannerData.highlight}
         </h1>
         <p style={descriptionStyle}>{bannerData.description}</p>
       </div>

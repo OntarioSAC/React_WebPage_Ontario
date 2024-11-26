@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 \video
-/public/img/news/headernews.gif
+\img

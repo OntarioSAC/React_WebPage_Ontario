@@ -4,10 +4,11 @@ import React , {useState} from 'react';
 import styles from './SidebarStyle.module.css';
 
 const derecha_ = {
-   backgroundColor: 'transparent',
-   display:'flex',
-   flexDirection:'column',
-   gap:32 
+   
+   display: 'flex',
+   marginTop: '40px', // Cambiado a camelCase
+   flexDirection: 'column',
+   gap: 32
 };
 const derecha_int = {
    cursor:'pointer',
@@ -29,7 +30,7 @@ const derecha_int = {
 };
 
 const derecha_int_text = {
-   backgroundColor: 'transparent',
+   
    width: '90%',
 };
 const text_texto_dere={
@@ -56,7 +57,7 @@ const derecha_int_fecha_cuerpo={
 }
 const titulo_derecha={
    paddingTop:15,
-   paddingBottom: 15,
+   
    color:'#1C284C',
    fontFamily: "Inter",
    fontSize: "24px",
@@ -67,7 +68,7 @@ const titulo_derecha={
 }
 const titulo_derecha_in={
    paddingTop:15,
-   paddingBottom: 15,
+   
    color:'#1C284C',
    fontFamily: "Inter",
    fontSize: "24px",
@@ -79,7 +80,8 @@ const titulo_derecha_in={
 const Titulo_general={
    display:'flex',
    flexDirection:'row',
-   gap:7
+   gap:7,
+   
 
 }
 

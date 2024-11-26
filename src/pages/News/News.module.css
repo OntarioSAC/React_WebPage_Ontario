@@ -16,6 +16,8 @@
     width: 100%;
     justify-content: center;
     display: flex;
+    
+    margin-top: 30px;
 }
 .generalcards {
     width: 100%; /* Por defecto, ocupa el 50% del ancho */

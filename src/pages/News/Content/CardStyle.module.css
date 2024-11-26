@@ -1,4 +1,6 @@
 .bodycard{
+    margin-top: 55px;
+    width: 900px;
     
     position: relative;
     display: flex;
@@ -6,10 +8,10 @@
     row-gap: 72px;
     column-gap: 36px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:center;
 }
 .cards{
-    background-color: transparent;
+    
     height: 501px;
     width: 374px;
     border-top-left-radius: 30px;
@@ -20,6 +22,7 @@
 }
 
 .insidecards{
+   
     height: 432px;
     width: 374px;
     
@@ -111,16 +114,22 @@
     
 }
 @media (max-width: 768px) {
+    .bodycard{
+        width: 100%;
+    }
     .cards{
         width: 329.745px;
         height: 441.717px;
         flex-shrink: 0;
+        
     }
 
     .insidecards{
+        
         width: 329.745px;
         height: 441.717px;
         flex-shrink: 0;
+        
     }
     .image{
         background-color: transparent;

@@ -1,16 +1,16 @@
 {
-    "Banner":[
-        {
-            "id": 1,
-            "image": "/img/news/cuestaimagencta.png",
-            "title": "Sigue Nuestras Actualizaciones",
-            "description": "Entérate de primera mano de las últimas novedades, avances y eventos de Ontario Inmobiliaria.",
-            "redestitle":"Síguenos en Nuestras Redes Sociales",
-            "facebook":"",
-            "instagram":"",
-            "tiktok":"",
-            "youtube":""
-
-        }
+    "Banner": [
+      {
+        "id": 1,
+        "image": "/img/news/cuestaimagencta.png",
+        "title": "Sigue Nuestras Actualizaciones",
+        "description": "Entérate de primera mano de las últimas novedades, avances y eventos de Ontario Inmobiliaria.",
+        "redestitle": "Síguenos en Nuestras Redes Sociales",
+        "facebook": "",
+        "instagram": "",
+        "tiktok": "",
+        "youtube": ""
+      }
     ]
-}
+  }
+  

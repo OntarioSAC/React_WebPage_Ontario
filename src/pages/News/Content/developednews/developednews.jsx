@@ -1,9 +1,18 @@
 import React from 'react'
 import { useParams ,useNavigate  } from "react-router-dom";
+import { useTranslation } from "react-i18next"; // Importa el hook de traducción
 import data from "../../../../data/new-content-cards.json"
 import styles from "./developed.module.css";
 import Sidebar from '../Sidebar';
+import FormSection from '../../../Home/Content/FormSection';
+import Banner from '../../../../components/Banner/Banner';
 function developednews() {
+   // Hook para obtener las traducciones
+   const { t } = useTranslation(); // Hook para obtener las traducciones
+
+
+   const formSection = t('formSection', { returnObjects: true });
+ 
     const { id } = useParams();
     const navigate = useNavigate(); // Hook para navegar entre rutas
     const card = data.cards.find((card) => card.id === parseInt(id)); // Busca la tarjeta por ID
@@ -14,6 +23,7 @@ function developednews() {
     }
     
   return (
+    <div>
     <div className={styles.generalbody}>
 
        
@@ -56,7 +66,7 @@ function developednews() {
       <span className={styles.fechact}>{card.fecha}</span>
 
         {/* Imagen */}
-        <div >
+        <div className={styles.imageinf} >
         
         <img
           src={card.image}
@@ -112,16 +122,15 @@ function developednews() {
         {card.title3}
       </h2>
       <div>
-          {/* Aquí se renderiza el contenido de "lista1" */}
+      {/* Aquí se renderiza el contenido de "lista2" */}
       {card.lista2.map((item, index) => (
-          <ul className={styles.listp}>
-          <li  key={index}>
+        <ul key={index} className={styles.listp}>
+          <li>
             {item}
           </li>
         </ul>
-             
       ))}
-      </div>
+    </div>
 
       <div className={styles.end}>
         {card.end}
@@ -138,9 +147,20 @@ function developednews() {
 
         </Sidebar>
 
-    </div>
-    
-    
+
+
+        </div>
+      <di>
+        <Banner></Banner>
+      </di>
+
+      <di>
+           {/* Sección de formulario */}
+      <FormSection data={formSection} /> 
+      </di>  
+
+        
+      </div> 
   )
 }
 

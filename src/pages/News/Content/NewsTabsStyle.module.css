@@ -1,0 +1,107 @@
+
+.toggleButton {
+    display: none; /* Mostrar el botón de menú */
+    
+    width: 20px;
+    right: 0;
+    
+    cursor: pointer;
+    
+
+  }
+
+.displayn{
+    display: none;
+}
+.fathergeneral{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    display: none;
+}
+
+/* Estilo solo para pantallas menores a 1116px */
+@media (max-width: 1116px) {
+    .displayn{
+        display: block;
+        width: 100%;
+        
+        color: #1C284C;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14.107px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-align: center;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 7px;
+    }
+    .generalbody{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .buttonfilter {
+        display: block;
+        width: 100%;
+        text-align: center;
+        background-color: #1C284C !important;
+        color: white !important;
+        font-size: 14.107px;
+        
+        
+        
+    }
+
+    .toggleButton {
+        display: flex; /* Mostrar el botón de menú */
+        justify-content: center;
+        align-items: center;
+        color: #1C284C;
+        width: 30px;
+        
+       
+        
+        right: 10px;
+        top: 0;
+        font-size: 16px;
+        transition: all 0.3s ease;
+    }
+    .fathernav{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        position: absolute;
+        width: 100%;
+        padding-bottom: 10px;
+
+    }
+    .desktop{
+        display: none;
+    }
+    .menu {
+        
+        display: block;
+        z-index: 5;
+        max-height: 0;
+        height: 330px;
+        width: 80%;
+        transition: max-height 0.5s ease-in-out;
+        background-color: #1C284C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+        border-bottom-right-radius: 30px;
+    }
+
+    .menu.open {
+        max-height: 500px; /* Define una altura suficiente para mostrar el menú desplegable */
+    }
+}

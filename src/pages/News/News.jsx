@@ -23,7 +23,7 @@ const News = () => {
 
 
   return (
-    <div style={containerStyle}>
+    <div>
       <NewsBanner />
       <NewsTabs />
       <div className={styles.ContentNotice}>

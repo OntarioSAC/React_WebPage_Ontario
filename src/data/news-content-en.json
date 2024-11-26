@@ -1,8 +1,16 @@
 {
-  "banner": {
-    "image": "/img/news/headernews.gif",
+  "header": {
+    "image": "/video/headernews.mp4",
     "title": "NEWS",
     "highlight": "ONTARIO",
     "description": "Stay informed about the latest news, progress, and events at Ontario Real Estate."
-  }
+  },
+  "tabs": [
+    { "id": 1, "label": "All", "active": true },
+    { "id": 2, "label": "Launches", "active": false },
+    { "id": 3, "label": "Construction Progress", "active": false },
+    { "id": 4, "label": "Celebrities and Ambassadors", "active": false },
+    { "id": 5, "label": "Events and Fairs", "active": false },
+    { "id": 6, "label": "Press", "active": false }
+  ]
 }

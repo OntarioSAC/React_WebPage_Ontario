@@ -1,11 +1,16 @@
 {
-    "banner": {
-      "image": "/img/news/headernews.gif",
-      "title": "NOTICIAS",
-      "highlight": "ONTARIO",
-      "description": "Entérate de las últimas novedades, avances y eventos de Ontario Inmobiliaria."
-    }
-  
-    
-  }
-  
+  "header": {
+    "image": "/video/headernews.mp4",
+    "title": "NOTICIAS",
+    "highlight": "ONTARIO",
+    "description": "Mantente informado sobre las últimas noticias, avances y eventos en Ontario Inmobiliaria."
+  },
+  "tabs": [
+    { "id": 1, "label": "Todo", "active": true },
+    { "id": 2, "label": "Lanzamientos", "active": false },
+    { "id": 3, "label": "Avances de Obra", "active": false },
+    { "id": 4, "label": "Celebridades y Embajadores", "active": false },
+    { "id": 5, "label": "Eventos y Ferias", "active": false },
+    { "id": 6, "label": "Prensa", "active": false }
+  ]
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from "react-i18next"; // Importa el hook de traducción
-import NewsBanner from './Content/NewsBanner';
+import HeaderNews from './Content/HeaderNews';
 import NewsTabs from './Content/NewsTabs';
 import Cards from './Content/Cards';
 import FormSection from '../Home/Content/FormSection';
@@ -24,7 +24,7 @@ const News = () => {
 
   return (
     <div>
-      <NewsBanner />
+      <HeaderNews />
       <NewsTabs />
       <div className={styles.ContentNotice}>
         <div className={styles.padrecards}>

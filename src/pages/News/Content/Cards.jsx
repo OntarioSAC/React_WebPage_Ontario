@@ -4,48 +4,6 @@ import data from "../../../data/new-content-cards.json"; // Asegúrate de que es
 import styles from './CardStyle.module.css';
 import React , {useState} from 'react';
 
-
- const texto ={ 
-    fontSize:'15px' 
- };
-
- const boton = {
-   backgroundColor: '#CBF000',
-   borderRadius: '37.867px',
-   color: "#1C284C",
-   fontFamily: "Inter",
-   fontSize: "13px", 
-   fontWeight: 900,
-   lineHeight: "normal",
-   width: '135px',
-   height: '35.218px',
-   display:'flex',
-   flexDirection:'row',
-   gap:5,
-   justifyContent:'center',
-   alignItems:'center'
-   
-};
-
-const content_button = {
-   backgroundColor: 'transparent',
-   width: '50%',
-   alignItems: 'center',
-   display: 'flex',
-   position: 'relative',
-   justifyContent:'center',
-   cursor: 'pointer', 
-};
-const general_button = {
-   display: 'flex',
-   justifyContent: 'flex-end',
-   padding: '10px', 
-   backgroundColor: 'transparent',
-};
-
-
-
-
 const Cards = () => {
 
    const [hovered, setHovered] = useState(false);
@@ -82,27 +40,23 @@ const Cards = () => {
 
       {/* Título */}
       <div className={styles.fathertitle}>
+
         <div className={styles.h1text}>
           <p className={styles.h1texttitle}>{card.title}</p>
         </div>
 
         {/* Descripción */}
         <div className={styles.content_text}>
-          <p style={texto}>{card.description}</p>
+          <p className={styles.texto}>{card.description}</p>
+          <p className={styles.texto2}>{card.subdescripcion}</p>
         </div>
       </div>
     </div>
     
     {/* Botón */}
-    <div
-      style={{
-        ...general_button,
-        
-      }}
-
-    >
-      <div style={content_button}>
-        <div style={{...boton,
+    <div className={styles.general_button}>
+      <div className={styles.content_button}>
+        <div className={styles.boton} style={{
         backgroundColor: hoveredtext === card.id ? '#1C284C' : '#CBF000', // Cambia el fondo a azul cuando el mouse pasa
         color: hoveredtext === card.id ? '#CBF000' : '#273243', // Cambia el color del texto a blanco
         transition: 'background-color 0.3s ease, color 0.3s ease', // Suaviza la transición de color

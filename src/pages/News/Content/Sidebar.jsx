@@ -1,10 +1,10 @@
 import { useNavigate } from "react-router-dom";
 import data from "../../../data/new-content-cards.json"; // Asegúrate de que este archivo contiene las tarjetas
 import React , {useState} from 'react';
-
+import styles from './SidebarStyle.module.css';
 
 const derecha_ = {
-   backgroundColor: 'white',
+   backgroundColor: 'transparent',
    display:'flex',
    flexDirection:'column',
    gap:32 
@@ -94,7 +94,7 @@ const Sidebar = () => {
    
 
 
-   <div style={derecha_}>
+   <div className={styles.derecha_} style={derecha_}>
       <div style={Titulo_general}>
          <h5 style={titulo_derecha}>Publicaciones </h5>
          <p style={titulo_derecha_in}>Recientes</p>
@@ -102,6 +102,7 @@ const Sidebar = () => {
       {data.cards.map((card) => (
    <div
       key={card.id}
+      className={styles.derecha_int}
       style={{
          ...derecha_int,
          position: 'relative', // Necesario para que los elementos se apilen

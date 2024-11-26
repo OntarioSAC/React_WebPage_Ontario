@@ -139,3 +139,46 @@ font-style: normal;
 font-weight: 600;
 line-height: 125.755%;
 }
+
+
+@media (max-width: 768px) {
+  
+    .generalbody{
+        margin-top:100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .information{
+        width: 95%;
+        background-color: #CBF000;
+        overflow: hidden;
+        
+    }
+    .buttomback{
+    
+        display: flex;
+        width: 157.165px;
+        flex-direction: row;
+        height: 28.765px;
+        padding: 0px 17.284px 3.241px 17.284px;
+        justify-content: center;
+        align-items: center;
+        gap: 10.803px;
+        flex-shrink: 0;
+        cursor: pointer;
+        border-radius: 44.085px;
+        background: #D9D9D9;
+        
+    }
+    .textback{
+        color: #273243;
+        font-size: 14.229px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+  }

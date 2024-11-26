@@ -1,9 +1,8 @@
 {
-    "banner": {
-      "image": "/img/news/headernews.gif",
-      "title": "NEWS",
-      "highlight": "ONTARIO",
-      "description": "Stay informed about the latest news, progress, and events at Ontario Real Estate."
-    }
+  "banner": {
+    "image": "/img/news/headernews.gif",
+    "title": "NEWS",
+    "highlight": "ONTARIO",
+    "description": "Stay informed about the latest news, progress, and events at Ontario Real Estate."
   }
-  
+}

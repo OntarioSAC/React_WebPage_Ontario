@@ -15,8 +15,8 @@ import TermsConditions from './pages/TermsConditions/TermsConditions';
 import Loader from './pages/Loader/Loader'; // Importar el loader
 import Complaints from './pages/Complaints/complaints';
 import News from './pages/News/News';
-
-
+import CardDetail from './pages/News/Content/developednews/developednews';
+import Developed from './pages/News/Developed';
 /**
  * Componente principal de la aplicación.
  * @component
@@ -83,6 +83,8 @@ const App = () => {
           <Route path="/terms" element={<TermsConditions />} />
           <Route path="/complaints" element={<Complaints />} />
           <Route path="/news" element={<News/>} />
+          <Route path="/card/:id" element={<CardDetail />} />
+
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </main>

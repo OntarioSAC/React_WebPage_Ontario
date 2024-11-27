@@ -4,10 +4,6 @@ import headerContentEN from "../../../data/news-content-en.json";
 import headerContentES from "../../../data/news-content-es.json";
 import styles from "./HeaderNews.module.css";
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 7a877c67a6809b59487e7f860c97d93f922ea0f2
 const HeaderNews = () => {
   const { i18n } = useTranslation();
   const [headerData, setHeaderData] = useState(null);

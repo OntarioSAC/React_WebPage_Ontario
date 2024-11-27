@@ -44,7 +44,7 @@ const HeaderNews = () => {
       <div className={styles.lefthoja}>
              <img
                 src={headerData.lefthoja}
-               
+                className={styles.lefthoja}
                 
               />
       </div>

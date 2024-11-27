@@ -15,7 +15,6 @@ const Cards = ({ selectedTab }) => {
   const [hoveredtext, setHoveredtext] = useState(false);
   const navigate = useNavigate();
 
-
   const filteredCards = (selectedTab === "Todo" || selectedTab === "All")
   ? data.cards // Mostrar todo si es "Todo" o "All"
   : data.cards.filter((card) => card.etiqueta === selectedTab); // Filtrar por etiqueta

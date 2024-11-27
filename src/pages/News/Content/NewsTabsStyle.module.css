@@ -1,0 +1,133 @@
+
+.toggleButton {
+    display: none; /* Mostrar el botón de menú */
+    
+    width: 20px;
+    right: 0;
+    
+    cursor: pointer;
+    
+
+  }
+.tabsContainerStyle{
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    margin-top: -55px;
+    background: #CBF000;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding: 1rem 0rem;
+    position: absolute;
+    box-shadow: 0 4px 6px  rgba(0, 0, 0, 0.1);
+    width: 76%;
+    z-index: 99;
+}
+.displayn{
+    display: none;
+}
+.fathergeneral{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    display: none;
+}
+
+/* Estilo solo para pantallas menores a 1116px */
+@media (max-width: 1116px) {
+    .displayn{
+        display: block;
+        width: 100%;
+        background-color: transparent;
+        color: #1C284C;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14.107px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-align: center;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        gap: 7px;
+    }
+    .contentdespleg{
+        
+        color: #1C284C;
+        font-family: Inter;
+        font-size: 14.107px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+    .tabsContainerStyle{
+        height: 61.717px;
+        width: 264px;
+        display: flex;
+        flex-direction: column;
+    }
+    .buttonfilter {
+        display: block;
+        width: 100%;
+        text-align: center;
+        background-color: #1C284C !important;
+        color: white !important;
+        font-size: 14.107px;
+        
+        
+        
+    }
+
+    .toggleButton {
+        display: flex; /* Mostrar el botón de menú */
+        justify-content: center;
+        bottom: 0;
+        align-items: center;
+        color: #1C284C;
+        width: 30px;
+        position: absolute;
+        
+       
+        
+        right: 10px;
+        top: 0;
+        font-size: 16px;
+        transition: all 0.3s ease;
+    }
+    .fathernav{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        position: absolute;
+        width: 100%;
+        padding-bottom: 10px;
+
+    }
+    .desktop{
+        display: none;
+    }
+    .menu {
+        margin-top: -25px;
+        display: block;
+        z-index: 5;
+        max-height: 0;
+        height: 370px;
+        width: 60%;
+        transition: max-height 0.5s ease-in-out;
+        background-color: #1C284C;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+        border-bottom-right-radius: 30px;
+    }
+
+    .menu.open {
+        max-height: 500px; /* Define una altura suficiente para mostrar el menú desplegable */
+    }
+}

@@ -86,6 +86,6 @@
   "footerText": "2024 @ All rights reserved by ONTARIO",
   "footerComplaintBook": {
     "text": " Libro de Reclamaciones",
-    "route": "/libro-de-reclamaciones"
+    "route": "/complaints"
   }
 }

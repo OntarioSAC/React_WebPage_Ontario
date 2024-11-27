@@ -7,9 +7,9 @@
         "logo": "/img/logo/logo-o2.webp",
         "price": {
           "title": "CUOTAS DESDE",
-          "amount": "$900",
-          "altO": "ó ",
-          "altAmount": "S/ 3762 *",
+          "amount": "$990",
+          "altO": "",
+          "altAmount": "",
           "conditions": "(*) Aplican términos y condiciones."
         },
         "infoBoxes": [

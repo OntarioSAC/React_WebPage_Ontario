@@ -1,0 +1,108 @@
+
+.VideoNews {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This will ensure the video fills the container while maintaining its aspect ratio. */
+z-index: -1;
+top: 0;
+left: 0;
+position: absolute;
+}
+.lefthoja{
+    bottom: 60%;
+   
+    left: 0;
+    position: absolute;
+    
+}
+.rigthhoja{
+    bottom: 10%;
+    
+    right: 0;
+    position: absolute;
+}
+.headerStyle{
+    position: relative;
+    text-align: center;
+    color:#1C284C ;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.contentWrapperStyle{
+    position: relative;
+    text-align: center;
+    top: -15vh;
+
+}
+
+.titleStyle{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1C284C;
+}
+.descriptionStyle{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #1C284C;
+    text-align: center;
+    max-width: 60%;
+    line-height: 1.4;
+    font-weight: 400;
+    margin: 0 auto;
+}
+@media (max-width: 768px) {
+    .VideoNews {
+        width: 100%; /* Asegura que ocupe el 100% del ancho */
+        height: 45vh; /* Asegura que ocupe el 100% de la altura de la pantalla */
+        object-fit: cover; /* Asegura que el video cubra todo el contenedor */
+        object-position: center; /* Centra el video */
+        transform: scale(1.05); /* Un pequeño zoom para pantallas pequeñas */
+      }
+      .headerStyle{
+        position: relative;
+        text-align: center;
+        color:#1C284C ;
+        height: 45vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .contentWrapperStyle{
+        
+        text-align: center;
+        top: -7vh;
+        
+    }
+    .titleStyle{
+        color: #1C284C;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+    .descriptionStyle{
+        color: #1C284C;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .lefthoja{
+        
+        width: 60px;
+        height: 60px;
+        
+    }
+    .rigthhoja{
+        width: 60px;
+        height: 60px;
+    }
+
+  }

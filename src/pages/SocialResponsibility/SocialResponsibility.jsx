@@ -30,6 +30,8 @@ function SocialResponsibility() {
   const socialSlider = t('socialSlider', { returnObjects: true });
   const formSection = t('formSection', { returnObjects: true });
 
+  
+
   return (
     <>
       {/* Sección de encabezado social */}

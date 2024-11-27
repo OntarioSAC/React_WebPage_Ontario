@@ -1,0 +1,40 @@
+.ContentNotice{
+    
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.padre{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+   
+}
+.eventos{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    
+    margin-top: 30px;
+}
+.generalcards {
+    width: 100%; /* Por defecto, ocupa el 50% del ancho */
+  }
+  
+  @media (max-width: 768px) {
+    .ContentNotice {
+      flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+    }
+  
+   
+  }
+
+.padrecards{
+   
+    display: flex;
+    justify-content: center;
+}
+
+

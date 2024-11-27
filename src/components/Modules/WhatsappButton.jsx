@@ -16,6 +16,7 @@ const WhatsappButton = ({ whatsappUrl }) => {
   return (
     <button className="whatsapp-button" onClick={openWhatsapp} type="button" aria-label="Abrir chat de WhatsApp">
       <img className="whatsapp-icon" loading="lazy" alt="" src="/img/icons/whatsapp.svg" />
+      
     </button>
   );
 };

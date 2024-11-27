@@ -1,5 +1,5 @@
 // 1. Importaciones de Librerías Externas
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useLocation } from "react-router-dom";
 import PropTypes from 'prop-types'; // Añade esta línea
@@ -11,6 +11,10 @@ import AboutSection from "./Content/AboutSection";
 import FormSection from "./Content/FormSection";
 import InfoBoxHome from "./Content/InfoBoxHome";
 import WhatsappButton from "../../components/Modules/WhatsappButton";
+
+
+// Importación del popup
+import Popup from "../../components/Modules/PopUp"; // Asegúrate de que la ruta es correcta
 
 // 3. Importaciones de Estilos
 import styles from "./Home.module.css";
@@ -30,6 +34,8 @@ function Home({ formRef, autoFocus, setAutoFocus }) {
   const { t } = useTranslation();
   const location = useLocation();
 
+  const [showPopup, setShowPopup] = useState(true); // Estado para controlar la visibilidad del popup
+
   // Efecto para manejar el scroll al formulario si se indica en la ubicación
   useEffect(() => {
     // Desplazamiento al formulario si se indica en la ubicación
@@ -38,7 +44,13 @@ function Home({ formRef, autoFocus, setAutoFocus }) {
       formRef.current.focusFirstInput();
       setAutoFocus(false); // Desactiva autoFocus después de enfocar
     }
+    setShowPopup(true); // Muestra el popup al cargar la página
   }, [location.state, formRef, setAutoFocus]);
+
+  // Cerrar el popup
+  const closePopup = () => {
+    setShowPopup(false);
+  };
 
   // Obtención de datos traducidos
   const homeSlider = t("homeSlider", { returnObjects: true });
@@ -51,6 +63,7 @@ function Home({ formRef, autoFocus, setAutoFocus }) {
   // Renderizado del componente
   return (
     <>
+      {showPopup && <Popup onClose={closePopup} />}
       <HomeSlider data={homeSlider} />
       <div className="container g-0">
         <div className={styles.customContent}>

@@ -2,39 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import headerContentEN from "../../../data/news-content-en.json";
 import headerContentES from "../../../data/news-content-es.json";
-
-const headerStyle = {
-  position: "relative",
-  textAlign: "center",
-  color: "var(--secondary-color)",
-  height: "75vh",
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-  overflow: "hidden",
-};
-
-const videoStyle = {
-  position: "absolute",
-  top: 0,
-  left: 0,
-  width: "100%",
-  height: "100%",
-  objectFit: "cover",
-  zIndex: -1,
-};
-
-const contentWrapperStyle = {
-  position: "relative",
-  textAlign: "center",
-  top: "-15vh", // Mueve el texto más arriba
-};
-
-const titleStyle = {
-  fontSize: "3rem",
-  fontWeight: "bold",
-  color: "var(--secondary-color)",
-};
+import styles from "./HeaderNews.module.css";
 
 const descriptionStyle = {
   marginTop: "1rem",
@@ -66,21 +34,38 @@ const HeaderNews = () => {
   }
 
   return (
-    <section style={headerStyle}>
+    <section className={styles.headerStyle}>
       <video
-        style={videoStyle}
+        className={styles.VideoNews}
+       
         src={headerData.image}
         autoPlay
         loop
         muted
         playsInline
       />
-      <div style={contentWrapperStyle}>
-        <h1 style={titleStyle}>
+      <div className={styles.contentWrapperStyle}>
+        <h1 className={styles.titleStyle}>
+          
           {headerData.title} {headerData.highlight}
         </h1>
-        <p style={descriptionStyle}>{headerData.description}</p>
+        <p className={styles.descriptionStyle}>{headerData.description}</p>
       </div>
+      <div>
+             <img
+                src={headerData.lefthoja}
+               
+                className={styles.lefthoja}
+              />
+      </div>
+      <div>
+           <img
+                src={headerData.rigthhoja}
+               
+                className={styles.rigthhoja}
+              />
+      </div>
+
     </section>
   );
 };

@@ -1,22 +1,25 @@
 // import { bottom, right } from '@popperjs/core';
 // import { Button } from 'bootstrap';
-
+import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
-import data from "../../../data/new-content-cards.json"; // Asegúrate de que este archivo contiene las tarjetas
+import dataES from "../../../data/news-content-es.json";
+import dataEN from "../../../data/news-content-en.json";
 import styles from './CardStyle.module.css';
 import React , {useState} from 'react';
 
 const Cards = ({ selectedTab }) => {
-
+  const { i18n } = useTranslation(); // Hook para obtener el idioma actual
+  // Seleccionar los datos correctos según el idioma
+  const data = i18n.language === "es" ? dataES : dataEN;
   const [hovered, setHovered] = useState(false);
   const [hoveredtext, setHoveredtext] = useState(false);
   const navigate = useNavigate();
 
 
-  const filteredCards = selectedTab === "Todo"
-    ? data.cards // Mostrar todo
-    : data.cards.filter((card) => card.etiqueta === selectedTab); // Filtrar por etiqueta
-
+  const filteredCards = (selectedTab === "Todo" || selectedTab === "All")
+  ? data.cards // Mostrar todo si es "Todo" o "All"
+  : data.cards.filter((card) => card.etiqueta === selectedTab); // Filtrar por etiqueta
+  
 
   return (
 
@@ -55,7 +58,7 @@ const Cards = ({ selectedTab }) => {
 
               {/* Descripción */}
               <div className={styles.content_text}>
-                <p className={styles.texto}>{card.description}</p>
+                <p className={styles.texto}>{card.CardsDescription}</p>
                 <p className={styles.texto2}>{card.subdescripcion}</p>
               </div>
             </div>

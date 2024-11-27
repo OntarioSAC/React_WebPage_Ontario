@@ -2,7 +2,6 @@
   background-color:transparent;
   height: 450px;
   display: flex;
-  
   justify-content: center;
   align-items: center;
   justify-content: flex-end;
@@ -10,14 +9,16 @@
   
 }
 .bannerinterent{
-    background-color: #EFEADE;
+
+    background: #EFEADE;
     display: flex;
+    border-radius: 50px 0px;
     flex-direction:row;
     height: 356px;
     align-items: center;
 }
 .img{
-   
+    margin-left: -70px;
     display: flex;
 
 }
@@ -89,11 +90,10 @@ line-height: normal;
 }
 .titleredesint{
     color: #1C284C;
-    text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 900;
     line-height: normal;
 }
 

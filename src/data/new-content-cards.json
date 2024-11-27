@@ -4,6 +4,7 @@
       "id": 1,
       "title": "¡Nuevos Departamentos en Arequipa! Descubre O2 by Ontario",
       "text": "ONTARIO",
+      "CardsDescription":"¡Vive en el futuro de Arequipa! Presentamos O2 by Ontario, nuestro nuevo proyecto de departamentos diseñado para quienes buscan una vida moderna y equilibrada en Cerro Colorado.",
       "description": "¡Vive en el futuro de Arequipa! Presentamos O2 by Ontario, nuestro nuevo proyecto de departamentos diseñado para quienes buscan una vida moderna y equilibrada en Cerro Colorado.",
       "subdescripcion": "O2 ofrece espacios pensados para el bienestar y confort ¡Te invitamos a conocer este nuevo concepto de vivienda!",
       "image": "/img/news/o2lanzamiento.png",
@@ -33,6 +34,7 @@
       "image": "/img/news/cuestanoticia.png",
       "title": "¡Bernardo Cuesta se une a Ontario!",
       "text": "ONTARIO",
+      "CardsDescription":"¡Nos complace anunciar la incorporación del goleador histórico del equipo representativo de la ciudad de Arequipa! Este fichaje nos fortalece como marca. ",
       "description": "¡Nos complace anunciar la incorporación del goleador histórico del equipo representativo de la ciudad de Arequipa! Este fichaje nos fortalece como marca. ",
       "subdescripcion": "¡Todo está tomando forma gracias a nuestro equipo de ingeniería y el compromiso con cada detalle! ",
       "imagedescrip": "¡La familia Ontario crece con Bernardo Cuesta",
@@ -64,30 +66,32 @@
       "image": "/img/news/puntaarenaiilanzamiento.png",
       "title": "¡Punta Arena II: Tu nuevo hogar frente al mar en Arequipa!",
       "text": "ONTARIO",
-      "subdescripcion": "Punta Arena II está en camino y promete superar todas las expectativas. Pronto tendrás la oportunidad de formar parte de algo grande. ¡Mantente atento! ",
+      "CardsDescription":"Estamos emocionados de anunciar el lanzamiento de nuestro nuevo proyecto: Punta Arena II. Este exclusivo desarrollo residencial te ofrece la oportunidad de vivir en un paraíso junto al mar, en la hermosa localidad de Punta de Bombón.",
+      "subdescripcion": "Vive el sueño de tu terreno para casa de playa en Punta de Bombón",
       "description": "Estamos emocionados de anunciar el lanzamiento de nuestro nuevo proyecto: Punta Arena II. Este exclusivo desarrollo residencial te ofrece la oportunidad de vivir en un paraíso junto al mar, en la hermosa localidad de Punta de Bombón.",
       "buttonText": "Leer más",
       "redirectTo": "/proyecto-ontario",
       "etiqueta": "Lanzamientos",
-      "fecha": "11 de octubre",
+      "fecha": "16 de octubre 2024",
+      "imagedescrip": "",
       "video": "",
       "Parrafo1": "Estamos emocionados de compartir contigo los últimos avances de nuestro proyecto Mykonos. Día a día, nuestro equipo de expertos trabaja incansablemente para convertir esta visión en una realidad tangible",
-      "title1": "Cada detalle cuenta",
-      "parrafo2": "Desde los cimientos hasta los acabados, cada aspecto de nuestro proyecto está siendo ejecutado con la máxima precisión y cuidado. Nuestro compromiso con la excelencia nos impulsa a crear espacios únicos que combinen a la perfección el lujo, la comodidad y la belleza natural de Mejía.",
-      "title2": "Avance de obra: ¡Los resultados hablan por sí solos!",
+      "title1": "¿Qué hace especial a Punta Arena II?",
+      "parrafo2": "Estamos trabajando arduamente para ofrecerte la mejor experiencia de vida en Punta Arena II. Pronto anunciaremos toda la información sobre este nuevo proyecto.",
+      "title2": "Próximamente, más detalles!",
       "parrafo": "Las estructuras principales ya están tomando forma, y los acabados están a la vuelta de la esquina. Cada día nos acercamos más a la finalización de este proyecto que marcará un antes y un después en el panorama inmobiliario de Mejía.",
-      "title3": "¿Qué hace único a nuestro proyecto?",
+      "title3": "",
       "lista1": [
-        "Departamentos de 1, 2 y 3 habitaciones",
-        "A unos pasos de Mall Arequipa Center",
-        "Desde los 48m² hasta los 78m²"
+        "Ubicación privilegiada: Disfruta de las impresionantes vistas del mar y un clima envidiable especialmente en verano.",
+        "Diseños modernos y funcionales: Nuestro condominio ha sido diseñado pensando en tu comodidad y estilo de vida, con amplios espacios y acabados de alta calidad.",
+        "Tranquilidad y bienestar: Escapa del ajetreo de la ciudad y relájate en un entorno natural y seguro."
       ],
+      "image2": "/img/news/playaniños.png",
+      "tituMYKONOS":"",
       "lista2": [
-        "Espacios diseñados para tu bienestar: Amplios ambientes llenos de luz natural, donde cada detalle ha sido pensado para mejorar tu calidad de vida.",
-        "Ubicación privilegiada: Vive en el corazón de Cerro Colorado, cerca de todo lo que necesitas.",
-        "Calidad de vida superior: Disfruta de una vida tranquila y cómoda en un entorno seguro y acogedor."
+        
       ],
-      "end": "Si estás buscando una inversión segura o tu hogar de ensueño en Mykonos, no te pierdas esta oportunidad única. ¡Mantente atento a nuestras redes sociales para conocer las últimas novedades!"
+      "end": "¿Quieres ser el primero en conocerlo? Suscríbete a nuestro newsletter y síguenos en redes sociales para estar al tanto de las últimas novedades."
     },
     {
       "id": 4,
@@ -97,27 +101,27 @@
       "titleinfo": "¡Mykonos cobra vida! Avance de nuestro exclusivo proyecto",
       "subdescripcion": "¡Todo está tomando forma gracias a nuestro equipo de ingeniería y el compromiso con cada detalle! ",
       "text": "ONTARIO",
-      "description": "Desde los cimientos hasta los acabados, cada aspecto de nuestro proyecto está siendo ejecutado con la máxima precisión y cuidado. Estamos comprometidos en crear espacios únicos que combinen a la perfección el lujo, la comodidad y la belleza natural de Mejía.",
+      "CardsDescription":"Desde los cimientos hasta los acabados, cada aspecto de nuestro proyecto está siendo ejecutado con la máxima precisión y cuidado. Estamos comprometidos en crear espacios únicos que combinen a la perfección el lujo, la comodidad y la belleza natural de Mejía.",
+      "description": "Estamos emocionados de compartir contigo los últimos avances de nuestro proyecto Mykonos. Día a día, nuestro equipo de expertos trabaja incansablemente para convertir esta visión en una realidad tangible.",
+      "tituMYKONOS":"Cada detalle cuenta",
       "buttonText": "Leer más",
       "redirectTo": "/proyecto-ontario",
       "etiqueta": "Avances de Obra",
-      "fecha": "11 de octubre",
+      "fecha": "11 de octubre 2024",
+      "imagedescrip": "Avance de Obra Proyecto MYKONOS",
+      "parrafo1": "Desde los cimientos hasta los acabados, cada aspecto de nuestro proyecto está siendo ejecutado con la máxima precisión y cuidado. Nuestro compromiso con la excelencia nos impulsa a crear espacios únicos que combinen a la perfección el lujo, la comodidad y la belleza natural de Mejía.",
       "video": "",
-      "Parrafo1": "Estamos emocionados de compartir contigo los últimos avances de nuestro proyecto Mykonos. Día a día, nuestro equipo de expertos trabaja incansablemente para convertir esta visión en una realidad tangible",
-      "title1": "Cada detalle cuenta",
-      "parrafo2": "Desde los cimientos hasta los acabados, cada aspecto de nuestro proyecto está siendo ejecutado con la máxima precisión y cuidado. Nuestro compromiso con la excelencia nos impulsa a crear espacios únicos que combinen a la perfección el lujo, la comodidad y la belleza natural de Mejía.",
+      
+      "parrafo2": "Las estructuras principales ya están tomando forma, y los acabados están a la vuelta de la esquina. Cada día nos acercamos más a la finalización de este proyecto que marcará un antes y un después en el panorama inmobiliario de Mejía.",
       "title2": "Avance de obra: ¡Los resultados hablan por sí solos!",
       "parrafo": "Las estructuras principales ya están tomando forma, y los acabados están a la vuelta de la esquina. Cada día nos acercamos más a la finalización de este proyecto que marcará un antes y un después en el panorama inmobiliario de Mejía.",
       "title3": "¿Qué hace único a nuestro proyecto?",
       "lista1": [
-        "Departamentos de 1, 2 y 3 habitaciones",
-        "A unos pasos de Mall Arequipa Center",
-        "Desde los 48m² hasta los 78m²"
       ],
       "lista2": [
-        "Espacios diseñados para tu bienestar: Amplios ambientes llenos de luz natural, donde cada detalle ha sido pensado para mejorar tu calidad de vida.",
-        "Ubicación privilegiada: Vive en el corazón de Cerro Colorado, cerca de todo lo que necesitas.",
-        "Calidad de vida superior: Disfruta de una vida tranquila y cómoda en un entorno seguro y acogedor."
+        "Ubicación privilegiada: Disfruta de las mejores vistas de la playa y el campo, además de del acceso a las playas más exclusivas.",
+        "Diseño de vanguardia: Nuestros arquitectos han creado espacios modernos y funcionales, diseñados para el máximo confort y estilo de vida.",
+        "Calidad superior: Utilizamos materiales de la más alta calidad y las últimas tecnologías para garantizar la durabilidad y eficiencia de nuestros proyectos."
       ],
       "end": "Si estás buscando una inversión segura o tu hogar de ensueño en Mykonos, no te pierdas esta oportunidad única. ¡Mantente atento a nuestras redes sociales para conocer las últimas novedades!"
     },
@@ -126,60 +130,61 @@
       "image": "/img/news/fiastandontario.png",
       "title": "Diario Gestión: Grupo Ontario lidera la innovación inmobiliaria en el sur del Perú con proyectos sostenibles",
       "text": "ONTARIO",
-      "description": "Nuestra visión es clara: crear espacios que no solo sean hermosos y funcionales, sino que también sean respetuosos con el medio ambiente",
+      "CardsDescription":"Nuestra visión es clara: crear espacios que no solo sean hermosos y funcionales, sino que también sean respetuosos con el medio ambiente",
+      "description": "En Grupo Ontario estamos comprometidos con la transformación del sector inmobiliario en Perú. Nuestra visión es clara: crear espacios que no solo sean hermosos y funcionales, sino que también sean respetuosos con el medio ambiente y estén equipados con las últimas tecnologías.",
       "buttonText": "Leer más",
       "redirectTo": "/proyecto-ontario",
-      "subdescripcion": "Destacamos nuestra visión de convertirnos en las inmobiliaria que apuesta por proyectos sostenibles.",
+      "subdescripcion": "La inmobiliaria busca ser una de las más innovadoras y diversificadas de su rubro",
       "etiqueta": "Prensa",
-      "fecha": "11 de octubre",
+      "fecha": "10 de agosto 2024",
+      "imagedescrip": " Diario Gestión: Grupo Ontario, pioneros en la construcción de un futuro sostenible",
       "video": "",
       "Parrafo1": "Estamos emocionados de compartir contigo los últimos avances de nuestro proyecto Mykonos. Día a día, nuestro equipo de expertos trabaja incansablemente para convertir esta visión en una realidad tangible",
-      "title1": "Cada detalle cuenta",
-      "parrafo2": "Desde los cimientos hasta los acabados, cada aspecto de nuestro proyecto está siendo ejecutado con la máxima precisión y cuidado. Nuestro compromiso con la excelencia nos impulsa a crear espacios únicos que combinen a la perfección el lujo, la comodidad y la belleza natural de Mejía.",
-      "title2": "Avance de obra: ¡Los resultados hablan por sí solos!",
+      "title1": "Innovación y sostenibilidad: Nuestra fórmula del éxito",
+      "parrafo2": "Al elegir un proyecto de Grupo Ontario, estás invirtiendo en un futuro más sostenible y en una mejor calidad de vida. Descubre cómo estamos revolucionando el sector inmobiliario y únete a nuestra comunidad de clientes satisfechos.",
+      "title2": "¿Por qué elegir Grupo Ontario?",
       "parrafo": "Las estructuras principales ya están tomando forma, y los acabados están a la vuelta de la esquina. Cada día nos acercamos más a la finalización de este proyecto que marcará un antes y un después en el panorama inmobiliario de Mejía.",
-      "title3": "¿Qué hace único a nuestro proyecto?",
+      "title3": "",
       "lista1": [
-        "Departamentos de 1, 2 y 3 habitaciones",
-        "A unos pasos de Mall Arequipa Center",
-        "Desde los 48m² hasta los 78m²"
+        "Proyectos verdes: Utilizamos materiales ecológicos y tecnologías eficientes para reducir nuestro impacto ambiental y crear hogares más saludables.",
+        "Tecnología al servicio de la vivienda: Integramos sistemas inteligentes que optimizan el consumo de energía y ofrecen una mayor comodidad a nuestros clientes.",
+        "Comunidades sostenibles: Creamos espacios que fomentan la convivencia y el bienestar, promoviendo un estilo de vida más sostenible."
       ],
       "lista2": [
-        "Espacios diseñados para tu bienestar: Amplios ambientes llenos de luz natural, donde cada detalle ha sido pensado para mejorar tu calidad de vida.",
-        "Ubicación privilegiada: Vive en el corazón de Cerro Colorado, cerca de todo lo que necesitas.",
-        "Calidad de vida superior: Disfruta de una vida tranquila y cómoda en un entorno seguro y acogedor."
+       
       ],
-      "end": "Si estás buscando una inversión segura o tu hogar de ensueño en Mykonos, no te pierdas esta oportunidad única. ¡Mantente atento a nuestras redes sociales para conocer las últimas novedades!"
+      "end": ""
     },
     {
       "id": 6,
       "image": "/img/news/fiainauguracionontario.png",
       "title": "¡Ontario está presente en la última edición de FIA 2024!",
       "text": "ONTARIO",
-      "description": "En esta edición, presentamos nuestros proyectos más innovadores, diseñados para transformar la forma en que vivimos y trabajamos.",
+      "CardsDescription":"En esta edición, presentamos nuestros proyectos más innovadores, diseñados para transformar la forma en que vivimos y trabajamos.",
+      "description": "Nos emociona anunciar nuestra participación en la Feria Internacional de Arequipa 2024. En esta edición, presentamos nuestros proyectos más innovadores, diseñados para transformar la forma en que vivimos y trabajamos",
       "buttonText": "Leer más",
       "redirectTo": "/proyecto-ontario",
       "etiqueta": "Eventos y Ferias",
       "subdescripcion": "Presentamos nuestros proyectos inmobiliarios innovadores y sostenibles. Fortaleciendo nuestra presencia en la región y contribuir al desarrollo urbano de Arequipa.",
-      "fecha": "11 de octubre",
+      "fecha": "10 de agosto 2024",
+      "imagedescrip": "¡Ontario está presente en la última edición de FIA 2024!",
       "video": "",
+      "parrafoFia":"En Grupo Ontario creemos en un futuro donde la sostenibilidad y la tecnología van de la mano. Nuestros proyectos están diseñados para:",
       "Parrafo1": "Estamos emocionados de compartir contigo los últimos avances de nuestro proyecto Mykonos. Día a día, nuestro equipo de expertos trabaja incansablemente para convertir esta visión en una realidad tangible",
-      "title1": "Cada detalle cuenta",
-      "parrafo2": "Desde los cimientos hasta los acabados, cada aspecto de nuestro proyecto está siendo ejecutado con la máxima precisión y cuidado. Nuestro compromiso con la excelencia nos impulsa a crear espacios únicos que combinen a la perfección el lujo, la comodidad y la belleza natural de Mejía.",
-      "title2": "Avance de obra: ¡Los resultados hablan por sí solos!",
+      "title1": "Un futuro más sostenible, hoy",
+      "parrafo2": "",
+      "title2": "¡Visítanos en la FIA edición 2025!",
       "parrafo": "Las estructuras principales ya están tomando forma, y los acabados están a la vuelta de la esquina. Cada día nos acercamos más a la finalización de este proyecto que marcará un antes y un después en el panorama inmobiliario de Mejía.",
-      "title3": "¿Qué hace único a nuestro proyecto?",
+      "title3": "",
       "lista1": [
-        "Departamentos de 1, 2 y 3 habitaciones",
-        "A unos pasos de Mall Arequipa Center",
-        "Desde los 48m² hasta los 78m²"
+        "Reducir el impacto ambiental: Utilizamos materiales ecológicos y energías renovables.",
+        "Mejorar la calidad de vida: Creamos espacios funcionales y confortables, equipados con las últimas tecnologías.",
+        "Fomentar el desarrollo urbano: Contribuimos al crecimiento de Arequipa de manera responsable y sostenible."
       ],
       "lista2": [
-        "Espacios diseñados para tu bienestar: Amplios ambientes llenos de luz natural, donde cada detalle ha sido pensado para mejorar tu calidad de vida.",
-        "Ubicación privilegiada: Vive en el corazón de Cerro Colorado, cerca de todo lo que necesitas.",
-        "Calidad de vida superior: Disfruta de una vida tranquila y cómoda en un entorno seguro y acogedor."
+       
       ],
-      "end": "Si estás buscando una inversión segura o tu hogar de ensueño en Mykonos, no te pierdas esta oportunidad única. ¡Mantente atento a nuestras redes sociales para conocer las últimas novedades!"
+      "end": "Te invitamos el próximo año a conocer todos nuestros proyectos y descubrir cómo podemos ayudarte a encontrar el hogar de tus sueños."
     }
   ]
 }

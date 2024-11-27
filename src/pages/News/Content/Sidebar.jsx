@@ -1,5 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import data from "../../../data/new-content-cards.json"; // Asegúrate de que este archivo contiene las tarjetas
+import { useTranslation } from "react-i18next";
+import dataES from "../../../data/news-content-es.json";
+import dataEN from "../../../data/news-content-en.json";
 import React , {useState} from 'react';
 import styles from './SidebarStyle.module.css';
 
@@ -91,8 +94,10 @@ const Sidebar = () => {
    const [hovered, setHovered] = useState(false);
    const [hoveredtext, setHoveredtext] = useState(false);
    const navigate = useNavigate();
-
-  return (
+   const { i18n } = useTranslation(); // Hook para obtener el idioma actual
+  // Seleccionar los datos correctos según el idioma
+  const data = i18n.language === "es" ? dataES : dataEN;
+   return (
    
 
 

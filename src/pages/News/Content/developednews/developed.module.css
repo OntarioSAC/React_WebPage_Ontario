@@ -22,7 +22,7 @@ display: flex;
     color: #1C284C;
 text-align: justify;
 font-family: Inter;
-font-size: 20px;
+font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 125.755%;
@@ -30,23 +30,28 @@ line-height: 125.755%;
 .titledown{
     color: #1C284C;
 font-family: Inter;
-font-size: 32px;
+font-size: 27px;
 font-style: normal;
 font-weight: 400;
 line-height: 125.755%;
 }
-.listp{
-    list-style: disc;
+.listp {
+    list-style-type: disc !important;
     width: 730px;
-    color: #1C284C;
-    padding-left: 20px;
-    padding-top: 10px;
-text-align: justify;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 0.9;
+    margin: 0px 0; /* Espaciado superior e inferior */
+    padding-left: 20px; /* Aumenta la sangría para los puntos */
+    color: #1C284C; /* Color del texto */
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px; /* Tamaño más cómodo para lectura */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6; /* Incrementa el espaciado entre líneas */
+}
+
+/* Estilo para los elementos de la lista */
+.listp li {
+    margin-bottom: 10px; /* Espaciado entre cada elemento de la lista */
 }
 .information{
     background-color: white;
@@ -88,14 +93,14 @@ line-height: 0.9;
     font-weight: bold;
     margin-right: 10px;
     font-family: Inter;
-    font-size: 20.588px;
+    font-size: 18px;
     border-radius: 77.962px;
 }
 .titleinf{
     width: 730px;
     color: #1C284C;
     font-family: Inter;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -104,7 +109,7 @@ line-height: 0.9;
     width: 730px;
     color: #1C284C;
 font-family: Inter;
-font-size: 20px;
+font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -113,7 +118,7 @@ line-height: normal;
     color: #1C284C;
     
     font-family: Inter;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 800;
     line-height: normal;
 }
@@ -136,6 +141,7 @@ line-height: normal;
     
 }
 .end{
+    width: 730px;
     color: #1C284C;
 font-family: Inter;
 font-size: 24px;
@@ -143,7 +149,32 @@ font-style: normal;
 font-weight: 600;
 line-height: 125.755%;
 }
-
+.contentshared{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.shared{
+    
+    color: #1C284C;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.iconred{
+    width: 51.618px;
+    height: 51.634px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.iconred a img {
+    transition: filter 0.3s ease; /* Para suavizar el cambio de color */
+  }
+  
 
 @media (max-width: 768px) {
   
@@ -181,9 +212,9 @@ line-height: 125.755%;
     }
     .textback{
         color: #273243;
-        font-size: 14.229px;
+        font-size: 18px;
         font-style: normal;
-        font-weight: 900;
+        
         line-height: normal;
     }
 
@@ -239,7 +270,7 @@ line-height: 125.755%;
     .fechaimgedescrip{
         color: #1C284C;
         font-family: Inter;
-        font-size: 20px;
+        font-size: 18px;
         font-style: italic;
         font-weight: 500;
         line-height: normal;
@@ -263,4 +294,26 @@ line-height: 125.755%;
         font-weight: 400;
         line-height: 125.755%;
     }
-  }
+
+    .iconred{
+        
+        display: flex;
+        flex-direction: row;
+        gap: 2px;
+        
+    }
+    
+    .shared{
+        color: #1C284C;
+        font-family: Inter;
+        font-size: 15.873px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .iconsocialdev{
+        width: 40.966px;
+        height: 40.956px;
+    }
+}

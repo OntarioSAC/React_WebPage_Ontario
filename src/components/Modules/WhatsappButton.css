@@ -13,13 +13,21 @@
 
 }
 
-.whatsapp-button:hover {
-  background-color: #1ebea5;
+
+
+.whatsapp-button2{
+  outline: none; 
+  border: none; 
 }
 
-.whatsapp-icon {
-  font-size: 36px;
-  color: white;
-  width: clamp(2.1875rem, 1.1972rem + 4.2254vw, 5rem);
-  height:  clamp(2.1875rem, 1.1972rem + 4.2254vw, 5rem);
+
+
+@media (max-width: 768px) {
+  
+ 
+  .iconsocialdev{
+      width: 40.966px;
+      height: 40.956px;
+  }
+ 
 }

@@ -9,7 +9,20 @@
     
 
   }
-
+.tabsContainerStyle{
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    margin-top: -55px;
+    background: #CBF000;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding: 1rem 0rem;
+    position: absolute;
+    box-shadow: 0 4px 6px  rgba(0, 0, 0, 0.1);
+    width: 76%;
+    z-index: 99;
+}
 .displayn{
     display: none;
 }
@@ -26,7 +39,7 @@
     .displayn{
         display: block;
         width: 100%;
-        
+        background-color: transparent;
         color: #1C284C;
         text-align: center;
         font-family: Inter;
@@ -39,10 +52,21 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+        
         gap: 7px;
     }
-    .generalbody{
+    .contentdespleg{
         
+        color: #1C284C;
+        font-family: Inter;
+        font-size: 14.107px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+    .tabsContainerStyle{
+        height: 61.717px;
+        width: 264px;
         display: flex;
         flex-direction: column;
     }
@@ -61,9 +85,11 @@
     .toggleButton {
         display: flex; /* Mostrar el botón de menú */
         justify-content: center;
+        bottom: 0;
         align-items: center;
         color: #1C284C;
         width: 30px;
+        position: absolute;
         
        
         
@@ -85,16 +111,16 @@
         display: none;
     }
     .menu {
-        
+        margin-top: -25px;
         display: block;
         z-index: 5;
         max-height: 0;
-        height: 330px;
-        width: 80%;
+        height: 370px;
+        width: 60%;
         transition: max-height 0.5s ease-in-out;
         background-color: #1C284C;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         flex-direction: column;
         overflow: hidden;

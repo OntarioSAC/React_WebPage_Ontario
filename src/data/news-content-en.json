@@ -3,14 +3,214 @@
     "image": "/video/headernews.mp4",
     "title": "NEWS",
     "highlight": "ONTARIO",
-    "description": "Stay informed about the latest news, progress, and events at Ontario Real Estate."
+    "description": "Stay informed about the latest news, progress, and events at Ontario Real Estate.",
+    "lefthoja":"/img/textures/hojas-1.webp",
+    "rigthhoja":"/img/textures/hojas-2.webp"
   },
   "tabs": [
-    { "id": 1, "label": "All", "active": true },
+    { "id": 1, "label": "All", "active": false },
     { "id": 2, "label": "Launches", "active": false },
     { "id": 3, "label": "Construction Progress", "active": false },
     { "id": 4, "label": "Celebrities and Ambassadors", "active": false },
     { "id": 5, "label": "Events and Fairs", "active": false },
     { "id": 6, "label": "Press", "active": false }
-  ]
+  ],
+  "cards": [
+    {
+        "id": 1,
+        "title": "New Apartments in Arequipa! Discover O2 by Ontario",
+        "text": "ONTARIO",
+        "ButtomNotice":"go back",
+        "CardsDescription": "Live in the future of Arequipa! Presenting O2 by Ontario, our new apartment project designed for those seeking a modern and balanced lifestyle in Cerro Colorado.",
+        "description": "Live in the future of Arequipa! Presenting O2 by Ontario, our new apartment project designed for those seeking a modern and balanced lifestyle in Cerro Colorado.",
+        "subdescripcion": "O2 offers spaces designed for your well-being and comfort. We invite you to discover this new housing concept!",
+        "image": "/img/news/o2lanzamiento.png",
+        "fecha": "September 15, 2024",
+        "imagedescrip": "We Launch Our Apartment Project: O2 by Ontario!",
+        "parrafo1": "The apartments feature spacious, light-filled areas where architecture blends with natural elements, creating a sense of harmony and calm.",
+        "title1": "Project Details:",
+        "lista1": [
+            "1, 2, and 3-bedroom apartments",
+            "Steps away from Mall Arequipa Center",
+            "From 48m² to 78m²"
+        ],
+        "image2": "/img/news/o2lanzamientoimgtexto.png",
+        "title2": "Why Choose O2 by Ontario?",
+        "lista2": [
+            "Spaces designed for your well-being: Spacious environments filled with natural light, where every detail is designed to improve your quality of life.",
+            "Prime location: Live in the heart of Cerro Colorado, close to everything you need.",
+            "Superior quality of life: Enjoy a peaceful and comfortable life in a safe and welcoming environment."
+        ],
+        "etiqueta": "Launches",
+        "video": "",
+        "end": "",
+        "buttonText": "Read more",
+        "Social":"Share on:"
+    },
+    {
+        "id": 2,
+        "image": "/img/news/cuestanoticia.png",
+        "title": "Bernardo Cuesta Joins Ontario!",
+        "text": "ONTARIO",
+        "ButtomNotice":"go back",
+        "CardsDescription": "We are pleased to announce the addition of the historic top scorer of Arequipa's representative team! This signing strengthens us as a brand.",
+        "description": "We are pleased to announce the addition of the historic top scorer of Arequipa's representative team! This signing strengthens us as a brand.",
+        "subdescripcion": "Everything is taking shape thanks to our engineering team and their commitment to every detail!",
+        "imagedescrip": "The Ontario Family Grows with Bernardo Cuesta",
+        "buttonText": "Read more",
+        "redirectTo": "/proyecto-ontario",
+        "etiqueta": "Celebrities and Ambassadors",
+        "fecha": "August 15, 2024",
+        "video": "",
+        "parrafo1": "Exciting news at Ontario! We are delighted to announce that Bernardo Cuesta, the historic top scorer of our city's representative team, is now part of our team. This strategic signing not only strengthens our brand but also reflects our commitment to excellence and innovation in the real estate sector.",
+        "title1": "Why Bernardo Cuesta at Ontario?",
+        "lista1": [
+            "Leadership and experience: Bernardo's professional football career and renowned leadership ability are invaluable assets for our team.",
+            "Shared vision: His values and vision align perfectly with ours, focusing on quality, innovation, and customer satisfaction.",
+            "Boost to our projects: His energy and experience will bring a new perspective to our developments, ensuring each project is a success."
+        ],
+        "title2": "A Dream Team for a Promising Future",
+        "parrafo2": "With Bernardo Cuesta's addition, our team solidifies as one of the most robust and talented in the sector. Together, we will work to create unique spaces that exceed our clients' expectations.",
+        "parrafo": "",
+        "title3": "What Does This Mean for Our Clients?",
+        "lista2": [
+            "Higher quality projects: Bernardo's experience will help elevate our construction and design standards.",
+            "Continuous innovation: His vision will inspire us to seek new solutions and technologies to create more efficient and sustainable spaces.",
+            "Renewed commitment: This signing reaffirms our commitment to excellence and passion for building homes that inspire."
+        ],
+        "end": "Welcome, Bernardo! We're confident we will achieve great things together.",
+        "Social":"Share on:"
+      },
+    {
+      "id": 3,
+      "image": "/img/news/puntaarenaiilanzamiento.png",
+      "title": "Punta Arena II: Your New Home by the Sea in Arequipa!",
+      "text": "ONTARIO",
+      "ButtomNotice":"go back",
+      "CardsDescription": "We are thrilled to announce the launch of our new project: Punta Arena II. This exclusive residential development offers you the opportunity to live in a seaside paradise in the beautiful town of Punta de Bombón.",
+      "subdescripcion": "Live the dream of owning a beach house plot in Punta de Bombón",
+      "description": "We are thrilled to announce the launch of our new project: Punta Arena II. This exclusive residential development offers you the opportunity to live in a seaside paradise in the beautiful town of Punta de Bombón.",
+      "buttonText": "Read more",
+      "redirectTo": "/proyecto-ontario",
+      "etiqueta": "Launches",
+      "fecha": "October 16, 2024",
+      "imagedescrip": "",
+      "video": "",
+      "Parrafo1": "We are excited to share with you the latest updates on our Mykonos project. Every day, our team of experts works tirelessly to turn this vision into a tangible reality.",
+      "title1": "What makes Punta Arena II special?",
+      "parrafo2": "We are working hard to provide you with the best living experience at Punta Arena II. Stay tuned for more information about this new project.",
+      "title2": "Coming Soon: More Details!",
+      "parrafo": "The main structures are already taking shape, and the finishes are just around the corner. Every day we get closer to completing this project, which will set a new benchmark in Mejía's real estate landscape.",
+      "title3": "",
+      "lista1": [
+        "Prime location: Enjoy breathtaking ocean views and enviable weather, especially in summer.",
+        "Modern and functional designs: Our condominium is designed with your comfort and lifestyle in mind, featuring spacious areas and high-quality finishes.",
+        "Tranquility and well-being: Escape the hustle and bustle of the city and relax in a natural and safe environment."
+      ],
+      "image2": "/img/news/playaniños.png",
+      "tituMYKONOS": "",
+      "lista2": [],
+      "end": "Want to be the first to know? Subscribe to our newsletter and follow us on social media to stay updated with the latest news.",
+      "Social":"Share on:"
+    },
+    {
+      "id": 4,
+      "image": "/img/news/avancedeobramykonos.png",
+      "descripcion2": "Mykonos Project Construction Progress",
+      "ButtomNotice":"go back",
+      "title": "Mykonos Comes to Life! Our Dream Becomes Reality",
+      "titleinfo": "Mykonos Comes to Life! Progress on Our Exclusive Project",
+      "subdescripcion": "Everything is taking shape thanks to our engineering team and their commitment to every detail!",
+      "text": "ONTARIO",
+      "CardsDescription": "From the foundations to the finishes, every aspect of our project is being executed with the utmost precision and care. We are committed to creating unique spaces that seamlessly combine luxury, comfort, and the natural beauty of Mejía.",
+      "description": "We are excited to share with you the latest updates on our Mykonos project. Every day, our team of experts works tirelessly to turn this vision into a tangible reality.",
+      "tituMYKONOS": "Every Detail Matters",
+      "buttonText": "Read more",
+      "redirectTo": "/proyecto-ontario",
+      "etiqueta": "Construction Progress",
+      "fecha": "October 11, 2024",
+      "imagedescrip": "Mykonos Project Construction Progress",
+      "parrafo1": "From the foundations to the finishes, every aspect of our project is being executed with the utmost precision and care. Our commitment to excellence drives us to create unique spaces that seamlessly combine luxury, comfort, and the natural beauty of Mejía.",
+      "video": "",
+      "parrafo2": "The main structures are already taking shape, and the finishes are just around the corner. Every day we get closer to completing this project, which will set a new benchmark in Mejía's real estate landscape.",
+      "title2": "Construction Progress: The Results Speak for Themselves!",
+      "parrafo": "The main structures are already taking shape, and the finishes are just around the corner. Every day we get closer to completing this project, which will set a new benchmark in Mejía's real estate landscape.",
+      "title3": "What Makes Our Project Unique?",
+      "lista1": [],
+      "lista2": [
+        "Prime location: Enjoy the best views of the beach and countryside, along with access to the most exclusive beaches.",
+        "Cutting-edge design: Our architects have created modern and functional spaces designed for maximum comfort and lifestyle.",
+        "Superior quality: We use the highest-quality materials and the latest technologies to ensure the durability and efficiency of our projects."
+      ],
+      "end": "If you're looking for a secure investment or your dream home in Mykonos, don't miss this unique opportunity. Stay tuned to our social media for the latest updates!",
+      "Social":"Share on:"
+    },
+    {
+      "id": 5,
+      "image": "/img/news/fiastandontario.png",
+      "title": "Gestión Newspaper: Ontario Group Leads Real Estate Innovation in Southern Peru with Sustainable Projects",
+      "text": "ONTARIO",
+      "ButtomNotice":"go back",
+      "CardsDescription": "Our vision is clear: to create spaces that are not only beautiful and functional but also environmentally friendly.",
+      "description": "At Ontario Group, we are committed to transforming Peru's real estate sector. Our vision is clear: to create spaces that are not only beautiful and functional but also environmentally friendly and equipped with the latest technologies.",
+      "buttonText": "Read more",
+      "redirectTo": "/proyecto-ontario",
+      "subdescripcion": "The real estate company aims to be one of the most innovative and diversified in its sector.",
+      "etiqueta": "Press",
+      "fecha": "August 10, 2024",
+      "imagedescrip": "Gestión Newspaper: Ontario Group, Pioneers in Building a Sustainable Future",
+      "video": "",
+      "Parrafo1": "We are excited to share with you the latest updates on our Mykonos project. Every day, our team of experts works tirelessly to turn this vision into a tangible reality.",
+      "title1": "Innovation and Sustainability: Our Formula for Success",
+      "parrafo2": "By choosing an Ontario Group project, you are investing in a more sustainable future and a better quality of life. Discover how we are revolutionizing the real estate sector and join our community of satisfied customers.",
+      "title2": "Why Choose Ontario Group?",
+      "parrafo": "The main structures are already taking shape, and the finishes are just around the corner. Every day we get closer to completing this project, which will set a new benchmark in Mejía's real estate landscape.",
+      "title3": "",
+      "lista1": [
+        "Green projects: We use eco-friendly materials and efficient technologies to reduce our environmental impact and create healthier homes.",
+        "Technology for housing: We integrate smart systems that optimize energy consumption and offer greater comfort.",
+        "Commitment to excellence: Our passion for building inspiring homes drives us to exceed expectations in every project."
+      ],
+      "end": "Stay connected for more news and insights about our ongoing efforts toward innovation and sustainability in the real estate industry.",
+      "Social":"Share on:"
+    },
+    {
+      "id": 6,
+      "image": "/img/news/fiainauguracionontario.png",
+      "title": "Feria Inmobiliaria Stand: Ontario Group Presenting Sustainable Innovation",
+      "text": "ONTARIO",
+      "CardsDescription": "Ontario Group is proud to showcase our commitment to sustainable real estate development at the upcoming housing fair.",
+      "description": "Join us at the real estate fair to discover our latest projects and learn more about how we are pioneering sustainability in the real estate sector.",
+      "buttonText": "Learn more",
+      "redirectTo": "/feria-inmobiliaria",
+      "ButtomNotice":"go back",
+      "etiqueta": "Events and Fairs",
+      "fecha": "September 5, 2024",
+      "imagedescrip": "Experience Ontario Group's Stand at the Real Estate Fair",
+      "video": "",
+      "Parrafo1": "Ontario Group invites you to experience our vision for sustainable and innovative real estate development. Visit our stand at the housing fair to explore our projects and meet our team.",
+      "title1": "What to Expect at Our Stand?",
+      "lista1": [
+        "Interactive presentations: Learn about our projects through immersive displays and virtual tours.",
+        "Meet the team: Our experts will be on hand to answer your questions and provide detailed insights.",
+        "Exclusive offers: Discover special promotions available only during the fair."
+      ],
+      "end": "Don't miss this opportunity to explore Ontario Group's innovative approach to real estate. See you at the fair!",
+      "Social":"Share on:"
+    }
+  ],
+  "Banner": [
+  {
+    "id": 1,
+    "image": "/img/news/cuestaimagencta.png",
+    "title": "Follow Our Updates",
+    "description": "Be the first to know about the latest news, advancements, and events from Ontario Inmobiliaria.",
+    "redestitle": "Follow Us on Our Social Media",
+    "facebook": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": ""
+  }
+]
+
 }

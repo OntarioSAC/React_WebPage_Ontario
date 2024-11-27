@@ -6,7 +6,7 @@ import "./WhatsappButton.css";
  * Componente de botón de WhatsApp que abre un chat de WhatsApp al hacer clic.
  * @param {string} whatsappUrl - URL personalizada de WhatsApp (opcional).
  */
-const WhatsappButton = ({ whatsappUrl }) => {
+const WhatsappButton2 = ({ whatsappUrl }) => {
   const openWhatsapp = () => {
     const defaultUrl = "https://wa.me/+51972582490";
     const urlToOpen = whatsappUrl || defaultUrl;
@@ -14,17 +14,17 @@ const WhatsappButton = ({ whatsappUrl }) => {
   };
 
   return (
-    <button className="whatsapp-button" onClick={openWhatsapp} type="button" aria-label="Abrir chat de WhatsApp">
-      <img className="whatsapp-icon" loading="lazy" alt="" src="/img/icons/whatsapp.svg" />
+    <button className="whatsapp-button2" onClick={openWhatsapp} type="button" aria-label="Abrir chat de WhatsApp">
       
+      <img className="iconsocialdev" src="/img/news/icons/whatsapp.svg" alt="Instagram Icon" />
     </button>
   );
 };
 
-WhatsappButton.propTypes = {
+WhatsappButton2.propTypes = {
   whatsappUrl: PropTypes.string,
 };
 
-export default WhatsappButton;
+export default WhatsappButton2;
 
 

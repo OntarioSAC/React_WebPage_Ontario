@@ -15,7 +15,8 @@
         { "name": "Mykonos", "to": "/projects/mykonos" },
         { "name": "Zafiro", "to": "/projects/zafiro" },
         { "name": "Prado Piamonte", "to": "/projects/prado-piamonte" },
-        { "name": "Punta Arena II", "to": "/projects/punta-arena-2" }
+        { "name": "Punta Arena II", "to": "/projects/punta-arena-2" },
+        { "name": "Bahia Serena", "to": "/projects/bahia-serena" }
       ]
     },
     {
@@ -33,11 +34,6 @@
     },
     {
       "name": "Referidos",
-      "to": "/referrals",
-      "icon": "/img/icons/referals.svg"
-    },
-    {
-      "name": "Noticias",
       "to": "/referrals",
       "icon": "/img/icons/referals.svg"
     }

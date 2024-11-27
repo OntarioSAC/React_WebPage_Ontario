@@ -11,9 +11,9 @@
         "logo": "/img/logo/logo-santorini.webp",
         "price": {
           "title": "INSTALLMENTS FROM",
-          "amount": "$239",
+          "amount": "$270",
           "altO": "or ",
-          "altAmount": "S/919*",
+          "altAmount": "S/ 1,040 *",
           "conditions": "(*) Terms and conditions apply."
         },
         "infoBoxes": [
@@ -97,7 +97,8 @@
             { "id": "4", "label": "Punta Arena" },
             { "id": "5", "label": "Zafiro" },
             { "id": "6", "label": "Prado Piamonte" },
-            { "id": "7", "label": "Punta Arena II" }
+            { "id": "7", "label": "Punta Arena II" },
+            { "id": "8", "label": "Bahía Serena" }
           ],
           "showProjectSelect": false,
           "projectId": "1",
@@ -129,7 +130,7 @@
           { "type": "image", "src": "/img/slider-gallery/santorini5.webp" },
           { "type": "image", "src": "/img/slider-gallery/santorini6.webp" }
         ],
-        "kuulaUrl": "https://kuula.co/share/h455x?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
+        "kuulaUrl": "https://kuula.co/share/collection/7Z8nV?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
         "videoUrl": "/video/santorini-slide.mp4",
         "cta": {
           "headline": "Are you interested in our project?",
@@ -200,8 +201,8 @@
             "area": "300",
             "unit": "m&sup2",
             "location": { "city": "La Joya", "region": "Arequipa" },
-            "price": "$229",
-            "priceAlt": "or S/ 899*",
+            "price": "$219",
+            "priceAlt": "or S/ 830*",
             "detail1": "From",
             "detail2": "",
             "icon": "/img/icons/tag.svg",
@@ -240,8 +241,8 @@
             "area": "100",
             "unit": "m2",
             "location": { "city": "Mejía", "region": "Arequipa" },
-            "price": "$239",
-            "priceAlt": "or S/ 919*",
+            "price": "$270",
+            "priceAlt": "or S/ 1,040*",
             "detail1": "From",
             "detail2": "",
             "icon": "/img/icons/tag.svg",
@@ -331,6 +332,26 @@
             "combineStatus": true,
             "label": "PUNTA DE BOMBÓN",
             "url": "/projects/punta-arena-2"
+          },
+          {
+            "title": "BAHIA SERENA",
+            "description": "Country Condominiums",
+            "image": "/img/cards/bahia-serena.webp",
+            "from": "From ",
+            "area": "90",
+            "unit": "m2",
+            "location": { "city": "Playa Hermosa", "region": "Tumbes" },
+            "price": "$149",
+            "priceAlt": "or S/ 580*",
+            "detail1": "From",
+            "detail2": "",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 0,
+            "status": "PRE-",
+            "status2": " SALE",
+            "combineStatus": true,
+            "label": "PLAYA HERMOSA",
+            "url": "/projects/bahia-serena"
           }
         ]
       },
@@ -519,8 +540,8 @@
             "area": "300",
             "unit": "m&sup2",
             "location": { "city": "La Joya", "region": "Arequipa" },
-            "price": "$229",
-            "priceAlt": "or S/ 899*",
+            "price": "$219",
+            "priceAlt": "or S/ 830*",
             "detail1": "From",
             "detail2": "",
             "icon": "/img/icons/tag.svg",
@@ -559,8 +580,8 @@
             "area": "100",
             "unit": "m2",
             "location": { "city": "Mejía", "region": "Arequipa" },
-            "price": "$239",
-            "priceAlt": "or S/ 919*",
+            "price": "$270",
+            "priceAlt": "or S/ 1,040*",
             "detail1": "From",
             "detail2": "",
             "icon": "/img/icons/tag.svg",
@@ -630,6 +651,26 @@
             "combineStatus": false,
             "label": "PUNTA DE BOMBÓN",
             "url": "/projects/punta-arena"
+          },
+          {
+            "title": "BAHIA SERENA",
+            "description": "Country Condominiums",
+            "image": "/img/cards/bahia-serena.webp",
+            "from": "From ",
+            "area": "90",
+            "unit": "m2",
+            "location": { "city": "Playa Hermosa", "region": "Tumbes" },
+            "price": "$149",
+            "priceAlt": "or S/ 580*",
+            "detail1": "From",
+            "detail2": "",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 0,
+            "status": "PRE-",
+            "status2": " SALE",
+            "combineStatus": true,
+            "label": "PLAYA HERMOSA",
+            "url": "/projects/bahia-serena"
           }
         ]
       },
@@ -824,8 +865,8 @@
             "area": "300",
             "unit": "m&sup2",
             "location": { "city": "La Joya", "region": "Arequipa" },
-            "price": "$229",
-            "priceAlt": "or S/ 899*",
+            "price": "$219",
+            "priceAlt": "or S/ 830*",
             "detail1": "From",
             "detail2": "",
             "icon": "/img/icons/tag.svg",
@@ -864,8 +905,8 @@
             "area": "100",
             "unit": "m2",
             "location": { "city": "Mejía", "region": "Arequipa" },
-            "price": "$239",
-            "priceAlt": "or S/ 919*",
+            "price": "$270",
+            "priceAlt": "or S/ 1,040*",
             "detail1": "From",
             "detail2": "",
             "icon": "/img/icons/tag.svg",
@@ -935,6 +976,26 @@
             "combineStatus": false,
             "label": "PUNTA DE BOMBÓN",
             "url": "/projects/punta-arena"
+          },
+          {
+            "title": "BAHIA SERENA",
+            "description": "Country Condominiums",
+            "image": "/img/cards/bahia-serena.webp",
+            "from": "From ",
+            "area": "90",
+            "unit": "m2",
+            "location": { "city": "Playa Hermosa", "region": "Tumbes" },
+            "price": "$149",
+            "priceAlt": "or S/ 580*",
+            "detail1": "From",
+            "detail2": "",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 0,
+            "status": "PRE-",
+            "status2": " SALE",
+            "combineStatus": true,
+            "label": "PLAYA HERMOSA",
+            "url": "/projects/bahia-serena"
           }
         ]
       },
@@ -1135,8 +1196,8 @@
             "area": "300",
             "unit": "m&sup2",
             "location": { "city": "La Joya", "region": "Arequipa" },
-            "price": "$229",
-            "priceAlt": "or S/ 899*",
+            "price": "$219",
+            "priceAlt": "or S/ 830*",
             "detail1": "From",
             "detail2": "",
             "icon": "/img/icons/tag.svg",
@@ -1175,8 +1236,8 @@
             "area": "100",
             "unit": "m2",
             "location": { "city": "Mejía", "region": "Arequipa" },
-            "price": "$239",
-            "priceAlt": "or S/ 919*",
+            "price": "$270",
+            "priceAlt": "or S/ 1,040*",
             "detail1": "From",
             "detail2": "",
             "icon": "/img/icons/tag.svg",
@@ -1246,6 +1307,26 @@
             "combineStatus": false,
             "label": "PUNTA DE BOMBÓN",
             "url": "/projects/punta-arena"
+          },
+          {
+            "title": "BAHIA SERENA",
+            "description": "Country Condominiums",
+            "image": "/img/cards/bahia-serena.webp",
+            "from": "From ",
+            "area": "90",
+            "unit": "m2",
+            "location": { "city": "Playa Hermosa", "region": "Tumbes" },
+            "price": "$149",
+            "priceAlt": "or S/ 580*",
+            "detail1": "From",
+            "detail2": "",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 0,
+            "status": "PRE-",
+            "status2": " SALE",
+            "combineStatus": true,
+            "label": "PLAYA HERMOSA",
+            "url": "/projects/bahia-serena"
           }
         ]
       },
@@ -1265,9 +1346,9 @@
         "logo": "/img/logo/logo-prado.webp",
         "price": {
           "title": "INSTALLMENTS FROM",
-          "amount": "$229",
+          "amount": "$219",
           "altO": "or ",
-          "altAmount": "S/899*",
+          "altAmount": "S/830 *",
           "conditions": "(*) Terms and conditions apply."
         },
         "infoBoxes": [
@@ -1455,8 +1536,8 @@
             "area": "300",
             "unit": "m&sup2",
             "location": { "city": "La Joya", "region": "Arequipa" },
-            "price": "$229",
-            "priceAlt": "or S/ 899*",
+            "price": "$219",
+            "priceAlt": "or S/ 830*",
             "detail1": "From",
             "detail2": "",
             "icon": "/img/icons/tag.svg",
@@ -1495,8 +1576,8 @@
             "area": "100",
             "unit": "m2",
             "location": { "city": "Mejía", "region": "Arequipa" },
-            "price": "$239",
-            "priceAlt": "or S/ 919*",
+            "price": "$270",
+            "priceAlt": "or S/ 1,040*",
             "detail1": "From",
             "detail2": "",
             "icon": "/img/icons/tag.svg",
@@ -1566,6 +1647,26 @@
             "combineStatus": false,
             "label": "PUNTA DE BOMBÓN",
             "url": "/projects/punta-arena"
+          },
+          {
+            "title": "BAHIA SERENA",
+            "description": "Country Condominiums",
+            "image": "/img/cards/bahia-serena.webp",
+            "from": "From ",
+            "area": "90",
+            "unit": "m2",
+            "location": { "city": "Playa Hermosa", "region": "Tumbes" },
+            "price": "$149",
+            "priceAlt": "or S/ 580*",
+            "detail1": "From",
+            "detail2": "",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 0,
+            "status": "PRE-",
+            "status2": " SALE",
+            "combineStatus": true,
+            "label": "PLAYA HERMOSA",
+            "url": "/projects/bahia-serena"
           }
         ]
       },
@@ -1760,8 +1861,8 @@
             "area": "300",
             "unit": "m&sup2",
             "location": { "city": "La Joya", "region": "Arequipa" },
-            "price": "$229",
-            "priceAlt": "or S/ 899*",
+            "price": "$219",
+            "priceAlt": "or S/ 830*",
             "detail1": "From",
             "detail2": "",
             "icon": "/img/icons/tag.svg",
@@ -1800,8 +1901,8 @@
             "area": "100",
             "unit": "m2",
             "location": { "city": "Mejía", "region": "Arequipa" },
-            "price": "$239",
-            "priceAlt": "or S/ 919*",
+            "price": "$270",
+            "priceAlt": "or S/ 1,040*",
             "detail1": "From",
             "detail2": "",
             "icon": "/img/icons/tag.svg",
@@ -1871,6 +1972,26 @@
             "combineStatus": false,
             "label": "PUNTA DE BOMBÓN",
             "url": "/projects/punta-arena"
+          },
+          {
+            "title": "BAHIA SERENA",
+            "description": "Country Condominiums",
+            "image": "/img/cards/bahia-serena.webp",
+            "from": "From ",
+            "area": "90",
+            "unit": "m2",
+            "location": { "city": "Playa Hermosa", "region": "Tumbes" },
+            "price": "$149",
+            "priceAlt": "or S/ 580*",
+            "detail1": "From",
+            "detail2": "",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 0,
+            "status": "PRE-",
+            "status2": " SALE",
+            "combineStatus": true,
+            "label": "PLAYA HERMOSA",
+            "url": "/projects/bahia-serena"
           }
         ]
       },
@@ -2082,8 +2203,8 @@
             "area": "300",
             "unit": "m&sup2",
             "location": { "city": "La Joya", "region": "Arequipa" },
-            "price": "$229",
-            "priceAlt": "or S/ 899*",
+            "price": "$219",
+            "priceAlt": "or S/ 830*",
             "detail1": "From",
             "detail2": "",
             "icon": "/img/icons/tag.svg",
@@ -2122,8 +2243,8 @@
             "area": "100",
             "unit": "m2",
             "location": { "city": "Mejía", "region": "Arequipa" },
-            "price": "$239",
-            "priceAlt": "or S/ 919*",
+            "price": "$270",
+            "priceAlt": "or S/ 1,040*",
             "detail1": "From",
             "detail2": "",
             "icon": "/img/icons/tag.svg",
@@ -2193,6 +2314,387 @@
             "combineStatus": false,
             "label": "PUNTA DE BOMBÓN",
             "url": "/projects/punta-arena"
+          },
+          {
+            "title": "BAHIA SERENA",
+            "description": "Country Condominiums",
+            "image": "/img/cards/bahia-serena.webp",
+            "from": "From ",
+            "area": "90",
+            "unit": "m2",
+            "location": { "city": "Playa Hermosa", "region": "Tumbes" },
+            "price": "$149",
+            "priceAlt": "or S/ 580*",
+            "detail1": "From",
+            "detail2": "",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 0,
+            "status": "PRE-",
+            "status2": " SALE",
+            "combineStatus": true,
+            "label": "PLAYA HERMOSA",
+            "url": "/projects/bahia-serena"
+          }
+        ]
+      },
+      "contact": {
+        "title": "YOUR PERFECT SPACE"
+      }
+    },
+    {
+      "id": "bahia-serena",
+      "slider": [
+        { "type": "image", "src": "/img/slider-gallery/bahia1.webp"},
+        { "type": "image", "src": "/img/slider-gallery/bahia2.webp" },
+        { "type": "image", "src": "/img/slider-gallery/bahia3.webp" },
+        { "type": "image", "src": "/img/slider-gallery/bahia4.webp" },
+        { "type": "image", "src": "/img/slider-gallery/bahia5.webp" }
+      ],
+      "infoBox": {
+        "logo": "/img/logo/logo-bahia-serena.webp",
+        "price": {
+          "title": "INSTALLMENTS FROM",
+          "amount": "$149",
+          "altO": "or ",
+          "altAmount": "S/ 580 *",
+          "conditions": "(*) Terms and conditions apply."
+        },
+        "infoBoxes": [
+          {
+            "icon": "/img/icons/area2.svg",
+            "text": "FROM",
+            "value": "90 m²"
+          },
+          {
+            "icon": "/img/icons/lanzamiento.svg",
+            "value": "PRE",
+            "highlighted": "SALE"
+          },
+          {
+            "icon": "/img/icons/location2.svg",
+            "bold": "PLAYA HERMOSA",
+            "value": "TUMBES"
+          }
+        ],
+        "colors": {
+          "primaryColor": "#cbf000",
+          "secondaryColor": "#1c284c",
+          "textColor": "#1c284c"
+        }
+      },
+      "area": {
+        "title": "AREAS TO",
+        "titleBold": "ENJOY",
+        "description": "The project that redefines the concept of exclusivity and beauty in northern Peru. Located in the paradisiacal views of Playa Hermosa – Tumbes.",
+        "icons": [
+          {
+            "src": "/img/features/bahia-serena/canchasdeportivas.svg",
+            "alt": "Image description 1",
+            "text": "Sports Fields"
+          },
+          {
+            "src": "/img/features/bahia-serena/piscina.svg",
+            "alt": "Image description 2",
+            "text": "Pool"
+          },
+          {
+            "src": "/img/features/bahia-serena/juegos.svg",
+            "alt": "Image description 3",
+            "text": "Club House for kids"
+          },
+          {
+            "src": "/img/features/bahia-serena/restobar.svg",
+            "alt": "Image description 4",
+            "text": "Resto Bar"
+          },
+          {
+            "src": "/img/features/bahia-serena/clubhouse.svg",
+            "alt": "Image description 5",
+            "text": "Club House"
+          },
+          {
+            "src": "/img/features/bahia-serena/salonlodge.svg",
+            "alt": "Image description 6",
+            "text": "Lodge Lounge"
+          },
+          {
+            "src": "/img/features/bahia-serena/coworking.svg",
+            "alt": "Image description 7",
+            "text": "Coworking"
+          },
+          {
+            "src": "/img/features/bahia-serena/spa.svg",
+            "alt": "Image description 8",
+            "text": "Spa"
+          }
+        ],
+        "contact": {
+          "documents": [
+            { "id": "1", "label": "ID" },
+            { "id": "2", "label": "Passport" }
+          ],
+          "projects": [
+            { "id": "1", "label": "Santorini" },
+            { "id": "2", "label": "Mykonos" },
+            { "id": "3", "label": "Coral" },
+            { "id": "4", "label": "Punta Arena" },
+            { "id": "5", "label": "Zafiro" },
+            { "id": "6", "label": "Prado Piamonte" },
+            { "id": "7", "label": "Punta Arena II" },
+            { "id": "8", "label": "Bahía Serena" }
+          ],
+          "showProjectSelect": false,
+          "projectId": "1",
+          "texts": {
+            "formTitle": "I WANT TO RECEIVE INFORMATION",
+            "namePlaceholder": "*First Name",
+            "surnamePlaceholder": "*Last Name",
+            "emailPlaceholder": "*Email",
+            "documentPlaceholder": "Document...",
+            "dniPlaceholder": "Document Number",
+            "phonePlaceholder": "*Phone",
+            "termsLabel1": "I accept the terms and conditions and the Privacy Policy",
+            "termsLabel2": "I accept receiving advertisements according to the Privacy Policy",
+            "submitButton": "SUBMIT",
+            "conditionsLabel": "Required fields."
+          }
+        }
+      },
+      "gallery": {
+        "title": "An Experience",
+        "subtitle": "NEVER SEEN BEFORE",
+        "note": "*Reference images",
+        "backgroundImage": "/img/gallery/santorini-01.webp",
+        "slider": [
+          { "type": "image", "src": "/img/slider-gallery/bahia1.webp" },
+          { "type": "image", "src": "/img/slider-gallery/bahia2.webp" },
+          { "type": "image", "src": "/img/slider-gallery/bahia3.webp" },
+          { "type": "image", "src": "/img/slider-gallery/bahia4.webp" },
+          { "type": "image", "src": "/img/slider-gallery/bahia5.webp" }
+        ],
+        "kuulaUrl": "https://kuula.co/share/collection/7ZxHX?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
+        "videoUrl": "/video/bahia-serena.mp4",
+        "cta": {
+          "headline": "Are you interested in our project?",
+          "description": "Book a guided tour to get to know it in depth.",
+          "buttonText": "Schedule visit",
+          "buttonIcon": "/img/icons/arrow-icon.svg"
+        }
+      },
+      "progress": {
+        "title": "Build your perfect future",
+        "titleBold": "in a DREAM environment",
+        "subtitle": "",
+        "note": "*Reference images",
+        "description": "Live where nature and the sea come together to offer you an incomparable lifestyle, an experience never seen before.",
+        "images": [
+          "/img/project/bahia1.webp",
+          "/img/project/bahia2.webp",
+          "/img/project/bahia3.webp",
+          "/img/project/bahia4.webp"
+        ]
+      },
+      "location": {
+        "title": "THE BEST",
+        "titleBold": "LOCATION in TUMBES",
+        "buttons": [
+          {
+            "id": "location",
+            "label": "Tumbes",
+            "icon": "ico-location",
+            "type": "image",
+            "src": "/img/map/8.webp",
+            "alt": "Dynamic Map"
+          },
+          {
+            "id": "google",
+            "label": "Maps",
+            "icon": "ico-google",
+            "type": "link",
+            "href": "https://www.google.com/maps/search/?api=1&query=-17.1030278,-71.8897222",
+            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-17.1030278,-71.8897222&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-17.1030278,-71.8897222&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "alt": "Google Maps"
+          },
+          {
+            "id": "waze",
+            "label": "Waze",
+            "icon": "ico-waze",
+            "type": "iframe",
+            "src": "https://embed.waze.com/iframe?zoom=16&lat=-17.1030278&lon=-71.8897222&ct=livema",
+            "href": "https://waze.com/ul?ll=-17.1030278,-71.8897222&navigate=yes"
+          }
+        ]
+      },
+      "sliderProjects": {
+        "title": "YOU MAY ALSO",
+        "titleBold": "BE INTERESTED",
+        "subtitle": "Condominiums",
+        "navLinks": [
+          { "label": "PRE-SALE", "href": "#" },
+          { "label": "MEJÍA", "href": "#" },
+          { "label": "PUNTA DE BOMBÓN", "href": "#" },
+          { "label": "LA JOYA", "href": "#" }
+        ],
+        "projects": [
+          {
+            "title": "PRADO PIAMONTE",
+            "description": "Country Condominiums",
+            "image": "/img/cards/prado.webp",
+            "from": "From ",
+            "area": "300",
+            "unit": "m&sup2",
+            "location": { "city": "La Joya", "region": "Arequipa" },
+            "price": "$219",
+            "priceAlt": "or S/ 830*",
+            "detail1": "From",
+            "detail2": "",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE-",
+            "status2": "SALE",
+            "combineStatus": true,
+            "label": "LA JOYA",
+            "url": "/projects/prado-piamonte"
+          },
+          {
+            "title": "ZAFIRO",
+            "description": "Beach Residential",
+            "image": "/img/cards/zafiro.webp",
+            "from": "From ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "$169",
+            "priceAlt": "or S/ 649*",
+            "detail1": "From",
+            "detail2": "",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE-",
+            "status2": "SALE",
+            "combineStatus": true,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/zafiro"
+          },
+          {
+            "title": "SANTORINI",
+            "description": "Beach Residential",
+            "image": "/img/cards/santorini.webp",
+            "from": "From ",
+            "area": "100",
+            "unit": "m2",
+            "location": { "city": "Mejía", "region": "Arequipa" },
+            "price": "$270",
+            "priceAlt": "or S/ 1,040*",
+            "detail1": "From",
+            "detail2": "",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 1,
+            "status": "PRE-",
+            "status2": "SALE",
+            "combineStatus": true,
+            "label": "MEJÍA",
+            "url": "/projects/santorini"
+          },
+          {
+            "title": "CORAL",
+            "description": "Real Estate Project",
+            "image": "/img/cards/coral.webp",
+            "from": "From ",
+            "area": "100",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "100%",
+            "priceAlt": "SOLD OUT",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "IN",
+            "status2": " PROGRESS",
+            "combineStatus": false,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/coral"
+          },
+          {
+            "title": "MYKONOS",
+            "description": "Beach Residential",
+            "image": "/img/cards/mykonos.webp",
+            "from": "From ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Mejía", "region": "Arequipa" },
+            "price": "100%",
+            "priceAlt": "SOLD OUT",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "IN",
+            "status2": " PROGRESS",
+            "combineStatus": false,
+            "label": "MEJÍA",
+            "url": "/projects/mykonos"
+          },
+          {
+            "title": "PUNTA ARENA",
+            "description": "Country Condominiums",
+            "image": "/img/cards/arena.webp",
+            "from": "From ",
+            "area": "110",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "100%",
+            "priceAlt": "SOLD OUT",
+            "detail1": "",
+            "detail2": "",
+            "icon": "/img/icons/car.svg",
+            "filterStatus": 0,
+            "status": "IN",
+            "status2": " PROGRESS",
+            "combineStatus": false,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/punta-arena"
+          },
+          {
+            "title": "PUNTA ARENA II",
+            "description": "Country Condominiums",
+            "image": "/img/cards/arena.webp",
+            "from": "From ",
+            "area": "90",
+            "unit": "m2",
+            "location": { "city": "Punta de Bombón", "region": "Arequipa" },
+            "price": "$180",
+            "priceAlt": "or S/ 675*",
+            "detail1": "From",
+            "detail2": "",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 0,
+            "status": "PRE-",
+            "status2": " SALE",
+            "combineStatus": true,
+            "label": "PUNTA DE BOMBÓN",
+            "url": "/projects/punta-arena-2"
+          },
+          {
+            "title": "BAHIA SERENA",
+            "description": "Country Condominiums",
+            "image": "/img/cards/bahia-serena.webp",
+            "from": "From ",
+            "area": "90",
+            "unit": "m2",
+            "location": { "city": "Playa Hermosa", "region": "Tumbes" },
+            "price": "$149",
+            "priceAlt": "or S/ 580*",
+            "detail1": "From",
+            "detail2": "",
+            "icon": "/img/icons/tag.svg",
+            "filterStatus": 0,
+            "status": "PRE-",
+            "status2": " SALE",
+            "combineStatus": true,
+            "label": "PLAYA HERMOSA",
+            "url": "/projects/bahia-serena"
           }
         ]
       },

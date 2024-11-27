@@ -70,15 +70,27 @@ function ReferralsForm({ data }) {
     },
     validationSchema,
     onSubmit: async (values, { resetForm }) => {
+
+      // Encontrar el nombre del documento seleccionado
+      const selectedDocument = documents.find(doc => doc.id === values.documento)?.label || '';
+
+      // Encontrar el nombre del proyecto seleccionado, si aplica
+      const selectedProject = projects.find(proj => proj.id === values.proyecto)?.label || '';
+
       try {
         // URL del Google Apps Script
-        const response = await fetch("https://script.google.com/macros/s/AKfycbx2xEKJW23mZm6Sua3mMsYzg9mZGAywTjWgTv-DjPqRECCKFVFHXD4yqlCPm5txxpzqjQ/exec", {
+        const response = await fetch("https://script.google.com/macros/s/AKfycbzCFshU04SJXOahUE9uo5sh4Bi0AECLv7s_Kx1dJdP_IUClLOmXeyjwAyUvwcOPEq2Cww/exec", {
           method: "POST",
           mode: "no-cors",  // Modo necesario para esta solicitud
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify(values),
+          body: JSON.stringify({ 
+            ...values, 
+            formType: "Referidos",
+            documentName: selectedDocument, // Agregar el nombre del documento seleccionado
+            projectName: selectedProject // Agregar el nombre del proyecto seleccionado, si corresponde }),
+          }),
         });
     
         // Como estamos usando mode: "no-cors", no podemos confiar en el estado de la respuesta

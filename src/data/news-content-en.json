@@ -1,6 +1,6 @@
 {
   "header": {
-    "image": "/video/headernews.webm",
+    "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/video/headernews.webm",
     "title": "NEWS",
     "highlight": "ONTARIO",
     "description": "Stay informed about the latest news, progress, and events at Ontario Real Estate.",
@@ -24,7 +24,7 @@
         "CardsDescription": "Live in the future of Arequipa! Presenting O2 by Ontario, our new apartment project designed for those seeking a modern and balanced lifestyle in Cerro Colorado.",
         "description": "Live in the future of Arequipa! Presenting O2 by Ontario, our new apartment project designed for those seeking a modern and balanced lifestyle in Cerro Colorado.",
         "subdescripcion": "O2 offers spaces designed for your well-being and comfort. We invite you to discover this new housing concept!",
-        "image": "/img/news/o2lanzamiento.webp",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/o2lanzamiento.webp",
         "fecha": "September 15, 2024",
         "imagedescrip": "We Launch Our Apartment Project: O2 by Ontario!",
         "parrafo1": "The apartments feature spacious, light-filled areas where architecture blends with natural elements, creating a sense of harmony and calm.",
@@ -34,7 +34,7 @@
             "Steps away from Mall Arequipa Center",
             "From 48m² to 78m²"
         ],
-        "image2": "/img/news/o2lanzamientoimgtexto.webp",
+        "image2": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/o2lanzamientoimgtexto.webp",
         "title2": "Why Choose O2 by Ontario?",
         "lista2": [
             "Spaces designed for your well-being: Spacious environments filled with natural light, where every detail is designed to improve your quality of life.",
@@ -49,7 +49,7 @@
     },
     {
         "id": 2,
-        "image": "/img/news/cuestanoticia.webp",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/cuestanoticia.webp",
         "title": "Bernardo Cuesta Joins Ontario!",
         "text": "ONTARIO",
         "ButtomNotice":"go back",
@@ -83,7 +83,7 @@
       },
     {
       "id": 3,
-      "image": "/img/news/puntaarenaiilanzamiento.webp",
+      "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/puntaarenaiilanzamiento.webp",
       "title": "Punta Arena II: Your New Home by the Sea in Arequipa!",
       "text": "ONTARIO",
       "ButtomNotice":"go back",
@@ -107,7 +107,7 @@
         "Modern and functional designs: Our condominium is designed with your comfort and lifestyle in mind, featuring spacious areas and high-quality finishes.",
         "Tranquility and well-being: Escape the hustle and bustle of the city and relax in a natural and safe environment."
       ],
-      "image2": "/img/news/playaniños.webp",
+      "image2": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/playaniños.webp",
       "tituMYKONOS": "",
       "lista2": [],
       "end": "Want to be the first to know? Subscribe to our newsletter and follow us on social media to stay updated with the latest news.",
@@ -115,7 +115,7 @@
     },
     {
       "id": 4,
-      "image": "/img/news/avancedeobramykonos.webp",
+      "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/avancedeobramykonos.webp",
       "descripcion2": "Mykonos Project Construction Progress",
       "ButtomNotice":"go back",
       "title": "Mykonos Comes to Life! Our Dream Becomes Reality",
@@ -147,7 +147,7 @@
     },
     {
       "id": 5,
-      "image": "/img/news/fiastandontario.webp",
+      "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/fiastandontario.webp",
       "title": "Gestión Newspaper: Ontario Group Leads Real Estate Innovation in Southern Peru with Sustainable Projects",
       "text": "ONTARIO",
       "ButtomNotice":"go back",
@@ -176,7 +176,7 @@
     },
     {
       "id": 6,
-      "image": "/img/news/fiainauguracionontario.webp",
+      "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/fiainauguracionontario.webp",
       "title": "Feria Inmobiliaria Stand: Ontario Group Presenting Sustainable Innovation",
       "text": "ONTARIO",
       "CardsDescription": "Ontario Group is proud to showcase our commitment to sustainable real estate development at the upcoming housing fair.",
@@ -202,7 +202,7 @@
   "Banner": [
   {
     "id": 1,
-    "image": "/img/news/cuestaimagencta.webp",
+    "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/cuestaimagencta.webp",
     "title": "Follow Our Updates",
     "description": "Be the first to know about the latest news, advancements, and events from Ontario Inmobiliaria.",
     "redestitle": "Follow Us on Our Social Media",

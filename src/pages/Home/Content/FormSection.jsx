@@ -17,8 +17,9 @@ function FormSection({ data, formRef, autoFocus = false }) {
       <div className="container g-0">
         <div className={styles["overlap"]}>
           <div className={styles["rectangle"]}>
-            <h2 className="">
-              {data.title1}
+            <h2 className={styles["fatherspantitleone"]}>
+              <span className={styles["spantitleone"]}>{data.title1}</span>
+              
               <span className={styles["span-style"]}>{data.title2}</span>
             </h2>
             

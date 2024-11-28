@@ -1,26 +1,32 @@
 .whatsapp-button {
   width: clamp(2.1875rem, 1.1972rem + 4.2254vw, 5rem);
   height:  clamp(2.1875rem, 1.1972rem + 4.2254vw, 5rem);
-  border-radius: 50%;
-  background-color: #25D366;
-  border: none;
+  border: none; /* Asegúrate de que el borde esté en none */
+  outline: none; /* Elimina cualquier contorno (outline) en enfoque */
+  background-color: transparent;
+  
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease;
-
+  box-shadow: none; /* Elimina cualquier sombra del cuadro */
 }
 
-
+.whatsapp-icon{
+  outline: none;
+  border: none;
+  box-shadow: none; /* Elimina cualquier sombra del cuadro */
+   
+}
 
 .whatsapp-button2{
   outline: none; 
-  border: none; 
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
 }
-
-
 
 @media (max-width: 768px) {
   
@@ -29,5 +35,11 @@
       width: 40.966px;
       height: 40.956px;
   }
+
+  .whatsapp-icon{
+    width: 50px;
+    
+  }
+
  
 }

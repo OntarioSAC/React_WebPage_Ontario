@@ -61,22 +61,22 @@
     }
   },
   "referredBaner": {
-    "backgroundImage": "/img/images/modelo-circulo.webp",
+    "backgroundImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/modelo-circulo.webp",
     "title": "WIN",
     "titleBold": "WITH US",
     "rewards": [
       {
-        "icon": "/img/icons/icon-copa.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-copa.svg",
         "amount": "S/300",
         "description": "1st Referral"
       },
       {
-        "icon": "/img/icons/icon-copa.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-copa.svg",
         "amount": "S/500",
         "description": "2nd Referral"
       },
       {
-        "icon": "/img/icons/icon-copa.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-copa.svg",
         "amount": "S/700",
         "description": "3rd Referral"
       }

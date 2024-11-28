@@ -63,6 +63,12 @@
     height: 100%;
     z-index: 1;
     overflow: visible;
+    
+}
+.img-fluid{
+    
+    width: 100%;
+    
 }
 
 .backimage::before {

@@ -2,7 +2,7 @@
   "apartmentsData": [
     {
       "id": "o2",
-      "slider": [{ "type": "image", "src": "/img/slider/slider-o2.webp" }],
+      "slider": [{ "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-o2.webp" }],
       "infoBox": {
         "logo": "/img/logo/logo-o2.webp",
         "price": {

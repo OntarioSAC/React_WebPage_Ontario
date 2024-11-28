@@ -65,6 +65,7 @@ function Home({ formRef, autoFocus, setAutoFocus }) {
     <>
       {showPopup && <Popup onClose={closePopup} />}
       <HomeSlider data={homeSlider} />
+
       <div className="container g-0">
         <div className={styles.customContent}>
           <div className={styles.overlap}>
@@ -79,6 +80,7 @@ function Home({ formRef, autoFocus, setAutoFocus }) {
           <WhatsappButton />
         </div>
       </div>
+      
     </>
   );
 }

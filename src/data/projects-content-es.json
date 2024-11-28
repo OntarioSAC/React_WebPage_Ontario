@@ -3,9 +3,9 @@
     {
       "id": "santorini",
       "slider": [
-        { "type": "image", "src": "/img/slider/slider-santorini1.webp" },
-        { "type": "image", "src": "/img/slider/slider-santorini2.webp" },
-        { "type": "image", "src": "/img/slider/slider-santorini3.webp" }
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-santorini1.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-santorini2.webp"},
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-santorini3.webp"}
       ],
       "infoBox": {
         "logo": "/img/logo/logo-santorini.webp",
@@ -45,42 +45,42 @@
         "description": "Descubre Santorini, un exclusivo proyecto de lotes que combina la tranquilidad del campo con la majestuosidad del mar. Perfecto para aquellos que buscan un refugio sereno, Santorini ofrece el equilibrio ideal entre la vida moderna y la paz rural.",
         "icons": [
           {
-            "src": "/img/features/icons_07.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_07.svg",
             "alt": "Descripción imagen 1",
             "text": "Club House"
           },
           {
-            "src": "/img/features/icons_19.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_19.svg",
             "alt": "Descripción imagen 2",
             "text": "Juegos para niños"
           },
           {
-            "src": "/img/features/icons_25.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_25.svg",
             "alt": "Descripción imagen 3",
             "text": "Piscina temperada"
           },
           {
-            "src": "/img/features/icons_18.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_18.svg",
             "alt": "Descripción imagen 4",
             "text": "Hamacas"
           },
           {
-            "src": "/img/features/icons_05.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_05.svg",
             "alt": "Descripción imagen 5",
             "text": "Canchas de voley-futbol"
           },
           {
-            "src": "/img/features/icons_31.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_31.svg",
             "alt": "Descripción imagen 6",
             "text": "Zona de picnic"
           },
           {
-            "src": "/img/features/icons_26.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_26.svg",
             "alt": "Descripción imagen 7",
             "text": "Pórtico de ingreso"
           },
           {
-            "src": "/img/features/icons_09.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_09.svg",
             "alt": "Descripción imagen 8",
             "text": "Club House para niños"
           }
@@ -122,12 +122,12 @@
         "note": "*Imágenes referenciales",
         "backgroundImage": "/img/gallery/santorini-01.webp",
         "slider": [
-          { "type": "image", "src": "/img/slider-gallery/santorini1.webp" },
-          { "type": "image", "src": "/img/slider-gallery/santorini2.webp" },
-          { "type": "image", "src": "/img/slider-gallery/santorini3.webp" },
-          { "type": "image", "src": "/img/slider-gallery/santorini4.webp" },
-          { "type": "image", "src": "/img/slider-gallery/santorini5.webp" },
-          { "type": "image", "src": "/img/slider-gallery/santorini6.webp" }
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/santorini1.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/santorini2.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/santorini3.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/santorini4.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/santorini5.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/santorini6.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/h455x?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
         "videoUrl": "/video/santorini-slide.mp4",
@@ -144,10 +144,10 @@
         "subtitle": "Avance de Obras",
         "description": "Visualiza la evolución de nuestro proyecto que captura cada avance y nuestro compromiso continuo.",
         "images": [
-          "/img/project/1.webp",
-          "/img/project/2.webp",
-          "/img/project/3.webp",
-          "/img/project/4.webp"
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/1.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/2.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/3.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/4.webp"
         ]
       },
       "location": {
@@ -195,7 +195,7 @@
           {
             "title": "PRADO PIAMONTE",
             "description": "Condominios de Campo",
-            "image": "/img/cards/prado.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/prado.webp",
             "from": "Desde ",
             "area": "300",
             "unit": "m2",
@@ -205,7 +205,7 @@
             "priceAlt": "S/ 899*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -216,7 +216,7 @@
           {
             "title": "ZAFIRO",
             "description": "Residencial Playa",
-            "image": "/img/cards/zafiro.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/zafiro.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -226,7 +226,7 @@
             "priceAlt": "S/ 649*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -237,7 +237,7 @@
           {
             "title": "SANTORINI",
             "description": "Residencial Playa",
-            "image": "/img/cards/santorini.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/santorini.webp",
             "from": "Desde ",
             "area": "100",
             "unit": "m2",
@@ -247,7 +247,7 @@
             "priceAlt": "S/ 919*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -258,7 +258,7 @@
           {
             "title": "CORAL",
             "description": "Proyecto Inmobiliario",
-            "image": "/img/cards/coral.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/coral.webp",
             "from": "Desde ",
             "area": "100",
             "unit": "m2",
@@ -268,7 +268,7 @@
             "priceAlt": "VENDIDO",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "EN",
             "status2": " OBRAS",
@@ -279,7 +279,7 @@
           {
             "title": "MYKONOS",
             "description": "Residencial Playa",
-            "image": "/img/cards/mykonos.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/mykonos.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -289,7 +289,7 @@
             "priceAlt": "VENDIDO",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "EN",
             "status2": " OBRAS",
@@ -300,7 +300,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Condominios de Campo",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -321,7 +321,7 @@
           {
             "title": "PUNTA ARENA II",
             "description": "Condominios de Campo",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -331,7 +331,7 @@
             "priceAlt": "S/ 675*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE",
             "status2": "VENTA",
@@ -348,12 +348,12 @@
     {
       "id": "mykonos",
       "slider": [
-        { "type": "image", "src": "/img/slider/slider-mykonos1.webp" },
-        { "type": "image", "src": "/img/slider/slider-mykonos2.webp" },
-        { "type": "image", "src": "/img/slider/slider-mykonos3.webp" }
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-mykonos1.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-mykonos2.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-mykonos3.webp" }
       ],
       "infoBox": {
-        "logo": "/img/logo/logo-mykonos.webp",
+        "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-mykonos.webp",
         "price": {
           "title": "",
           "amount": "100%",
@@ -363,17 +363,17 @@
         },
         "infoBoxes": [
           {
-            "icon": "/img/icons/area2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/area2.svg",
             "text": "DESDE",
             "value": "110 m²"
           },
           {
-            "icon": "/img/icons/car2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car2.svg",
             "value": "EN ",
             "highlighted": "OBRAS"
           },
           {
-            "icon": "/img/icons/location2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location2.svg",
             "bold": "MEJÍA",
             "value": "AREQUIPA"
           }
@@ -390,27 +390,27 @@
         "description": "Explora Mykonos, un proyecto único de terrenos que fusiona la serenidad del campo con la grandeza del mar. Ideal para quienes anhelan un refugio tranquilo, Mykonos brinda el equilibrio perfecto entre la vida contemporánea y la tranquilidad rural.",
         "icons": [
           {
-            "src": "/img/features/icons_07.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_07.svg",
             "alt": "Descripción imagen 1",
             "text": "Club House"
           },
           {
-            "src": "/img/features/icons_19.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_19.svg",
             "alt": "Descripción imagen 2",
             "text": "Juegos para niños"
           },
           {
-            "src": "/img/features/icons_11.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_11.svg",
             "alt": "Descripción imagen 4",
             "text": "Estares"
           },
           {
-            "src": "/img/features/icons_26.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_26.svg",
             "alt": "Descripción imagen 7",
             "text": "Pórtico de ingreso"
           },
           {
-            "src": "/img/features/icons_25.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_25.svg",
             "alt": "Descripción imagen 3",
             "text": "Piscina temperada"
           }
@@ -450,9 +450,9 @@
         "subtitle": "TE ESPERA",
         "note": "*Imágenes referenciales",
         "slider": [
-          { "type": "image", "src": "/img/slider-gallery/4.webp" },
-          { "type": "image", "src": "/img/slider-gallery/5.webp" },
-          { "type": "image", "src": "/img/slider-gallery/6.webp" }
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/4.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/5.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/6.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/collection/7KBTh?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es",
         "videoUrl": "/video/mykonos-slide.mp4",
@@ -469,10 +469,10 @@
         "subtitle": "Avance de Obras",
         "description": "Visualiza la evolución de nuestro proyecto que captura cada avance y nuestro compromiso continuo.",
         "images": [
-          "/img/project/5.webp",
-          "/img/project/7.webp",
-          "/img/project/6.webp",
-          "/img/project/8.webp"
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/5.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/7.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/6.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/8.webp"
         ]
       },
       "location": {
@@ -520,7 +520,7 @@
           {
             "title": "PRADO PIAMONTE",
             "description": "Condominios de Campo",
-            "image": "/img/cards/prado.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/prado.webp",
             "from": "Desde ",
             "area": "300",
             "unit": "m2",
@@ -541,7 +541,7 @@
           {
             "title": "ZAFIRO",
             "description": "Residencial Playa",
-            "image": "/img/cards/zafiro.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/zafiro.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -562,7 +562,7 @@
           {
             "title": "SANTORINI",
             "description": "Residencial Playa",
-            "image": "/img/cards/santorini.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/santorini.webp",
             "from": "Desde ",
             "area": "100",
             "unit": "m2",
@@ -583,7 +583,7 @@
           {
             "title": "CORAL",
             "description": "Proyecto Inmobiliario",
-            "image": "/img/cards/coral.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/coral.webp",
             "from": "Desde ",
             "area": "100",
             "unit": "m2",
@@ -604,7 +604,7 @@
           {
             "title": "MYKONOS",
             "description": "Residencial Playa",
-            "image": "/img/cards/mykonos.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/mykonos.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -625,7 +625,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Condominios de Campo",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -646,7 +646,7 @@
           {
             "title": "PUNTA ARENA II",
             "description": "Condominios de Campo",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -673,9 +673,9 @@
     {
       "id": "punta-arena",
       "slider": [
-        { "type": "image", "src": "/img/slider/slider-arena1.jpg" },
-        { "type": "image", "src": "/img/slider/slider-arena2.jpg" },
-        { "type": "image", "src": "/img/slider/slider-arena3.jpg" }
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena1.jpg" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena2.jpg" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena3.jpg" }
       ],
       "infoBox": {
         "logo": "/img/logo/logo-arena.webp",
@@ -715,32 +715,32 @@
         "description": "Descubre Punta Arena, un exclusivo desarrollo de casas de playa que combina la serenidad costera con el lujo moderno. Perfecto para aquellos que buscan un refugio junto al mar, Punta Arena ofrece el equilibrio ideal entre comodidad contemporánea y tranquilidad marina.",
         "icons": [
           {
-            "src": "/img/features/icons_08.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_08.svg",
             "alt": "Descripción imagen 1",
             "text": "Club House"
           },
           {
-            "src": "/img/features/icons_24.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_24.svg",
             "alt": "Descripción imagen 2",
             "text": "Parque acuático"
           },
           {
-            "src": "/img/features/icons_35.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_35.svg",
             "alt": "Descripción imagen 3",
             "text": "Zonas comerciales"
           },
           {
-            "src": "/img/features/icons_26.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_26.svg",
             "alt": "Descripción imagen 7",
             "text": "Pórtico de ingreso"
           },
           {
-            "src": "/img/features/icons_33.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_33.svg",
             "alt": "Descripción imagen 4",
             "text": "Zona de fogata"
           },
           {
-            "src": "/img/features/icons_02.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_02.svg",
             "alt": "Descripción imagen 5",
             "text": "Áreas verdes"
           }
@@ -779,11 +779,11 @@
         "title": "TU ESPACIO PERFECTO",
         "subtitle": "TE ESPERA",
         "note": "*Imágenes referenciales",
-        "backgroundImage": "/img/gallery/santorini-01.webp",
+        "backgroundImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/gallery/santorini-01.webp",
         "slider": [
-          { "type": "image", "src": "/img/slider-gallery/7.webp" },
-          { "type": "image", "src": "/img/slider-gallery/8.webp" },
-          { "type": "image", "src": "/img/slider-gallery/9.webp" }
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/7.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/8.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/9.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/h455R?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
         "videoUrl": "/video/arena.mp4",
@@ -800,10 +800,10 @@
         "subtitle": "Avance de Obras",
         "description": "Visualiza la evolución de nuestro proyecto que captura cada avance y nuestro compromiso continuo.",
         "images": [
-          "/img/project/9.webp",
-          "/img/project/11.webp",
-          "/img/project/10.webp",
-          "/img/project/12.webp"
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/9.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/11.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/10.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/12.webp"
         ]
       },
       "location": {
@@ -851,7 +851,7 @@
           {
             "title": "PRADO PIAMONTE",
             "description": "Condominios de Campo",
-            "image": "/img/cards/prado.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/prado.webp",
             "from": "Desde ",
             "area": "300",
             "unit": "m2",
@@ -872,7 +872,7 @@
           {
             "title": "ZAFIRO",
             "description": "Residencial Playa",
-            "image": "/img/cards/zafiro.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/zafiro.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -893,7 +893,7 @@
           {
             "title": "SANTORINI",
             "description": "Residencial Playa",
-            "image": "/img/cards/santorini.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/santorini.webp",
             "from": "Desde ",
             "area": "100",
             "unit": "m2",
@@ -914,7 +914,7 @@
           {
             "title": "CORAL",
             "description": "Proyecto Inmobiliario",
-            "image": "/img/cards/coral.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/coral.webp",
             "from": "Desde ",
             "area": "100",
             "unit": "m2",
@@ -935,7 +935,7 @@
           {
             "title": "MYKONOS",
             "description": "Residencial Playa",
-            "image": "/img/cards/mykonos.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/mykonos.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -956,7 +956,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Condominios de Campo",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -977,7 +977,7 @@
           {
             "title": "PUNTA ARENA II",
             "description": "Condominios de Campo",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -1004,12 +1004,12 @@
     {
       "id": "punta-arena-2",
       "slider": [
-        { "type": "image", "src": "/img/slider/slider-arena-2-1.webp" },
-        { "type": "image", "src": "/img/slider/slider-arena-2-2.webp" },
-        { "type": "image", "src": "/img/slider/slider-arena-2-3.webp" }
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena-2-1.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena-2-2.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena-2-3.webp" }
       ],
       "infoBox": {
-        "logo": "/img/logo/logo-arena-2.webp",
+        "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-arena-2.webp",
         "price": {
           "title": "CUOTAS DESDE",
           "amount": "$180",
@@ -1019,17 +1019,17 @@
         },
         "infoBoxes": [
           {
-            "icon": "/img/icons/area2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/area2.svg",
             "text": "DESDE",
             "value": "90 m²"
           },
           {
-            "icon": "/img/icons/car2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car2.svg",
             "value": "PRE",
             "highlighted": "VENTA"
           },
           {
-            "icon": "/img/icons/location2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location2.svg",
             "bold": "PUNTA DE BOMBÓN",
             "value": "AREQUIPA"
           }
@@ -1046,37 +1046,37 @@
         "description": "¡Te presentamos Punta Arena II, la oportunidad perfecta para hacer realidad tu sueño de vivir junto al mar! Tras el éxito de Punta Arena I, ampliamos este exclusivo desarrollo con más lotes para que puedas ser parte de esta comunidad única. Aquí encontrarás el equilibrio ideal entre la tranquilidad costera y la comodidad moderna.",
         "icons": [
           {
-            "src": "/img/features/icons_08.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_08.svg",
             "alt": "Descripción imagen 1",
             "text": "Club House",
             "type": "propia"
           },
           {
-            "src": "/img/features/icons_24.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_24.svg",
             "alt": "Descripción imagen 2",
             "text": "Parque acuático",
             "type": "compartida"
           },
           {
-            "src": "/img/features/icons_35.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_35.svg",
             "alt": "Descripción imagen 3",
             "text": "Zonas comerciales",
             "type": "compartida"
           },
           {
-            "src": "/img/features/icons_02.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_02.svg",
             "alt": "Descripción imagen 5",
             "text": "Áreas verdes",
             "type": "propia"
           },
           {
-            "src": "/img/features/icons_26.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_26.svg",
             "alt": "Descripción imagen 7",
             "text": "Pórtico de ingreso",
             "type": "compartida"
           },
           {
-            "src": "/img/features/icons_33.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_33.svg",
             "alt": "Descripción imagen 4",
             "text": "Zona de fogata",
             "type": "compartida"
@@ -1116,11 +1116,11 @@
         "title": "TU ESPACIO PERFECTO",
         "subtitle": "TE ESPERA",
         "note": "*Imágenes referenciales",
-        "backgroundImage": "/img/gallery/santorini-01.webp",
+        "backgroundImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/gallery/santorini-01.webp",
         "slider": [
-          { "type": "image", "src": "/img/slider-gallery/7.webp" },
-          { "type": "image", "src": "/img/slider-gallery/8.webp" },
-          { "type": "image", "src": "/img/slider-gallery/9.webp" }
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/7.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/8.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/9.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/h455R?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
         "videoUrl": "/video/arena.mp4",
@@ -1137,10 +1137,10 @@
         "subtitle": "Avance de Obras",
         "description": "Visualiza la evolución de nuestro proyecto que captura cada avance y nuestro compromiso continuo.",
         "images": [
-          "/img/project/9.webp",
-          "/img/project/11.webp",
-          "/img/project/10.webp",
-          "/img/project/12.webp"
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/9.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/11.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/10.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/12.webp"
         ]
       },
       "location": {
@@ -1188,7 +1188,7 @@
           {
             "title": "PRADO PIAMONTE",
             "description": "Condominios de Campo",
-            "image": "/img/cards/prado.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/prado.webp",
             "from": "Desde ",
             "area": "300",
             "unit": "m2",
@@ -1198,7 +1198,7 @@
             "priceAlt": "S/ 899*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -1209,7 +1209,7 @@
           {
             "title": "ZAFIRO",
             "description": "Residencial Playa",
-            "image": "/img/cards/zafiro.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/zafiro.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -1219,7 +1219,7 @@
             "priceAlt": "S/ 649*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -1230,7 +1230,7 @@
           {
             "title": "SANTORINI",
             "description": "Residencial Playa",
-            "image": "/img/cards/santorini.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/santorini.webp",
             "from": "Desde ",
             "area": "100",
             "unit": "m2",
@@ -1240,7 +1240,7 @@
             "priceAlt": "S/ 919*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -1251,7 +1251,7 @@
           {
             "title": "CORAL",
             "description": "Proyecto Inmobiliario",
-            "image": "/img/cards/coral.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/coral.webp",
             "from": "Desde ",
             "area": "100",
             "unit": "m2",
@@ -1261,7 +1261,7 @@
             "priceAlt": "VENDIDO",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "EN",
             "status2": " OBRAS",
@@ -1272,7 +1272,7 @@
           {
             "title": "MYKONOS",
             "description": "Residencial Playa",
-            "image": "/img/cards/mykonos.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/mykonos.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -1282,7 +1282,7 @@
             "priceAlt": "VENDIDO",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "EN",
             "status2": " OBRAS",
@@ -1293,7 +1293,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Condominios de Campo",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -1303,7 +1303,7 @@
             "priceAlt": "VENDIDO",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "EN",
             "status2": " OBRAS",
@@ -1314,7 +1314,7 @@
           {
             "title": "PUNTA ARENA II",
             "description": "Condominios de Campo",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -1324,7 +1324,7 @@
             "priceAlt": "S/ 675*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE",
             "status2": "VENTA",
@@ -1341,12 +1341,12 @@
     {
       "id": "prado-piamonte",
       "slider": [
-        { "type": "image", "src": "/img/slider/slider-prado1.webp" },
-        { "type": "image", "src": "/img/slider/slider-prado2.webp" },
-        { "type": "image", "src": "/img/slider/slider-prado3.webp" }
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-prado1.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-prado2.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-prado3.webp" }
       ],
       "infoBox": {
-        "logo": "/img/logo/logo-prado.webp",
+        "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-prado.webp",
         "price": {
           "title": "CUOTAS DESDE",
           "amount": "$229",
@@ -1356,17 +1356,17 @@
         },
         "infoBoxes": [
           {
-            "icon": "/img/icons/area2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/area2.svg",
             "text": "DESDE",
             "value": "300 m²"
           },
           {
-            "icon": "/img/icons/tag2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag2.svg",
             "value": "PRE",
             "highlighted": "VENTA"
           },
           {
-            "icon": "/img/icons/location2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location2.svg",
             "bold": "LA JOYA",
             "value": "AREQUIPA"
           }
@@ -1383,37 +1383,37 @@
         "description": "Descubre Prado Piamonte, un exclusivo desarrollo de casas de campo que fusiona la serenidad rural con el confort moderno. Perfecto para quienes buscan un refugio en la naturaleza, Prado Piamonte ofrece el equilibrio ideal entre la vida contemporánea y la paz del campo.",
         "icons": [
           {
-            "src": "/img/features/icons_30.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_30.svg",
             "alt": "Descripción imagen 1",
             "text": "Viñedo toscano"
           },
           {
-            "src": "/img/features/icons_20.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_20.svg",
             "alt": "Descripción imagen 2",
             "text": "Laberinto para niños"
           },
           {
-            "src": "/img/features/icons_25.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_25.svg",
             "alt": "Descripción imagen 3",
             "text": "Piscina"
           },
           {
-            "src": "/img/features/icons_18.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_18.svg",
             "alt": "Descripción imagen 4",
             "text": "Hamacas"
           },
           {
-            "src": "/img/features/icons_06.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_06.svg",
             "alt": "Descripción imagen 6",
             "text": "Cine al aire libre"
           },
           {
-            "src": "/img/features/icons_04.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_04.svg",
             "alt": "Descripción imagen 8",
             "text": "Bungalows"
           },
           {
-            "src": "/img/features/icons_26.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_26.svg",
             "alt": "Descripción imagen 7",
             "text": "Pórtico de ingreso"
           }
@@ -1453,20 +1453,20 @@
         "subtitle": "TE ESPERA",
         "note": "*Imágenes referenciales",
         "slider": [
-          { "type": "image", "src": "/img/slider-gallery/prado01.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado02.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado03.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado04.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado05.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado06.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado07.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado08.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado09.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado10.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado11.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado12.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado13.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado14.webp" }
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado01.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado02.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado03.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado04.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado05.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado06.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado07.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado08.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado09.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado10.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado11.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado12.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado13.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado14.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/collection/7KBTL?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es",
         "videoUrl": "/video/piamonte-slide.mp4",
@@ -1483,10 +1483,10 @@
         "subtitle": "Avance de Obras",
         "description": "Visualiza la evolución de nuestro proyecto que captura cada avance y nuestro compromiso continuo.",
         "images": [
-          "/img/project/13.webp",
-          "/img/project/14.webp",
-          "/img/project/15.webp",
-          "/img/project/16.webp"
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/13.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/14.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/15.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/16.webp"
         ]
       },
       "location": {
@@ -1498,7 +1498,7 @@
             "label": "Mejia",
             "icon": "ico-location",
             "type": "image",
-            "src": "/img/map/4.webp",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/map/4.webp",
             "alt": "Mapa Dinámico"
           },
           {
@@ -1534,7 +1534,7 @@
           {
             "title": "PRADO PIAMONTE",
             "description": "Condominios de Campo",
-            "image": "/img/cards/prado.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/prado.webp",
             "from": "Desde ",
             "area": "300",
             "unit": "m2",
@@ -1544,7 +1544,7 @@
             "priceAlt": "S/ 899*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -1555,7 +1555,7 @@
           {
             "title": "ZAFIRO",
             "description": "Residencial Playa",
-            "image": "/img/cards/zafiro.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/zafiro.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -1565,7 +1565,7 @@
             "priceAlt": "S/ 649*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -1576,7 +1576,7 @@
           {
             "title": "SANTORINI",
             "description": "Residencial Playa",
-            "image": "/img/cards/santorini.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/santorini.webp",
             "from": "Desde ",
             "area": "100",
             "unit": "m2",
@@ -1586,7 +1586,7 @@
             "priceAlt": "S/ 919*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -1597,7 +1597,7 @@
           {
             "title": "CORAL",
             "description": "Proyecto Inmobiliario",
-            "image": "/img/cards/coral.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/coral.webp",
             "from": "Desde ",
             "area": "100",
             "unit": "m2",
@@ -1607,7 +1607,7 @@
             "priceAlt": "VENDIDO",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "EN",
             "status2": " OBRAS",
@@ -1618,7 +1618,7 @@
           {
             "title": "MYKONOS",
             "description": "Residencial Playa",
-            "image": "/img/cards/mykonos.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/mykonos.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -1628,7 +1628,7 @@
             "priceAlt": "VENDIDO",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "EN",
             "status2": " OBRAS",
@@ -1639,7 +1639,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Condominios de Campo",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -1649,7 +1649,7 @@
             "priceAlt": "VENDIDO",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "EN",
             "status2": " OBRAS",
@@ -1660,7 +1660,7 @@
           {
             "title": "PUNTA ARENA II",
             "description": "Condominios de Campo",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -1670,7 +1670,7 @@
             "priceAlt": "S/ 675*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE",
             "status2": "VENTA",
@@ -1687,12 +1687,12 @@
     {
       "id": "zafiro",
       "slider": [
-        { "type": "image", "src": "/img/slider/slider-zafiro1.webp" },
-        { "type": "image", "src": "/img/slider/slider-zafiro2.webp" },
-        { "type": "image", "src": "/img/slider/slider-zafiro3.webp" }
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-zafiro1.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-zafiro2.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-zafiro3.webp" }
       ],
       "infoBox": {
-        "logo": "/img/logo/logo-zafiro.webp",
+        "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-zafiro.webp",
         "price": {
           "title": "CUOTAS DESDE",
           "amount": "$169",
@@ -1702,17 +1702,17 @@
         },
         "infoBoxes": [
           {
-            "icon": "/img/icons/area2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/area2.svg",
             "text": "DESDE",
             "value": "100 m²"
           },
           {
-            "icon": "/img/icons/tag2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag2.svg",
             "value": "PRE",
             "highlighted": "VENTA"
           },
           {
-            "icon": "/img/icons/location2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location2.svg",
             "bold": "PUNTA DE BOMBÓN",
             "value": "AREQUIPA"
           }
@@ -1729,32 +1729,32 @@
         "description": "Descubre Zafiro, un exclusivo proyecto de lotes que combina la tranquilidad de la playa con la majestuosidad del mar. Perfecto para aquellos que buscan un refugio sereno, Zafiro ofrece el equilibrio ideal entre la vida moderna y la paz costera.",
         "icons": [
           {
-            "src": "/img/features/icons_08.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_08.svg",
             "alt": "Descripción imagen 1",
             "text": "Club House"
           },
           {
-            "src": "/img/features/icons_19.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_19.svg",
             "alt": "Descripción imagen 2",
             "text": "Juegos para niños"
           },
           {
-            "src": "/img/features/icons_25.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_25.svg",
             "alt": "Descripción imagen 3",
             "text": "Piscina"
           },
           {
-            "src": "/img/features/icons_34.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_34.svg",
             "alt": "Descripción imagen 4",
             "text": "Área de parrillas"
           },
           {
-            "src": "/img/features/icons_12.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_12.svg",
             "alt": "Descripción imagen 5",
             "text": "Estares privados"
           },
           {
-            "src": "/img/features/icons_26.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_26.svg",
             "alt": "Descripción imagen 7",
             "text": "Pórtico de ingreso"
           }
@@ -1795,9 +1795,9 @@
         "note": "*Imágenes referenciales",
         "backgroundImage": "/img/gallery/santorini-01.webp",
         "slider": [
-          { "type": "image", "src": "/img/slider-gallery/13.webp" },
-          { "type": "image", "src": "/img/slider-gallery/14.webp" },
-          { "type": "image", "src": "/img/slider-gallery/15.webp" }
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/13.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/14.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/15.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/h45mw?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
         "videoUrl": "/video/zafiro-slide.mp4",
@@ -1814,10 +1814,10 @@
         "subtitle": "Avance de Obras",
         "description": "Visualiza la evolución de nuestro proyecto que captura cada avance y nuestro compromiso continuo.",
         "images": [
-          "/img/project/17.webp",
-          "/img/project/18.webp",
-          "/img/project/19.webp",
-          "/img/project/20.webp"
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/17.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/18.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/19.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/20.webp"
         ]
       },
       "location": {
@@ -1865,7 +1865,7 @@
           {
             "title": "PRADO PIAMONTE",
             "description": "Condominios de Campo",
-            "image": "/img/cards/prado.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/prado.webp",
             "from": "Desde ",
             "area": "300",
             "unit": "m2",
@@ -1886,7 +1886,7 @@
           {
             "title": "ZAFIRO",
             "description": "Residencial Playa",
-            "image": "/img/cards/zafiro.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/zafiro.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -1896,7 +1896,7 @@
             "priceAlt": "S/ 649*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -1907,7 +1907,7 @@
           {
             "title": "SANTORINI",
             "description": "Residencial Playa",
-            "image": "/img/cards/santorini.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/santorini.webp",
             "from": "Desde ",
             "area": "100",
             "unit": "m2",
@@ -1917,7 +1917,7 @@
             "priceAlt": "S/ 919*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -1928,7 +1928,7 @@
           {
             "title": "CORAL",
             "description": "Proyecto Inmobiliario",
-            "image": "/img/cards/coral.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/coral.webp",
             "from": "Desde ",
             "area": "100",
             "unit": "m2",
@@ -1938,7 +1938,7 @@
             "priceAlt": "VENDIDO",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "EN",
             "status2": " OBRAS",
@@ -1949,7 +1949,7 @@
           {
             "title": "MYKONOS",
             "description": "Residencial Playa",
-            "image": "/img/cards/mykonos.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/mykonos.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -1959,7 +1959,7 @@
             "priceAlt": "VENDIDO",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "EN",
             "status2": " OBRAS",
@@ -1970,7 +1970,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Condominios de Campo",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -1980,7 +1980,7 @@
             "priceAlt": "VENDIDO",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "EN",
             "status2": " OBRAS",
@@ -1991,7 +1991,7 @@
           {
             "title": "PUNTA ARENA II",
             "description": "Condominios de Campo",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -2001,7 +2001,7 @@
             "priceAlt": "S/ 675*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE",
             "status2": "VENTA",
@@ -2018,8 +2018,8 @@
     {
       "id": "coral",
       "slider": [
-        { "type": "image", "src": "/img/slider/slider-coral1.webp" },
-        { "type": "image", "src": "/img/slider/slider-coral2.webp" }
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-coral1.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-coral2.webp" }
       ],
       "infoBox": {
         "logo": "/img/logo/logo-coral.webp",
@@ -2032,17 +2032,17 @@
         },
         "infoBoxes": [
           {
-            "icon": "/img/icons/area2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/area2.svg",
             "text": "DESDE",
             "value": "110 m²"
           },
           {
-            "icon": "/img/icons/car2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car2.svg",
             "value": "EN ",
             "highlighted": "OBRAS"
           },
           {
-            "icon": "/img/icons/location2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location2.svg",
             "bold": "PUNTA DE BOMBÓN",
             "value": "AREQUIPA"
           }
@@ -2059,52 +2059,52 @@
         "description": "Descubre Coral, un proyecto exclusivo de casas que combina la tranquilidad del entorno con el esplendor del mar. Perfecto para quienes buscan un refugio sereno, Coral ofrece el equilibrio ideal entre la vida moderna y la paz costera.",
         "icons": [
           {
-            "src": "/img/features/icons_08.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_08.svg",
             "alt": "Descripción imagen 1",
             "text": "Club House"
           },
           {
-            "src": "/img/features/icons_24.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_24.svg",
             "alt": "Descripción imagen 4",
             "text": "Juegos acuáticos para niños"
           },
           {
-            "src": "/img/features/icons_35.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_35.svg",
             "alt": "Descripción imagen 5",
             "text": "Strip Comercial"
           },
           {
-            "src": "/img/features/icons_25.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_25.svg",
             "alt": "Descripción imagen 3",
             "text": "Piscinas"
           },
           {
-            "src": "/img/features/icons_16.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_16.svg",
             "alt": "Descripción imagen 6",
             "text": "Campo de minigolf (18 hoyos)"
           },
           {
-            "src": "/img/features/icons_26.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_26.svg",
             "alt": "Descripción imagen 7",
             "text": "Pórtico de ingreso"
           },
           {
-            "src": "/img/features/icons_34.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_34.svg",
             "alt": "Descripción imagen 2",
             "text": "Área de parrillas"
           },
           {
-            "src": "/img/features/icons_03.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_03.svg",
             "alt": "Descripción imagen 8",
             "text": "Barra acuática"
           },
           {
-            "src": "/img/features/icons_19.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_19.svg",
             "alt": "Descripción imagen 2",
             "text": "Juegos para niños"
           },
           {
-            "src": "/img/features/icons_32.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_32.svg",
             "alt": "Descripción imagen 8",
             "text": "Zona de descanso"
           }
@@ -2144,8 +2144,8 @@
         "subtitle": "TE ESPERA",
         "note": "*Imágenes referenciales",
         "slider": [
-          { "type": "image", "src": "/img/slider-gallery/16.webp" },
-          { "type": "image", "src": "/img/slider-gallery/17.webp" }
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/16.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/17.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/collection/7KBMQ?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es",
         "videoUrl": "/video/coral.mp4",
@@ -2162,10 +2162,10 @@
         "subtitle": "Avance de Obras",
         "description": "Visualiza la evolución de nuestro proyecto que captura cada avance y nuestro compromiso continuo.",
         "images": [
-          "/img/project/21.webp",
-          "/img/project/23.webp",
-          "/img/project/22.webp",
-          "/img/project/24.webp"
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/21.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/23.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/22.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/24.webp"
         ]
       },
       "location": {
@@ -2213,7 +2213,7 @@
           {
             "title": "PRADO PIAMONTE",
             "description": "Condominios de Campo",
-            "image": "/img/cards/prado.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/prado.webp",
             "from": "Desde ",
             "area": "300",
             "unit": "m2",
@@ -2223,7 +2223,7 @@
             "priceAlt": "S/ 899*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -2234,7 +2234,7 @@
           {
             "title": "ZAFIRO",
             "description": "Residencial Playa",
-            "image": "/img/cards/zafiro.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/zafiro.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -2244,7 +2244,7 @@
             "priceAlt": "S/ 649*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -2255,7 +2255,7 @@
           {
             "title": "SANTORINI",
             "description": "Residencial Playa",
-            "image": "/img/cards/santorini.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/santorini.webp",
             "from": "Desde ",
             "area": "100",
             "unit": "m2",
@@ -2265,7 +2265,7 @@
             "priceAlt": "S/ 919*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -2276,7 +2276,7 @@
           {
             "title": "CORAL",
             "description": "Proyecto Inmobiliario",
-            "image": "/img/cards/coral.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/coral.webp",
             "from": "Desde ",
             "area": "100",
             "unit": "m2",
@@ -2286,7 +2286,7 @@
             "priceAlt": "VENDIDO",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "EN",
             "status2": " OBRAS",
@@ -2297,7 +2297,7 @@
           {
             "title": "MYKONOS",
             "description": "Residencial Playa",
-            "image": "/img/cards/mykonos.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/mykonos.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -2307,7 +2307,7 @@
             "priceAlt": "VENDIDO",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "EN",
             "status2": " OBRAS",
@@ -2318,7 +2318,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Condominios de Campo",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -2328,7 +2328,7 @@
             "priceAlt": "VENDIDO",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "EN",
             "status2": " OBRAS",
@@ -2339,7 +2339,7 @@
           {
             "title": "PUNTA ARENA II",
             "description": "Condominios de Campo",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -2349,7 +2349,7 @@
             "priceAlt": "S/ 675*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE",
             "status2": "VENTA",

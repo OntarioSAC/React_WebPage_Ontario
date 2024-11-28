@@ -3,12 +3,12 @@
     {
       "id": "santorini",
       "slider": [
-        { "type": "image", "src": "/img/slider/slider-santorini1.webp" },
-        { "type": "image", "src": "/img/slider/slider-santorini2.webp" },
-        { "type": "image", "src": "/img/slider/slider-santorini3.webp" }
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-santorini1.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-santorini2.webp"},
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-santorini3.webp"}
       ],
       "infoBox": {
-        "logo": "/img/logo/logo-santorini.webp",
+        "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-santorini.webp",
         "price": {
           "title": "INSTALLMENTS FROM",
           "amount": "$239",
@@ -18,17 +18,17 @@
         },
         "infoBoxes": [
           {
-            "icon": "/img/icons/area2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/area2.svg",
             "text": "FROM",
             "value": "100 m²"
           },
           {
-            "icon": "/img/icons/tag2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag2.svg",
             "value": "PRE",
             "highlighted": "SALE"
           },
           {
-            "icon": "/img/icons/location2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location2.svg",
             "bold": "MEJÍA",
             "value": "AREQUIPA"
           }
@@ -45,42 +45,42 @@
         "description": "Discover Santorini, an exclusive lot project that combines the tranquility of the countryside with the majesty of the sea. Perfect for those seeking a serene retreat, Santorini offers the ideal balance between modern living and rural peace.",
         "icons": [
           {
-            "src": "/img/features/icons_07.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_07.svg",
             "alt": "Image description 1",
             "text": "Club House"
           },
           {
-            "src": "/img/features/icons_19.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_19.svg",
             "alt": "Image description 2",
             "text": "Children's playground"
           },
           {
-            "src": "/img/features/icons_25.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_25.svg",
             "alt": "Image description 3",
             "text": "Heated pool"
           },
           {
-            "src": "/img/features/icons_18.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_18.svg",
             "alt": "Image description 4",
             "text": "Hammocks"
           },
           {
-            "src": "/img/features/icons_05.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_05.svg",
             "alt": "Image description 5",
             "text": "Volleyball-soccer fields"
           },
           {
-            "src": "/img/features/icons_31.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_31.svg",
             "alt": "Image description 6",
             "text": "Picnic area"
           },
           {
-            "src": "/img/features/icons_26.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_26.svg",
             "alt": "Image description 7",
             "text": "Entrance gate"
           },
           {
-            "src": "/img/features/icons_09.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_09.svg",
             "alt": "Image description 8",
             "text": "Children's Club House"
           }
@@ -120,14 +120,14 @@
         "title": "YOUR PERFECT SPACE",
         "subtitle": "IS WAITING FOR YOU",
         "note": "*Reference images",
-        "backgroundImage": "/img/gallery/santorini-01.webp",
+        "backgroundImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/gallery/santorini-01.webp",
         "slider": [
-          { "type": "image", "src": "/img/slider-gallery/santorini1.webp" },
-          { "type": "image", "src": "/img/slider-gallery/santorini2.webp" },
-          { "type": "image", "src": "/img/slider-gallery/santorini3.webp" },
-          { "type": "image", "src": "/img/slider-gallery/santorini4.webp" },
-          { "type": "image", "src": "/img/slider-gallery/santorini5.webp" },
-          { "type": "image", "src": "/img/slider-gallery/santorini6.webp" }
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/santorini1.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/santorini2.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/santorini3.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/santorini4.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/santorini5.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/santorini6.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/h455x?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
         "videoUrl": "/video/santorini-slide.mp4",
@@ -144,10 +144,10 @@
         "subtitle": "Work Progress",
         "description": "See the evolution of our project, capturing every advancement and our ongoing commitment.",
         "images": [
-          "/img/project/1.webp",
-          "/img/project/2.webp",
-          "/img/project/3.webp",
-          "/img/project/4.webp"
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/1.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/2.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/3.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/4.webp"
         ]
       },
       "location": {
@@ -159,7 +159,7 @@
             "label": "Mejia",
             "icon": "ico-location",
             "type": "image",
-            "src": "/img/map/1.webp",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/map/1.webp",
             "alt": "Dynamic Map"
           },
           {
@@ -195,7 +195,7 @@
           {
             "title": "PRADO PIAMONTE",
             "description": "Country Condominiums",
-            "image": "/img/cards/prado.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/prado.webp",
             "from": "From ",
             "area": "300",
             "unit": "m&sup2",
@@ -204,7 +204,7 @@
             "priceAlt": "or S/ 899*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -215,7 +215,7 @@
           {
             "title": "ZAFIRO",
             "description": "Beach Residential",
-            "image": "/img/cards/zafiro.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/zafiro.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -224,7 +224,7 @@
             "priceAlt": "or S/ 649*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -235,7 +235,7 @@
           {
             "title": "SANTORINI",
             "description": "Beach Residential",
-            "image": "/img/cards/santorini.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/santorini.webp",
             "from": "From ",
             "area": "100",
             "unit": "m2",
@@ -244,7 +244,7 @@
             "priceAlt": "or S/ 919*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -255,7 +255,7 @@
           {
             "title": "CORAL",
             "description": "Real Estate Project",
-            "image": "/img/cards/coral.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/coral.webp",
             "from": "From ",
             "area": "100",
             "unit": "m2",
@@ -264,7 +264,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -275,7 +275,7 @@
           {
             "title": "MYKONOS",
             "description": "Beach Residential",
-            "image": "/img/cards/mykonos.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/mykonos.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -284,7 +284,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -295,7 +295,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Country Condominiums",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -304,7 +304,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -315,7 +315,7 @@
           {
             "title": "PUNTA ARENA II",
             "description": "Country Condominiums",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "From ",
             "area": "90",
             "unit": "m2",
@@ -324,7 +324,7 @@
             "priceAlt": "or S/ 675*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE-",
             "status2": " SALE",
@@ -342,12 +342,12 @@
     {
       "id": "mykonos",
       "slider": [
-        { "type": "image", "src": "/img/slider/slider-mykonos1.webp" },
-        { "type": "image", "src": "/img/slider/slider-mykonos2.webp" },
-        { "type": "image", "src": "/img/slider/slider-mykonos3.webp" }
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-mykonos1.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-mykonos2.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-mykonos3.webp" }
       ],
       "infoBox": {
-        "logo": "/img/logo/logo-mykonos.webp",
+        "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-mykonos.webp",
         "price": {
           "title": "",
           "amount": "100%",
@@ -357,17 +357,17 @@
         },
         "infoBoxes": [
           {
-            "icon": "/img/icons/area2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/area2.svg",
             "text": "FROM",
             "value": "110 m²"
           },
           {
-            "icon": "/img/icons/car2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car2.svg",
             "value": "IN ",
             "highlighted": "PROGRESS"
           },
           {
-            "icon": "/img/icons/location2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location2.svg",
             "bold": "MEJÍA",
             "value": "AREQUIPA"
           }
@@ -444,9 +444,9 @@
         "subtitle": "IS WAITING FOR YOU",
         "note": "*Reference images",
         "slider": [
-          { "type": "image", "src": "/img/slider-gallery/4.webp" },
-          { "type": "image", "src": "/img/slider-gallery/5.webp" },
-          { "type": "image", "src": "/img/slider-gallery/6.webp" }
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/4.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/5.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/6.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/collection/7KBTh?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=en",
         "videoUrl": "/video/mykonos-slide.mp4",
@@ -463,10 +463,10 @@
         "subtitle": "Work Progress",
         "description": "See the evolution of our project, capturing every advancement and our ongoing commitment.",
         "images": [
-          "/img/project/5.webp",
-          "/img/project/7.webp",
-          "/img/project/6.webp",
-          "/img/project/8.webp"
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/5.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/7.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/6.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/8.webp"
         ]
       },
       "location": {
@@ -478,7 +478,7 @@
             "label": "Mejia",
             "icon": "ico-location",
             "type": "image",
-            "src": "/img/map/2.webp",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/map/2.webp",
             "alt": "Dynamic Map"
           },
           {
@@ -514,7 +514,7 @@
           {
             "title": "PRADO PIAMONTE",
             "description": "Country Condominiums",
-            "image": "/img/cards/prado.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/prado.webp",
             "from": "From ",
             "area": "300",
             "unit": "m&sup2",
@@ -534,7 +534,7 @@
           {
             "title": "ZAFIRO",
             "description": "Beach Residential",
-            "image": "/img/cards/zafiro.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/zafiro.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -554,7 +554,7 @@
           {
             "title": "SANTORINI",
             "description": "Beach Residential",
-            "image": "/img/cards/santorini.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/santorini.webp",
             "from": "From ",
             "area": "100",
             "unit": "m2",
@@ -574,7 +574,7 @@
           {
             "title": "CORAL",
             "description": "Real Estate Project",
-            "image": "/img/cards/coral.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/coral.webp",
             "from": "From ",
             "area": "100",
             "unit": "m2",
@@ -594,7 +594,7 @@
           {
             "title": "MYKONOS",
             "description": "Beach Residential",
-            "image": "/img/cards/mykonos.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/mykonos.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -614,7 +614,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Country Condominiums",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -641,12 +641,12 @@
     {
       "id": "punta-arena",
       "slider": [
-        { "type": "image", "src": "/img/slider/slider-arena1.jpg" },
-        { "type": "image", "src": "/img/slider/slider-arena2.jpg" },
-        { "type": "image", "src": "/img/slider/slider-arena3.jpg" }
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena1.jpg" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena2.jpg" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena3.jpg" }
       ],
       "infoBox": {
-        "logo": "/img/logo/logo-arena.webp",
+        "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-arena.webp",
         "price": {
           "title": "",
           "amount": "100%",
@@ -747,11 +747,11 @@
         "title": "YOUR PERFECT SPACE",
         "subtitle": "IS WAITING FOR YOU",
         "note": "*Reference images",
-        "backgroundImage": "/img/gallery/santorini-01.webp",
+        "backgroundImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/gallery/santorini-01.webp",
         "slider": [
-          { "type": "image", "src": "/img/slider-gallery/7.webp" },
-          { "type": "image", "src": "/img/slider-gallery/8.webp" },
-          { "type": "image", "src": "/img/slider-gallery/9.webp" }
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/7.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/8.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/9.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/h455R?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
         "videoUrl": "/video/arena.mp4",
@@ -768,10 +768,10 @@
         "subtitle": "Work Progress",
         "description": "See the evolution of our project, capturing every advancement and our ongoing commitment.",
         "images": [
-          "/img/project/9.webp",
-          "/img/project/11.webp",
-          "/img/project/10.webp",
-          "/img/project/12.webp"
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/9.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/11.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/10.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/12.webp"
         ]
       },
       "location": {
@@ -783,7 +783,7 @@
             "label": "Mejia",
             "icon": "ico-location",
             "type": "image",
-            "src": "/img/map/3.webp",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/map/3.webp",
             "alt": "Dynamic Map"
           },
           {
@@ -819,7 +819,7 @@
           {
             "title": "PRADO PIAMONTE",
             "description": "Country Condominiums",
-            "image": "/img/cards/prado.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/prado.webp",
             "from": "From ",
             "area": "300",
             "unit": "m&sup2",
@@ -839,7 +839,7 @@
           {
             "title": "ZAFIRO",
             "description": "Beach Residential",
-            "image": "/img/cards/zafiro.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/zafiro.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -859,7 +859,7 @@
           {
             "title": "SANTORINI",
             "description": "Beach Residential",
-            "image": "/img/cards/santorini.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/santorini.webp",
             "from": "From ",
             "area": "100",
             "unit": "m2",
@@ -879,7 +879,7 @@
           {
             "title": "CORAL",
             "description": "Real Estate Project",
-            "image": "/img/cards/coral.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/coral.webp",
             "from": "From ",
             "area": "100",
             "unit": "m2",
@@ -899,7 +899,7 @@
           {
             "title": "MYKONOS",
             "description": "Beach Residential",
-            "image": "/img/cards/mykonos.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/mykonos.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -946,9 +946,9 @@
     {
       "id": "punta-arena-2",
       "slider": [
-        { "type": "image", "src": "/img/slider/slider-arena-2-1.webp" },
-        { "type": "image", "src": "/img/slider/slider-arena-2-2.webp" },
-        { "type": "image", "src": "/img/slider/slider-arena-2-3.webp" }
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena-2-1.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena-2-2.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena-2-3.webp" }
       ],
       "infoBox": {
         "logo": "/img/logo/logo-arena-2.webp",
@@ -1060,9 +1060,9 @@
         "note": "*Reference images",
         "backgroundImage": "/img/gallery/santorini-01.webp",
         "slider": [
-          { "type": "image", "src": "/img/slider-gallery/7.webp" },
-          { "type": "image", "src": "/img/slider-gallery/8.webp" },
-          { "type": "image", "src": "/img/slider-gallery/9.webp" }
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/7.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/8.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/9.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/h455R?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
         "videoUrl": "/video/arena.mp4",
@@ -1257,9 +1257,9 @@
     {
       "id": "prado-piamonte",
       "slider": [
-        { "type": "image", "src": "/img/slider/slider-prado1.webp" },
-        { "type": "image", "src": "/img/slider/slider-prado2.webp" },
-        { "type": "image", "src": "/img/slider/slider-prado3.webp" }
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-prado1.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-prado2.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-prado3.webp" }
       ],
       "infoBox": {
         "logo": "/img/logo/logo-prado.webp",
@@ -1369,20 +1369,20 @@
         "subtitle": "IS WAITING FOR YOU",
         "note": "*Reference images",
         "slider": [
-          { "type": "image", "src": "/img/slider-gallery/prado01.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado02.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado03.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado04.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado05.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado06.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado07.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado08.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado09.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado10.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado11.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado12.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado13.webp" },
-          { "type": "image", "src": "/img/slider-gallery/prado14.webp" }
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado01.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado02.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado03.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado04.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado05.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado06.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado07.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado08.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado09.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado10.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado11.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado12.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado13.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado14.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/collection/7KBTL?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=en",
         "videoUrl": "/video/piamonte-slide.mp4",
@@ -1577,9 +1577,9 @@
     {
       "id": "zafiro",
       "slider": [
-        { "type": "image", "src": "/img/slider/slider-zafiro1.webp" },
-        { "type": "image", "src": "/img/slider/slider-zafiro2.webp" },
-        { "type": "image", "src": "/img/slider/slider-zafiro3.webp" }
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-zafiro1.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-zafiro2.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-zafiro3.webp" }
       ],
       "infoBox": {
         "logo": "/img/logo/logo-zafiro.webp",
@@ -1685,9 +1685,9 @@
         "note": "*Reference images",
         "backgroundImage": "/img/gallery/santorini-01.webp",
         "slider": [
-          { "type": "image", "src": "/img/slider-gallery/13.webp" },
-          { "type": "image", "src": "/img/slider-gallery/14.webp" },
-          { "type": "image", "src": "/img/slider-gallery/15.webp" }
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/13.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/14.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/15.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/h45mw?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
         "videoUrl": "/video/zafiro-slide.mp4",
@@ -1882,8 +1882,8 @@
     {
       "id": "coral",
       "slider": [
-        { "type": "image", "src": "/img/slider/slider-coral1.webp" },
-        { "type": "image", "src": "/img/slider/slider-coral2.webp" }
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-coral1.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-coral2.webp" }
       ],
       "infoBox": {
         "logo": "/img/logo/logo-coral.webp",
@@ -2008,8 +2008,8 @@
         "subtitle": "IS WAITING FOR YOU",
         "note": "*Reference images",
         "slider": [
-          { "type": "image", "src": "/img/slider-gallery/16.webp" },
-          { "type": "image", "src": "/img/slider-gallery/17.webp" }
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/16.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/17.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/collection/7KBMQ?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=en",
         "videoUrl": "/video/coral.mp4",

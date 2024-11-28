@@ -102,10 +102,10 @@ const Sidebar = () => {
 
 
    <div className={styles.derecha_} style={derecha_}>
-      <div style={Titulo_general}>
-         <h5 style={titulo_derecha}>Publicaciones </h5>
-         <p style={titulo_derecha_in}>Recientes</p>
-      </div>
+         <div className={styles.fathertitle} style={Titulo_general}>
+            <h5 className={styles.fathertitleint}  style={titulo_derecha}>Publicaciones </h5>
+            <p className={styles.fathertitleint} style={titulo_derecha_in}>Recientes</p>
+         </div>
       {data.cards.map((card) => (
    <div
       key={card.id}
@@ -136,20 +136,22 @@ const Sidebar = () => {
             
             
          }}
-         onClick={() => navigate(`/card/${card.id}`)}
+         
       ></div>
 
       {/* Contenedor de texto */}
       <div
+         className={styles.contenttitl}
          style={{
             ...derecha_int_text,
             position: 'relative',
             zIndex: 2, // Hace que el texto esté por encima de la imagen
          }}
-         onClick={() => navigate(`/card/${card.id}`)}
+         
       >
-         <h2
+         <h2 className={styles.titleg}
             style={{
+               
                ...text_texto_dere,
                color: hoveredCard === card.id ? 'white' : '#1C284C',
                transition: 'color 0.5s ease',
@@ -160,6 +162,7 @@ const Sidebar = () => {
       </div>
 
       <div
+         className={styles.descripcionri}
          style={{
             ...derecha_int_fecha_cuerpo,
             position: 'relative',
@@ -167,6 +170,7 @@ const Sidebar = () => {
          }}
       >
          <p
+            className={styles.fecharig}
             style={{
                ...derecha_int_fecha,
                color: hoveredCard === card.id ? 'white' : '#1C284C',

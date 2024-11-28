@@ -68,15 +68,15 @@ const HomeSlider = ({ data }) => {
               >
                 {loaded[index] ? ( // Carga solo si el video es visible
                   <video
-                    className={`d-block w-100 ${styles['video-slider']}`}
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                  >
-                    <source src={slide.src} type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                  className={`d-block w-100 ${styles['video-slider']}`}
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                >
+                  <source src={slide.src.replace('.mp4', '.webm')} type="video/webm" />
+                  Your browser does not support the video tag.
+                </video>
                 ) : (
                   <div className={styles['video-placeholder']}>Cargando video...</div>
                 )}

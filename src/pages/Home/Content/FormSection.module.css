@@ -3,6 +3,7 @@
   place-items: center;
   height: 810px;
   justify-content: center;
+  
 }
 
 .overlap {
@@ -39,6 +40,7 @@
 
 .span-style {
   font-weight: 900;
+  
 }
 
 .img-content img {
@@ -76,5 +78,18 @@
     background-image: url("/img/textures/textura-7.webp");
     background-size: cover;
     background-repeat: no-repeat;
+  }
+  .fatherspantitleone{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 80%;
+  }
+  .spantitleone{
+    font-size: 18px;
+
+  }
+  .span-style{
+    font-size: 18px;
   }
 }

@@ -112,6 +112,7 @@ function Header() {
         >
           <img loading="lazy" alt="Menu Toggle" src="/img/icons/drop.svg" />
         </button>
+        
         <div className={`${styles["navbar-collapse"]} ${isMenuOpen ? styles.show : ""}`}>
           <ul className={styles["navbar-nav"]} ref={dropdownRef}>
             {headerLinks.map((link, index) => (
@@ -166,6 +167,7 @@ function Header() {
                       >
                         {link.subItems.map((subLink, subIndex) => (
                           <li key={subIndex}>
+                            
                             <NavLink
                               className={({ isActive }) =>
                                 isActive
@@ -196,10 +198,9 @@ function Header() {
                                 onClick={closeMenus}
                                 key={subIndex}
                               >
+                                
                                 <img
-                                  src={`/img/nav/${subLink.name
-                                    .toLowerCase()
-                                    .replace(" ", "-")}.webp`}
+                                  src={subLink.image}
                                   alt={subLink.name}
                                   loading="lazy"
                                   className={styles["card-image"]}

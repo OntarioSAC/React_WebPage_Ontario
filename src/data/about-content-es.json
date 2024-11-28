@@ -6,11 +6,11 @@
     "description": "Somos un grupo de empresas con más de 10 años en el negocio inmobiliario con operaciones en el sur y el norte del país. Tenemos líneas de negocios de condominios de playa, campo y departamentos. Estamos totalmente comprometidos con el desarrollo del país y con hacer realidad el deseo de la vivienda propia de nuestros clientes.",
     "vision": {
       "icon": "/img/icons/vision.svg",
-      "text": "Ser el principal desarrollador nacional de condominios de playa y campo con una concepción verde y sostenible de los mismos"
+      "text": "\"Ser el principal desarrollador nacional de condominios de playa y campo, con una concepción verde y sostenible de los mismos\""
     },
     "mision": {
       "icon": "/img/icons/mision.svg",
-      "text": "Desarrollamos condominios y multifamiliares para el disfrute y seguridad de nuestros clientes, innovando de forma permanente, cuidando el impacto al medio ambiente."
+      "text": "\"Desarrollamos condominios y multifamiliares para el disfrute y seguridad de nuestros clientes, innovando de forma permanente, cuidando el impacto al medio ambiente.\""
     },
     "images": {
       "banner": "/img/images/baner-about.webp",

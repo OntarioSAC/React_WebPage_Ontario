@@ -1,9 +1,44 @@
+
+
+
+
 @media (max-width: 768px) {
   
   .derecha_int{
+   
+    width: 324px !important;
+    height: 164.599px !important;
     
-    width: 324px;
-    height: 164.599px;
+  }
+  .titleg{
+    font-size: 17.326px !important;
+    width: 100% !important;
+  }
+  .contenttitl{
     
+    height: 90px;
+    margin-bottom: 0px !important;
+  }
+  .descripcionri{
+    margin-top: -30px;
+    
+    color: #1C284C;
+    font-family: Inter;
+    font-size: 13.861px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .fathertitle{
+    
+    display: flex;
+    justify-content: center !important;
+    
+  }
+  .fathertitleint{
+    font-size: 20px !important;
+  }
+  .fecharig{
+    font-size: 13.861px !important;
   }
 }

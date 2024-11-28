@@ -2,7 +2,7 @@
   "homeSlider": [
     {
       "type": "video",
-      "src": "/video/home-slide.mp4"
+      "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/video/Home-Slide.webm"
     }
   ],
   "homeInfoBoxes": [
@@ -14,7 +14,7 @@
     },
     {
       "icon": "/img/icons/project-icon.svg",
-      "number": "+ 8",
+      "number": "+ 10",
       "line1": "Proyectos",
       "line2": ""
     },
@@ -55,7 +55,7 @@
       "iso14001": "/img/logo/iso-14001.svg",
       "ccia": "/img/logo/ccia.webp"
     },
-    "advisorImage": "/img/images/img-asesor.webp"
+    "advisorImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/elementoAsesor.webp"
   },
   "homeSectionData": {
     "title": "NUESTROS",
@@ -84,7 +84,7 @@
       {
         "title": "PRADO PIAMONTE",
         "description": "Condominios de Campo",
-        "image": "/img/cards/prado.webp",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/prado.webp",
         "from": "Desde ",
         "area": "300",
         "unit": "m2",
@@ -108,7 +108,7 @@
       {
         "title": "ZAFIRO",
         "description": "Residencial Playa",
-        "image": "/img/cards/zafiro.webp",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/zafiro.webp",
         "from": "Desde ",
         "area": "110",
         "unit": "m2",
@@ -132,7 +132,7 @@
       {
         "title": "SANTORINI",
         "description": "Residencial Playa",
-        "image": "/img/cards/santorini.webp",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/santorini.webp",
         "from": "Desde ",
         "area": "100",
         "unit": "m2",
@@ -145,7 +145,7 @@
         "priceAlt": "S/ 919*",
         "detail1": "Cuotas",
         "detail2": "desde",
-        "icon": "/img/icons/tag.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
         "filterStatus": 1,
         "status": "PRE",
         "status2": "VENTA",
@@ -156,7 +156,7 @@
       {
         "title": "CORAL",
         "description": "Proyecto Inmobiliario",
-        "image": "/img/cards/coral.webp",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/coral.webp",
         "from": "Desde ",
         "area": "100",
         "unit": "m2",
@@ -180,7 +180,7 @@
       {
         "title": "MYKONOS",
         "description": "Residencial Playa",
-        "image": "/img/cards/mykonos.webp",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/mykonos.webp",
         "from": "Desde ",
         "area": "110",
         "unit": "m2",
@@ -193,7 +193,7 @@
         "priceAlt": "VENDIDO",
         "detail1": "",
         "detail2": "",
-        "icon": "/img/icons/car.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
         "filterStatus": 0,
         "status": "EN",
         "status2": " OBRAS",
@@ -204,7 +204,7 @@
       {
         "title": "PUNTA ARENA",
         "description": "Condominios de Campo",
-        "image": "/img/cards/arena.webp",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
         "from": "Desde ",
         "area": "110",
         "unit": "m2",
@@ -217,7 +217,7 @@
         "priceAlt": "VENDIDO",
         "detail1": "",
         "detail2": "",
-        "icon": "/img/icons/car.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
         "filterStatus": 0,
         "status": "EN",
         "status2": " OBRAS",
@@ -235,21 +235,21 @@
     "testimonials": [
       {
         "quote": "¡Gracias a Ontario, finalmente tenemos nuestro propio pedacito de paraíso en la playa! No podríamos estar más emocionados por comenzar esta nueva aventura juntos. ¡Ontario hizo que todo fuera tan fácil y emocionante!",
-        "clientImage": "/img/clients/client-1.webp",
+        "clientImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/clients/client-1.webp",
         "clientNames": "HILDA MEDINA",
         "clientPartner": "JESÚS TEJADA",
         "projectName": "SANTORINI"
       },
       {
         "quote": "“Como familia celebramos el logro de poder haber adquirido nuestra Casa de Campo soñada”.",
-        "clientImage": "/img/clients/client-2.webp",
+        "clientImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/clients/client-2.webp",
         "clientNames": "FAMILIA",
         "clientPartner": "HUARSAYA",
         "projectName": "PRADO PIAMONTE"
       },
       {
         "quote": "“Fue genial como nos atendieron los asesores, tienen super planes de financiación para todos los casos, me quedé encantada con el acuerdo que llegamos a concretar. Gracias Ontario”.",
-        "clientImage": "/img/clients/client-3.webp",
+        "clientImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/clients/client-3.webp",
         "clientNames": "FAMILIA",
         "clientPartner": "CANAZAS CHINO",
         "projectName": "CORAL"
@@ -261,7 +261,7 @@
     "title2": "COMIENZA AQUÍ",
     "ctaText": "¡Aprovecha nuestras ofertas!",
     "backgroundColor": "#cbf000",
-    "imageSrc": "/img/images/family.webp",
+    "imageSrc": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/family.webp",
     "imageAlt": "Familia",
     "documents": [
       {

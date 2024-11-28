@@ -9,16 +9,6 @@
       "name": "Condominiums",
       "icon": "/img/icons/condominios.svg",
       "subItems": [
-<<<<<<< HEAD
-        { "name": "Santorini", "to": "/projects/santorini" },
-        { "name": "Punta Arena", "to": "/projects/punta-arena" },
-        { "name": "Coral", "to": "/projects/coral" },
-        { "name": "Mykonos", "to": "/projects/mykonos" },
-        { "name": "Zafiro", "to": "/projects/zafiro" },
-        { "name": "Prado Piamonte", "to": "/projects/prado-piamonte" },
-        { "name": "Punta Arena II", "to": "/projects/punta-arena-2" },
-        { "name": "Bahia Serena", "to": "/projects/bahia-serena" }
-=======
         { "name": "Santorini", "to": "/projects/santorini","image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/santorini.webp" },
         { "name": "Punta Arena", "to": "/projects/punta-arena" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/punta-arena.webp" },
         { "name": "Coral", "to": "/projects/coral" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/coral.webp" },
@@ -26,7 +16,6 @@
         { "name": "Zafiro", "to": "/projects/zafiro" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/zafiro.webp" },
         { "name": "Prado Piamonte", "to": "/projects/prado-piamonte" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/prado-piamonte.webp" },
         { "name": "Punta Arena II", "to": "/projects/punta-arena-2" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/punta-arena ii.webp" }
->>>>>>> 8b1e0b3d372fd9efd7f380c137be6547deb0c4c1
       ]
     },
     {

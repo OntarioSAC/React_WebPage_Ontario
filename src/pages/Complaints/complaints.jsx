@@ -4,17 +4,18 @@ import 'react-phone-input-2/lib/bootstrap.css'; // Importa el estilo de Bootstra
 import { useNavigate } from 'react-router-dom'; // Para la redirección
 
 
+
 const Complaints = () => {
 
     const [complaintNumber, setComplaintNumber] = useState(null); // Número de reclamo inicializado como null
     const [formData, setFormData] = useState({
-        establecimiento: 'Arequipa',
+        establecimiento: '',
         ruc: '',
         nombres: '',
         apellidos: '',
         correo: '',
-        telefono: '',
-        tipoDocumento: 'DNI',
+        telefono: '+51',
+        tipoDocumento: '',
         numDocumento: '',
         departamento: '',
         provincia: '',
@@ -27,6 +28,7 @@ const Complaints = () => {
         detalleReclamo: '',
         pedido: '',
         autorizacion: '',
+        archivo: null, // Añade esta propiedad
     });
 
     const styles = {
@@ -198,19 +200,32 @@ const Complaints = () => {
 
     
 
-    // Obtener la fecha actual formateada
+    // Obtiene la fecha actual formateada
     const today = new Date().toLocaleDateString('es-PE', {
         day: '2-digit',
         month: '2-digit',
         year: 'numeric'
     });
 
+    // Función para calcular la fecha actual + 15 día
+    const getNextDay = () => {
+        const today = new Date(); // Fecha actual
+        const tomorrow = new Date(today); // Copia la fecha actual
+        tomorrow.setDate(today.getDate() + 15); // Añade 15 día
+        return tomorrow.toLocaleDateString('es-PE', { // Formato local
+            weekday: 'long', // Nombre del día (e.g., "Domingo")
+            day: '2-digit',
+            month: 'long',
+            year: 'numeric'
+        });
+    };
+
     useEffect(() => {
         
             const fetchLastComplaintNumber = async () => {
                 try {
                     const response = await fetch(
-                        "https://script.google.com/macros/s/AKfycbzMszCBuC78SkWDB8xwRTOHpRGa3UI8ZuTvckdsonOooeAHiUKhNTGufszR64_bhcE7uA/exec"
+                        "https://script.google.com/macros/s/AKfycbyRyUK4Nn2OV_D6_MH_qV0CzSO35QRTOVeYlSdURzUE_KQISXmjtkNo7GH8MIAn_fjF/exec"
                     );
                     const data = await response.json();
 
@@ -243,6 +258,14 @@ const Complaints = () => {
         }));
     };
 
+    const handleFileChange = (e) => {
+        const file = e.target.files[0]; // Obtiene el archivo seleccionado
+        setFormData((prevData) => ({
+            ...prevData,
+            archivo: file, // Añade el archivo al estado
+        }));
+    };
+
     const handlePhoneChange = (value) => {
         setFormData((prevData) => ({
             ...prevData,
@@ -267,56 +290,74 @@ const Complaints = () => {
 
         console.log('Datos que se enviarán:', formData); // Verifica los datos antes del envío
 
-        const data = {
-            contents: [
-                [
-                    `N° 000 00000${complaintNumber}-2024`, // Número de reclamo
-                    formData.establecimiento,
-                    formData.ruc,
-                    formData.nombres,
-                    formData.apellidos,
-                    formData.correo,
-                    formData.telefono,
-                    formData.tipoDocumento,
-                    formData.numDocumento,
-                    formData.departamento,
-                    formData.provincia,
-                    formData.distrito,
-                    formData.direccion,
-                    formData.tipoBien,
-                    formData.descripcionBien,
-                    formData.valorProductoServicio,
-                    formData.tipoReclamo,
-                    formData.detalleReclamo,
-                    formData.pedido,
-                    formData.autorizacion,
-                    today,
-                ],
-            ],
-        };
-
         try {
-            const response = await fetch("https://script.google.com/macros/s/AKfycbzMszCBuC78SkWDB8xwRTOHpRGa3UI8ZuTvckdsonOooeAHiUKhNTGufszR64_bhcE7uA/exec", {
-                method: 'POST',
-                mode: 'no-cors',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(data),
-            });
+            let archivoBase64 = null;
+    
+            // Si hay un archivo, conviértelo a Base64
+            if (formData.archivo) {
+                const reader = new FileReader();
+                archivoBase64 = await new Promise((resolve, reject) => {
+                    reader.onload = () => resolve(reader.result.split(',')[1]); // Elimina el encabezado del Base64
+                    reader.onerror = (error) => reject(error);
+                    reader.readAsDataURL(formData.archivo);
+                });
+            }
+
+            const data = {
+                contents: [
+                    [
+                        `N° 000 00000${complaintNumber}-2024`, // Número de reclamo
+                        formData.establecimiento,
+                        formData.ruc,
+                        formData.nombres,
+                        formData.apellidos,
+                        formData.correo,
+                        formData.telefono,
+                        formData.tipoDocumento,
+                        formData.numDocumento,
+                        formData.departamento,
+                        formData.provincia,
+                        formData.distrito,
+                        formData.direccion,
+                        formData.tipoBien,
+                        formData.descripcionBien,
+                        formData.valorProductoServicio,
+                        formData.tipoReclamo,
+                        formData.detalleReclamo,
+                        formData.pedido,
+                        formData.autorizacion,
+                        today,
+                        archivoBase64, // Agrega el archivo convertido a Base64
+                    ],
+                ],
+            };
+
+            const response = await fetch(
+                "https://script.google.com/macros/s/AKfycbyRyUK4Nn2OV_D6_MH_qV0CzSO35QRTOVeYlSdURzUE_KQISXmjtkNo7GH8MIAn_fjF/exec",
+                {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(data),
+                }
+            );
       
             // Asumimos éxito ya que no hubo excepción
             alert('Datos guardados en Google Sheets');
             const nextNumber = complaintNumber + 1;
             setComplaintNumber(nextNumber);
             localStorage.setItem('complaintNumber', nextNumber); // Guarda el número actualizado
+            
+            // Resetea el formulario
             setFormData({
                 establecimiento: '',
                 ruc: '',
                 nombres: '',
                 apellidos: '',
                 correo: '',
-                telefono: '',
+                telefono: '+51',
                 tipoDocumento: '',
                 numDocumento: '',
                 departamento: '',
@@ -330,7 +371,18 @@ const Complaints = () => {
                 detalleReclamo: '',
                 pedido: '',
                 autorizacion: '',
+                archivo: null, // Resetea el archivo
             });
+
+            // Limpia los radios y selects
+            const radios = document.querySelectorAll('input[type="radio"]');
+            radios.forEach((radio) => (radio.checked = false));
+            const selects = document.querySelectorAll('select');
+            selects.forEach((select) => (select.selectedIndex = 0));
+
+            // Opcional: Limpia otros campos como archivos
+            document.getElementById('file-upload').value = '';
+
         } catch (error) {
             console.error('Error:', error);
             alert('Error al guardar en Google Sheets');
@@ -366,7 +418,7 @@ const Complaints = () => {
                 <div style={styles.formRow}>
                     <div style={styles.formGroup}>
                         <div style={styles.selectWrapper}>
-                            <select id="establecimiento" name="establecimiento" style={styles.customSelect} onChange={handleInputChange}> 
+                            <select id="establecimiento" name="establecimiento" style={styles.customSelect} value={formData.establecimiento} onChange={handleInputChange}> 
                                 <option value="" hidden>Seleccione establecimiento</option>
                                 <option value="Arequipa">Arequipa</option>
                                 <option value="Lima">Lima</option>
@@ -375,7 +427,7 @@ const Complaints = () => {
                         </div>
                     </div>
                     <div style={styles.formGroup}>
-                        <input type="text" id="ruc" name="ruc" placeholder="RUC" style={styles.input} onInput={handleNumericInput} onChange={handleInputChange} />
+                        <input type="text" id="ruc" name="ruc" placeholder="RUC" style={styles.input} value={formData.ruc} onInput={handleNumericInput} onChange={handleInputChange} />
                     </div>
                 </div>
 
@@ -392,16 +444,16 @@ const Complaints = () => {
             <div style={styles.formSection}>
                 <div style={styles.formRow}>
                     <div style={styles.formGroup}>
-                        <input type="text" id="nombres" name="nombres" placeholder="Nombres" style={styles.input} onInput={handleAlphabeticInput} onChange={handleInputChange}/>
+                        <input type="text" id="nombres" name="nombres" placeholder="Nombres" style={styles.input} value={formData.nombres} onInput={handleAlphabeticInput} onChange={handleInputChange}/>
                     </div>
                     <div style={styles.formGroup}>
-                        <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" style={styles.input} onInput={handleAlphabeticInput} onChange={handleInputChange}/>
+                        <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" style={styles.input} value={formData.apellidos} onInput={handleAlphabeticInput} onChange={handleInputChange}/>
                     </div>
                 </div>
 
                 <div style={styles.formRow}>
                     <div style={styles.formGroup}>
-                        <input type="email" id="correo" name="correo" placeholder="Correo Electrónico" style={styles.input} onChange={handleInputChange}/>
+                        <input type="email" id="correo" name="correo" placeholder="Correo Electrónico" style={styles.input} value={formData.correo} onChange={handleInputChange}/>
                     </div>
                     <div style={styles.formGroup}>
                         <PhoneInput
@@ -409,6 +461,7 @@ const Complaints = () => {
                             // inputStyle={styles.phoneInput} // Estilos personalizados
                             inputStyle={styles.phoneInput}
                             // Style={styles.inputSmall2}
+                            value={formData.telefono}
                             containerStyle={styles.phoneInputContainer}
                             buttonStyle={styles.phoneInputButton}
                             dropdownStyle={styles.phoneInputDropdown}
@@ -423,7 +476,7 @@ const Complaints = () => {
 
                 <div style={styles.formRow}>
                     <div style={styles.formGroup}>
-                        <select id="tipoDocumento" name="tipoDocumento" style={styles.customSelect} onChange={handleInputChange}>
+                        <select id="tipoDocumento" name="tipoDocumento" style={styles.customSelect} value={formData.tipoDocumento} onChange={handleInputChange}>
                             <option value="" hidden>Seleccione documento</option>
                             <option value="DNI">DNI</option>
                             <option value="Pasaporte">Pasaporte de extranjería</option>
@@ -431,25 +484,25 @@ const Complaints = () => {
                         </select>
                     </div>
                     <div style={styles.formGroup}>
-                        <input type="text" id="numDocumento" name="numDocumento" placeholder="No. de Documento" style={styles.input} onChange={handleInputChange}/>
+                        <input type="text" id="numDocumento" name="numDocumento" placeholder="No. de Documento" style={styles.input} value={formData.numDocumento} onChange={handleInputChange}/>
                     </div>
                 </div>
 
                 <div style={styles.formRow}>
                     <div style={styles.formGroup}>
-                        <input type="text" id="departamento" name="departamento" placeholder="Departamento" style={styles.input} onInput={handleAlphabeticInput} onChange={handleInputChange}/>
+                        <input type="text" id="departamento" name="departamento" placeholder="Departamento" style={styles.input} value={formData.departamento} onInput={handleAlphabeticInput} onChange={handleInputChange}/>
                     </div>
                     <div style={styles.formGroup}>
-                        <input type="text" id="provincia" name="provincia" placeholder="Provincia" style={styles.input} onInput={handleAlphabeticInput} onChange={handleInputChange}/>
+                        <input type="text" id="provincia" name="provincia" placeholder="Provincia" style={styles.input} value={formData.provincia} onInput={handleAlphabeticInput} onChange={handleInputChange}/>
                     </div>
                 </div>
 
                 <div style={styles.formRow}>
                     <div style={styles.formGroup}>
-                        <input type="text" id="distrito" name="distrito" placeholder="Distrito" style={styles.input} onInput={handleAlphabeticInput} onChange={handleInputChange}/>
+                        <input type="text" id="distrito" name="distrito" placeholder="Distrito" style={styles.input} value={formData.distrito} onInput={handleAlphabeticInput} onChange={handleInputChange}/>
                     </div>
                     <div style={styles.formGroup}>
-                        <input type="text" id="direccion" name="direccion" placeholder="Dirección" style={styles.input} onChange={handleInputChange}/>
+                        <input type="text" id="direccion" name="direccion" placeholder="Dirección" style={styles.input} value={formData.direccion} onChange={handleInputChange}/>
                     </div>
                 </div>
             </div>
@@ -479,6 +532,8 @@ const Complaints = () => {
                             name="descripcionBien" 
                             placeholder="*Descripción" 
                             style={{ ...styles.input, height: '100px', resize: 'none' }} 
+                            value={formData.descripcionBien}
+                            onChange={handleInputChange}
                         />
                     </div>
                 </div>
@@ -490,6 +545,7 @@ const Complaints = () => {
                         name="valorProductoServicio" 
                         placeholder="*Valor del Producto/ Servicio" 
                         style={{ ...styles.input, width: '100%' }} 
+                        value={formData.valorProductoServicio}
                         onChange={handleInputChange}
                     />
                 </div>
@@ -526,7 +582,9 @@ const Complaints = () => {
                             id="detalleReclamo" 
                             name="detalleReclamo" 
                             placeholder="*Detalle" 
-                            style={{ ...styles.input, height: '100px', resize: 'none' }} 
+                            style={{ ...styles.input, height: '100px', resize: 'none' }}
+                            value={formData.detalleReclamo}
+                            onChange={handleInputChange}
                         />
                     </div>
                 </div>
@@ -538,6 +596,8 @@ const Complaints = () => {
                         name="pedido" 
                         placeholder="*Pedido" 
                         style={{ ...styles.input, height: '100px', resize: 'none' }} 
+                        value={formData.pedido}
+                        onChange={handleInputChange}
                     />
                 </div>
 
@@ -600,7 +660,7 @@ const Complaints = () => {
                         type="file" 
                         style={{ display: 'none' }} 
                         accept=".pdf,.pptx,.docx,.jpg,.jpeg,.png"
-                        onChange={handleInputChange}
+                        onChange={handleFileChange}
                     />
                 </div>              
             </div>
@@ -612,7 +672,7 @@ const Complaints = () => {
             <h2 style={styles.formTitle}>4. Observaciones y acciones adoptadas por el proveedor</h2>
             <div style={styles.formSection}>
                 <p style={styles.legalText}>
-                    Fecha de comunicación de la respuesta: <strong>Domingo, 17 de Noviembre del 2024</strong>
+                    Fecha de comunicación de la respuesta: <strong>{getNextDay()}</strong>.
                 </p>
                 <p style={styles.legalText}>
                     Descripción: “Al ser un reclamo virtual, su caso será derivado al área de atención al cliente, a fin de dar respuesta dentro del plazo legalmente establecido.”

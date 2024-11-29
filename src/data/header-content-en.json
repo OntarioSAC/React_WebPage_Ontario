@@ -15,7 +15,8 @@
         { "name": "Mykonos", "to": "/projects/mykonos" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/mykonos.webp" },
         { "name": "Zafiro", "to": "/projects/zafiro" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/zafiro.webp" },
         { "name": "Prado Piamonte", "to": "/projects/prado-piamonte" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/prado-piamonte.webp" },
-        { "name": "Punta Arena II", "to": "/projects/punta-arena-2" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/punta-arena ii.webp" }
+        { "name": "Punta Arena II", "to": "/projects/punta-arena-2" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/punta-arena-ii.webp" },
+        { "name": "bahiaserena", "to": "/projects/punta-arena-2" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/bahiaserena.webp" }
       ]
     },
     {

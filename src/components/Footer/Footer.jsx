@@ -39,6 +39,7 @@ const Footer = ({ onContactClick }) => {
       <footer className={`text-white ${styles.customFooter}`}>
         <div className="container">
           <div className="row">
+            
             {/* Sección de contacto */}
             <div className="col-12 col-sm-6 col-md-6 col-lg-3 pb-1">
               <Link className="navbar-brand d-block" to="/" aria-label="Ir a la página principal">

@@ -28,22 +28,31 @@ const Popup = ({ onClose, deviceType, isLoading }) => {
         <div className={`${styles["popup-overlay"]} ${isVisible ? styles.show : ''}`}>
            
             <button className={styles["close-button"]} onClick={handleClose}>✕</button>
-            <div className={`${styles["popup-content"]}`}>
-                {isLoading ? (
-                    <div className={styles["loading-container"]}>
-                        <LoadingGemma classLoading="hidden sm:block" />
-                        <LoadingGemma classLoading="block sm:hidden" height={60} width={60} />
-                    </div>
-                ) : (
-                <picture>
-                    <source srcSet={imageUrls.desktop} media="(min-width: 1024px)" />
-                    <source srcSet={imageUrls.tablet} media="(min-width: 531px) and (max-width: 1024px)" />
-                    <source srcSet={imageUrls.mobile} media="(max-width: 530px)" />
-                    <img src={imageUrl} alt={`Promotion Image - ${deviceType}`} className={styles.image} />
-                </picture>
-                )}
+            
+            
+                <div className={`${styles["popup-content"]}`}
+                    
                 
-            </div>
+                >
+                    
+                    {isLoading ? (
+                        <div className={styles["loading-container"]}>
+                            <LoadingGemma classLoading="hidden sm:block" />
+                            <LoadingGemma classLoading="block sm:hidden" height={60} width={60} />
+                        </div>
+                    ) : (
+                    <picture>
+                        <Link to="/terms">
+                        <source srcSet={imageUrls.desktop} media="(min-width: 1024px)" />
+                        <source srcSet={imageUrls.tablet} media="(min-width: 531px) and (max-width: 1024px)" />
+                        <source srcSet={imageUrls.mobile} media="(max-width: 530px)" />
+                        <img src={imageUrl} alt={`Promotion Image - ${deviceType}`} className={styles.image} />
+                        </Link>
+                    </picture>
+                    )}
+                   
+                </div>
+            
         </div>
     );
 };

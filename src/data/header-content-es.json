@@ -7,11 +7,7 @@
     },
     {
       "name": "Condominios",
-<<<<<<< HEAD
-      "icon": "/img/icons/condominios.svg",
-=======
       "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/condominios.svg",
->>>>>>> 26f625327515d12e103613b42e223f064787ff9a
       "subItems": [
         { "name": "Santorini", "to": "/projects/santorini","image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/santorini.webp" },
         { "name": "Punta Arena", "to": "/projects/punta-arena" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/punta-arena.webp" },
@@ -19,23 +15,14 @@
         { "name": "Mykonos", "to": "/projects/mykonos" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/mykonos.webp" },
         { "name": "Zafiro", "to": "/projects/zafiro" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/zafiro.webp" },
         { "name": "Prado Piamonte", "to": "/projects/prado-piamonte" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/prado-piamonte.webp" },
-<<<<<<< HEAD
-        { "name": "Punta Arena II", "to": "/projects/punta-arena-2" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/punta-arena ii.webp" },
-        { "name": "Bahia Serena", "to": "/projects/bahia-serena" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/bahia-serena.webp" }
-=======
         { "name": "Punta Arena II", "to": "/projects/punta-arena-2" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/punta-arena-ii.webp" },
         { "name": "Bahia Serena", "to": "/projects/bahia-serena" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/bahiaserena.webp" }
->>>>>>> 26f625327515d12e103613b42e223f064787ff9a
       ]
     },
     
     {
       "name": "Multifamiliares",
-<<<<<<< HEAD
-      "icon": "/img/icons/multifamiliares.svg",
-=======
       "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/multifamiliares.svg",
->>>>>>> 26f625327515d12e103613b42e223f064787ff9a
       "subItems": [
         { "name": "O2", "to": "/apartments/o2" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/o2.webp"},
         { "name": "Killa", "to": "/apartments/killa" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/killa.webp"}

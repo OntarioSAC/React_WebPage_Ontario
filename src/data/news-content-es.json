@@ -1,6 +1,6 @@
 {
   "header": {
-    "image": "/video/headernews.mp4",
+    "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/video/headernews.webm",
     "title": "NOTICIAS",
     "highlight": "ONTARIO",
     "description": "Mantente informado sobre las últimas noticias, avances y eventos en Ontario Inmobiliaria.",
@@ -24,7 +24,7 @@
       "CardsDescription":"¡Vive en el futuro de Arequipa! Presentamos O2 by Ontario, nuestro nuevo proyecto de departamentos diseñado para quienes buscan una vida moderna y equilibrada en Cerro Colorado.",
       "description": "¡Vive en el futuro de Arequipa! Presentamos O2 by Ontario, nuestro nuevo proyecto de departamentos diseñado para quienes buscan una vida moderna y equilibrada en Cerro Colorado.",
       "subdescripcion": "O2 ofrece espacios pensados para el bienestar y confort ¡Te invitamos a conocer este nuevo concepto de vivienda!",
-      "image": "/img/news/o2lanzamiento.png",
+      "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/o2lanzamiento.webp",
       "fecha": "15 de septiembre 2024",
       "imagedescrip": "¡Lanzamos nuestro Proyecto de Departamentos: O2 by Ontario!",
       "parrafo1": "Los departamentos cuentan con amplios espacios llenos de luz natural, donde la arquitectura se fusiona con elementos de la naturaleza, creando una sensación de armonía y calma.",
@@ -34,7 +34,7 @@
         "A unos pasos de Mall Arequipa Center",
         "Desde los 48m² hasta los 78m²"
       ],
-      "image2": "/img/news/o2lanzamientoimgtexto.png",
+      "image2": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/o2lanzamientoimgtexto.webp",
       "title2": "¿Por qué elegir O2 by Ontario?",
       "lista2": [
         "Espacios diseñados para tu bienestar: Amplios ambientes llenos de luz natural, donde cada detalle ha sido pensado para mejorar tu calidad de vida.",
@@ -49,7 +49,7 @@
     },
     {
       "id": 2,
-      "image": "/img/news/cuestanoticia.png",
+      "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/cuestanoticia.webp",
       "title": "¡Bernardo Cuesta se une a Ontario!",
       "ButtomNotice":"Regresar",
       "text": "ONTARIO",
@@ -83,7 +83,7 @@
     },
     {
       "id": 3,
-      "image": "/img/news/puntaarenaiilanzamiento.png",
+      "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/puntaarenaiilanzamiento.webp",
       "ButtomNotice":"Regresar",
       "title": "¡Punta Arena II: Tu nuevo hogar frente al mar en Arequipa!",
       "text": "ONTARIO",
@@ -107,7 +107,7 @@
         "Diseños modernos y funcionales: Nuestro condominio ha sido diseñado pensando en tu comodidad y estilo de vida, con amplios espacios y acabados de alta calidad.",
         "Tranquilidad y bienestar: Escapa del ajetreo de la ciudad y relájate en un entorno natural y seguro."
       ],
-      "image2": "/img/news/playaniños.png",
+      "image2": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/playaniños.webp",
       "tituMYKONOS":"",
       "lista2": [
         
@@ -117,7 +117,7 @@
     },
     {
       "id": 4,
-      "image": "/img/news/avancedeobramykonos.png",
+      "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/avancedeobramykonos.webp",
       "ButtomNotice":"Regresar",
       "descripcion2": "Avance de Obra Proyecto MYKONOS",
       "title": "¡Mykonos cobra vida! Nuestro sueño se hace realidad",
@@ -151,7 +151,7 @@
     },
     {
       "id": 5,
-      "image": "/img/news/fiastandontario.png",
+      "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/fiastandontario.webp",
       "ButtomNotice":"Regresar",
       "title": "Diario Gestión: Grupo Ontario lidera la innovación inmobiliaria en el sur del Perú con proyectos sostenibles",
       "text": "ONTARIO",
@@ -183,7 +183,7 @@
     },
     {
       "id": 6,
-      "image": "/img/news/fiainauguracionontario.png",
+      "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/fiainauguracionontario.webp",
       "title": "¡Ontario está presente en la última edición de FIA 2024!",
       "text": "ONTARIO",
       "ButtomNotice":"Regresar",
@@ -218,7 +218,7 @@
   "Banner": [
     {
       "id": 1,
-      "image": "/img/news/cuestaimagencta.png",
+      "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/cuestaimagencta.webp",
       "title": "Sigue Nuestras Actualizaciones",
       "description": "Entérate de primera mano de las últimas novedades, avances y eventos de Ontario Inmobiliaria.",
       "redestitle": "Síguenos en Nuestras Redes Sociales",

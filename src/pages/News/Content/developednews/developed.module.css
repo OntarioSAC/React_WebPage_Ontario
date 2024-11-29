@@ -316,4 +316,12 @@ line-height: normal;
         width: 40.966px;
         height: 40.956px;
     }
+
+    .descrips{
+        
+        width: 100%;
+    }
+    .listp{
+        font-size: 15px;
+    }
 }

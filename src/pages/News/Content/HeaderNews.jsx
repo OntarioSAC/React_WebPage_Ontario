@@ -4,7 +4,6 @@ import headerContentEN from "../../../data/news-content-en.json";
 import headerContentES from "../../../data/news-content-es.json";
 import styles from "./HeaderNews.module.css";
 
-
 const HeaderNews = () => {
   const { i18n } = useTranslation();
   const [headerData, setHeaderData] = useState(null);
@@ -27,7 +26,7 @@ const HeaderNews = () => {
     <section className={styles.headerStyle}>
       <video
         className={styles.VideoNews}
-       
+
         src={headerData.image}
         autoPlay
         loop
@@ -36,7 +35,7 @@ const HeaderNews = () => {
       />
       <div className={styles.contentWrapperStyle}>
         <h1 className={styles.titleStyle}>
-          
+
           {headerData.title} {headerData.highlight}
         </h1>
         <p className={styles.descriptionStyle}>{headerData.description}</p>
@@ -45,16 +44,16 @@ const HeaderNews = () => {
       <div className={styles.lefthoja}>
              <img
                 src={headerData.lefthoja}
-               
+                className={styles.lefthoja}
                 
               />
       </div>
       <div>
-           <img
-                src={headerData.rigthhoja}
-               
-                className={styles.rigthhoja}
-              />
+        <img
+          src={headerData.rigthhoja}
+
+          className={styles.rigthhoja}
+        />
       </div>
 
     </section>

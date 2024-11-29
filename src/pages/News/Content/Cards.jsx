@@ -15,7 +15,6 @@ const Cards = ({ selectedTab }) => {
   const [hoveredtext, setHoveredtext] = useState(false);
   const navigate = useNavigate();
 
-
   const filteredCards = (selectedTab === "Todo" || selectedTab === "All")
   ? data.cards // Mostrar todo si es "Todo" o "All"
   : data.cards.filter((card) => card.etiqueta === selectedTab); // Filtrar por etiqueta
@@ -30,7 +29,7 @@ const Cards = ({ selectedTab }) => {
           className={styles.cards} 
           onMouseEnter={() => setHovered(card.id)} // Al pasar el mouse, establece el id de la tarjeta
           onMouseLeave={() => setHovered(null)} // Al quitar el mouse, borra el id
-          onClick={() => navigate(`/card/${card.id}`)}
+          
 
         >
           <div className={styles.insidecards}>
@@ -66,7 +65,7 @@ const Cards = ({ selectedTab }) => {
           </div>
 
           {/* Botón */}
-          <div className={styles.general_button}
+          <div className={styles.general_button} onClick={() => navigate(`/card/${card.id}`)}
           >
             <div className={styles.content_button}>
               <div className={styles.boton} style={{

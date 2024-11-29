@@ -76,9 +76,9 @@ const NewsBanner = () => {
 
         </div>
         <div>
-          
+
           <p style={descriptionStyle}>{bannerData.description}</p>
-          
+
         </div>
       </div>
     </section>

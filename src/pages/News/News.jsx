@@ -45,7 +45,7 @@ const News = () => {
 
       {/* Sección de Banner */}
       <Banner />
-
+      <div className={styles.hglitl}></div>
       {/* Sección de formulario */}
       <FormSection data={formSection} />
 

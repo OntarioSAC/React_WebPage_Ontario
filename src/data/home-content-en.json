@@ -2,7 +2,7 @@
   "homeSlider": [
     {
       "type": "video",
-      "src": "/video/home-slide.mp4"
+      "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/video/Home-Slide.webm"
     }
   ],
   "homeInfoBoxes": [
@@ -14,7 +14,7 @@
     },
     {
       "icon": "/img/icons/project-icon.svg",
-      "number": "+ 8",
+      "number": "+ 10",
       "line1": "Projects",
       "line2": ""
     },
@@ -53,13 +53,13 @@
     ],
     "recognitionText": "Recognized for the second consecutive year as one of the best companies nationwide.",
     "certifications": {
-      "epa2022": "/img/logo/epa-2022.svg",
-      "epa2023": "/img/logo/epa-2023.svg",
+      "epa2022": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/epa-2022.svg",
+      "epa2023": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/epa-2023.svg",
       "iso9001": "/img/logo/iso-9001.svg",
-      "iso14001": "/img/logo/iso-14001.svg",
-      "ccia": "/img/logo/ccia.webp"
+      "iso14001": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/iso-14001.svg",
+      "ccia": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/ccia.webp"
     },
-    "advisorImage": "/img/images/img-asesor.webp"
+    "advisorImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/elementoAsesor.webp"
   },
   "homeSectionData": {
     "title": "OUR",
@@ -134,7 +134,7 @@
       {
         "title": "SANTORINI",
         "description": "Beach Residential",
-        "image": "/img/cards/santorini.webp",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/santorini.webp",
         "from": "From ",
         "area": "100",
         "unit": "m2",
@@ -157,7 +157,7 @@
       {
         "title": "CORAL",
         "description": "Real Estate Project",
-        "image": "/img/cards/coral.webp",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/coral.webp",
         "from": "From ",
         "area": "100",
         "unit": "m2",
@@ -180,7 +180,7 @@
       {
         "title": "MYKONOS",
         "description": "Beach Residential",
-        "image": "/img/cards/mykonos.webp",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/mykonos.webp",
         "from": "From ",
         "area": "110",
         "unit": "m2",
@@ -203,7 +203,7 @@
       {
         "title": "PUNTA ARENA",
         "description": "Country Condominiums",
-        "image": "/img/cards/arena.webp",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
         "from": "From ",
         "area": "110",
         "unit": "m2",
@@ -233,21 +233,21 @@
     "testimonials": [
       {
         "quote": "Thanks to Ontario, we finally have our own little piece of paradise on the beach! We couldn't be more excited to start this new adventure together. Ontario made everything so easy and exciting!",
-        "clientImage": "/img/clients/client-1.webp",
+        "clientImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/clients/client-1.webp",
         "clientNames": "HILDA MEDINA",
         "clientPartner": "JESÚS TEJADA",
         "projectName": "SANTORINI"
       },
       {
         "quote": "As a family, we celebrate the achievement of acquiring our dream Country House.",
-        "clientImage": "/img/clients/client-2.webp",
+        "clientImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/clients/client-2.webp",
         "clientNames": "FAMILY",
         "clientPartner": "HUARSAYA",
         "projectName": "PRADO PIAMONTE"
       },
       {
         "quote": "It was great how the advisors assisted us; they have excellent financing plans for all cases. I was delighted with the agreement we reached. Thank you, Ontario.",
-        "clientImage": "/img/clients/client-3.webp",
+        "clientImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/clients/client-3.webp",
         "clientNames": "FAMILY",
         "clientPartner": "CANAZAS CHINO",
         "projectName": "CORAL"
@@ -259,7 +259,7 @@
     "title2": "STARTS HERE",
     "ctaText": "Take advantage of our offers!",
     "backgroundColor": "#cbf000",
-    "imageSrc": "/img/images/family.webp",
+    "imageSrc": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/family.webp",
     "imageAlt": "Family",
     "documents": [
       {

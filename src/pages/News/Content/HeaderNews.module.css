@@ -1,15 +1,8 @@
 .VideoNews {
-<<<<<<< HEAD
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* This will ensure the video fills the container while maintaining its aspect ratio. */
-    z-index: -1;
-=======
     width: 100%;
     height: 100%;
     object-fit: cover;
     z-index: -1px;
->>>>>>> 26f625327515d12e103613b42e223f064787ff9a
     top: 0;
     left: 0;
     position: absolute;

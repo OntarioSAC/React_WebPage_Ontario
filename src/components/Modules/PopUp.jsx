@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from './PopUp.module.css'; // Asegúrate de crear este archivo CSS
-
-
+import { Link } from "react-router-dom";
+import bookre from "../../data/footer-content-es.json";
 const Popup = ({ onClose, deviceType, isLoading }) => {
     
     const imageUrls = {
@@ -26,6 +26,7 @@ const Popup = ({ onClose, deviceType, isLoading }) => {
 
     return (
         <div className={`${styles["popup-overlay"]} ${isVisible ? styles.show : ''}`}>
+           
             <button className={styles["close-button"]} onClick={handleClose}>✕</button>
             <div className={`${styles["popup-content"]}`}>
                 {isLoading ? (

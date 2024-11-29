@@ -169,6 +169,7 @@ const Footer = ({ onContactClick }) => {
               </div>
             </div>
           </div>
+          
         </div>
       </footer>
     </section>

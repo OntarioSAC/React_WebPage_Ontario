@@ -4,8 +4,8 @@
     "title": "NOTICIAS",
     "highlight": "ONTARIO",
     "description": "Mantente informado sobre las últimas noticias, avances y eventos en Ontario Inmobiliaria.",
-    "lefthoja":"/img/textures/hojas-1.webp",
-    "rigthhoja":"/img/textures/hojas-2.webp"
+    "lefthoja":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/textures/hojas-1.webp",
+    "rigthhoja":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/textures/hojas-2.webp"
   },
   "tabs": [
     { "id": 1, "label": "Todo", "active": false },

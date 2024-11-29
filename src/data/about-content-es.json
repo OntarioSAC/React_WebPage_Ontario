@@ -5,16 +5,16 @@
     "highlight": "ONTARIO",
     "description": "Somos un grupo de empresas con más de 10 años en el negocio inmobiliario con operaciones en el sur y el norte del país. Tenemos líneas de negocios de condominios de playa, campo y departamentos. Estamos totalmente comprometidos con el desarrollo del país y con hacer realidad el deseo de la vivienda propia de nuestros clientes.",
     "vision": {
-      "icon": "/img/icons/vision.svg",
+      "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/vision.svg",
       "text": "\"Ser el principal desarrollador nacional de condominios de playa y campo, con una concepción verde y sostenible de los mismos\""
     },
     "mision": {
-      "icon": "/img/icons/mision.svg",
+      "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/mision.svg",
       "text": "\"Desarrollamos condominios y multifamiliares para el disfrute y seguridad de nuestros clientes, innovando de forma permanente, cuidando el impacto al medio ambiente.\""
     },
     "images": {
-      "banner": "/img/images/baner-about.webp",
-      "ontarioLogo": "/img/images/ontario.webp"
+      "banner": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/baner-about.webp",
+      "ontarioLogo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/ontario.webp"
     }
   },
   "valuesSection": {
@@ -25,25 +25,25 @@
       {
         "title": "INNOVACIÓN",
         "description": "Innovamos siempre.",
-        "icon": "/img/icons/icon-a1.svg"
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-a1.svg"
       },
       {
         "title": "CUMPLIMIENTO",
         "description": "Nos esforzamos por cumplir lo que ofrecemos.",
-        "icon": "/img/icons/icon-a2.svg"
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-a2.svg"
       },
       {
         "title": "SERIEDAD",
         "description": "Ofrecemos lo mejor del mercado de manera realista.",
-        "icon": "/img/icons/icon-a3.svg"
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-a3.svg"
       },
       {
         "title": "CONFIANZA",
         "description": "Tenemos el respaldo de la gran familia ontario, que cree en nosotros.",
-        "icon": "/img/icons/icon-a4.svg"
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-a4.svg"
       }
     ],
-    "mainImage": "/img/images/family2.webp"
+    "mainImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/family2.webp"
   },
   "titleSection": {
     "mainTitle": "CRONOLOGÍA EMPRESARIAL",
@@ -54,45 +54,45 @@
     "chronology": [
       {
         "year": "2018",
-        "image": "/img/images/2018.webp",
-        "imageSm": "/img/images/2018sm.webp",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/2018.webp",
+        "imageSm": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/2018sm.webp",
         "description": "KILLA CUSCO"
       },
       {
         "year": "2019",
-        "image": "/img/images/2019.webp",
-        "imageSm": "/img/images/2019sm.webp",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/2019.webp",
+        "imageSm": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/2019sm.webp",
         "description": "PUNTA ARENA"
       },
       {
         "year": "2021",
-        "image": "/img/images/2021.webp",
-        "imageSm": "/img/images/2021sm.webp",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/2021.webp",
+        "imageSm": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/2021sm.webp",
         "description": "SANTORINI MEJÍA"
       },
       {
         "year": "2022",
-        "image": "/img/images/2022.webp",
-        "imageSm": "/img/images/2022sm.webp",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/2022.webp",
+        "imageSm": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/2022sm.webp",
         "description": "PRADO PIAMONTE"
       },
       {
         "year": "2024",
-        "image": "/img/images/2024.webp",
-        "imageSm": "/img/images/2024sm.webp",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/2024.webp",
+        "imageSm": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/2024sm.webp",
         "description": "OTRO LUGAR"
       }
     ]
   },
   "bannerSection": {
     "items": [
-      { "type": "image", "src": "/img/logo/epa-2022.svg", "alt": "Logo 2022" },
-      { "type": "image", "src": "/img/logo/epa-2023.svg", "alt": "Logo 2023" },
+      { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/epa-2022.svg", "alt": "Logo 2022" },
+      { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/epa-2023.svg", "alt": "Logo 2023" },
       { "type": "text", "content": "Doble certificación Internacional:" },
-      { "type": "image", "src": "/img/logo/iso-9001.svg", "alt": "ISO 9001" },
-      { "type": "image", "src": "/img/logo/iso-14001.svg", "alt": "ISO 14001" },
+      { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/iso-9001.svg", "alt": "ISO 9001" },
+      { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/iso-14001.svg", "alt": "ISO 14001" },
       { "type": "text", "content": "Socios de:" },
-      { "type": "image", "src": "/img/logo/ccia.webp", "alt": "Cia" },
+      { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/ccia.webp", "alt": "Cia" },
       {
         "type": "text",
         "content": "Reconocimiento por 2DO año consecutivo como una de las mejores empresas a nivel nacional:"
@@ -102,19 +102,19 @@
   "infoBoxAbout": {
     "boxes": [
       {
-        "icon": "/img/icons/medal-icon.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/medal-icon.svg",
         "number": "+ 10",
         "description": "Años de",
         "highlight": "Trayectoria"
       },
       {
-        "icon": "/img/icons/project-icon.svg",
-        "number": "+ 8",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/project-icon.svg",
+        "number": "+ 10",
         "description": "Proyectos",
         "highlight": "Inmobiliarios"
       },
       {
-        "icon": "/img/icons/family-icon.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/family-icon.svg",
         "number": "+ 1000",
         "description": "Familias",
         "highlight": "Felices"

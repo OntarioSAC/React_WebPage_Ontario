@@ -7,19 +7,19 @@
   ],
   "homeInfoBoxes": [
     {
-      "icon": "/img/icons/medal-icon.svg",
+      "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/medal-icon.svg",
       "number": "+ 10",
       "line1": "Years of",
       "line2": "Experience"
     },
     {
-      "icon": "/img/icons/project-icon.svg",
+      "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/project-icon.svg",
       "number": "+ 10",
       "line1": "Projects",
       "line2": ""
     },
     {
-      "icon": "/img/icons/family-icon.svg",
+      "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/family-icon.svg",
       "number": "+ 1000",
       "line1": "Happy",
       "line2": "Families"
@@ -55,7 +55,7 @@
     "certifications": {
       "epa2022": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/epa-2022.svg",
       "epa2023": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/epa-2023.svg",
-      "iso9001": "/img/logo/iso-9001.svg",
+      "iso9001": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/iso-9001.svg",
       "iso14001": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/iso-14001.svg",
       "ccia": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/ccia.webp"
     },
@@ -88,7 +88,7 @@
       {
         "title": "PRADO PIAMONTE",
         "description": "Country Condominiums",
-        "image": "/img/cards/prado.webp",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/prado.webp",
         "from": "From ",
         "area": "300",
         "unit": "m&sup2",
@@ -100,7 +100,7 @@
         "priceAlt": "or S/ 899*",
         "detail1": "From",
         "detail2": "",
-        "icon": "/img/icons/tag.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
         "filterStatus": 1,
         "status": "PRE-",
         "status2": "SALE",
@@ -111,7 +111,7 @@
       {
         "title": "ZAFIRO",
         "description": "Beach Residential",
-        "image": "/img/cards/zafiro.webp",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/zafiro.webp",
         "from": "From ",
         "area": "110",
         "unit": "m2",
@@ -123,7 +123,7 @@
         "priceAlt": "or S/ 649*",
         "detail1": "From",
         "detail2": "",
-        "icon": "/img/icons/tag.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
         "filterStatus": 1,
         "status": "PRE-",
         "status2": "SALE",
@@ -146,7 +146,7 @@
         "priceAlt": "or S/ 919*",
         "detail1": "From",
         "detail2": "",
-        "icon": "/img/icons/tag.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
         "filterStatus": 1,
         "status": "PRE-",
         "status2": "SALE",
@@ -169,7 +169,7 @@
         "priceAlt": "SOLD OUT",
         "detail1": "",
         "detail2": "",
-        "icon": "/img/icons/car.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
         "filterStatus": 0,
         "status": "IN",
         "status2": " PROGRESS",
@@ -192,7 +192,7 @@
         "priceAlt": "SOLD OUT",
         "detail1": "",
         "detail2": "",
-        "icon": "/img/icons/car.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
         "filterStatus": 0,
         "status": "IN",
         "status2": " PROGRESS",
@@ -215,7 +215,7 @@
         "priceAlt": "SOLD OUT",
         "detail1": "",
         "detail2": "",
-        "icon": "/img/icons/car.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
         "filterStatus": 0,
         "status": "IN",
         "status2": " PROGRESS",

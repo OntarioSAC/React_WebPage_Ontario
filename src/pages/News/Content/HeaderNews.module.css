@@ -1,48 +1,61 @@
-
 .VideoNews {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* This will ensure the video fills the container while maintaining its aspect ratio. */
-    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1px;
     top: 0;
     left: 0;
     position: absolute;
 }
+
 .lefthoja{
     
     bottom: 50%;
     left: 0;
     position: absolute;
-    
+    object-fit: cover; /* Asegura que el video ocupe todo el contenedor */
+
 }
-.rigthhoja{
+
+.lefthoja {
+    bottom: 60%;
+
+    left: 0;
+    position: absolute;
+
+}
+
+.rigthhoja {
     bottom: 10%;
     right: 0;
     position: absolute;
 }
-.headerStyle{
+
+.headerStyle {
     position: relative;
     text-align: center;
-    color:#1C284C ;
+    color: #1C284C;
     height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
 }
-.contentWrapperStyle{
+
+.contentWrapperStyle {
     position: relative;
     text-align: center;
     top: -15vh;
 
 }
 
-.titleStyle{
+.titleStyle {
     font-size: 3rem;
     font-weight: bold;
     color: #1C284C;
 }
-.descriptionStyle{
+
+.descriptionStyle {
     margin-top: 1rem;
     font-size: 1.2rem;
     color: #1C284C;
@@ -52,31 +65,40 @@
     font-weight: 400;
     margin: 0 auto;
 }
+
 @media (max-width: 768px) {
     .VideoNews {
-        width: 100%; /* Asegura que ocupe el 100% del ancho */
-        height: 45vh; /* Asegura que ocupe el 100% de la altura de la pantalla */
-        object-fit: cover; /* Asegura que el video cubra todo el contenedor */
-        object-position: center; /* Centra el video */
-        transform: scale(1.05); /* Un pequeño zoom para pantallas pequeñas */
-      }
-      .headerStyle{
+        width: 100%;
+        /* Asegura que ocupe el 100% del ancho */
+        height: 45vh;
+        /* Asegura que ocupe el 100% de la altura de la pantalla */
+        object-fit: cover;
+        /* Asegura que el video cubra todo el contenedor */
+        object-position: center;
+        /* Centra el video */
+        transform: scale(1.05);
+        /* Un pequeño zoom para pantallas pequeñas */
+    }
+
+    .headerStyle {
         position: relative;
         text-align: center;
-        color:#1C284C ;
+        color: #1C284C;
         height: 45vh;
         display: flex;
         align-items: center;
         justify-content: center;
         overflow: hidden;
     }
-    .contentWrapperStyle{
-        
+
+    .contentWrapperStyle {
+
         text-align: center;
         top: -7vh;
-        
+
     }
-    .titleStyle{
+
+    .titleStyle {
         color: #1C284C;
         font-family: Inter;
         font-size: 24px;
@@ -84,7 +106,8 @@
         font-weight: 900;
         line-height: normal;
     }
-    .descriptionStyle{
+
+    .descriptionStyle {
         color: #1C284C;
         text-align: center;
         font-family: Inter;
@@ -93,15 +116,17 @@
         font-weight: 400;
         line-height: normal;
     }
-    .lefthoja{
-        
+
+    .lefthoja {
+
         width: 60px;
         height: 60px;
-        
+
     }
-    .rigthhoja{
+
+    .rigthhoja {
         width: 60px;
         height: 60px;
     }
 
-  }
+}

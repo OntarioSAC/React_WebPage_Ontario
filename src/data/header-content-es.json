@@ -3,11 +3,11 @@
     {
       "name": "Nosotros",
       "to": "/about",
-      "icon": "/img/icons/about.svg"
+      "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/about.svg"
     },
     {
       "name": "Condominios",
-      "icon": "/img/icons/condominios.svg",
+      "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/condominios.svg",
       "subItems": [
         { "name": "Santorini", "to": "/projects/santorini","image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/santorini.webp" },
         { "name": "Punta Arena", "to": "/projects/punta-arena" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/punta-arena.webp" },
@@ -16,12 +16,13 @@
         { "name": "Zafiro", "to": "/projects/zafiro" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/zafiro.webp" },
         { "name": "Prado Piamonte", "to": "/projects/prado-piamonte" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/prado-piamonte.webp" },
         { "name": "Punta Arena II", "to": "/projects/punta-arena-2" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/punta-arena-ii.webp" },
-        { "name": "bahiaserena", "to": "/projects/punta-arena-2" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/bahiaserena.webp" }
+        { "name": "Bahia Serena", "to": "/projects/bahia-serena" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/bahiaserena.webp" }
       ]
     },
+    
     {
       "name": "Multifamiliares",
-      "icon": "/img/icons/multifamiliares.svg",
+      "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/multifamiliares.svg",
       "subItems": [
         { "name": "O2", "to": "/apartments/o2" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/o2.webp"},
         { "name": "Killa", "to": "/apartments/killa" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/killa.webp"}
@@ -30,17 +31,17 @@
     {
       "name": "Responsabilidad Social",
       "to": "/social-responsibility",
-      "icon": "/img/icons/social.svg"
+      "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/social.svg"
     },
     {
       "name": "Referidos",
       "to": "/referrals",
-      "icon": "/img/icons/referals.svg"
+      "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/referals.svg"
     },
     {
       "name": "Noticias",
       "to": "/news",
-      "icon": "/img/icons/referals.svg"
+      "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/referals.svg"
     }
   ],
   "languages": [

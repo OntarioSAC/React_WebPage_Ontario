@@ -68,7 +68,7 @@ const ContactForm = React.forwardRef(({ data, autoFocus }, ref) => {
       ? Yup.string().required(texts.projectPlaceholder)
       : Yup.string(),
     termsCheck: Yup.boolean().oneOf([true], texts.termsLabel1),
-    termsCheck2: Yup.boolean().oneOf([true], texts.termsLabel2),
+    termsCheck2: Yup.boolean(),
   });
 
   // Configuración de Formik
@@ -87,15 +87,28 @@ const ContactForm = React.forwardRef(({ data, autoFocus }, ref) => {
     validationSchema,
     onSubmit: async (values, { resetForm }) => {
       console.log("Datos del formulario:", values); // Agrega este console.log para depurar
+      
+      // Encontrar el nombre del documento seleccionado
+      const selectedDocument = documents.find(doc => doc.id === values.documento)?.label || '';
+
+      // Encontrar el nombre del proyecto seleccionado, si aplica
+      const selectedProject = projects.find(proj => proj.id === values.proyecto)?.label || '';
+
+      
       try {
         // URL del Google Apps Script
-        const response = await fetch("https://script.google.com/macros/s/AKfycbw7W-6dNts8w0kSLKjgSzWIu0IUmTw6gcbt2FoCTpwVzXa6ClCFlxd1tjyejLPLUqAFNg/exec", {
+        const response = await fetch("https://script.google.com/macros/s/AKfycbzCFshU04SJXOahUE9uo5sh4Bi0AECLv7s_Kx1dJdP_IUClLOmXeyjwAyUvwcOPEq2Cww/exec", {
           method: "POST",
           mode: "no-cors",
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify(values),
+          body: JSON.stringify({ 
+            ...values, 
+            formType: "Contactos", // Especificar el tipo de formulario
+            documentName: selectedDocument, // Agregar el nombre del documento seleccionado
+            projectName: selectedProject // Agregar el nombre del proyecto seleccionado, si corresponde
+          }),
         });
 
         resetForm();
@@ -332,6 +345,8 @@ const ContactForm = React.forwardRef(({ data, autoFocus }, ref) => {
               )}
             </div>
           </div>
+
+
 
           {/* Botón de enviar */}
           <div className={`${styles.formGroupFull} text-center`}>

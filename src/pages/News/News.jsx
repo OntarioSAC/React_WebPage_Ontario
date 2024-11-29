@@ -9,6 +9,7 @@ import Sidebar from './Content/Sidebar';
 import Banner from '../../components/Banner/Banner';
 import WhatsappButton from "../../components/Modules/WhatsappButton";
 import styles from './News.module.css';
+
 const News = () => {
   // Hook para obtener las traducciones
   const { t } = useTranslation(); // Hook para obtener las traducciones
@@ -21,6 +22,8 @@ const News = () => {
     padding: 0,
     margin: 0,
   }
+
+
 
   const [selectedTab, setSelectedTab] = useState("Todo");
   return (
@@ -60,5 +63,6 @@ const News = () => {
     </div>
   );
 };
+
 
 export default News;

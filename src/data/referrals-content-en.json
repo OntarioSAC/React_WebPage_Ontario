@@ -7,8 +7,8 @@
     "introText": "With Ontario, you can refer a family member or friend, register their information, and if they buy, you can win great prizes. Just follow these steps:",
     "steps": [
       {
-        "icon": "/img/icons/icon-c1.svg",
-        "image": "/img/icons/icons-referals3.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-c1.svg",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icons-referals3.svg",
         "title": "Register your referral in the form",
         "description": "You must register your referral's information in the REFER HERE form that you will find on our website.",
         "link": "http://"

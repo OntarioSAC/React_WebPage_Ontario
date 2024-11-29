@@ -1,14 +1,14 @@
 {
   "socialSlider": {
     "images": [
-      "/img/social/1.webp",
-      "/img/social/2.webp",
-      "/img/social/3.webp",
-      "/img/social/4.webp"
+      "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/social/1.webp",
+      "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/social/2.webp",
+      "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/social/3.webp",
+      "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/social/4.webp"
     ]
   },
   "socialHeader": {
-    "bannerImage": "/img/images/baner-social.webp",
+    "bannerImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/baner-social.webp",
     "leftColumn": {
       "flag": "DESARROLLO SOSTENIBLE Y",
       "title": "RESPONSABILIDAD",
@@ -18,11 +18,11 @@
       "description": "Somos un grupo inmobiliario con un compromiso fundacional con el respeto al medio ambiente minimizando el impacto de nuestras intervenciones en los ecosistemas que trabajamos, nos consideramos una empresa verde, pues privilegiamos la elección de materiales que no generan CO2 y que son biodegradables; utilizamos cercos vivos, privilegiamos la energía solar o fotovoltaica, reutilizamos el agua, y nuestros diseños arquitectónicos privilegian el disfrute de los espacios al aire libre y el contacto con la naturaleza, nuestras concepciones de vías internas y manzanas están pensadas para trasmitir quietud y paz, cualidades fundamentales de nuestros diseños paisajísticos."
     },
     "recycleSection": {
-      "image": "/img/textures/hojas-3.webp",
+      "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/textures/hojas-3.webp",
       "description": "Nuestros proyectos tendrán la certificación internacional en sostenibilidad Edge, lo que demuestra nuestra responsabilidad con los ecosistemas que intervenimos."
     },
     "studentsSection": {
-      "image": "/img/images/student2.webp",
+      "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/student2.webp",
       "description": "Como parte de nuestra responsabilidad social, damos apoyo permanente a los gobiernos locales con la donación de víveres y provisiones diversas para las comunidades de las zonas de influencia más desfavorecidas, y próximamente implementaremos la donación de becas de estudio para los mejores estudiantes de colegios nacionales."
     }
   },
@@ -31,7 +31,7 @@
     "title2": "COMIENZA AQUÍ",
     "ctaText": "¡Aprovecha nuestras ofertas!",
     "backgroundColor": "#cbf000",
-    "imageSrc": "/img/images/family.webp",
+    "imageSrc": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/family.webp",
     "imageAlt": "Familia",
     "documents": [
       { "id": "1", "label": "DNI" },

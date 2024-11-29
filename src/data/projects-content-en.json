@@ -682,9 +682,9 @@
     {
       "id": "punta-arena",
       "slider": [
-        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena1.jpg" },
-        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena2.jpg" },
-        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena3.jpg" }
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena1.jpg" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena2.jpg" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena3.jpg" }
       ],
       "infoBox": {
         "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-arena.webp",
@@ -697,17 +697,17 @@
         },
         "infoBoxes": [
           {
-            "icon": "/img/icons/area2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/area2.svg",
             "text": "FROM",
             "value": "110 m²"
           },
           {
-            "icon": "/img/icons/car2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car2.svg",
             "value": "IN ",
             "highlighted": "PROGRESS"
           },
           {
-            "icon": "/img/icons/location2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location2.svg",
             "bold": "PUNTA DE BOMBÓN",
             "value": "AREQUIPA"
           }
@@ -724,32 +724,32 @@
         "description": "Discover Punta Arena, an exclusive beach house development that combines coastal serenity with modern luxury. Perfect for those seeking a seaside retreat, Punta Arena offers the ideal balance between contemporary comfort and maritime tranquility.",
         "icons": [
           {
-            "src": "/img/features/icons_08.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_08.svg",
             "alt": "Image description 1",
             "text": "Club House"
           },
           {
-            "src": "/img/features/icons_24.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_24.svg",
             "alt": "Image description 2",
             "text": "Water park"
           },
           {
-            "src": "/img/features/icons_35.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_35.svg",
             "alt": "Image description 3",
             "text": "Commercial areas"
           },
           {
-            "src": "/img/features/icons_26.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_26.svg",
             "alt": "Image description 7",
             "text": "Entrance gate"
           },
           {
-            "src": "/img/features/icons_33.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_33.svg",
             "alt": "Image description 4",
             "text": "Bonfire area"
           },
           {
-            "src": "/img/features/icons_02.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_02.svg",
             "alt": "Image description 5",
             "text": "Green areas"
           }
@@ -790,9 +790,9 @@
         "note": "*Reference images",
         "backgroundImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/gallery/santorini-01.webp",
         "slider": [
-          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/7.webp" },
-          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/8.webp" },
-          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/9.webp" }
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/7.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/8.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/9.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/h455R?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
         "videoUrl": "/video/arena.mp4",
@@ -869,7 +869,7 @@
             "priceAlt": "or S/ 830*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -889,7 +889,7 @@
             "priceAlt": "or S/ 649*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -909,7 +909,7 @@
             "priceAlt": "or S/ 1,040*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -929,7 +929,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -949,7 +949,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -960,7 +960,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Country Condominiums",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -969,7 +969,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -980,7 +980,7 @@
           {
             "title": "BAHIA SERENA",
             "description": "Country Condominiums",
-            "image": "/img/cards/bahia-serena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/bahia-serena.webp",
             "from": "From ",
             "area": "90",
             "unit": "m2",
@@ -989,7 +989,7 @@
             "priceAlt": "or S/ 580*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE-",
             "status2": " SALE",
@@ -1007,12 +1007,12 @@
     {
       "id": "punta-arena-2",
       "slider": [
-        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena-2-1.webp" },
-        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena-2-2.webp" },
-        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena-2-3.webp" }
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena-2-1.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena-2-2.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena-2-3.webp" }
       ],
       "infoBox": {
-        "logo": "/img/logo/logo-arena-2.webp",
+        "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-arena-2.webp",
         "price": {
           "title": "INSTALLMENTS FROM",
           "amount": "$180",
@@ -1022,17 +1022,17 @@
         },
         "infoBoxes": [
           {
-            "icon": "/img/icons/area2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/area2.svg",
             "text": "FROM",
             "value": "90 m²"
           },
           {
-            "icon": "/img/icons/tag2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag2.svg",
             "value": "PRE",
             "highlighted": "SALE"
           },
           {
-            "icon": "/img/icons/location2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location2.svg",
             "bold": "PUNTA DE BOMBÓN",
             "value": "AREQUIPA"
           }
@@ -1049,37 +1049,37 @@
         "description": "Here we present Punta Arena II, the perfect opportunity to make your dream of living by the sea come true! Following the success of Punta Arena I, we are expanding this exclusive development with more lots so you can be part of this unique community. Here, you’ll find the ideal balance between coastal tranquility and modern comfort.",
         "icons": [
           {
-            "src": "/img/features/icons_08.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_08.svg",
             "alt": "Image description 1",
             "text": "Club House",
             "type": "propia"
           },
           {
-            "src": "/img/features/icons_24.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_24.svg",
             "alt": "Image description 2",
             "text": "Water park",
             "type": "compartida"
           },
           {
-            "src": "/img/features/icons_35.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_35.svg",
             "alt": "Image description 3",
             "text": "Commercial areas",
             "type": "compartida"
           },
           {
-            "src": "/img/features/icons_26.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_26.svg",
             "alt": "Image description 7",
             "text": "Entrance gate",
             "type": "compartida"
           },
           {
-            "src": "/img/features/icons_33.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_33.svg",
             "alt": "Image description 4",
             "text": "Bonfire area",
             "type": "compartida"
           },
           {
-            "src": "/img/features/icons_02.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_02.svg",
             "alt": "Image description 5",
             "text": "Green areas",
             "type": "propia"
@@ -1140,10 +1140,10 @@
         "subtitle": "Work Progress",
         "description": "See the evolution of our project, capturing every advancement and our ongoing commitment.",
         "images": [
-          "/img/project/9.webp",
-          "/img/project/11.webp",
-          "/img/project/10.webp",
-          "/img/project/12.webp"
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/9.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/11.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/10.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/12.webp"
         ]
       },
       "location": {
@@ -1191,7 +1191,7 @@
           {
             "title": "PRADO PIAMONTE",
             "description": "Country Condominiums",
-            "image": "/img/cards/prado.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/prado.webp",
             "from": "From ",
             "area": "300",
             "unit": "m&sup2",
@@ -1200,7 +1200,7 @@
             "priceAlt": "or S/ 830*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -1211,7 +1211,7 @@
           {
             "title": "ZAFIRO",
             "description": "Beach Residential",
-            "image": "/img/cards/zafiro.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/zafiro.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -1220,7 +1220,7 @@
             "priceAlt": "or S/ 649*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -1231,7 +1231,7 @@
           {
             "title": "SANTORINI",
             "description": "Beach Residential",
-            "image": "/img/cards/santorini.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/santorini.webp",
             "from": "From ",
             "area": "100",
             "unit": "m2",
@@ -1240,7 +1240,7 @@
             "priceAlt": "or S/ 1,040*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -1251,7 +1251,7 @@
           {
             "title": "CORAL",
             "description": "Real Estate Project",
-            "image": "/img/cards/coral.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/coral.webp",
             "from": "From ",
             "area": "100",
             "unit": "m2",
@@ -1260,7 +1260,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -1271,7 +1271,7 @@
           {
             "title": "MYKONOS",
             "description": "Beach Residential",
-            "image": "/img/cards/mykonos.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/mykonos.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -1280,7 +1280,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -1291,7 +1291,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Country Condominiums",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -1300,7 +1300,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -1311,7 +1311,7 @@
           {
             "title": "BAHIA SERENA",
             "description": "Country Condominiums",
-            "image": "/img/cards/bahia-serena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/bahia-serena.webp",
             "from": "From ",
             "area": "90",
             "unit": "m2",
@@ -1320,7 +1320,7 @@
             "priceAlt": "or S/ 580*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE-",
             "status2": " SALE",
@@ -1343,7 +1343,7 @@
         { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-prado3.webp" }
       ],
       "infoBox": {
-        "logo": "/img/logo/logo-prado.webp",
+        "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-prado.webp",
         "price": {
           "title": "INSTALLMENTS FROM",
           "amount": "$219",
@@ -1353,17 +1353,17 @@
         },
         "infoBoxes": [
           {
-            "icon": "/img/icons/area2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/area2.svg",
             "text": "FROM",
             "value": "300 m²"
           },
           {
-            "icon": "/img/icons/tag2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag2.svg",
             "value": "PRE",
             "highlighted": "SALE"
           },
           {
-            "icon": "/img/icons/location2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location2.svg",
             "bold": "LA JOYA",
             "value": "AREQUIPA"
           }
@@ -2017,17 +2017,17 @@
         },
         "infoBoxes": [
           {
-            "icon": "/img/icons/area2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/area2.svg",
             "text": "FROM",
             "value": "110 m²"
           },
           {
-            "icon": "/img/icons/car2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car2.svg",
             "value": "IN  ",
             "highlighted": "PROGRESS"
           },
           {
-            "icon": "/img/icons/location2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location2.svg",
             "bold": "PUNTA DE BOMBÓN",
             "value": "AREQUIPA"
           }
@@ -2044,52 +2044,52 @@
         "description": "Discover Coral, an exclusive house project that combines the tranquility of the surroundings with the splendor of the sea. Perfect for those seeking a serene retreat, Coral offers the ideal balance between modern living and coastal peace.",
         "icons": [
           {
-            "src": "/img/features/icons_08.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_08.svg",
             "alt": "Image description 1",
             "text": "Club House"
           },
           {
-            "src": "/img/features/icons_24.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_24.svg",
             "alt": "Image description 4",
             "text": "Water playground for children"
           },
           {
-            "src": "/img/features/icons_35.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_35.svg",
             "alt": "Image description 5",
             "text": "Commercial Strip"
           },
           {
-            "src": "/img/features/icons_25.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_25.svg",
             "alt": "Image description 3",
             "text": "Swimming pools"
           },
           {
-            "src": "/img/features/icons_16.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_16.svg",
             "alt": "Image description 6",
             "text": "Mini golf course (18 holes)"
           },
           {
-            "src": "/img/features/icons_26.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_26.svg",
             "alt": "Image description 7",
             "text": "Entrance gate"
           },
           {
-            "src": "/img/features/icons_34.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_34.svg",
             "alt": "Image description 2",
             "text": "BBQ area"
           },
           {
-            "src": "/img/features/icons_03.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_03.svg",
             "alt": "Image description 8",
             "text": "Water bar"
           },
           {
-            "src": "/img/features/icons_19.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_19.svg",
             "alt": "Image description 2",
             "text": "Children's playground"
           },
           {
-            "src": "/img/features/icons_32.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_32.svg",
             "alt": "Image description 8",
             "text": "Rest area"
           }
@@ -2138,7 +2138,7 @@
           "headline": "Are you interested in our project?",
           "description": "Book a guided tour to get to know it in depth.",
           "buttonText": "Schedule visit",
-          "buttonIcon": "/img/icons/arrow-icon.svg"
+          "buttonIcon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/arrow-icon.svg"
         }
       },
       "progress": {
@@ -2147,10 +2147,10 @@
         "subtitle": "Work Progress",
         "description": "See the evolution of our project, capturing every advancement and our ongoing commitment.",
         "images": [
-          "/img/project/21.webp",
-          "/img/project/23.webp",
-          "/img/project/22.webp",
-          "/img/project/24.webp"
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/21.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/23.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/22.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/24.webp"
         ]
       },
       "location": {
@@ -2162,7 +2162,7 @@
             "label": "Mejia",
             "icon": "ico-location",
             "type": "image",
-            "src": "/img/map/6.webp",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/map/6.webp",
             "alt": "Dynamic Map"
           },
           {
@@ -2198,7 +2198,7 @@
           {
             "title": "PRADO PIAMONTE",
             "description": "Country Condominiums",
-            "image": "/img/cards/prado.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/prado.webp",
             "from": "From ",
             "area": "300",
             "unit": "m&sup2",
@@ -2207,7 +2207,7 @@
             "priceAlt": "or S/ 830*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -2218,7 +2218,7 @@
           {
             "title": "ZAFIRO",
             "description": "Beach Residential",
-            "image": "/img/cards/zafiro.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/zafiro.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -2227,7 +2227,7 @@
             "priceAlt": "or S/ 649*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -2238,7 +2238,7 @@
           {
             "title": "SANTORINI",
             "description": "Beach Residential",
-            "image": "/img/cards/santorini.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/santorini.webp",
             "from": "From ",
             "area": "100",
             "unit": "m2",
@@ -2247,7 +2247,7 @@
             "priceAlt": "or S/ 1,040*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -2258,7 +2258,7 @@
           {
             "title": "CORAL",
             "description": "Real Estate Project",
-            "image": "/img/cards/coral.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/coral.webp",
             "from": "From ",
             "area": "100",
             "unit": "m2",
@@ -2267,7 +2267,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -2278,7 +2278,7 @@
           {
             "title": "MYKONOS",
             "description": "Beach Residential",
-            "image": "/img/cards/mykonos.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/mykonos.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -2287,7 +2287,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -2298,7 +2298,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Country Condominiums",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -2307,7 +2307,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -2318,7 +2318,7 @@
           {
             "title": "BAHIA SERENA",
             "description": "Country Condominiums",
-            "image": "/img/cards/bahia-serena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/bahia-serena.webp",
             "from": "From ",
             "area": "90",
             "unit": "m2",
@@ -2341,17 +2341,18 @@
         "title": "YOUR PERFECT SPACE"
       }
     },
+
     {
       "id": "bahia-serena",
       "slider": [
-        { "type": "image", "src": "/img/slider-gallery/bahia1.webp"},
-        { "type": "image", "src": "/img/slider-gallery/bahia2.webp" },
-        { "type": "image", "src": "/img/slider-gallery/bahia3.webp" },
-        { "type": "image", "src": "/img/slider-gallery/bahia4.webp" },
-        { "type": "image", "src": "/img/slider-gallery/bahia5.webp" }
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia1.webp"},
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia2.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia3.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia4.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia5.webp" }
       ],
       "infoBox": {
-        "logo": "/img/logo/logo-bahia-serena.webp",
+        "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-bahia-serena.webp",
         "price": {
           "title": "INSTALLMENTS FROM",
           "amount": "$149",
@@ -2361,17 +2362,17 @@
         },
         "infoBoxes": [
           {
-            "icon": "/img/icons/area2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/area2.svg",
             "text": "FROM",
             "value": "90 m²"
           },
           {
-            "icon": "/img/icons/lanzamiento.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/lanzamiento.svg",
             "value": "PRE",
             "highlighted": "SALE"
           },
           {
-            "icon": "/img/icons/location2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location2.svg",
             "bold": "PLAYA HERMOSA",
             "value": "TUMBES"
           }
@@ -2388,42 +2389,42 @@
         "description": "The project that redefines the concept of exclusivity and beauty in northern Peru. Located in the paradisiacal views of Playa Hermosa – Tumbes.",
         "icons": [
           {
-            "src": "/img/features/bahia-serena/canchasdeportivas.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/bahia-serena/canchasdeportivas.svg",
             "alt": "Image description 1",
             "text": "Sports Fields"
           },
           {
-            "src": "/img/features/bahia-serena/piscina.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/bahia-serena/piscina.svg",
             "alt": "Image description 2",
             "text": "Pool"
           },
           {
-            "src": "/img/features/bahia-serena/juegos.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/bahia-serena/juegos.svg",
             "alt": "Image description 3",
             "text": "Club House for kids"
           },
           {
-            "src": "/img/features/bahia-serena/restobar.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/bahia-serena/restobar.svg",
             "alt": "Image description 4",
             "text": "Resto Bar"
           },
           {
-            "src": "/img/features/bahia-serena/clubhouse.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/bahia-serena/clubhouse.svg",
             "alt": "Image description 5",
             "text": "Club House"
           },
           {
-            "src": "/img/features/bahia-serena/salonlodge.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/bahia-serena/salonlodge.svg",
             "alt": "Image description 6",
             "text": "Lodge Lounge"
           },
           {
-            "src": "/img/features/bahia-serena/coworking.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/bahia-serena/coworking.svg",
             "alt": "Image description 7",
             "text": "Coworking"
           },
           {
-            "src": "/img/features/bahia-serena/spa.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/bahia-serena/spa.svg",
             "alt": "Image description 8",
             "text": "Spa"
           }
@@ -2466,11 +2467,11 @@
         "note": "*Reference images",
         "backgroundImage": "/img/gallery/santorini-01.webp",
         "slider": [
-          { "type": "image", "src": "/img/slider-gallery/bahia1.webp" },
-          { "type": "image", "src": "/img/slider-gallery/bahia2.webp" },
-          { "type": "image", "src": "/img/slider-gallery/bahia3.webp" },
-          { "type": "image", "src": "/img/slider-gallery/bahia4.webp" },
-          { "type": "image", "src": "/img/slider-gallery/bahia5.webp" }
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia1.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia2.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia3.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia4.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia5.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/collection/7ZxHX?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
         "videoUrl": "/video/bahia-serena.mp4",
@@ -2488,10 +2489,10 @@
         "note": "*Reference images",
         "description": "Live where nature and the sea come together to offer you an incomparable lifestyle, an experience never seen before.",
         "images": [
-          "/img/project/bahia1.webp",
-          "/img/project/bahia2.webp",
-          "/img/project/bahia3.webp",
-          "/img/project/bahia4.webp"
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/bahia1.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/bahia2.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/bahia3.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/bahia4.webp"
         ]
       },
       "location": {
@@ -2539,7 +2540,7 @@
           {
             "title": "PRADO PIAMONTE",
             "description": "Country Condominiums",
-            "image": "/img/cards/prado.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/prado.webp",
             "from": "From ",
             "area": "300",
             "unit": "m&sup2",
@@ -2548,7 +2549,7 @@
             "priceAlt": "or S/ 830*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -2559,7 +2560,7 @@
           {
             "title": "ZAFIRO",
             "description": "Beach Residential",
-            "image": "/img/cards/zafiro.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/zafiro.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -2568,7 +2569,7 @@
             "priceAlt": "or S/ 649*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -2579,7 +2580,7 @@
           {
             "title": "SANTORINI",
             "description": "Beach Residential",
-            "image": "/img/cards/santorini.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/santorini.webp",
             "from": "From ",
             "area": "100",
             "unit": "m2",
@@ -2588,7 +2589,7 @@
             "priceAlt": "or S/ 1,040*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -2599,7 +2600,7 @@
           {
             "title": "CORAL",
             "description": "Real Estate Project",
-            "image": "/img/cards/coral.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/coral.webp",
             "from": "From ",
             "area": "100",
             "unit": "m2",
@@ -2608,7 +2609,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -2619,7 +2620,7 @@
           {
             "title": "MYKONOS",
             "description": "Beach Residential",
-            "image": "/img/cards/mykonos.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/mykonos.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -2628,7 +2629,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -2639,7 +2640,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Country Condominiums",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -2648,7 +2649,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -2659,7 +2660,7 @@
           {
             "title": "PUNTA ARENA II",
             "description": "Country Condominiums",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "From ",
             "area": "90",
             "unit": "m2",
@@ -2668,7 +2669,7 @@
             "priceAlt": "or S/ 675*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE-",
             "status2": " SALE",
@@ -2679,7 +2680,7 @@
           {
             "title": "BAHIA SERENA",
             "description": "Country Condominiums",
-            "image": "/img/cards/bahia-serena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/bahia-serena.webp",
             "from": "From ",
             "area": "90",
             "unit": "m2",
@@ -2688,7 +2689,7 @@
             "priceAlt": "or S/ 580*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE-",
             "status2": " SALE",

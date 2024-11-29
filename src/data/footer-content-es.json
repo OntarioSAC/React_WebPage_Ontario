@@ -3,6 +3,11 @@
     "title": "Contáctanos",
     "route": "/"
   },
+  "enlace":{
+    "items": [
+      { "text": "Nosotros", "route": "/about" }
+    ]
+  },
   "about": {
     "title": "SOBRE ONTARIO",
     "items": [

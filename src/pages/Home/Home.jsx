@@ -11,11 +11,8 @@ import AboutSection from "./Content/AboutSection";
 import FormSection from "./Content/FormSection";
 import InfoBoxHome from "./Content/InfoBoxHome";
 import WhatsappButton from "../../components/Modules/WhatsappButton";
-
-
 // Importación del popup
-import Popup from "../../components/Modules/PopUp"; // Asegúrate de que la ruta es correcta
-
+import Popup from "../../components/Modules/PopUp";
 // 3. Importaciones de Estilos
 import styles from "./Home.module.css";
 
@@ -30,42 +27,61 @@ import styles from "./Home.module.css";
  * @param {Function} props.setAutoFocus - Función para actualizar el estado de autoenfoque
  * @returns {JSX.Element} El componente Home
  */
-function Home({ formRef, autoFocus, setAutoFocus }) {
+
+function Home({ 
+  formRef, 
+  autoFocus, 
+  setAutoFocus, 
+  setPageLoaded 
+}) {
   const { t } = useTranslation();
   const location = useLocation();
-
-  const [showPopup, setShowPopup] = useState(true); // Estado para controlar la visibilidad del popup
+  
+  const [showPopup, setShowPopup] = useState(false); // Cambié el estado inicial a `false` para que no se muestre inmediatamente
 
   // Efecto para manejar el scroll al formulario si se indica en la ubicación
   useEffect(() => {
+    // Señalar que la página está cargada
+    setPageLoaded(true);
+  
     // Desplazamiento al formulario si se indica en la ubicación
     if (location.state?.scrollToForm && formRef.current) {
       formRef.current.scrollIntoView({ behavior: 'smooth' });
       formRef.current.focusFirstInput();
       setAutoFocus(false); // Desactiva autoFocus después de enfocar
     }
-    setShowPopup(true); // Muestra el popup al cargar la página
-  }, [location.state, formRef, setAutoFocus]);
+  
+    // Mostrar el popup después de 3 segundos
+    const popupTimeout = setTimeout(() => {
+      setShowPopup(true); // Muestra el popup después de 3 segundos
+    }, 2000); // 3000 ms = 3 segundos
+  
+    return () => {
+      // Limpiar el timeout cuando el componente se desmonte o cambie
+      clearTimeout(popupTimeout);
+  
+      setPageLoaded(false); // Resetear al desmontar
+    };
+  }, [location.state, formRef, setAutoFocus, setPageLoaded]);
 
   // Cerrar el popup
   const closePopup = () => {
     setShowPopup(false);
   };
-
-  // Obtención de datos traducidos
+  
+  // Datos traducidos
   const homeSlider = t("homeSlider", { returnObjects: true });
   const homeInfoBoxes = t("homeInfoBoxes", { returnObjects: true });
   const homeAboutSection = t("homeAboutSection", { returnObjects: true });
   const homeSectionData = t("homeSectionData", { returnObjects: true });
-  const homeTestimonialsData = t("homeTestimonialsData", { returnObjects: true, });
+  const homeTestimonialsData = t("homeTestimonialsData", { returnObjects: true });
   const homeFormSection = t("homeFormSection", { returnObjects: true });
 
-  // Renderizado del componente
   return (
-    <>
-      {showPopup && <Popup onClose={closePopup} />}
+    <div>
+      
       <HomeSlider data={homeSlider} />
-
+      {showPopup && <Popup onClose={closePopup} />}
       <div className="container g-0">
         <div className={styles.customContent}>
           <div className={styles.overlap}>
@@ -73,26 +89,31 @@ function Home({ formRef, autoFocus, setAutoFocus }) {
           </div>
         </div>
         <AboutSection data={homeAboutSection} />
-        <ProjectSection sectionData={homeSectionData}/>
-        <FormSection data={homeFormSection} formRef={formRef} autoFocus={autoFocus} />
+        <ProjectSection sectionData={homeSectionData} />
+        <FormSection 
+          data={homeFormSection} 
+          formRef={formRef} 
+          autoFocus={autoFocus} 
+        />
         <TestimonialsSection testimonialsData={homeTestimonialsData} />
         <div className="whatsapp">
           <WhatsappButton />
         </div>
       </div>
       
-    </>
+    </div>
   );
 }
 
-// Validación de propiedades con PropTypes
 Home.propTypes = {
   formRef: PropTypes.oneOfType([
     PropTypes.func,
-    PropTypes.shape({ current: PropTypes.instanceOf(Element) })
+    PropTypes.shape({ current: PropTypes.instanceOf(Element) }),
   ]),
   autoFocus: PropTypes.bool.isRequired,
   setAutoFocus: PropTypes.func.isRequired,
+  setPageLoaded: PropTypes.func.isRequired,
 };
 
 export default Home;
+

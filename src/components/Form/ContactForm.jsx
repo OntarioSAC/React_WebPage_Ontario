@@ -68,7 +68,7 @@ const ContactForm = React.forwardRef(({ data, autoFocus }, ref) => {
       ? Yup.string().required(texts.projectPlaceholder)
       : Yup.string(),
     termsCheck: Yup.boolean().oneOf([true], texts.termsLabel1),
-    termsCheck2: Yup.boolean().oneOf([true], texts.termsLabel2),
+    termsCheck2: Yup.boolean(),
   });
 
   // Configuración de Formik
@@ -345,6 +345,8 @@ const ContactForm = React.forwardRef(({ data, autoFocus }, ref) => {
               )}
             </div>
           </div>
+
+
 
           {/* Botón de enviar */}
           <div className={`${styles.formGroupFull} text-center`}>

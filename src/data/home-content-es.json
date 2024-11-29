@@ -7,19 +7,19 @@
   ],
   "homeInfoBoxes": [
     {
-      "icon": "/img/icons/medal-icon.svg",
+      "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/medal-icon.svg",
       "number": "+ 10",
       "line1": "Años de",
       "line2": "Trayectoria"
     },
     {
-      "icon": "/img/icons/project-icon.svg",
+      "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/project-icon.svg",
       "number": "+ 10",
       "line1": "Proyectos",
       "line2": ""
     },
     {
-      "icon": "/img/icons/family-icon.svg",
+      "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/family-icon.svg",
       "number": "+ 1000",
       "line1": "Familias",
       "line2": "Felices"
@@ -49,11 +49,11 @@
     ],
     "recognitionText": "Reconocimiento por segundo año consecutivo como una de las mejores empresas a nivel nacional.",
     "certifications": {
-      "epa2022": "/img/logo/epa-2022.svg",
-      "epa2023": "/img/logo/epa-2023.svg",
-      "iso9001": "/img/logo/iso-9001.svg",
-      "iso14001": "/img/logo/iso-14001.svg",
-      "ccia": "/img/logo/ccia.webp"
+      "epa2022": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/epa-2022.svg",
+      "epa2023": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/epa-2023.svg",
+      "iso9001": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/iso-9001.svg",
+      "iso14001": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/iso-14001.svg",
+      "ccia": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/ccia.webp"
     },
     "advisorImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/elementoAsesor.webp"
   },
@@ -97,7 +97,7 @@
         "priceAlt": "S/ 899*",
         "detail1": "Cuotas",
         "detail2": "desde",
-        "icon": "/img/icons/tag.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
         "filterStatus": 1,
         "status": "PRE",
         "status2": "VENTA",
@@ -121,7 +121,7 @@
         "priceAlt": "S/ 649*",
         "detail1": "Cuotas",
         "detail2": "desde",
-        "icon": "/img/icons/tag.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
         "filterStatus": 1,
         "status": "PRE",
         "status2": "VENTA",
@@ -169,7 +169,7 @@
         "priceAlt": "VENDIDO",
         "detail1": "",
         "detail2": "",
-        "icon": "/img/icons/car.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
         "filterStatus": 0,
         "status": "EN",
         "status2": " OBRAS",

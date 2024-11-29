@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import styles from './PopUp.module.css'; // Asegúrate de crear este archivo CSS
-
-
+import { Link } from "react-router-dom";
+import bookre from "../../data/footer-content-es.json";
 const Popup = ({ onClose, deviceType, isLoading }) => {
     
     const imageUrls = {
-        desktop: '/img/popups/popup_cusco.webp',
-        tablet: '/img/popups/popup_cusco.webp',
-        mobile: '/img/popups/popup_cusco_mobile.webp',
+        desktop: 'https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/popups/popup_cusco.webp',
+        tablet: 'https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/popups/popup_cusco.webp',
+        mobile: 'https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/popups/popup_cusco_mobile.webp',
     };
 
     const imageUrl = imageUrls[deviceType] || imageUrls.desktop;
@@ -26,6 +26,7 @@ const Popup = ({ onClose, deviceType, isLoading }) => {
 
     return (
         <div className={`${styles["popup-overlay"]} ${isVisible ? styles.show : ''}`}>
+           
             <button className={styles["close-button"]} onClick={handleClose}>✕</button>
             <div className={`${styles["popup-content"]}`}>
                 {isLoading ? (

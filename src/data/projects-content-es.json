@@ -2149,7 +2149,7 @@
         { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-coral2.webp" }
       ],
       "infoBox": {
-        "logo": "/img/logo/logo-coral.webp",
+        "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-coral.webp",
         "price": {
           "title": "",
           "amount": "100%",
@@ -2221,17 +2221,17 @@
             "text": "Área de parrillas"
           },
           {
-            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_03.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_03.svg",
             "alt": "Descripción imagen 8",
             "text": "Barra acuática"
           },
           {
-            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_19.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_19.svg",
             "alt": "Descripción imagen 2",
             "text": "Juegos para niños"
           },
           {
-            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_32.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_32.svg",
             "alt": "Descripción imagen 8",
             "text": "Zona de descanso"
           }
@@ -2271,8 +2271,8 @@
         "subtitle": "TE ESPERA",
         "note": "*Imágenes referenciales",
         "slider": [
-          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/16.webp" },
-          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.devhttps://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/17.webp" }
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/16.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/17.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/collection/7KBMQ?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es",
         "videoUrl": "/video/coral.mp4",
@@ -2487,7 +2487,7 @@
           {
             "title": "BAHIA SERENA",
             "description": "Condominios de Campo",
-            "image": "/img/cards/bahia-serena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/bahia-serena.webp",
             "from": "Desde ",
             "area": "90",
             "unit": "m2",
@@ -2497,7 +2497,7 @@
             "priceAlt": "S/ 580*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE",
             "status2": "VENTA",
@@ -2511,17 +2511,18 @@
         "title": "TU ESPACIO PERFECTO"
       }
     },
+    
     {
       "id": "bahia-serena",
       "slider": [
-        { "type": "image", "src": "/img/slider/slider-habia1.webp" },
-        { "type": "image", "src": "/img/slider/slider-habia2.webp" },
-        { "type": "image", "src": "/img/slider/slider-bahia3.webp" },
-        { "type": "image", "src": "/img/slider/slider-habia4.webp" },
-        { "type": "image", "src": "/img/slider/slider-habia5.webp" }
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia1.webp"},
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia2.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia3.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia4.webp" },
+        { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia5.webp" }
       ],
       "infoBox": {
-        "logo": "/img/logo/logo-bahia-serena.webp",
+        "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-bahia-serena.webp",
         "price": {
           "title": "CUOTAS DESDE",
           "amount": "$149",
@@ -2531,17 +2532,17 @@
         },
         "infoBoxes": [
           {
-            "icon": "/img/icons/area2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/area2.svg",
             "text": "DESDE",
             "value": "90 m²"
           },
           {
-            "icon": "/img/icons/lanzamiento.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/lanzamiento.svg",
             "value": "LANZAMIENTO",
             "highlighted": ""
           },
           {
-            "icon": "/img/icons/location2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location2.svg",
             "bold": "PLAYA HERMOSA",
             "value": "TUMBES"
           }
@@ -2558,42 +2559,42 @@
         "description": "El proyecto que redefine el concepto de exclusividad y belleza en el norte del Perú. Ubicado en las paradisíacas vistas de Playa Hermosa – Tumbes.",
         "icons": [
           {
-            "src": "/img/features/bahia-serena/canchasdeportivas.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/bahia-serena/canchasdeportivas.svg",
             "alt": "Descripción imagen 1",
             "text": "Canchas Deportivas"
           },
           {
-            "src": "/img/features/bahia-serena/piscina.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/bahia-serena/piscina.svg",
             "alt": "Descripción imagen 2",
             "text": "Piscina"
           },
           {
-            "src": "/img/features/bahia-serena/juegos.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/bahia-serena/juegos.svg",
             "alt": "Descripción imagen 3",
             "text": "Club House para niños"
           },
           {
-            "src": "/img/features/bahia-serena/restobar.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/bahia-serena/restobar.svg",
             "alt": "Descripción imagen 4",
             "text": "Resto Bar"
           },
           {
-            "src": "/img/features/bahia-serena/clubhouse.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/bahia-serena/clubhouse.svg",
             "alt": "Descripción imagen 5",
             "text": "Club House"
           },
           {
-            "src": "/img/features/bahia-serena/salonlodge.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/bahia-serena/salonlodge.svg",
             "alt": "Descripción imagen 6",
             "text": "Salón Lodge"
           },
           {
-            "src": "/img/features/bahia-serena/coworking.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/bahia-serena/coworking.svg",
             "alt": "Descripción imagen 7",
             "text": "Coworking"
           },
           {
-            "src": "/img/features/bahia-serena/spa.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/bahia-serena/spa.svg",
             "alt": "Descripción imagen 8",
             "text": "Spa"
           }
@@ -2636,11 +2637,11 @@
         "note": "*Imágenes referenciales",
         "backgroundImage": "/img/gallery/santorini-01.webp",
         "slider": [
-          { "type": "image", "src": "/img/slider-gallery/bahia1.webp" },
-          { "type": "image", "src": "/img/slider-gallery/bahia2.webp" },
-          { "type": "image", "src": "/img/slider-gallery/bahia3.webp" },
-          { "type": "image", "src": "/img/slider-gallery/bahia4.webp" },
-          { "type": "image", "src": "/img/slider-gallery/bahia5.webp" }
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia1.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia2.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia3.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia4.webp" },
+          { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia5.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/collection/7ZxHX?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
         "videoUrl": "/video/bahia-serena.mp4",
@@ -2658,10 +2659,10 @@
         "note": "*Imágenes referenciales",
         "description": "Vive donde la naturaleza y el mar se unen para ofrecerte un estilo de vida incomparable, una experiencia nunca antes vista.",
         "images": [
-          "/img/project/bahia1.webp",
-          "/img/project/bahia2.webp",
-          "/img/project/bahia3.webp",
-          "/img/project/bahia4.webp"
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/bahia1.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/bahia2.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/bahia3.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/bahia4.webp"
         ]
       },
       "location": {
@@ -2709,7 +2710,7 @@
           {
             "title": "PRADO PIAMONTE",
             "description": "Condominios de Campo",
-            "image": "/img/cards/prado.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/prado.webp",
             "from": "Desde ",
             "area": "300",
             "unit": "m2",
@@ -2719,7 +2720,7 @@
             "priceAlt": "S/ 830*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -2730,7 +2731,7 @@
           {
             "title": "ZAFIRO",
             "description": "Residencial Playa",
-            "image": "/img/cards/zafiro.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/zafiro.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -2740,7 +2741,7 @@
             "priceAlt": "S/ 649*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -2751,7 +2752,7 @@
           {
             "title": "SANTORINI",
             "description": "Residencial Playa",
-            "image": "/img/cards/santorini.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/santorini.webp",
             "from": "Desde ",
             "area": "100",
             "unit": "m2",
@@ -2761,7 +2762,7 @@
             "priceAlt": "S/ 1,040*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -2772,7 +2773,7 @@
           {
             "title": "CORAL",
             "description": "Proyecto Inmobiliario",
-            "image": "/img/cards/coral.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/coral.webp",
             "from": "Desde ",
             "area": "100",
             "unit": "m2",
@@ -2782,7 +2783,7 @@
             "priceAlt": "VENDIDO",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "EN",
             "status2": " OBRAS",
@@ -2793,7 +2794,7 @@
           {
             "title": "MYKONOS",
             "description": "Residencial Playa",
-            "image": "/img/cards/mykonos.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/mykonos.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -2803,7 +2804,7 @@
             "priceAlt": "VENDIDO",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "EN",
             "status2": " OBRAS",
@@ -2814,7 +2815,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Condominios de Campo",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -2824,7 +2825,7 @@
             "priceAlt": "VENDIDO",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "EN",
             "status2": " OBRAS",
@@ -2835,7 +2836,7 @@
           {
             "title": "PUNTA ARENA II",
             "description": "Condominios de Campo",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -2845,7 +2846,7 @@
             "priceAlt": "S/ 675*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE",
             "status2": "VENTA",
@@ -2856,7 +2857,7 @@
           {
             "title": "BAHIA SERENA",
             "description": "Condominios de Campo",
-            "image": "/img/cards/bahia-serena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/bahia-serena.webp",
             "from": "Desde ",
             "area": "90",
             "unit": "m2",
@@ -2866,7 +2867,7 @@
             "priceAlt": "S/ 580*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE",
             "status2": "VENTA",

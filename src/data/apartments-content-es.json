@@ -4,7 +4,7 @@
       "id": "o2",
       "slider": [{ "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-o2.webp" }],
       "infoBox": {
-        "logo": "/img/logo/logo-o2.webp",
+        "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-o2.webp",
         "price": {
           "title": "CUOTAS DESDE",
           "amount": "$450 *",
@@ -14,17 +14,17 @@
         },
         "infoBoxes": [
           {
-            "icon": "/img/icons/area-white.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/area-white.svg",
             "text": "DESDE",
             "value": "48 m²"
           },
           {
-            "icon": "/img/icons/tag-white.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag-white.svg",
             "value": "PRE",
             "highlighted": "VENTA"
           },
           {
-            "icon": "/img/icons/location-white.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location-white.svg",
             "text": "CERRO COLORADO",
             "value": "AREQUIPA"
           }
@@ -41,33 +41,33 @@
         "description": "Está ubicado en una de las zonas más privilegiadas de la ciudad, O2 ofrece la combinación perfecta de confort y conveniencia. Este desarrollo exclusivo está diseñado pensando en tu bienestar y el de tu familia, brindándote acceso inmediato a todo lo que necesitas para una vida plena.",
         "icons": [
           {
-            "src": "/img/features/icons_36.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_36.svg",
             "alt": "Descripción imagen 1",
             "text": "Área de gimnasio"
           },
           {
-            "src": "/img/features/icons_19.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_19.svg",
             "alt": "Descripción imagen 2",
             "text": "Juegos para niños"
           },
           {
-            "src": "/img/features/icons_03.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_03.svg",
             "alt": "Descripción imagen 4",
             "text": "Área de skybar"
           },
           {
-            "src": "/img/features/icons_25.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_25.svg",
             "alt": "Descripción imagen 3",
             "text": "Piscina"
           },
 
           {
-            "src": "/img/features/icons_38.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_38.svg",
             "alt": "Descripción imagen 5",
             "text": "Coworking"
           },
           {
-            "src": "/img/features/icons_37.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_37.svg",
             "alt": "Descripción imagen 6",
             "text": "Parking"
           }
@@ -98,7 +98,7 @@
             "conditionsLabel": "Campos obligatorios."
           }
         },
-        "building": "/img/images/edificio-o2.webp"
+        "building": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/edificio-o2.webp"
       },
       "gallery": {
         "title": "¿CUÁNTOS DORMITORIOS",
@@ -106,22 +106,22 @@
         "note": "*Imágenes referenciales",
         "gallerySlide": {
           "slider1": [
-            { "type": "image", "src": "/img/apartments/apartments1.webp" },
-            { "type": "image", "src": "/img/apartments/apartments2.webp" },
-            { "type": "image", "src": "/img/apartments/apartments3.webp" },
-            { "type": "image", "src": "/img/apartments/apartments4.webp" },
-            { "type": "image", "src": "/img/apartments/apartments5.webp" },
-            { "type": "image", "src": "/img/apartments/apartments6.webp" },
-            { "type": "image", "src": "/img/apartments/apartments7.webp" }
+            { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/apartments/apartments1.webp" },
+            { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/apartments/apartments2.webp" },
+            { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/apartments/apartments3.webp" },
+            { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/apartments/apartments4.webp" },
+            { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/apartments/apartments5.webp" },
+            { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/apartments/apartments6.webp" },
+            { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/apartments/apartments7.webp" }
           ],
           "slider2": [
-            { "type": "image", "src": "/img/apartments/details1.webp" },
-            { "type": "image", "src": "/img/apartments/details2.webp" },
-            { "type": "image", "src": "/img/apartments/details1.webp" },
-            { "type": "image", "src": "/img/apartments/details2.webp" },
-            { "type": "image", "src": "/img/apartments/details1.webp" },
-            { "type": "image", "src": "/img/apartments/details2.webp" },
-            { "type": "image", "src": "/img/apartments/details1.webp" }
+            { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/apartments/details1.webp" },
+            { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/apartments/details2.webp" },
+            { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/apartments/details1.webp" },
+            { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/apartments/details2.webp" },
+            { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/apartments/details1.webp" },
+            { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/apartments/details2.webp" },
+            { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/apartments/details1.webp" }
           ]
         },
         "cta": {
@@ -186,9 +186,9 @@
     },
     {
       "id": "killa",
-      "slider": [{ "type": "image", "src": "/img/slider/slider-killa.webp" }],
+      "slider": [{ "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/DSC01129.webp" }],
       "infoBox": {
-        "logo": "/img/logo/logo-killa.webp",
+        "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-killa.webp",
         "price": {
           "title": "",
           "amount": "100%",
@@ -198,17 +198,17 @@
         },
         "infoBoxes": [
           {
-            "icon": "/img/icons/area-white.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/area-white.svg",
             "text": "DESDE",
             "value": "60 m²"
           },
           {
-            "icon": "/img/icons/edifice.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/edifice.svg",
             "value": "",
             "highlighted": "ENTREGADO"
           },
           {
-            "icon": "/img/icons/location-white.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location-white.svg",
             "bold": "",
             "value": "CUSCO"
           }
@@ -225,17 +225,17 @@
         "description": "Killa es el proyecto ideal para quienes buscan vivir en la ciudad del Cusco con todas las comodidades modernas. A solo 5 minutos del centro de la ciudad, este desarrollo te ofrece una conexión única entre la vida urbana y la tranquilidad de un entorno diseñado para tu bienestar. Con espacios pensados para el disfrute y comodidad de toda la familia, Killa combina una excelente ubicación con la calidad de vida que siempre has deseado.",
         "icons": [
           {
-            "src": "/img/features/icons_19.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_19.svg",
             "alt": "Descripción imagen 2",
             "text": "Juegos para niños"
           },
           {
-            "src": "/img/features/icons_34.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_34.svg",
             "alt": "Descripción imagen 4",
             "text": "Zona de parrillas"
           },
           {
-            "src": "/img/features/icons_35.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_35.svg",
             "alt": "Descripción imagen 7",
             "text": "Cerca a zonas comerciales"
           }
@@ -266,7 +266,7 @@
             "conditionsLabel": "Campos obligatorios."
           }
         },
-        "building": "/img/images/edificio-killa.webp"
+        "building": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/DSC01143.webp"
       },
       "gallery": {
         "title": "PROYECTO",
@@ -274,18 +274,18 @@
         "note": "*Imágenes referenciales",
         "gallerySlide": {
           "slider1": [
-            { "type": "image", "src": "/img/apartments/killa-slide1.webp" },
-            { "type": "image", "src": "/img/apartments/killa-slide2.webp" }
+            { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/apartments/killa-slide1.webp" },
+            { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/DSC01133.webp" }
           ],
           "slider2": [
-            { "type": "image", "src": "/img/apartments/details1.webp" }
+            { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/apartments/details1.webp" }
           ]
         },
         "cta": {
           "headline": "¿Te interesa algunos de nuestros proyectos?",
           "description": "Reserva una visita guiada para conocerlo a fondo.",
           "buttonText": "Programar visita",
-          "buttonIcon": "/img/icons/arrow-icon.svg"
+          "buttonIcon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/arrow-icon.svg"
         }
       },
       "virtual": {
@@ -293,7 +293,7 @@
         "titleBold": "VIRTUAL",
         "subtitle": "Sumérgete en tu nuevo departamento",
         "note": "*Imágenes referenciales",
-        "kuulaUrl": "https://kuula.co/share/h45pb?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1"
+        "kuulaUrl": "https://kuula.co/share/hmhvP?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1"
       },
       "promoBanner": {
         "title": "¡PROYECTO",
@@ -302,7 +302,7 @@
         "designation": "",
         "ctaText": "Visitanos ",
         "ctaHighlight": "",
-        "imageSrc": "/img/images/building-killa.webp",
+        "imageSrc": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/DSC01147.webp",
         "imageAlt": "Edificio"
       },
       "location": {
@@ -314,7 +314,7 @@
             "label": "Cusco",
             "icon": "ico-location",
             "type": "image",
-            "src": "/img/map/7.webp",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/map/7.webp",
             "alt": "Mapa Dinámico"
           },
           {

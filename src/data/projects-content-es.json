@@ -2674,7 +2674,7 @@
             "label": "Tumbes",
             "icon": "ico-location",
             "type": "image",
-            "src": "/img/map/8.webp",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/map/Mesa-de-trabajo-1.webp",
             "alt": "Mapa Dinámico"
           },
           {
@@ -2692,7 +2692,7 @@
             "icon": "ico-waze",
             "type": "iframe",
             "src": "https://embed.waze.com/iframe?zoom=16&lat=-17.1030278&lon=-71.8897222&ct=livema",
-            "href": "https://waze.com/ul?ll=-17.1030278,-71.8897222&navigate=yes"
+            "href": "https://waze.com/ul/h6pqex1kvp "
           }
         ]
       },

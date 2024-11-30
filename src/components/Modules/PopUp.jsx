@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from './PopUp.module.css'; // Asegúrate de crear este archivo CSS
 import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 import bookre from "../../data/footer-content-es.json";
 const Popup = ({ onClose, deviceType, isLoading }) => {
     
@@ -24,6 +25,20 @@ const Popup = ({ onClose, deviceType, isLoading }) => {
         setTimeout(onClose, 300); // Delay para permitir la transición de salida
     };
 
+
+
+    const navigate = useNavigate();
+
+    const handlePromotionClick = () => {
+    navigate('/terms', { 
+        state: { 
+        activeSection: 'promociones' ,
+        activeSubsection: 'promociones1',
+        activepromociones_noviembre: 'promociones_noviembre'
+        } 
+    });
+    };
+
     return (
         <div className={`${styles["popup-overlay"]} ${isVisible ? styles.show : ''}`}>
            
@@ -42,12 +57,13 @@ const Popup = ({ onClose, deviceType, isLoading }) => {
                         </div>
                     ) : (
                     <picture>
-                        <Link to="/terms">
+                        
+                        <div onClick={handlePromotionClick}>
                         <source srcSet={imageUrls.desktop} media="(min-width: 1024px)" />
                         <source srcSet={imageUrls.tablet} media="(min-width: 531px) and (max-width: 1024px)" />
                         <source srcSet={imageUrls.mobile} media="(max-width: 530px)" />
                         <img src={imageUrl} alt={`Promotion Image - ${deviceType}`} className={styles.image} />
-                        </Link>
+                        </div>
                     </picture>
                     )}
                    

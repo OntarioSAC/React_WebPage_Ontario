@@ -1,11 +1,13 @@
 .content{
     padding-left: 0 !important;
     padding-right: 0 !important;
+   
 }
 
 .custom-container {
     padding: clamp(4.0625rem, 2.632rem + 6.1033vw, 8.125rem);
     padding-bottom: 0 !important;
+    
 }
 
 .fixedContactForm {
@@ -21,6 +23,7 @@
     top: 20px;
     right: calc((100vw - 1440px) / 2 + 50px);
     transition: top 0.4s ease, position 0.4s ease;
+    
 }
 
 .contact {
@@ -54,6 +57,8 @@
     display: flex;
     flex-flow: wrap;
     justify-content: space-evenly;
+    
+
 }
 
 .icon-size {
@@ -73,6 +78,7 @@
 .icon-image {
     height: clamp(2.1875rem, 1.4425rem + 2.7723vw, 3.9375rem);
     max-width: 100%;
+    
 }
 
 .icon-text {
@@ -82,14 +88,16 @@
     margin-top: 10px;
 }
 .content-building{
+    
     position: relative;
     height: 450px;
-    top: -100px;
+    
+    
 }
 
 .image-building{
     width: 100%; /* Ocupa todo el ancho del contenedor */
-    height: auto; /* Mantiene la proporción original de la imagen */
+    height: 110%; /* Mantiene la proporción original de la imagen */
     object-fit: cover;
 }
 @media (max-width: 1280px) {

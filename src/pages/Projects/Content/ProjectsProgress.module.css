@@ -7,6 +7,7 @@
 }
 
 .custom-card-title {
+ 
   max-width: 702px;
   width: clamp(26.875rem, 19.6374rem + 26.9307vw, 43.875rem);
   height: clamp(4.5625rem, -1.2116rem + 21.4851vw, 18.125rem);

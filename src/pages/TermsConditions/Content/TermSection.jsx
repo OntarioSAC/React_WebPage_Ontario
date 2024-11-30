@@ -26,17 +26,29 @@ import ArrowDown from "/img/icons/arrow-down.svg";
  * 
  * @returns {JSX.Element} El componente TermSection
  */
-const TermSection = ({ data }) => {
+const TermSection = ({ data, initialActiveSection, initialActiveSubsection ,initialActiveSubsection2}) => {
+  
   const { title = "", highlight = "", terms = [] } = data || {};
 
   if (!terms.length) {
     return <div>No hay datos disponibles.</div>;
   }
-  const [selectedSection, setSelectedSection] = useState(terms[0]?.key || "");
-  const [openAccordion, setOpenAccordion] = useState(null);
+
+  const [selectedSection, setSelectedSection] = useState(
+    initialActiveSection || terms[0]?.key || ""
+  );
+
+  const [openAccordion, setOpenAccordion] = useState(
+    initialActiveSubsection || null
+  );
+
+  
 
   // --- added
-  const [openSubAccordion, setOpenSubAccordion] = useState(null);
+  const [openSubAccordion, setOpenSubAccordion] = useState(
+    initialActiveSubsection2 || null
+  
+  );
 
 
 
@@ -73,6 +85,7 @@ const TermSection = ({ data }) => {
 
   return (
     <div className={styles.customContent}>
+
       <div className="row">
         <div className={`${styles["custom-title"]} col-12`}>
           <h1>
@@ -83,6 +96,7 @@ const TermSection = ({ data }) => {
       </div>
 
       <div className={styles.container}>
+
         <div className={styles.sidebar}>
           {/* Itera sobre los términos destructurados */}
           {terms.map(({ key, title, icon }) => (
@@ -143,6 +157,7 @@ const TermSection = ({ data }) => {
                                   openSubAccordion === key ? styles.subAccordionActive : ""
                                 }`}
                               >
+                                
                                 <div className={styles.subAccordionHeader}>
                                   <h4>{title}</h4>
                                   <button
@@ -157,10 +172,14 @@ const TermSection = ({ data }) => {
                                       />
                                     </span>
                                   </button>
+
                                 </div>
                                 {openSubAccordion === key && (
+                                  
                                   <div className={styles.subAccordionBody}>
+                                    
                                     {sections.map((section, index) => renderSection(section, index))}
+                                  
                                   </div>
                                 )}
                               </div>

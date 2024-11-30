@@ -1,4 +1,5 @@
 .customContent {
+ 
   width: 90%;
 }
 
@@ -8,6 +9,7 @@
 }
 
 .sidebar {
+  
   width: 30%;
   padding: 20px 60px;
   display: flex;
@@ -16,11 +18,13 @@
 }
 
 .content {
+  
   width: 70%;
   padding: 0px 0 20px 40px;
 }
 
 .button {
+  
   display: flex;
   align-items: center;
   justify-content: flex-start;

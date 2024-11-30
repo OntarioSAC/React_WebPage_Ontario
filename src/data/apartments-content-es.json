@@ -167,7 +167,7 @@
             "icon": "ico-google",
             "type": "link",
             "href": "https://www.google.com/maps/search/?api=1&query=-16.3714167,-71.5559722",
-            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-16.3714167,-71.5559722&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-16.3714167,-71.5559722&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "src": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4740.2025018365575!2d-71.5559722!3d-16.371416699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTbCsDIyJzE3LjEiUyA3McKwMzMnMjEuNSJX!5e1!3m2!1sen!2spe!4v1732978803563!5m2!1sen!2spe",
             "alt": "Google Maps"
           },
           {
@@ -323,7 +323,7 @@
             "icon": "ico-google",
             "type": "link",
             "href": "https://www.google.com/maps/search/?api=1&query=-17.1030278,-71.8897222",
-            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-17.1030278,-71.8897222&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-17.1030278,-71.8897222&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "src": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4722.035070251022!2d-71.8897222!3d-17.1030278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDA2JzEwLjkiUyA3McKwNTMnMjMuMCJX!5e1!3m2!1sen!2spe!4v1732978726920!5m2!1sen!2spe",
             "alt": "Google Maps"
           },
           {

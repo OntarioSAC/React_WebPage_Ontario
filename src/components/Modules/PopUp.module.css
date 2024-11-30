@@ -23,16 +23,17 @@
 
 .popup-content {
   cursor: pointer;
-  background: white;
+  background: transparent;
   padding: 20px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   position: relative;
   width: 42%;
-  
+  outline: none;
+  box-shadow: none;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para mejorar la visibilidad */
+  
 
   transform: scale(0.7); /* Escalado inicial para la animación de entrada */
   opacity: 0;

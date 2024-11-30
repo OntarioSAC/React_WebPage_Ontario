@@ -169,7 +169,7 @@
             "icon": "ico-google",
             "type": "link",
             "href": "https://www.google.com/maps/search/?api=1&query=-17.1030278,-71.8897222",
-            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-17.1030278,-71.8897222&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-17.1030278,-71.8897222&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "src": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4722.035070251022!2d-71.8897222!3d-17.1030278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDA2JzEwLjkiUyA3McKwNTMnMjMuMCJX!5e1!3m2!1sen!2spe!4v1732977793982!5m2!1sen!2spe",
             "alt": "Google Maps"
           },
           {
@@ -515,7 +515,7 @@
             "icon": "ico-google",
             "type": "link",
             "href": "https://www.google.com/maps/search/?api=1&query=-17.0992778,-71.8976389",
-            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-17.0992778,-71.8976389&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-17.0992778,-71.8976389&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "src": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4722.1301562008975!2d-71.89763889999999!3d-17.0992778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDA1JzU3LjQiUyA3McKwNTMnNTEuNSJX!5e1!3m2!1sen!2spe!4v1732977936359!5m2!1sen!2spe",
             "alt": "Google Maps"
           },
           {
@@ -867,7 +867,7 @@
             "icon": "ico-google",
             "type": "link",
             "href": "https://www.google.com/maps/search/?api=1&query=-17.1970369,-71.7492598",
-            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-17.1970369,-71.7492598&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-17.1970369,-71.7492598&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "src": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4719.64474307909!2d-71.74925979999999!3d-17.197036900000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDExJzQ5LjMiUyA3McKwNDQnNTcuMyJX!5e1!3m2!1sen!2spe!4v1732977987519!5m2!1sen!2spe",
             "alt": "Google Maps"
           },
           {
@@ -1225,7 +1225,7 @@
             "icon": "ico-google",
             "type": "link",
             "href": "https://www.google.com/maps/search/?api=1&query=-17.1970369,-71.7492598",
-            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-17.1970369,-71.7492598&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-17.1970369,-71.7492598&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "src": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4719.64474307909!2d-71.74925979999999!3d-17.197036900000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDExJzQ5LjMiUyA3McKwNDQnNTcuMyJX!5e1!3m2!1sen!2spe!4v1732978052233!5m2!1sen!2spe",
             "alt": "Google Maps"
           },
           {
@@ -1592,7 +1592,7 @@
             "icon": "ico-google",
             "type": "link",
             "href": "https://www.google.com/maps/search/?api=1&query=-16.5587222,-71.9240000",
-            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-16.5587222,-71.9240000&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-16.5587222,-71.9240000&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "src": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4735.624804458486!2d-71.92399999999999!3d-16.5587222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTbCsDMzJzMxLjQiUyA3McKwNTUnMjYuNCJX!5e1!3m2!1sen!2spe!4v1732978094467!5m2!1sen!2spe",
             "alt": "Google Maps"
           },
           {
@@ -1944,7 +1944,7 @@
             "icon": "ico-google",
             "type": "link",
             "href": "https://www.google.com/maps/search/?api=1&query=-17.196111,-71.750333",
-            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-17.196111,-71.750333&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-17.196111,-71.750333&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "src": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4719.668347487213!2d-71.750333!3d-17.196111000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDExJzQ2LjAiUyA3McKwNDUnMDEuMiJX!5e1!3m2!1sen!2spe!4v1732978162141!5m2!1sen!2spe",
             "alt": "Google Maps"
           },
           {
@@ -2313,7 +2313,7 @@
             "icon": "ico-google",
             "type": "link",
             "href": "https://www.google.com/maps/search/?api=1&query=-17.196848,-71.746948",
-            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-17.196848,-71.746948&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-17.196848,-71.746948&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "src": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4719.649558896517!2d-71.746948!3d-17.196848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDExJzQ4LjciUyA3McKwNDQnNDkuMCJX!5e1!3m2!1sen!2spe!4v1732978199107!5m2!1sen!2spe",
             "alt": "Google Maps"
           },
           {
@@ -2683,7 +2683,7 @@
             "icon": "ico-google",
             "type": "link",
             "href": "https://www.google.com/maps/search/?api=1&query=-17.1030278,-71.8897222",
-            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-17.1030278,-71.8897222&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-17.1030278,-71.8897222&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "src": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4722.035070251022!2d-71.8897222!3d-17.1030278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDA2JzEwLjkiUyA3McKwNTMnMjMuMCJX!5e1!3m2!1sen!2spe!4v1732978248496!5m2!1sen!2spe",
             "alt": "Google Maps"
           },
           {

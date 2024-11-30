@@ -60,13 +60,17 @@ const LocationComponent = ({ contentData, colors }) => {
     } else if (button.type === "link") {
       return (
         <a href={button.href} target="_blank" rel="noopener noreferrer">
-          <img
-            id="dynamic-map"
-            loading="lazy"
-            className={styles.backgroundImage}
-            src={button.src}
-            alt={button.alt}
-          />
+          <div>
+            <iframe
+              src={button.src}
+              width="600"
+              height="560"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
         </a>
       );
     } else if (button.type === "iframe") {

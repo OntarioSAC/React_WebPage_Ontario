@@ -165,7 +165,7 @@
             "icon": "ico-google",
             "type": "link",
             "href": "https://www.google.com/maps/search/?api=1&query=-16.3714167,-71.5559722",
-            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-16.3714167,-71.5559722&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-16.3714167,-71.5559722&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "src": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4740.2025018365575!2d-71.5559722!3d-16.371416699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTbCsDIyJzE3LjEiUyA3McKwMzMnMjEuNSJX!5e1!3m2!1sen!2spe!4v1732978803563!5m2!1sen!2spe",
             "alt": "Google Maps"
           },
           {
@@ -184,9 +184,9 @@
     },
     {
       "id": "killa",
-      "slider": [{ "type": "image", "src": "/img/slider/slider-killa.webp" }],
+      "slider": [{ "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/DSC01129.webp" }],
       "infoBox": {
-        "logo": "/img/logo/logo-killa.webp",
+        "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-killa.webp",
         "price": {
           "title": "",
           "amount": "100%",
@@ -196,17 +196,17 @@
         },
         "infoBoxes": [
           {
-            "icon": "/img/icons/area-white.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/area-white.svg",
             "text": "FROM",
             "value": "60 m²"
           },
           {
-            "icon": "/img/icons/edifice.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/edifice.svg",
             "value": "",
             "highlighted": "DELIVERED"
           },
           {
-            "icon": "/img/icons/location-white.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location-white.svg",
             "bold": "",
             "value": "CUSCO"
           }
@@ -223,17 +223,17 @@
         "description": "Killa is the ideal project for those looking to live in the city of Cusco with all modern amenities. Just 5 minutes from downtown, this development offers a unique connection between urban life and the tranquility of an environment designed for your well-being. With spaces designed for the enjoyment and comfort of the whole family, Killa combines an excellent location with the quality of life you have always desired.",
         "icons": [
           {
-            "src": "/img/features/icons_19.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_19.svg",
             "alt": "Image description 2",
             "text": "Children's playground"
           },
           {
-            "src": "/img/features/icons_34.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_34.svg",
             "alt": "Image description 4",
             "text": "BBQ area"
           },
           {
-            "src": "/img/features/icons_35.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_35.svg",
             "alt": "Image description 7",
             "text": "Close to commercial areas"
           }
@@ -264,7 +264,7 @@
             "conditionsLabel": "Required fields."
           }
         },
-        "building": "/img/images/edificio-killa.webp"
+        "building": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/DSC01143.webp"
       },
       "gallery": {
         "title": "PROJECT",
@@ -272,18 +272,18 @@
         "note": "*Reference images",
         "gallerySlide": {
           "slider1": [
-            { "type": "image", "src": "/img/apartments/killa-slide1.webp" },
-            { "type": "image", "src": "/img/apartments/killa-slide2.webp" }
+            { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/apartments/killa-slide1.webp" },
+            { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/DSC01133.webp" }
           ],
           "slider2": [
-            { "type": "image", "src": "/img/apartments/details1.webp" }
+            { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/apartments/details1.webp" }
           ]
         },
         "cta": {
           "headline": "Are you interested in any of our projects?",
           "description": "Schedule a guided visit to get to know it in depth.",
           "buttonText": "Schedule a visit",
-          "buttonIcon": "/img/icons/arrow-icon.svg"
+          "buttonIcon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/arrow-icon.svg"
         }
       },
       "virtual": {
@@ -291,7 +291,7 @@
         "titleBold": "TOUR",
         "subtitle": "Immerse yourself in your new apartment",
         "note": "*Reference images",
-        "kuulaUrl": "https://kuula.co/share/h45pb?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1"
+        "kuulaUrl": "https://kuula.co/share/hmhvP?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1"
       },
       "promoBanner": {
         "title": "PROJECT",
@@ -300,7 +300,7 @@
         "designation": "",
         "ctaText": "Visit us",
         "ctaHighlight": "",
-        "imageSrc": "/img/images/building-killa.webp",
+        "imageSrc": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/DSC01147.webp",
         "imageAlt": "Building"
       },
       "location": {
@@ -312,7 +312,7 @@
             "label": "Cusco",
             "icon": "ico-location",
             "type": "image",
-            "src": "/img/map/7.webp",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/map/7.webp",
             "alt": "Dynamic Map"
           },
           {
@@ -321,7 +321,7 @@
             "icon": "ico-google",
             "type": "link",
             "href": "https://www.google.com/maps/search/?api=1&query=-17.1030278,-71.8897222",
-            "src": "https://maps.googleapis.com/maps/api/staticmap?center=-17.1030278,-71.8897222&zoom=15&size=623x623&markers=color:red%7Clabel:A%7C-17.1030278,-71.8897222&key=AIzaSyB7YGJ5fzbYUYAjvvKbxnrjBvY2FNPWJeU",
+            "src": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4722.035070251022!2d-71.8897222!3d-17.1030278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDA2JzEwLjkiUyA3McKwNTMnMjMuMCJX!5e1!3m2!1sen!2spe!4v1732978726920!5m2!1sen!2spe",
             "alt": "Google Maps"
           },
           {

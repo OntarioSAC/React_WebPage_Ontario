@@ -48,6 +48,7 @@ const ApartmentsGallery = ({ data, onButtonClick }) => {
             </div>
           </div>
         </div>
+        
         <div className={styles["card-overlap"]}>
           <GallerySlideComponent data={galleryData.gallerySlide} />
           <div className={styles["custom-description"]}>

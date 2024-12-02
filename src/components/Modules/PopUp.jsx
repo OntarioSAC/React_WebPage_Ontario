@@ -12,13 +12,25 @@ const Popup = ({ onClose, deviceType, isLoading }) => {
     const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
+        // Show the popup with a fade-in animation
         setIsVisible(true);
-        return () => setIsVisible(false);
-    }, []);
+
+        // Preload the image to improve LCP
+        const link = document.createElement('link');
+        link.rel = 'preload';
+        link.as = 'image';
+        link.href = imageUrls[deviceType];
+        document.head.appendChild(link);
+
+        return () => {
+            setIsVisible(false);
+            document.head.removeChild(link);
+        };
+    }, [deviceType]);
 
     const handleClose = () => {
         setIsVisible(false);
-        setTimeout(onClose, 300); // Delay para la transición de salida
+        setTimeout(onClose, 300); // Delay for exit animation
     };
 
     const navigate = useNavigate();
@@ -47,7 +59,13 @@ const Popup = ({ onClose, deviceType, isLoading }) => {
                         <source srcSet={imageUrls.desktop} media="(min-width: 1024px)" />
                         <source srcSet={imageUrls.tablet} media="(min-width: 531px) and (max-width: 1023px)" />
                         <source srcSet={imageUrls.mobile} media="(max-width: 530px)" />
-                        <img src={imageUrls[deviceType]} alt={`Promotion Image - ${deviceType}`} className={styles.image} />
+                        <img 
+                            src={imageUrls[deviceType]} 
+                            alt={`Promotion Image - ${deviceType}`} 
+                            className={styles.image} 
+                            decoding="async" 
+                            loading="eager" // Prioritize this image for LCP
+                        />
                     </picture>
                 )}
             </div>

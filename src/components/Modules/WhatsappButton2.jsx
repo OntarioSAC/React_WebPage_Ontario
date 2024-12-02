@@ -16,7 +16,7 @@ const WhatsappButton2 = ({ whatsappUrl }) => {
   return (
     <button className="whatsapp-button2" onClick={openWhatsapp} type="button" aria-label="Abrir chat de WhatsApp">
       
-      <img className="iconsocialdev" src="/img/news/icons/whatsapp.svg" alt="Instagram Icon" />
+      <img className="iconsocialdev" src="https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/icons/whatsapp.svg" alt="Instagram Icon" />
     </button>
   );
 };

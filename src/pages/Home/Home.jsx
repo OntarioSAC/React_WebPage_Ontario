@@ -79,9 +79,9 @@ function Home({
 
   return (
     <div>
-      
-      <HomeSlider data={homeSlider} />
       {showPopup && <Popup onClose={closePopup} />}
+      <HomeSlider data={homeSlider} />
+      
       <div className="container g-0">
         <div className={styles.customContent}>
           <div className={styles.overlap}>

@@ -131,12 +131,12 @@
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/santorini6.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/collection/7Z8nV?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
-        "videoUrl": "/video/santorini-slide.mp4",
+        "videoUrl": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/video/santorini-slide.mp4",
         "cta": {
           "headline": "Are you interested in our project?",
           "description": "Book a guided tour to get to know it in depth.",
           "buttonText": "Schedule visit",
-          "buttonIcon": "/img/icons/arrow-icon.svg"
+          "buttonIcon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/arrow-icon.svg"
         }
       },
       "progress": {
@@ -336,7 +336,7 @@
           {
             "title": "BAHIA SERENA",
             "description": "Country Condominiums",
-            "image": "/img/cards/bahia-serena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/bahia-serena.webp",
             "from": "From ",
             "area": "90",
             "unit": "m2",
@@ -345,7 +345,7 @@
             "priceAlt": "or S/ 580*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE-",
             "status2": " SALE",
@@ -405,27 +405,27 @@
         "description": "Explore Mykonos, a unique land project that blends the serenity of the countryside with the grandeur of the sea. Ideal for those seeking a peaceful retreat, Mykonos offers the perfect balance between contemporary living and rural tranquility.",
         "icons": [
           {
-            "src": "/img/features/icons_07.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_07.svg",
             "alt": "Image description 1",
             "text": "Club House"
           },
           {
-            "src": "/img/features/icons_19.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_19.svg",
             "alt": "Image description 2",
             "text": "Children's playground"
           },
           {
-            "src": "/img/features/icons_11.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_11.svg",
             "alt": "Image description 4",
             "text": "Lounges"
           },
           {
-            "src": "/img/features/icons_26.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_26.svg",
             "alt": "Image description 7",
             "text": "Entrance gate"
           },
           {
-            "src": "/img/features/icons_25.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_25.svg",
             "alt": "Image description 3",
             "text": "Heated pool"
           }
@@ -470,12 +470,12 @@
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/6.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/collection/7KBTh?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=en",
-        "videoUrl": "/video/mykonos-slide.mp4",
+        "videoUrl": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/video/mykonos-slide.mp4",
         "cta": {
           "headline": "Are you interested in our project?",
           "description": "Book a guided tour to get to know it in depth.",
           "buttonText": "Schedule visit",
-          "buttonIcon": "/img/icons/arrow-icon.svg"
+          "buttonIcon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/arrow-icon.svg"
         }
       },
       "progress": {
@@ -544,7 +544,7 @@
             "priceAlt": "or S/ 830*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -564,7 +564,7 @@
             "priceAlt": "or S/ 649*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -584,7 +584,7 @@
             "priceAlt": "or S/ 1,040*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -604,7 +604,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -624,7 +624,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -644,7 +644,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -655,7 +655,7 @@
           {
             "title": "BAHIA SERENA",
             "description": "Country Condominiums",
-            "image": "/img/cards/bahia-serena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/bahia-serena.webp",
             "from": "From ",
             "area": "90",
             "unit": "m2",
@@ -664,7 +664,7 @@
             "priceAlt": "or S/ 580*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE-",
             "status2": " SALE",
@@ -795,12 +795,12 @@
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/9.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/h455R?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
-        "videoUrl": "/video/arena.mp4",
+        "videoUrl": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/video/arena.mp4",
         "cta": {
           "headline": "Are you interested in our project?",
           "description": "Book a guided tour to get to know it in depth.",
           "buttonText": "Schedule visit",
-          "buttonIcon": "/img/icons/arrow-icon.svg"
+          "buttonIcon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/arrow-icon.svg"
         }
       },
       "progress": {
@@ -1119,19 +1119,19 @@
         "title": "YOUR PERFECT SPACE",
         "subtitle": "IS WAITING FOR YOU",
         "note": "*Reference images",
-        "backgroundImage": "/img/gallery/santorini-01.webp",
+        "backgroundImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/gallery/santorini-01.webp",
         "slider": [
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/7.webp" },
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/8.webp" },
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/9.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/h455R?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
-        "videoUrl": "/video/arena.mp4",
+        "videoUrl": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/video/arena.mp4",
         "cta": {
           "headline": "Are you interested in our project?",
           "description": "Book a guided tour to get to know it in depth.",
           "buttonText": "Schedule visit",
-          "buttonIcon": "/img/icons/arrow-icon.svg"
+          "buttonIcon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/arrow-icon.svg"
         }
       },
       "progress": {
@@ -1155,7 +1155,7 @@
             "label": "Mejia",
             "icon": "ico-location",
             "type": "image",
-            "src": "/img/map/3.webp",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/map/3.webp",
             "alt": "Dynamic Map"
           },
           {
@@ -1380,37 +1380,37 @@
         "description": "Discover Prado Piamonte, an exclusive countryside home development that blends rural serenity with modern comfort. Perfect for those seeking a refuge in nature, Prado Piamonte offers the ideal balance between contemporary living and the peace of the countryside.",
         "icons": [
           {
-            "src": "/img/features/icons_30.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_30.svg",
             "alt": "Image description 1",
             "text": "Tuscan vineyard"
           },
           {
-            "src": "/img/features/icons_20.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_20.svg",
             "alt": "Image description 2",
             "text": "Children's maze"
           },
           {
-            "src": "/img/features/icons_25.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_25.svg",
             "alt": "Image description 3",
             "text": "Swimming pool"
           },
           {
-            "src": "/img/features/icons_18.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_18.svg",
             "alt": "Image description 4",
             "text": "Hammocks"
           },
           {
-            "src": "/img/features/icons_06.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_06.svg",
             "alt": "Image description 6",
             "text": "Outdoor cinema"
           },
           {
-            "src": "/img/features/icons_04.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_04.svg",
             "alt": "Image description 8",
             "text": "Bungalows"
           },
           {
-            "src": "/img/features/icons_26.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_26.svg",
             "alt": "Image description 7",
             "text": "Entrance gate"
           }
@@ -1466,12 +1466,12 @@
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado14.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/collection/7KBTL?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=en",
-        "videoUrl": "/video/piamonte-slide.mp4",
+        "videoUrl": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/video/piamonte-slide.mp4",
         "cta": {
           "headline": "Are you interested in our project?",
           "description": "Book a guided tour to get to know it in depth.",
           "buttonText": "Schedule visit",
-          "buttonIcon": "/img/icons/arrow-icon.svg"
+          "buttonIcon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/arrow-icon.svg"
         }
       },
       "progress": {
@@ -1480,10 +1480,10 @@
         "subtitle": "Work Progress",
         "description": "See the evolution of our project, capturing every advancement and our ongoing commitment.",
         "images": [
-          "/img/project/13.webp",
-          "/img/project/14.webp",
-          "/img/project/15.webp",
-          "/img/project/16.webp"
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/13.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/14.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/15.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/16.webp"
         ]
       },
       "location": {
@@ -1495,7 +1495,7 @@
             "label": "Mejia",
             "icon": "ico-location",
             "type": "image",
-            "src": "/img/map/4.webp",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/map/4.webp",
             "alt": "Dynamic Map"
           },
           {
@@ -1531,7 +1531,7 @@
           {
             "title": "PRADO PIAMONTE",
             "description": "Country Condominiums",
-            "image": "/img/cards/prado.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/prado.webp",
             "from": "From ",
             "area": "300",
             "unit": "m&sup2",
@@ -1540,7 +1540,7 @@
             "priceAlt": "or S/ 830*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -1551,7 +1551,7 @@
           {
             "title": "ZAFIRO",
             "description": "Beach Residential",
-            "image": "/img/cards/zafiro.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/zafiro.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -1560,7 +1560,7 @@
             "priceAlt": "or S/ 649*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -1571,7 +1571,7 @@
           {
             "title": "SANTORINI",
             "description": "Beach Residential",
-            "image": "/img/cards/santorini.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/santorini.webp",
             "from": "From ",
             "area": "100",
             "unit": "m2",
@@ -1580,7 +1580,7 @@
             "priceAlt": "or S/ 1,040*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -1591,7 +1591,7 @@
           {
             "title": "CORAL",
             "description": "Real Estate Project",
-            "image": "/img/cards/coral.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/coral.webp",
             "from": "From ",
             "area": "100",
             "unit": "m2",
@@ -1600,7 +1600,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -1611,7 +1611,7 @@
           {
             "title": "MYKONOS",
             "description": "Beach Residential",
-            "image": "/img/cards/mykonos.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/mykonos.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -1620,7 +1620,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -1631,7 +1631,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Country Condominiums",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -1640,7 +1640,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -1651,7 +1651,7 @@
           {
             "title": "BAHIA SERENA",
             "description": "Country Condominiums",
-            "image": "/img/cards/bahia-serena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/bahia-serena.webp",
             "from": "From ",
             "area": "90",
             "unit": "m2",
@@ -1660,7 +1660,7 @@
             "priceAlt": "or S/ 580*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE-",
             "status2": " SALE",
@@ -1683,7 +1683,7 @@
         { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-zafiro3.webp" }
       ],
       "infoBox": {
-        "logo": "/img/logo/logo-zafiro.webp",
+        "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-zafiro.webp",
         "price": {
           "title": "INSTALLMENTS FROM",
           "amount": "$169",
@@ -1693,17 +1693,17 @@
         },
         "infoBoxes": [
           {
-            "icon": "/img/icons/area2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/area2.svg",
             "text": "FROM",
             "value": "100 m²"
           },
           {
-            "icon": "/img/icons/tag2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag2.svg",
             "value": "PRE",
             "highlighted": "SALE"
           },
           {
-            "icon": "/img/icons/location2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location2.svg",
             "bold": "PUNTA DE BOMBÓN",
             "value": "AREQUIPA"
           }
@@ -1720,32 +1720,32 @@
         "description": "Discover Zafiro, an exclusive lot project that combines the tranquility of the beach with the majesty of the sea. Perfect for those seeking a serene retreat, Zafiro offers the ideal balance between modern living and coastal peace.",
         "icons": [
           {
-            "src": "/img/features/icons_08.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_08.svg",
             "alt": "Image description 1",
             "text": "Club House"
           },
           {
-            "src": "/img/features/icons_19.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_19.svg",
             "alt": "Image description 2",
             "text": "Children's playground"
           },
           {
-            "src": "/img/features/icons_25.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_25.svg",
             "alt": "Image description 3",
             "text": "Swimming pool"
           },
           {
-            "src": "/img/features/icons_34.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_34.svg",
             "alt": "Image description 4",
             "text": "BBQ area"
           },
           {
-            "src": "/img/features/icons_12.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_12.svg",
             "alt": "Image description 5",
             "text": "Private lounges"
           },
           {
-            "src": "/img/features/icons_26.svg",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/features/icons_26.svg",
             "alt": "Image description 7",
             "text": "Entrance gate"
           }
@@ -1784,19 +1784,19 @@
         "title": "YOUR PERFECT SPACE",
         "subtitle": "IS WAITING FOR YOU",
         "note": "*Reference images",
-        "backgroundImage": "/img/gallery/santorini-01.webp",
+        "backgroundImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/gallery/santorini-01.webp",
         "slider": [
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/13.webp" },
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/14.webp" },
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/15.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/h45mw?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
-        "videoUrl": "/video/zafiro-slide.mp4",
+        "videoUrl": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/video/zafiro-slide.mp4",
         "cta": {
           "headline": "Are you interested in our project?",
           "description": "Book a guided tour to get to know it in depth.",
           "buttonText": "Schedule visit",
-          "buttonIcon": "/img/icons/arrow-icon.svg"
+          "buttonIcon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/arrow-icon.svg"
         }
       },
       "progress": {
@@ -1805,10 +1805,10 @@
         "subtitle": "Work Progress",
         "description": "See the evolution of our project, capturing every advancement and our ongoing commitment.",
         "images": [
-          "/img/project/17.webp",
-          "/img/project/18.webp",
-          "/img/project/19.webp",
-          "/img/project/20.webp"
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/17.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/18.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/19.webp",
+          "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/20.webp"
         ]
       },
       "location": {
@@ -1820,7 +1820,7 @@
             "label": "Mejia",
             "icon": "ico-location",
             "type": "image",
-            "src": "/img/map/5.webp",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/map/5.webp",
             "alt": "Dynamic Map"
           },
           {
@@ -1856,7 +1856,7 @@
           {
             "title": "PRADO PIAMONTE",
             "description": "Country Condominiums",
-            "image": "/img/cards/prado.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/prado.webp",
             "from": "From ",
             "area": "300",
             "unit": "m&sup2",
@@ -1865,7 +1865,7 @@
             "priceAlt": "or S/ 830*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -1876,7 +1876,7 @@
           {
             "title": "ZAFIRO",
             "description": "Beach Residential",
-            "image": "/img/cards/zafiro.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/zafiro.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -1885,7 +1885,7 @@
             "priceAlt": "or S/ 649*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -1896,7 +1896,7 @@
           {
             "title": "SANTORINI",
             "description": "Beach Residential",
-            "image": "/img/cards/santorini.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/santorini.webp",
             "from": "From ",
             "area": "100",
             "unit": "m2",
@@ -1905,7 +1905,7 @@
             "priceAlt": "or S/ 1,040*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE-",
             "status2": "SALE",
@@ -1916,7 +1916,7 @@
           {
             "title": "CORAL",
             "description": "Real Estate Project",
-            "image": "/img/cards/coral.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/coral.webp",
             "from": "From ",
             "area": "100",
             "unit": "m2",
@@ -1925,7 +1925,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -1936,7 +1936,7 @@
           {
             "title": "MYKONOS",
             "description": "Beach Residential",
-            "image": "/img/cards/mykonos.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/mykonos.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -1945,7 +1945,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -1956,7 +1956,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Country Condominiums",
-            "image": "/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -1965,7 +1965,7 @@
             "priceAlt": "SOLD OUT",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "IN",
             "status2": " PROGRESS",
@@ -1976,7 +1976,7 @@
           {
             "title": "BAHIA SERENA",
             "description": "Country Condominiums",
-            "image": "/img/cards/bahia-serena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/bahia-serena.webp",
             "from": "From ",
             "area": "90",
             "unit": "m2",
@@ -1985,7 +1985,7 @@
             "priceAlt": "or S/ 580*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE-",
             "status2": " SALE",
@@ -2007,7 +2007,7 @@
         { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-coral2.webp" }
       ],
       "infoBox": {
-        "logo": "/img/logo/logo-coral.webp",
+        "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-coral.webp",
         "price": {
           "title": "",
           "amount": "100%",
@@ -2133,7 +2133,7 @@
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/17.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/collection/7KBMQ?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=en",
-        "videoUrl": "/video/coral.mp4",
+        "videoUrl": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/video/coral.mp4",
         "cta": {
           "headline": "Are you interested in our project?",
           "description": "Book a guided tour to get to know it in depth.",
@@ -2327,7 +2327,7 @@
             "priceAlt": "or S/ 580*",
             "detail1": "From",
             "detail2": "",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE-",
             "status2": " SALE",
@@ -2465,7 +2465,7 @@
         "title": "An Experience",
         "subtitle": "NEVER SEEN BEFORE",
         "note": "*Reference images",
-        "backgroundImage": "/img/gallery/santorini-01.webp",
+        "backgroundImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/gallery/santorini-01.webp",
         "slider": [
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia1.webp" },
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia2.webp" },
@@ -2474,12 +2474,12 @@
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia5.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/collection/7ZxHX?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
-        "videoUrl": "/video/bahia-serena.mp4",
+        "videoUrl": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/video/BAHÍA-SERENA.mp4",
         "cta": {
           "headline": "Are you interested in our project?",
           "description": "Book a guided tour to get to know it in depth.",
           "buttonText": "Schedule visit",
-          "buttonIcon": "/img/icons/arrow-icon.svg"
+          "buttonIcon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/arrow-icon.svg"
         }
       },
       "progress": {

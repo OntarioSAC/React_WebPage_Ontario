@@ -1,10 +1,10 @@
-import React, { useState, useMemo, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useMemo } from "react";
 import { useLocation, NavLink, Link, useNavigate } from "react-router-dom";
 import styles from "./Header.module.css";
 import Logo from "../Svg/Logo";
 import useWindowWidth from "../../hooks/useWindowWidth";
 import { useTranslation } from "react-i18next";
-
+import Loader from "../../pages/Loader/Loader"; // Importa el componente Loader
 
 /**
  * Componente Header: Maneja la navegación principal y el cambio de idioma.
@@ -17,6 +17,7 @@ function Header() {
   const isAptRoute = loc.pathname.startsWith("/apartments/");
   const [lang, setLang] = useState(i18n.language || "es");
   const [headerLinks, setHeaderLinks] = useState([]);
+  const [loading, setLoading] = useState(false); // Estado de carga
 
   // Estados para los dropdowns y menú móvil
   const [isCondOpen, setCondOpen] = useState(false);
@@ -25,29 +26,33 @@ function Header() {
 
   const dropdownRef = useRef(null);
 
+  // Cambia el idioma inicial según i18n
   useEffect(() => {
     setLang(i18n.language);
   }, [i18n.language]);
 
+  // Obtiene los links traducidos
   useEffect(() => {
     setHeaderLinks(t("links", { returnObjects: true }));
   }, [t]);
 
-  // Estilo condicional para el header basado en la ruta actual
-  const headerStyle = useMemo(() => {
-    return loc.pathname === "/apartments/o2" || loc.pathname === "/apartments/killa"
-      ? { "--primary-color": "#fff" }
-      : { "--primary-color": "#cbf000" };
+  // Detecta cambios en la ubicación para mostrar el Loader
+  useEffect(() => {
+    if (loading) return; // Evita múltiples loaders simultáneos
+
+    // Muestra el loader al cambiar la ubicación
+    setLoading(true);
+
+    // Simula el tiempo de carga
+    const timer = setTimeout(() => {
+      setLoading(false); // Oculta el loader
+    }, 1000);
+
+    return () => clearTimeout(timer); // Limpia el temporizador
   }, [loc.pathname]);
 
   const width = useWindowWidth();
   const isWideScreen = width >= 992;
-
-  useEffect(() => {
-    if (!loc.pathname.startsWith("/projects/")) {
-      closeMenus();
-    }
-  }, [loc.pathname]);
 
   // Cierra los menús al hacer clic fuera de ellos
   useEffect(() => {
@@ -62,20 +67,21 @@ function Header() {
     };
   }, []);
 
+  const headerStyle = useMemo(() => {
+    return loc.pathname === "/apartments/o2" || loc.pathname === "/apartments/killa"
+      ? { "--primary-color": "#fff" }
+      : { "--primary-color": "#cbf000" };
+  }, [loc.pathname]);
+
   // Funciones para manejar la apertura y cierre de menús
-  const toggleCond = () => setCondOpen(prev => !prev && (setMultiOpen(false), true));
-  const toggleMulti = () => setMultiOpen(prev => !prev && (setCondOpen(false), true));
+  const toggleCond = () => setCondOpen((prev) => !prev && (setMultiOpen(false), true));
+  const toggleMulti = () => setMultiOpen((prev) => !prev && (setCondOpen(false), true));
   const closeMenus = () => {
     setCondOpen(false);
     setMultiOpen(false);
     setMenuOpen(false);
   };
-  const toggleMenu = () => setMenuOpen(prev => !prev);
-
-  useEffect(() => {
-    closeMenus();
-  }, [lang]);
-
+  const toggleMenu = () => setMenuOpen((prev) => !prev);
 
   /**
    * Cambia el idioma de la aplicación.
@@ -87,106 +93,114 @@ function Header() {
     setLang(newLang);
   };
 
-
-  /**
-   * Navega a una nueva ruta y cierra los menús.
-   * @function
-   * @param {string} path - La ruta a la que se debe navegar.
-   */
-  const handleNavClick = (path) => {
-    closeMenus();
-    navigate(path);
-  };
-
   return (
-    <nav className={styles["navbar-custom"]} style={headerStyle}>
-      <div className={`container ${styles["custom-container"]}`}>
-        <Link className={styles["navbar-brand"]} to="/" aria-label="Ir a la página principal">
-        <Logo className={styles.logo} type={isAptRoute ? "logo1" : "default"} />
-        </Link>
-        <button
-          className={styles["navbar-toggler"]}
-          type="button"
-          aria-label="Toggle navigation"
-          onClick={toggleMenu}
+    <>
+      {/* Si está cargando, mostramos el Loader */}
+      {loading && (
+        <div
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            backgroundColor: "rgba(255, 255, 255, 1.0)",
+            zIndex: 9999,
+          }}
         >
-          <img loading="lazy" alt="Menu Toggle" src="/img/icons/drop.svg" />
-        </button>
-        
-        <div className={`${styles["navbar-collapse"]} ${isMenuOpen ? styles.show : ""}`}>
-          <ul className={styles["navbar-nav"]} ref={dropdownRef}>
-            {headerLinks.map((link, index) => (
-              <li
-                className={`${styles["nav-item"]} ${link.subItems ? styles.dropdown : ""}`}
-                key={index}
-              >
-                <div className={styles["icon-container"]}>
-                  <img
-                    className={`${styles["circle2-icon"]} ${styles["mobile-icon"]}`}
-                    loading="lazy"
-                    alt={`${link.name} Icon`}
-                    src={link.icon}
-                  />
-                </div>
-                {link.subItems ? (
-                  <>
-                    <button
-                      className={`${styles["nav-link"]} ${styles["dropdown-toggle"]}`}
-                      onClick={
-                        link.name === "Condominios" || link.name === "Condominiums"
-                          ? toggleCond
-                          : toggleMulti
-                      }
-                      aria-expanded={
-                        link.name === "Condominios" || link.name === "Condominiums"
-                          ? isCondOpen
-                          : isMultiOpen
-                      }
-                    >
-                      {link.name}
-                      {/* Icono personalizado para dropdown */}
-                      <span
-                        className={`icon ico-ico09 ${styles["dropdown-icon"]} ${
-                          (link.name === "Condominios" || link.name === "Condominiums"
+          <Loader />
+        </div>
+      )}
+
+      <nav className={styles["navbar-custom"]} style={headerStyle}>
+        <div className={`container ${styles["custom-container"]}`}>
+          <Link className={styles["navbar-brand"]} to="/" aria-label="Ir a la página principal">
+            <Logo className={styles.logo} type={isAptRoute ? "logo1" : "default"} />
+          </Link>
+          <button
+            className={styles["navbar-toggler"]}
+            type="button"
+            aria-label="Toggle navigation"
+            onClick={toggleMenu}
+          >
+            <img loading="lazy" alt="Menu Toggle" src="https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/drop.svg" />
+          </button>
+
+          <div className={`${styles["navbar-collapse"]} ${isMenuOpen ? styles.show : ""}`}>
+            <ul className={styles["navbar-nav"]} ref={dropdownRef}>
+              {headerLinks.map((link, index) => (
+                <li
+                  className={`${styles["nav-item"]} ${link.subItems ? styles.dropdown : ""}`}
+                  key={index}
+                >
+                  <div className={styles["icon-container"]}>
+                    <img
+                      className={`${styles["circle2-icon"]} ${styles["mobile-icon"]}`}
+                      loading="lazy"
+                      alt={`${link.name} Icon`}
+                      src={link.icon}
+                    />
+                  </div>
+                  {link.subItems ? (
+                    <>
+                      <button
+                        className={`${styles["nav-link"]} ${styles["dropdown-toggle"]}`}
+                        onClick={
+                          link.name === "Condominios" || link.name === "Condominiums"
+                            ? toggleCond
+                            : toggleMulti
+                        }
+                        aria-expanded={
+                          link.name === "Condominios" || link.name === "Condominiums"
                             ? isCondOpen
-                            : isMultiOpen)
-                            ? styles.open
-                            : ""
-                        }`}
-                      ></span>
-                    </button>
-                    {!isWideScreen && (
-                      <ul
-                        className={`${styles["dropdown-menu-simple"]} ${
-                          (link.name === "Condominios" || link.name === "Condominiums"
-                            ? isCondOpen
-                            : isMultiOpen)
-                            ? styles.show
-                            : ""
-                        }`}
+                            : isMultiOpen
+                        }
                       >
-                        {link.subItems.map((subLink, subIndex) => (
-                          <li key={subIndex}>
-                            
-                            <NavLink
-                              className={({ isActive }) =>
-                                isActive
-                                  ? `${styles["dropdown-item"]} ${styles["active-link"]}`
-                                  : styles["dropdown-item"]
-                              }
-                              to={subLink.to}
-                              onClick={() => handleNavClick(subLink.to)}
-                            >
-                              {subLink.name}
-                            </NavLink>
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                    {isWideScreen &&
-                      (link.name === "Condominios" || link.name === "Condominiums"
-                        ? isCondOpen
-                        : isMultiOpen) && (
+                        {link.name}
+                        <span
+                          className={`icon ico-ico09 ${styles["dropdown-icon"]} ${
+                            (link.name === "Condominios" || link.name === "Condominiums"
+                              ? isCondOpen
+                              : isMultiOpen)
+                              ? styles.open
+                              : ""
+                          }`}
+                        ></span>
+                      </button>
+                      {!isWideScreen && (
+                        <ul
+                          className={`${styles["dropdown-menu-simple"]} ${
+                            (link.name === "Condominios" || link.name === "Condominiums"
+                              ? isCondOpen
+                              : isMultiOpen)
+                              ? styles.show
+                              : ""
+                          }`}
+                        >
+                          {link.subItems.map((subLink, subIndex) => (
+                            <li key={subIndex}>
+                              <NavLink
+                                className={({ isActive }) =>
+                                  isActive
+                                    ? `${styles["dropdown-item"]} ${styles["active-link"]}`
+                                    : styles["dropdown-item"]
+                                }
+                                to={subLink.to}
+                                onClick={closeMenus}
+                              >
+                                {subLink.name}
+                              </NavLink>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                      {isWideScreen &&
+                        (link.name === "Condominios" || link.name === "Condominiums"
+                          ? isCondOpen
+                          : isMultiOpen) && (
                         <div
                           className={`${styles["dropdown-menu-cards"]} ${styles.show}`}
                         >
@@ -198,7 +212,6 @@ function Header() {
                                 onClick={closeMenus}
                                 key={subIndex}
                               >
-                                
                                 <img
                                   src={subLink.image}
                                   alt={subLink.name}
@@ -210,51 +223,55 @@ function Header() {
                           </div>
                         </div>
                       )}
-                  </>
-                ) : (
-                  <Link className={styles["nav-link"]} to={link.to} onClick={closeMenus}>
-                    {link.name}
-                  </Link>
-                )}
+                    </>
+                  ) : (
+                    <Link
+                      className={styles["nav-link"]}
+                      to={link.to}
+                      onClick={closeMenus}
+                    >
+                      {link.name}
+                    </Link>
+                  )}
+                </li>
+              ))}
+              <li className={`${styles["nav-item"]} ${styles["nav-item-toggle"]}`}>
+                <div className={styles.toggleWrapper}>
+                  <input
+                    type="checkbox"
+                    id="toggle"
+                    className={styles.toggleCheckbox}
+                    checked={lang === "en"}
+                    onChange={handleChangeLang}
+                  />
+                  <label htmlFor="toggle" className={styles.toggleContainer}>
+                    <div className={styles.toggleTextWrapper}>
+                      <span
+                        className={`${styles.toggleText} ${
+                          lang === "en" ? styles.activeText : ""
+                        }`}
+                      >
+                        ES
+                      </span>
+                      <span
+                        className={`${styles.toggleText} ${
+                          lang === "es" ? styles.activeText : ""
+                        }`}
+                      >
+                        EN
+                      </span>
+                    </div>
+                  </label>
+                </div>
               </li>
-            ))}
-            {/* Switch de idioma */}
-            <li className={`${styles["nav-item"]} ${styles["nav-item-toggle"]}`}>
-              <div className={styles.toggleWrapper}>
-                <input
-                  type="checkbox"
-                  id="toggle"
-                  className={styles.toggleCheckbox}
-                  checked={lang === "en"}
-                  onChange={handleChangeLang}
-                />
-                <label htmlFor="toggle" className={styles.toggleContainer}>
-                  <div className={styles.toggleTextWrapper}>
-                    <span
-                      className={`${styles.toggleText} ${
-                        lang === "en" ? styles.activeText : ""
-                      }`}
-                    >
-                      ES
-                    </span>
-                    <span
-                      className={`${styles.toggleText} ${
-                        lang === "es" ? styles.activeText : ""
-                      }`}
-                    >
-                      EN
-                    </span>
-                  </div>
-                </label>
-              </div>
-            </li>
-          </ul>
+            </ul>
+          </div>
         </div>
-      </div>
-      {(isCondOpen || isMultiOpen || isMenuOpen) && (
-        <div className={styles.overlay} onClick={closeMenus}></div>
-      )}
-    </nav>
+        {(isCondOpen || isMultiOpen || isMenuOpen) && (
+          <div className={styles.overlay} onClick={closeMenus}></div>
+        )}
+      </nav>
+    </>
   );
 }
 

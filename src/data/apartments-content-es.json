@@ -128,7 +128,7 @@
           "headline": "¿Te interesa nuestro proyecto?",
           "description": "Reserva una visita guiada para conocerlo a fondo.",
           "buttonText": "Programar visita",
-          "buttonIcon": "/img/icons/arrow-icon.svg"
+          "buttonIcon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/arrow-icon.svg"
         }
       },
       "virtual": {
@@ -136,8 +136,8 @@
         "titleBold": "VIRTUAL",
         "subtitle": "Sumérgete en tu nuevo departamento",
         "note": "*Imágenes referenciales",
-        "videoUrl": "/video/o2.mp4",
-        "posterUrl": "/img/images/posterO2.webp"
+        "videoUrl": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/video/o2.mp4",
+        "posterUrl": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/posterO2.webp"
       },
       "promoBanner": {
         "title": "¡ÚLTIMOS DÍAS DE",
@@ -146,7 +146,7 @@
         "designation": "Tower Design",
         "ctaText": "Visita nuestro depa",
         "ctaHighlight": "PILOTO",
-        "imageSrc": "/img/images/building.webp",
+        "imageSrc": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/building.webp",
         "imageAlt": "Edificio"
       },
       "location": {
@@ -158,7 +158,7 @@
             "label": "Cerro Colorado",
             "icon": "ico-location",
             "type": "image",
-            "src": "/img/map/o2.webp",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/map/o2.webp",
             "alt": "Mapa Dinámico"
           },
           {

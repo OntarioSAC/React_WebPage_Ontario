@@ -94,7 +94,7 @@
 .custom-recycle {
   width: 100%;
   height: 492px;
-  background-image: url("/img/images/recycle.webp");
+  background-image: url("https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/recycle.webp");
   object-fit: cover;
   background-repeat: no-repeat;
   z-index: 1;

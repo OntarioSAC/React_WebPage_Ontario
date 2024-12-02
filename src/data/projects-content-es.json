@@ -8,7 +8,7 @@
         { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-santorini3.webp"}
       ],
       "infoBox": {
-        "logo": "/img/logo/logo-santorini.webp",
+        "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-santorini.webp",
         "price": {
           "title": "CUOTAS DESDE",
           "amount": "$270",
@@ -18,17 +18,17 @@
         },
         "infoBoxes": [
           {
-            "icon": "/img/icons/area2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/area2.svg",
             "text": "DESDE",
             "value": "100 m²"
           },
           {
-            "icon": "/img/icons/tag2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag2.svg",
             "value": "PRE",
             "highlighted": "VENTA"
           },
           {
-            "icon": "/img/icons/location2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location2.svg",
             "bold": "MEJÍA",
             "value": "AREQUIPA"
           }
@@ -121,7 +121,7 @@
         "title": "TU ESPACIO PERFECTO",
         "subtitle": "TE ESPERA",
         "note": "*Imágenes referenciales",
-        "backgroundImage": "/img/gallery/santorini-01.webp",
+        "backgroundImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/gallery/santorini-01.webp",
         "slider": [
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/santorini1.webp" },
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/santorini2.webp" },
@@ -131,12 +131,12 @@
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/santorini6.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/collection/7Z8nV?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
-        "videoUrl": "/video/santorini-slide.mp4",
+        "videoUrl": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/video/santorini-slide.mp4",
         "cta": {
           "headline": "¿Te interesa nuestro proyecto?",
           "description": "Reserva una visita guiada para conocerlo a fondo.",
           "buttonText": "Programar visita",
-          "buttonIcon": "/img/icons/arrow-icon.svg"
+          "buttonIcon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/arrow-icon.svg"
         }
       },
       "progress": {
@@ -160,7 +160,7 @@
             "label": "Mejia",
             "icon": "ico-location",
             "type": "image",
-            "src": "/img/map/1.webp",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/map/1.webp",
             "alt": "Mapa Dinámico"
           },
           {
@@ -311,7 +311,7 @@
             "priceAlt": "VENDIDO",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "EN",
             "status2": " OBRAS",
@@ -343,7 +343,7 @@
           {
             "title": "BAHIA SERENA",
             "description": "Condominios de Campo",
-            "image": "/img/cards/bahia-serena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/bahia-serena.webp",
             "from": "Desde ",
             "area": "90",
             "unit": "m2",
@@ -353,7 +353,7 @@
             "priceAlt": "S/ 580*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE",
             "status2": "VENTA",
@@ -477,12 +477,12 @@
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/6.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/collection/7KBTh?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es",
-        "videoUrl": "/video/mykonos-slide.mp4",
+        "videoUrl": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/video/mykonos-slide.mp4",
         "cta": {
           "headline": "¿Te interesa nuestro proyecto?",
           "description": "Reserva una visita guiada para conocerlo a fondo.",
           "buttonText": "Programar visita",
-          "buttonIcon": "/img/icons/arrow-icon.svg"
+          "buttonIcon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/arrow-icon.svg"
         }
       },
       "progress": {
@@ -506,7 +506,7 @@
             "label": "Mejia",
             "icon": "ico-location",
             "type": "image",
-            "src": "/img/map/2.webp",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/map/2.webp",
             "alt": "Mapa Dinámico"
           },
           {
@@ -552,7 +552,7 @@
             "priceAlt": "S/ 830*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -573,7 +573,7 @@
             "priceAlt": "S/ 649*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -594,7 +594,7 @@
             "priceAlt": "S/ 1,040*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -721,7 +721,7 @@
         { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider/slider-arena3.jpg" }
       ],
       "infoBox": {
-        "logo": "/img/logo/logo-arena.webp",
+        "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-arena.webp",
         "price": {
           "title": "",
           "amount": "100%",
@@ -731,17 +731,17 @@
         },
         "infoBoxes": [
           {
-            "icon": "/img/icons/area2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/area2.svg",
             "text": "DESDE",
             "value": "110 m²"
           },
           {
-            "icon": "/img/icons/car2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car2.svg",
             "value": "EN ",
             "highlighted": "OBRAS"
           },
           {
-            "icon": "/img/icons/location2.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location2.svg",
             "bold": "PUNTA DE BOMBÓN",
             "value": "AREQUIPA"
           }
@@ -829,12 +829,12 @@
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/9.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/h455R?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
-        "videoUrl": "/video/arena.mp4",
+        "videoUrl": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/video/arena.mp4",
         "cta": {
           "headline": "¿Te interesa nuestro proyecto?",
           "description": "Reserva una visita guiada para conocerlo a fondo.",
           "buttonText": "Programar visita",
-          "buttonIcon": "/img/icons/arrow-icon.svg"
+          "buttonIcon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/arrow-icon.svg"
         }
       },
       "progress": {
@@ -858,7 +858,7 @@
             "label": "Mejia",
             "icon": "ico-location",
             "type": "image",
-            "src": "/img/map/3.webp",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/map/3.webp",
             "alt": "Mapa Dinámico"
           },
           {
@@ -904,7 +904,7 @@
             "priceAlt": "S/ 830*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -925,7 +925,7 @@
             "priceAlt": "S/ 649*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -946,7 +946,7 @@
             "priceAlt": "S/ 1,040*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -967,7 +967,7 @@
             "priceAlt": "VENDIDO",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "EN",
             "status2": " OBRAS",
@@ -988,7 +988,7 @@
             "priceAlt": "VENDIDO",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "EN",
             "status2": " OBRAS",
@@ -1009,7 +1009,7 @@
             "priceAlt": "VENDIDO",
             "detail1": "",
             "detail2": "",
-            "icon": "/img/icons/car.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
             "filterStatus": 0,
             "status": "EN",
             "status2": " OBRAS",
@@ -1030,7 +1030,7 @@
             "priceAlt": "S/ 675*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE",
             "status2": "VENTA",
@@ -1041,7 +1041,7 @@
           {
             "title": "BAHIA SERENA",
             "description": "Condominios de Campo",
-            "image": "/img/cards/bahia-serena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/bahia-serena.webp",
             "from": "Desde ",
             "area": "90",
             "unit": "m2",
@@ -1051,7 +1051,7 @@
             "priceAlt": "S/ 580*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE",
             "status2": "VENTA",
@@ -1187,12 +1187,12 @@
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/9.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/h455R?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
-        "videoUrl": "/video/arena.mp4",
+        "videoUrl": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/video/arena.mp4",
         "cta": {
           "headline": "¿Te interesa nuestro proyecto?",
           "description": "Reserva una visita guiada para conocerlo a fondo.",
           "buttonText": "Programar visita",
-          "buttonIcon": "/img/icons/arrow-icon.svg"
+          "buttonIcon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/arrow-icon.svg"
         }
       },
       "progress": {
@@ -1216,7 +1216,7 @@
             "label": "Mejia",
             "icon": "ico-location",
             "type": "image",
-            "src": "/img/map/3.webp",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/map/3.webp",
             "alt": "Mapa Dinámico"
           },
           {
@@ -1399,7 +1399,7 @@
           {
             "title": "BAHIA SERENA",
             "description": "Condominios de Campo",
-            "image": "/img/cards/bahia-serena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/bahia-serena.webp",
             "from": "Desde ",
             "area": "90",
             "unit": "m2",
@@ -1409,7 +1409,7 @@
             "priceAlt": "S/ 580*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE",
             "status2": "VENTA",
@@ -1554,12 +1554,12 @@
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/prado14.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/collection/7KBTL?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es",
-        "videoUrl": "/video/piamonte-slide.mp4",
+        "videoUrl": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/video/piamonte-slide.mp4",
         "cta": {
           "headline": "¿Te interesa nuestro proyecto?",
           "description": "Reserva una visita guiada para conocerlo a fondo.",
           "buttonText": "Programar visita",
-          "buttonIcon": "/img/icons/arrow-icon.svg"
+          "buttonIcon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/arrow-icon.svg"
         }
       },
       "progress": {
@@ -1766,7 +1766,7 @@
           {
             "title": "BAHIA SERENA",
             "description": "Condominios de Campo",
-            "image": "/img/cards/bahia-serena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/bahia-serena.webp",
             "from": "Desde ",
             "area": "90",
             "unit": "m2",
@@ -1776,7 +1776,7 @@
             "priceAlt": "S/ 580*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE",
             "status2": "VENTA",
@@ -1899,19 +1899,19 @@
         "title": "TU ESPACIO PERFECTO",
         "subtitle": "TE ESPERA",
         "note": "*Imágenes referenciales",
-        "backgroundImage": "/img/gallery/santorini-01.webp",
+        "backgroundImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/gallery/santorini-01.webp",
         "slider": [
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/13.webp" },
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/14.webp" },
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/15.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/h45mw?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
-        "videoUrl": "/video/zafiro-slide.mp4",
+        "videoUrl": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/video/zafiro-slide.mp4",
         "cta": {
           "headline": "¿Te interesa nuestro proyecto?",
           "description": "Reserva una visita guiada para conocerlo a fondo.",
           "buttonText": "Programar visita",
-          "buttonIcon": "/img/icons/arrow-icon.svg"
+          "buttonIcon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/arrow-icon.svg"
         }
       },
       "progress": {
@@ -1935,7 +1935,7 @@
             "label": "Mejia",
             "icon": "ico-location",
             "type": "image",
-            "src": "/img/map/5.webp",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/map/5.webp",
             "alt": "Mapa Dinámico"
           },
           {
@@ -1981,7 +1981,7 @@
             "priceAlt": "S/ 830*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 1,
             "status": "PRE",
             "status2": "VENTA",
@@ -2118,7 +2118,7 @@
           {
             "title": "BAHIA SERENA",
             "description": "Condominios de Campo",
-            "image": "/img/cards/bahia-serena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/bahia-serena.webp",
             "from": "Desde ",
             "area": "90",
             "unit": "m2",
@@ -2128,7 +2128,7 @@
             "priceAlt": "S/ 580*",
             "detail1": "Cuotas",
             "detail2": "desde",
-            "icon": "/img/icons/tag.svg",
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
             "filterStatus": 0,
             "status": "PRE",
             "status2": "VENTA",
@@ -2275,12 +2275,12 @@
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/17.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/collection/7KBMQ?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es",
-        "videoUrl": "/video/coral.mp4",
+        "videoUrl": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/video/coral.mp4",
         "cta": {
           "headline": "¿Te interesa nuestro proyecto?",
           "description": "Reserva una visita guiada para conocerlo a fondo.",
           "buttonText": "Programar visita",
-          "buttonIcon": "/img/icons/arrow-icon.svg"
+          "buttonIcon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/arrow-icon.svg"
         }
       },
       "progress": {
@@ -2304,7 +2304,7 @@
             "label": "Mejia",
             "icon": "ico-location",
             "type": "image",
-            "src": "/img/map/6.webp",
+            "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/map/6.webp",
             "alt": "Mapa Dinámico"
           },
           {
@@ -2635,7 +2635,7 @@
         "title": "Una Experiencia",
         "subtitle": "NUNCA ANTES VISTA",
         "note": "*Imágenes referenciales",
-        "backgroundImage": "/img/gallery/santorini-01.webp",
+        "backgroundImage": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/gallery/santorini-01.webp",
         "slider": [
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia1.webp" },
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia2.webp" },
@@ -2644,12 +2644,12 @@
           { "type": "image", "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/bahia5.webp" }
         ],
         "kuulaUrl": "https://kuula.co/share/collection/7ZxHX?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
-        "videoUrl": "/video/bahia-serena.mp4",
+        "videoUrl": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/video/BAHÍA-SERENA.mp4",
         "cta": {
           "headline": "¿Te interesa nuestro proyecto?",
           "description": "Reserva una visita guiada para conocerlo a fondo.",
           "buttonText": "Programar visita",
-          "buttonIcon": "/img/icons/arrow-icon.svg"
+          "buttonIcon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/arrow-icon.svg"
         }
       },
       "progress": {

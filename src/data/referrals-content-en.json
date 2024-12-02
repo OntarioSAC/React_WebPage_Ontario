@@ -1,6 +1,6 @@
 {
   "referredHeader": {
-    "image": "/img/images/pareja1.webp",
+    "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/pareja1.webp",
     "alt": "Couple"
   },
   "referredSteps": {
@@ -14,14 +14,14 @@
         "link": "http://"
       },
       {
-        "icon": "/img/icons/icon-c2.svg",
-        "image": "/img/icons/icons-referals2.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-c2.svg",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icons-referals2.svg",
         "title": "Your referral must buy at least one lot and prove that you referred them",
         "description": "Your referral must be listed as the owner or co-owner at the time of signing their contract."
       },
       {
-        "icon": "/img/icons/icon-c3.svg",
-        "image": "/img/icons/icons-referals1.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-c3.svg",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icons-referals1.svg",
         "title": "If your referral buys, YOU WIN!",
         "description": "You can win up to s/700 in cash with your successful referral made before the deadline."
       }

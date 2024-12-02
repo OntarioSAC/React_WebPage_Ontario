@@ -62,7 +62,7 @@ function TestimonialsSection({ testimonialsData }) {
               <SwiperSlide key={index}>
                 <div className={`d-flex justify-content-center my-5 ${styles.testimonialCol}`}>
                   <div className={styles["testimonial-card"]}>
-                    <img src="/img/icons/icon-test.svg" loading="lazy" className={styles["decorative-image"]} alt="decoración" />
+                    <img src="https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-test.svg" loading="lazy" className={styles["decorative-image"]} alt="decoración" />
                     <div className={`card-body ${styles.body}`}>
                       <p className={styles["card-text"]}>{testimonial.quote}</p>
                     </div>

@@ -7,21 +7,21 @@
     "introText": "Con Ontario, puedes referir a un familiar o amigo, registrar sus datos, y si compran, podrás ganar grandes premios. Solo sigue los siguientes pasos:",
     "steps": [
       {
-        "icon": "/img/icons/icon-c1.svg",
-        "image": "/img/icons/icons-referals3.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-c1.svg",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icons-referals3.svg",
         "title": "Registra a tu referido en el formulario",
         "description": "Debes registrar los datos de tu referido en el formulario REFIERE AQUÍ que encontrarás en nuestra página web.",
         "link": "http://"
       },
       {
-        "icon": "/img/icons/icon-c2.svg",
-        "image": "/img/icons/icons-referals2.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-c2.svg",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icons-referals2.svg",
         "title": "Tu referido debe comprar al menos un terreno y comprobar que tú lo referiste",
         "description": "Tu referido debe figurar como propietario o copropietario al momento de la firma de su contrato."
       },
       {
-        "icon": "/img/icons/icon-c3.svg",
-        "image": "/img/icons/icons-referals1.svg",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-c3.svg",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icons-referals1.svg",
         "title": "Si tu referido compra, ¡GANAS!",
         "description": "Puedes ganar hasta s/700 en efectivo con tu referencia exitosa realizada antes de la fecha límite."
       }

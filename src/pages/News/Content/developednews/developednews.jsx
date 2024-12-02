@@ -129,13 +129,13 @@ function developednews( ) {
 
               <div>
                 <a href="https://www.facebook.com/inmobiliariaontario" target="_blank" rel="noopener noreferrer">
-                    <img className={styles.iconsocialdev} src="/img/news/icons/facebook.svg" alt="Facebook Icon" />
+                    <img className={styles.iconsocialdev} src="https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/icons/facebook.svg" alt="Facebook Icon" />
                 </a>
               </div>
                             
               <div>
                 <a href="https://www.instagram.com/ontarioinmobiliaria/" target="_blank" rel="noopener noreferrer">
-                    <img className={styles.iconsocialdev} src="/img/news/icons/instagram.svg" alt="Instagram Icon" />
+                    <img className={styles.iconsocialdev} src="https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/icons/instagram.svg" alt="Instagram Icon" />
                 </a>
               </div>
               <div>
@@ -146,7 +146,7 @@ function developednews( ) {
               </div>
               <div>
                 <a href="https://www.linkedin.com/company/ontario-inmobiliaria" target="_blank" rel="noopener noreferrer">
-                  <img className={styles.iconsocialdev} src="/img/news/icons/linkedin.svg" alt="Facebook Icon" />
+                  <img className={styles.iconsocialdev} src="https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/icons/linkedin.svg" alt="Facebook Icon" />
                 </a>
               </div>
 

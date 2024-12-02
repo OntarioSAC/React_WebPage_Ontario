@@ -57,22 +57,22 @@ function Banner() {
                         <div className={styles.iconr}>
                             <div>
                                 <a href="https://www.facebook.com/inmobiliariaontario" target="_blank" rel="noopener noreferrer">
-                                    <img className={styles.iconmobile} src="/img/news/icons/facebook.svg" alt="Facebook Icon" />
+                                    <img className={styles.iconmobile} src="https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/icons/facebook.svg" alt="Facebook Icon" />
                                 </a>
                             </div>
                             <div>
                                 <a href="https://www.instagram.com/ontarioinmobiliaria/" target="_blank" rel="noopener noreferrer">
-                                    <img className={styles.iconmobile} src="/img/news/icons/instagram.svg" alt="Instagram Icon" />
+                                    <img className={styles.iconmobile} src="https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/icons/instagram.svg" alt="Instagram Icon" />
                                 </a>
                             </div>
                             <div>
                                 <a href="https://www.tiktok.com/@ontario_inmobiliaria" target="_blank" rel="noopener noreferrer">
-                                    <img className={styles.iconmobile} src="/img/news/icons/tiktok.svg" alt="TikTok Icon" />
+                                    <img className={styles.iconmobile} src="https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/icons/tiktok.svg" alt="TikTok Icon" />
                                 </a>
                             </div>
                             <div>
                                 <a href="https://www.youtube.com/@ontarioinmobiliaria9132" target="_blank" rel="noopener noreferrer">
-                                    <img className={styles.iconmobile} src="/img/news/icons/youtube.svg" alt="YouTube Icon" />
+                                    <img className={styles.iconmobile} src="https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/icons/youtube.svg" alt="YouTube Icon" />
                                 </a>
                             </div>
                         </div>

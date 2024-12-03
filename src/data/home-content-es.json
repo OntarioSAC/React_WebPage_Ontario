@@ -78,6 +78,10 @@
       {
         "label": "LA JOYA",
         "href": "#"
+      },
+      {
+        "label": "TUMBES",
+        "href": "#"
       }
     ],
     "projects": [
@@ -92,9 +96,9 @@
           "city": "La Joya",
           "region": "Arequipa"
         },
-        "price": "$229",
+        "price": "$219",
         "conector": "ó",
-        "priceAlt": "S/ 899*",
+        "priceAlt": "S/ 830*",
         "detail1": "Cuotas",
         "detail2": "desde",
         "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
@@ -105,20 +109,21 @@
         "label": "LA JOYA",
         "url": "/projects/prado-piamonte"
       },
+      
       {
-        "title": "ZAFIRO",
-        "description": "Residencial Playa",
-        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/zafiro.webp",
+        "title": "BAHÍA SERENA",
+        "description": "Condominio",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/bahia-serena.webp",
         "from": "Desde ",
-        "area": "110",
+        "area": "90",
         "unit": "m2",
         "location": {
-          "city": "Punta de Bombón",
-          "region": "Arequipa"
+          "city": "Playa Hermosa",
+          "region": "Tumbes"
         },
-        "price": "$169",
+        "price": "$149",
         "conector": "ó",
-        "priceAlt": "S/ 649*",
+        "priceAlt": "S/580*",
         "detail1": "Cuotas",
         "detail2": "desde",
         "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
@@ -126,8 +131,8 @@
         "status": "PRE",
         "status2": "VENTA",
         "combineStatus": true,
-        "label": "PUNTA DE BOMBÓN",
-        "url": "/projects/zafiro"
+        "label": "TUMBES",
+        "url": "/projects/bahia-serena"
       },
       {
         "title": "SANTORINI",
@@ -140,9 +145,9 @@
           "city": "Mejía",
           "region": "Arequipa"
         },
-        "price": "$239",
+        "price": "$270",
         "conector": "ó",
-        "priceAlt": "S/ 919*",
+        "priceAlt": "S/ 1,040*",
         "detail1": "Cuotas",
         "detail2": "desde",
         "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
@@ -152,6 +157,59 @@
         "combineStatus": true,
         "label": "MEJÍA",
         "url": "/projects/santorini"
+      },
+      {
+        "title": "PUNTA ARENA II",
+        "description": "Condominios de Campo",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
+        "from": "Desde ",
+        "area": "110",
+        "unit": "m2",
+        "location": {
+          "city": "Punta de Bombón",
+          "region": "Arequipa"
+        },
+        "price": "$180",
+        "conector": "ó",
+        "priceAlt": "S/ 675*",
+        "detail1": "Cuotas",
+        "detail2": "desde",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
+        "filterStatus": 1,
+        "status": "PRE",
+        "status2": "VENTA",
+        "combineStatus": true,
+        "label": "PUNTA DE BOMBÓN",
+        "url": "/projects/santorini"
+      },
+      
+
+
+
+
+      {
+        "title": "ZAFIRO",
+        "description": "Residencial Playa",
+        "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/zafiro.webp",
+        "from": "Desde ",
+        "area": "110",
+        "unit": "m2",
+        "location": {
+          "city": "Punta de Bombón",
+          "region": "Arequipa"
+        },
+        "price": "100%",
+        "conector": "",
+        "priceAlt": "VENDIDO",
+        "detail1": "",
+        "detail2": "",
+        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car.svg",
+
+        "status": "EN",
+        "status2": " OBRAS",
+        "combineStatus": false,
+        "label": "PUNTA DE BOMBÓN",
+        "url": "/projects/zafiro"
       },
       {
         "title": "CORAL",

@@ -31,7 +31,7 @@ const SliderContent = ({ sliderData, id }) => (
             <img
               src={item.src}
               alt={item.alt || `Slide ${index + 1}`}
-              className={`d-block ${styles.cover}`}
+              className={styles.cover}
             />
           </div>
         )}

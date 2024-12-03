@@ -95,6 +95,14 @@ const Cards = ({ selectedTab }) => {
               </div>
             </div>
           </div>
+
+          {/* Botón */}         
+           <div className={styles.etiquet}>
+             <div className={styles.textetiquet}>
+                {card.etiqueta}
+              </div>         
+          </div>          
+
         </div>
       ))}
     </div>

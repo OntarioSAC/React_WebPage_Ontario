@@ -67,18 +67,14 @@
     "rewards": [
       {
         "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-copa.svg",
-        "amount": "S/300",
+        "amount": "S/200",
         "description": "1er Referido"
       },
       {
         "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-copa.svg",
         "amount": "S/500",
-        "description": "2do Referido"
-      },
-      {
-        "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-copa.svg",
-        "amount": "S/700",
-        "description": "3er Referido"
+        "description": "2do Referido",
+        "description2":"a mas"
       }
     ]
   }

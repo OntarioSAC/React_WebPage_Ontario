@@ -49,7 +49,7 @@ const LocationComponent = ({ contentData, colors }) => {
             onClick={() => openPopup(button.src)}
           >
             <img
-              src="/img/icons/open.svg"
+              src="https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/open.svg"
               alt="open"
               loading="lazy"
               className={styles.iconPopup}
@@ -149,7 +149,7 @@ const LocationComponent = ({ contentData, colors }) => {
           <div className={styles.popupOverlay} onClick={closePopup}></div>
           <div className={styles.popupContent}>
             <button className={styles.closePopupButton} onClick={closePopup}>
-              <img src="/img/icons/close2.png" loading="lazy" alt="close" />
+              <img src="https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/close2.png" loading="lazy" alt="close" />
             </button>
             <img src={popupImageSrc} loading="lazy" alt="Popup" className={styles.popupImage} />
           </div>

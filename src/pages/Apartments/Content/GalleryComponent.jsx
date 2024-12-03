@@ -36,6 +36,7 @@ const GalleryComponent = ({ data }) => {
       <div className={styles.contentArea}>
         {content} {/* Muestra el contenido seleccionado */}
       </div>
+      
       <ButtonGroup
         onKuulaClick={handleKuulaClick}
         onSliderClick={handleSliderClick}

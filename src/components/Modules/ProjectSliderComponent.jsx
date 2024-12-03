@@ -62,7 +62,7 @@ const ProjectSliderComponent = ({ data }) => {
                       className={styles.cardIcon1}
                       loading="lazy"
                       alt="Area Icon"
-                      src="/img/icons/area.svg"
+                      src="https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/area.svg"
                     />
                     <span className={styles.f12}>
                       {project.from}
@@ -79,7 +79,7 @@ const ProjectSliderComponent = ({ data }) => {
                       className={styles.cardIcon2}
                       loading="lazy"
                       alt="Location Icon"
-                      src="/img/icons/location.svg"
+                      src="https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location.svg"
                     />
                     <div className="d-flex flex-column">
                       <span className={styles.f12}>

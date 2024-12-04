@@ -245,13 +245,7 @@ const Footer = ({ onContactClick }) => {
           
           <div  className={`mt-4 text-start  ${styles.contentsosialdescktop}`} >
             <div className={styles.fatherfooter}>
-              <div 
-              className={`${styles.textreer}`}
-              >
-                <span>{t("footerText")}</span>
-                
-              </div>
-              <div 
+            <div 
               className={`col-12 col-md-auto order-1 order-md-2 ms-md-6  ${styles.reclam}`}>
                 <Link
                   to={t("footerComplaintBook.route")}
@@ -265,7 +259,15 @@ const Footer = ({ onContactClick }) => {
                   </span>
                 </Link>
               </div>
-
+              
+              <div 
+              className={`${styles.textreer}`}
+              >
+                <span>{t("footerText")}</span>
+                
+              </div>
+              
+              
               
 
             </div>

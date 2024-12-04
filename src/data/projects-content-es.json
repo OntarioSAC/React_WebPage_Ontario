@@ -91,7 +91,7 @@
             { "id": "2", "label": "Pasaporte" }
           ],
           "projects": [
-            { "id": "1", "label": "Santorini" },
+            { "id": "473", "label": "Santorini" },
             { "id": "2", "label": "Mykonos" },
             { "id": "3", "label": "Coral" },
             { "id": "4", "label": "Punta Arena" },
@@ -101,7 +101,7 @@
             { "id": "8", "label": "Bahía Serena" }
           ],
           "showProjectSelect": false,
-          "projectId": "1",
+          "projectId": "473",
           "texts": {
             "formTitle": "QUIERO RECIBIR INFORMACIÓN",
             "namePlaceholder": "*Nombres",

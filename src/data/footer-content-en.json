@@ -11,8 +11,76 @@
       { "text": "Terms and Conditions", "route": "/terms" }
     ]
   },
-  "projects": {
-    "title": "CONDOMINIUMS",
+
+
+
+
+
+    "projects": {
+    "title": "NUESTROS PROYECTOS",
+    "subtitle1":"100% VENDIDOS",
+    "categories": [
+      {
+        "name": "MEJÍA",
+        "items": [
+          { "text": "Mykonos", "route": "/projects/mykonos" }
+        ]
+      },
+      {
+        "name": "PUNTA DE BOMBÓN",
+        "items": [
+          { "text": "Zafiro", "route": "/projects/zafiro" },
+          { "text": "Punta Arena", "route": "/projects/punta-arena" },
+          { "text": "Coral", "route": "/projects/coral" }
+        ]
+      },
+      {
+        "name": "CUSCO",
+        "items": [
+          { "text": "Killa", "route": "/projects/prado-piamonte" }
+        ]
+      }
+    ],
+
+
+    "subtitle2":"EN PREVENTA",
+    "categories2": [
+      {
+        "name": "TUMBES",
+        "items": [
+          { "text": "Bahia Serena", "route": "/projects/mykonos" }
+        ]
+      },
+      {
+        "name": "CERRO COLORADO",
+        "items": [
+          { "text": "O2", "route": "/projects/zafiro" }
+       
+        ]
+      },
+      {
+        "name": "PUNTA DE BOMBÓN",
+        "items": [
+          { "text": "Punta Arena II" , "route": "/projects/prado-piamonte" }
+        ]
+      },
+      {
+        "name": "MEJÍA",
+        "items": [
+          { "text": "Santorini", "route": "/projects/prado-piamonte" }
+        ]
+      },
+      {
+        "name": "LA JOYA",
+        "items": [
+          { "text": "Prado Piamonte", "route": "/projects/prado-piamonte" }
+        ]
+      }
+    ]
+  },
+"projects2": {
+    "title": "NUESTROS PROYECTOS",
+    "subtitle1":"100% VENDIDOS",
     "categories": [
       {
         "name": "MEJÍA",
@@ -37,8 +105,10 @@
       }
     ]
   },
+
   "conditions": {
     "title": "FIND US",
+    "subtitle1":"AREQUIPA",
     "items": [
       {
         "type": "address",
@@ -59,26 +129,34 @@
         "text": "contacto@ontario.com.pe",
         "href": "mailto:contacto@ontario.com.pe"
       }
+    ],
+    "subtitle2":"LIMA",
+    "items2": [
+      {
+        "type": "address",
+        "text": "Calle Cantuarias 357, 2do piso.\n\nMiraflores - Lima"
+      }
+    
     ]
   },
   "socialMedia": [
     {
-      "src": "ico-face",
+      "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/facebook.svg",
       "alt": "Facebook",
       "link": "https://www.facebook.com/inmobiliariaontario"
     },
     {
-      "src": "ico-ins",
+      "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/instagram.svg",
       "alt": "Instagram",
       "link": "https://www.instagram.com/ontarioinmobiliaria/"
     },
     {
-      "src": "ico-tik",
+      "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tiktok.svg",
       "alt": "TikTok",
       "link": "https://www.tiktok.com/@ontario_inmobiliaria"
     },
     {
-      "src": "ico-you",
+      "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/youtube.svg",
       "alt": "YouTube",
       "link": "https://www.youtube.com/@ontarioinmobiliaria9132"
     }

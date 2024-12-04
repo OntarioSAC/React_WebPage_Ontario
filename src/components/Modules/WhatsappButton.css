@@ -18,7 +18,8 @@
   outline: none;
   border: none;
   box-shadow: none; /* Elimina cualquier sombra del cuadro */
-   
+  width: 80.966px;
+  height: 80.956px; 
 }
 
 .whatsapp-button2{

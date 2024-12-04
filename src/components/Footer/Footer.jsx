@@ -138,10 +138,10 @@ const Footer = ({ onContactClick }) => {
                           >
                             {category.items.map((item, index) => (
                               <li key={index}>
-                                <Link to={item.route} className={styles.link}>
+                                <div to={item.route} className={styles.link}>
                                   {" "}
                                   {item.text}{" "}
-                                </Link>
+                                </div>
                               </li>
                             ))}
                           </ul>
@@ -171,10 +171,10 @@ const Footer = ({ onContactClick }) => {
                         <ul className="list-unstyled ms-3">
                           {category.items.map((item, index) => (
                             <li key={index}>
-                              <Link to={item.route} className={styles.link}>
+                              <div to={item.route} className={styles.link}>
                                 {" "}
                                 {item.text}{" "}
-                              </Link>
+                              </div>
                             </li>
                           ))}
                         </ul>

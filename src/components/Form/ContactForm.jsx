@@ -113,7 +113,7 @@ const ContactForm = React.forwardRef(({ data, autoFocus }, ref) => {
           // mode: 'no-cors',
           header: {
             "Content-Type": "application/json",
-            Authorization: "Bearer qBFAyMd0ax9OC5phe1nyD8VvPkl4dGSu3dMXDoq4",
+            Authorization: "------",
           },
           body: JSON.stringify(payload),
         });

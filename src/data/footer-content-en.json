@@ -16,9 +16,9 @@
 
 
 
-    "projects": {
-    "title": "NUESTROS PROYECTOS",
-    "subtitle1":"100% VENDIDOS",
+  "projects": {
+    "title": "OUR PROJECTS",
+    "subtitle1":"100% SOLD",
     "categories": [
       {
         "name": "MEJÍA",
@@ -43,18 +43,18 @@
     ],
 
 
-    "subtitle2":"EN PREVENTA",
+    "subtitle2":"IN PRE-SALE",
     "categories2": [
       {
         "name": "TUMBES",
         "items": [
-          { "text": "Bahia Serena", "route": "/projects/bahia-serena" }
+          { "text": "Bahía Serena", "route": "/projects/bahia-serena" }
         ]
       },
       {
         "name": "CERRO COLORADO",
         "items": [
-          { "text": "O2", "route": "/apartments/o2" }
+          { "text": "O2 by Ontario", "route": "/apartments/o2" }
        
         ]
       },
@@ -78,67 +78,38 @@
       }
     ]
   },
-"projects2": {
-    "title": "NUESTROS PROYECTOS",
-    "subtitle1":"100% VENDIDOS",
-    "categories": [
+
+
+
+  "conditions": {
+    "title": "FIND US",
+    "subtitle1":"OUR LOCATIONS",
+    "items": [
       {
-        "name": "MEJÍA",
-        "items": [
-          { "text": "Santorini", "route": "/projects/santorini" },
-          { "text": "Mykonos", "route": "/projects/mykonos" }
-        ]
+        "type":"address",
+        "address":"AREQUIPA",
+        "text": "Av. Víctor Andrés Belaunde N°405\nUmacollo-Arequipa"
       },
       {
-        "name": "PUNTA DE BOMBÓN",
-        "items": [
-          { "text": "Zafiro", "route": "/projects/zafiro" },
-          { "text": "Punta Arena", "route": "/projects/punta-arena" },
-          { "text": "Coral", "route": "/projects/coral" }
-        ]
+        "type":"address",
+        "address":"LIMA",
+        "text": "Calle Cantuarias 357, 2do piso.\nMiraflores - Lima"
       },
       {
-        "name": "LA JOYA",
-        "items": [
-          { "text": "Prado Piamonte", "route": "/projects/prado-piamonte" }
-        ]
+        "type":"phone",
+        "address": "(054) 522 935",
+        "text":"972 582 490",
+        "href": "tel:054522935",
+        "href2": "tel:972582490"
+      },
+      {
+        "type": "email",
+        "address": "contacto@ontario.com.pe",
+        "href": "mailto:contacto@ontario.com.pe"
       }
     ]
   },
 
-  "conditions": {
-    "title": "FIND US",
-    "subtitle1":"AREQUIPA",
-    "items": [
-      {
-        "type": "address",
-        "text": "Av. Víctor Andrés Belaunde N°405\nUmacollo-Arequipa"
-      },
-      {
-        "type": "phone",
-        "text": "(054) 522 935",
-        "href": "tel:054522935"
-      },
-      {
-        "type": "phone",
-        "text": "972 582 490",
-        "href": "tel:972582490"
-      },
-      {
-        "type": "email",
-        "text": "contacto@ontario.com.pe",
-        "href": "mailto:contacto@ontario.com.pe"
-      }
-    ],
-    "subtitle2":"LIMA",
-    "items2": [
-      {
-        "type": "address",
-        "text": "Calle Cantuarias 357, 2do piso.\n\nMiraflores - Lima"
-      }
-    
-    ]
-  },
   "socialMedia": [
     {
       "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/facebook.svg",

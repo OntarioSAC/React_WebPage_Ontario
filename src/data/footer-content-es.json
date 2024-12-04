@@ -52,13 +52,13 @@
       {
         "name": "TUMBES",
         "items": [
-          { "text": "Bahia Serena", "route": "/projects/bahia-serena" }
+          { "text": "Bahía Serena", "route": "/projects/bahia-serena" }
         ]
       },
       {
         "name": "CERRO COLORADO",
         "items": [
-          { "text": "O2", "route": "/apartments/o2" }
+          { "text": "O2 by Ontario", "route": "/apartments/o2" }
        
         ]
       },
@@ -114,37 +114,34 @@
 
   "conditions": {
     "title": "UBÍCANOS",
-    "subtitle1":"AREQUIPA",
+    "subtitle1":"NUESTRAS SEDES",
     "items": [
       {
-        "type": "address",
+        "type":"address",
+        "address":"AREQUIPA",
         "text": "Av. Víctor Andrés Belaunde N°405\nUmacollo-Arequipa"
       },
       {
-        "type": "phone",
-        "text": "(054) 522 935",
-        "href": "tel:054522935"
+        "type":"address",
+        "address":"LIMA",
+        "text": "Calle Cantuarias 357, 2do piso.\nMiraflores - Lima"
       },
       {
-        "type": "phone",
-        "text": "972 582 490",
-        "href": "tel:972582490"
+        "type":"phone",
+        "address": "(054) 522 935",
+        "text":"972 582 490",
+        "href": "tel:054522935",
+        "href2": "tel:972582490"
       },
       {
         "type": "email",
-        "text": "contacto@ontario.com.pe",
+        "address": "contacto@ontario.com.pe",
         "href": "mailto:contacto@ontario.com.pe"
       }
-    ],
-    "subtitle2":"LIMA",
-    "items2": [
-      {
-        "type": "address",
-        "text": "Calle Cantuarias 357, 2do piso.\n\nMiraflores - Lima"
-      }
-    
     ]
   },
+
+  
   "socialMedia": [
     {
       "src": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/facebook.svg",

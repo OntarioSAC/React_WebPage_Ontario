@@ -225,14 +225,14 @@ line-height: normal;
   margin-top: 30px;
   display: flex;
   flex-direction: column;
-  
-  
  }
+
  .fotterletralibro{
   width: 100%;
   display: flex;
   justify-content: center;
  }
+ 
  .contentsosialdescktop{
   width: 90%;
   
@@ -255,9 +255,10 @@ line-height: normal;
  
 .furia1{
   
-  width: 95% !important;
+  width: 80% !important;
   margin-top: 30px;
- 
+ display: flex;
+ justify-content: space-between !important;
 }
 .customFooter{
   
@@ -273,7 +274,7 @@ line-height: normal;
 
 .leftr{
 
-width: 60% !important;
+width: 200px;
 
 }
 .project{
@@ -282,7 +283,7 @@ width: 60% !important;
 .ubicationfooter{
   
   margin-top: 12px;
-  width: 55%;
+  width: 200px;
 
 }
 

@@ -1,0 +1,217 @@
+
+.generalcontainer{
+    font-family: Arial , sans-serif;
+    width: 50%;
+    margin: 20px auto;
+    padding: 70px;
+    margin-top: 100px;
+    border: 1px solid #ccc ;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    .generalcontainer{
+        width: 95%;
+        position: relative;
+        padding: 25px;
+   
+    }
+    .header{
+        
+        
+        
+        color: #1C284C;
+        text-align: center;
+        font-family: Inter;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-bottom: 25px !important;
+    }
+    .legalText{
+        color: #1C284C;
+        text-align: justify;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .formRow{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0;
+    }
+    .dateSpan2{
+        right: 15px;
+        
+        display: flex;
+        justify-content: flex-end;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        
+    }
+    .displayBox {
+        
+        display: flex;
+        justify-content: flex-end;
+        align-items: center; /* Asegura el centrado vertical */
+        align-content: center; /* Solo afecta si hay múltiples líneas flexibles */
+        width: 100%;
+        height: auto; /* Define una altura explícita */
+        margin-top: 10px;
+    }
+    .dateSpan{
+        padding-left: 0 !important;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        
+    }
+    .textbox{
+        color: #1C284C;
+        text-align: right;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+  
+    .legalText{
+        color: #1C284C;
+        text-align: justify;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .formGroup{
+        width: 100% !important;
+    }
+    .input{
+        color: #4E4E4E !important;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .note{
+        color: #1C284C !important;
+        text-align: justify;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .formTitle{
+        color: #1C284C;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .formTitleint{
+        
+        padding: 20px 0px 20px 0px;
+    }
+    .formTitleinp{
+        color: #1C284C;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        
+    }
+   .formRowintdes{
+    height: 148px !important;
+   }
+   .formRowintdes2{
+    height: 66px !important;
+    margin-top: 15px;
+   }
+   .botonico{
+    
+    padding: 0 !important;
+    
+   }
+   
+   .iconomobil{
+    width: 26px !important;
+    height: 26px !important;
+   }
+   .botonicoiztextbot{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 13px !important;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+   }
+   .botonicoiztext{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 10px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left !important;
+   }
+   .legalText{
+    color: #1C284C;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   }
+   .formSection{
+    margin-top: 30px !important;
+   }
+   .camp{
+    color: #1C284C !important;
+        text-align: justify;
+        font-family: Inter;
+        font-size: 14px !important;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+   }
+   .edn{
+    color: #1C284C;
+    font-family: Inter;
+    font-size: 15px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+   }
+   
+   .customSelect{
+    
+    color: #7a7a7a !important;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+   }
+}

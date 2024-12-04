@@ -69,17 +69,20 @@ function About() {
   const bannerSection = t("bannerSection", { returnObjects: true });
 
   return (
+    <>
     <div className="container g-0">
       <WelcomeSection data={welcomeSection} />
       <InfoBoxAbout data={infoBoxAbout} />
       <ValuesSection data={valuesSection} />
       <TitleSection data={titleSection} />
       <ChronologySection data={chronology} />
-      <BannerSection data={bannerSection} />
+      
       <div className="whatsapp">
         <WhatsappButton />
       </div>
     </div>
+    <BannerSection data={bannerSection} />
+    </>
   );
 }
 

@@ -1,6 +1,5 @@
 .banner-wrapper {
-    width: 100%;
-    max-width: 1440px;
+    width: 100% !important;
     overflow: hidden;
     height: 169px;
     margin: 0 auto;

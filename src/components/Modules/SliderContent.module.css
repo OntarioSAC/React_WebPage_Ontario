@@ -9,13 +9,12 @@
     align-items: center; /* Centra el contenido verticalmente */
 }
 
-.cover {
-    object-fit: cover;
-    width: 100%; /* Asegura que la imagen ocupe el 100% del ancho del contenedor */
-    height: auto; /* Mantén la proporción de la imagen */
-    display: block; /* Esto permite que la imagen se comporte como un bloque y centre con margin auto */
-    margin: 0 auto; /* Centra horizontalmente la imagen */
+.cover{
+    width: 100%;
+    
 }
+
+
 
 .customButtonNext,
 .customButtonPrev {
@@ -27,12 +26,12 @@
 
 
 .customButtonNext {
-    background-image: url("/img/ico/next2.svg") !important;
+    background-image: url("https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/ico/next2.svg") !important;
     right: 7px !important;
 }
 
 .customButtonPrev {
-    background-image: url("/img/ico/prev2.svg") !important;
+    background-image: url("https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/ico/prev2.svg") !important;
     left: 7px !important;
 }
 

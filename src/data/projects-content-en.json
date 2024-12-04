@@ -296,7 +296,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Country Condominiums",
-            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/10.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -635,7 +635,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Country Condominiums",
-            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/10.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -960,7 +960,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Country Condominiums",
-            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/10.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -1291,7 +1291,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Country Condominiums",
-            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/10.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -1631,7 +1631,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Country Condominiums",
-            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/10.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -1685,10 +1685,10 @@
       "infoBox": {
         "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-zafiro.webp",
         "price": {
-          "title": "INSTALLMENTS FROM",
-          "amount": "$169",
-          "altO": "or ",
-          "altAmount": "S/649*",
+          "title": "",
+          "amount": "100%",
+          "altO": "",
+          "altAmount": "SOLD",
           "conditions": "(*) Terms and conditions apply."
         },
         "infoBoxes": [
@@ -1698,9 +1698,9 @@
             "value": "100 m²"
           },
           {
-            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag2.svg",
-            "value": "PRE",
-            "highlighted": "SALE"
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car2.svg",
+            "value": "IN",
+            "highlighted": " PROGRESS"
           },
           {
             "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location2.svg",
@@ -1956,7 +1956,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Country Condominiums",
-            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/10.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -2298,7 +2298,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Country Condominiums",
-            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/10.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",
@@ -2640,7 +2640,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Country Condominiums",
-            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/10.webp",
             "from": "From ",
             "area": "110",
             "unit": "m2",

@@ -1,12 +1,65 @@
 .customContent {
+  
   position: relative; 
   z-index: 30;
   padding: 45px 85px 0; 
 }
+.leftproject{
+  
+  width: 50%;
+}
 .textPrimary{
   color: var(--primary-color); 
+  
+}
+.textPrimarytiel{
+  color: var(--primary-color);
+  text-align: center;
+}
+.textPrimary2{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.textPrimarytitle{
+  
+  color: #FFF !important;
+  
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: normal !important;
+}
+
+.content_int{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.anexadoone{
+
+  margin-top: 50px;
+}
+.project{
+  width: 600px;
+  
+}
+.projectint{
+  
+  display: flex;
+  flex-direction: row;
+}
+.ubicationfooter{
+  
+  width: 300px;
 }
 .customFooter {
+ 
   position: relative;
   font-family: "Inter";
   font-weight: 600;
@@ -48,9 +101,16 @@
 }
 
 .link {
-  color: white; 
+ 
   text-decoration: none;
+  color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
+
 
 .link:hover {
   text-decoration: underline; 
@@ -68,6 +128,67 @@
   vertical-align: middle;
   margin-left: 10px;
 }
+.mobilsocial{
+  display: none;
+ }
+ .contentsosialdescktop{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+
+.iconfooterdesc{
+  width: 34px;
+}
+
+@media (max-width: 768px) {
+ 
+ .anexadoone > p {
+  display: none;
+ }
+ .mobilsocial{
+  display: block;
+ }
+
+.project{
+  display: none;
+}
+.socialfooter{
+  display: none;
+}
+.ubicationfooter{
+  
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.textubimobile{
+  
+  font-size: 10px;
+}
+
+.logomobile{
+  width: 10px !important;
+  color: #CBF000;
+}
+
+.link{
+  font-size: 10px !important;
+    color: #FFF;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.iconfooterdesc{
+  width: 20px;
+}
+}
+
+
+
 @media (max-width: 576px) {
   .customContent {
     position: relative;

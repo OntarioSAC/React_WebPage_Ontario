@@ -37,13 +37,14 @@ const Footer = ({ onContactClick }) => {
       style={getFooterStyle()}
     >
       <footer className={`text-white ${styles.customFooter}`}>
-        <div className="container">
-          <div className="row">
+        <div className={`container ${styles.furia1}`}>
+          <div className={`${styles.content_int}`}>
             
             {/* Sección de contacto */}
-            <div className="col-12 col-sm-6 col-md-6 col-lg-3 pb-1">
+            <div className={` ${styles.leftr}`} >
               <Link className="navbar-brand d-block" to="/" aria-label="Ir a la página principal">
-                <Logo className={styles.logo} type={isApartmentRoute ? "logo1" : "default"} />
+                <Logo className={`${styles.logo} ${styles.logomobile}`} type={isApartmentRoute ? "logo1" : "default"} />
+                
               </Link>
               <button
                 onClick={onContactClick}
@@ -52,10 +53,9 @@ const Footer = ({ onContactClick }) => {
                 {t("contact.title")}
                 <span className={`icon ico-arrow ${styles.arrow}`}></span>
               </button>
-            </div>
 
-            {/* Sección de Nosotros */}
-            <div className="col-6 col-sm-6 col-md-6 col-lg-3">
+              {/* Sección de Nosotros */}
+            <div className={styles.anexadoone}>
               <p className={`${styles.textPrimary}`}>{t("about.title")}</p>
               <ul className="list-unstyled">
                 {t("about.items", { returnObjects: true }).map(
@@ -74,40 +74,131 @@ const Footer = ({ onContactClick }) => {
               </ul>
             </div>
 
-            {/* Sección de Proyectos */}
-            <div className="col-12 col-sm-6 col-md-6 col-lg-3 d-none d-sm-block">
-              <p className={`fw-bold ${styles.textPrimary}`}>
-                {t("projects.title")}
-              </p>
-              {t("projects.categories", { returnObjects: true }).map(
-                (category, catIndex) => (
-                  <div key={catIndex}>
-                    <div className="d-flex align-items-center mb-1">
-                      <span
-                        className={`icon ico-circle ${styles.textPrimary} ${styles.circle}`}
-                      ></span>
-                      <span className="fw-bold ms-2">{category.name}</span>
-                    </div>
-                    <ul className="list-unstyled ms-3">
-                      {category.items.map((item, index) => (
-                        <li key={index}>
-                          <Link to={item.route} className={styles.link}>
-                            {" "}
-                            {item.text}{" "}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )
-              )}
+
+            <div className={styles.mobilsocial}>
+              {Array.isArray(t("socialMedia", { returnObjects: true })) &&
+                  t("socialMedia", { returnObjects: true }).map((item) => (
+                    <a
+                      key={item.link} // Cambié el key para que sea único según la URL
+                      href={item.link}
+                      target="_blank" // Abre el enlace en una nueva pestaña
+                      rel="noopener noreferrer" // Mejora de seguridad
+                      className="me-2"
+                      aria-label={`Ir al perfil de ${item.alt}`}
+                    >
+                      <img
+                        src={item.src}
+                        alt={item.alt}
+                        className={`${styles.iconfooterdesc}`} // Usa tu clase de estilos para el ícono
+                        role="img"
+                      />
+                    </a>
+                  ))}
+              </div>
+
+
+
             </div>
 
+            
+
+            {/* Sección de Proyectos */}
+            <div className={` ${styles.project}`}>
+
+              <p className={`fw-bold ${styles.textPrimarytiel}`}>
+                {t("projects.title")}
+              </p>
+
+                <div className={styles.projectint}>
+
+                  <div className={styles.leftproject}>
+                    <p className={`fw-bold ${styles.textPrimary2}`}>
+                    {t("projects.subtitle1")}
+                    </p>
+
+                    {t("projects.categories", { returnObjects: true }).map(
+                      
+                      (category, catIndex) => (
+                        
+                        <div key={catIndex}>
+                          <div className="d-flex align-items-center mb-1">
+                            <span
+                              className={`icon ico-circle ${styles.textPrimary}  ${styles.circle}`}
+                            ></span>
+                            <span 
+                            className={`ms-2 ${styles.textPrimarytitle} `}
+                            >
+                              {category.name}
+                              
+                            </span>
+                          </div>
+                          
+                          <ul 
+                          className={`list-unstyled ms-3 ${styles.textPrimary} `}
+                          >
+                            {category.items.map((item, index) => (
+                              <li key={index}>
+                                <Link to={item.route} className={styles.link}>
+                                  {" "}
+                                  {item.text}{" "}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )
+                    )}
+                </div>
+
+                <div>
+                <p className={`fw-bold ${styles.textPrimary2}`}>
+                  {t("projects.subtitle2")}
+                  </p>
+
+                  {t("projects.categories2", { returnObjects: true }).map(
+                    
+                    (category, catIndex) => (
+                      
+                      <div key={catIndex}>
+                        <div className="d-flex align-items-center mb-1">
+                          <span
+                            className={`icon ico-circle ${styles.textPrimary} ${styles.circle}`}
+                          ></span>
+                          <span className={`ms-2 ${styles.textPrimarytitle} `}>
+                            
+                            {category.name}</span>
+                        </div>
+                        <ul className="list-unstyled ms-3">
+                          {category.items.map((item, index) => (
+                            <li key={index}>
+                              <Link to={item.route} className={styles.link}>
+                                {" "}
+                                {item.text}{" "}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )
+                  )}
+                </div>
+              </div>
+
+
+            </div>
+
+
+
             {/* Sección de Ubicación */}
-            <div className="col-6 col-sm-6 col-md-4 col-lg-3">
-              <p className={`fw-bold ${styles.textPrimary}`}>
+            <div className={styles.ubicationfooter}>
+              <p className={`fw-bold ${styles.textPrimary} ${styles.mobilubi}`}>
                 {t("conditions.title")}
               </p>
+
+              <p className={`fw-bold ${styles.textPrimary}`}>
+                {t("conditions.subtitle1")}
+              </p>
+              
               <ul className="list-unstyled">
                 {t("conditions.items", { returnObjects: true }).map(
                   (item, index) => (
@@ -116,7 +207,7 @@ const Footer = ({ onContactClick }) => {
                         className={`icon ico-circle ${styles.textPrimary} ${styles.ubication}`}
                       ></span>
                       {item.type === "phone" || item.type === "email" ? (
-                        <a href={item.href} className={`${styles.link} ms-2`}>
+                        <a href={item.href} className={`${styles.link} ms-2 ${styles.textubimobile}`}>
                           {item.text}
                         </a>
                       ) : (
@@ -127,30 +218,35 @@ const Footer = ({ onContactClick }) => {
                 )}
               </ul>
 
-              <div className="d-flex justify-content-start">
-                {Array.isArray(t("socialMedia", { returnObjects: true })) &&
-                  t("socialMedia", { returnObjects: true }).map((item) => (
-                    <a
-                      key={item.src}
-                      href={item.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="me-2"
-                      aria-label={`Ir al perfil de ${item.alt}`}
-                    >
+              <p className={`fw-bold ${styles.textPrimary}`}>
+                {t("conditions.subtitle2")}
+              </p>
+              <ul className="list-unstyled">
+                {t("conditions.items2", { returnObjects: true }).map(
+                  (item, index) => (
+                    <li key={index} className="d-flex  mb-1">
                       <span
-                        className={`icon ${item.src} ${styles.textPrimary}`}
-                        role="img"
-                        aria-label={item.alt}
-                      />
-                    </a>
-                  ))}
-              </div>
+                        className={`icon ico-circle ${styles.textPrimary} ${styles.ubication}`}
+                      ></span>
+                      
+                        <span className="ms-2">{item.text}</span>
+                      
+                    </li>
+                  )
+                )}
+              </ul>
+
+              
             </div>
+
+
           </div>
 
+
+
+
           {/* Texto y libro de reclamaciones */}
-          <div className="mt-4 text-start">
+          <div  className={`mt-4 text-start  ${styles.contentsosialdescktop}`} >
             <div className="row d-flex align-items-center">
               <div className="col-12 col-md-auto order-2 order-md-1 my-1">
                 <span>{t("footerText")}</span>
@@ -168,7 +264,32 @@ const Footer = ({ onContactClick }) => {
                   </span>
                 </Link>
               </div>
+
+              
+
             </div>
+            
+            <div className={styles.socialfooter}>
+              {Array.isArray(t("socialMedia", { returnObjects: true })) &&
+                t("socialMedia", { returnObjects: true }).map((item) => (
+                  <a
+                    key={item.link} // Cambié el key para que sea único según la URL
+                    href={item.link}
+                    target="_blank" // Abre el enlace en una nueva pestaña
+                    rel="noopener noreferrer" // Mejora de seguridad
+                    className="me-2"
+                    aria-label={`Ir al perfil de ${item.alt}`}
+                  >
+                    <img
+                      src={item.src}
+                      alt={item.alt}
+                      className={`${styles.iconfooterdesc}`} // Usa tu clase de estilos para el ícono
+                      role="img"
+                    />
+                  </a>
+                ))}
+              </div>
+
           </div>
           
         </div>

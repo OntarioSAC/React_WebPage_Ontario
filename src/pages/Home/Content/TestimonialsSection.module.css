@@ -2,6 +2,7 @@
   padding: clamp(3.125rem, 1.3644rem + 7.5117vw, 8.125rem);
   position: relative;
   background-color: #B2D600;
+  width: 100% !important;
 }
 
 .testimonials-container::before {
@@ -11,7 +12,7 @@
   right: 0;
   width: 473px;
   height: 94px;
-  background-image: url("/img/textures/textura-1.svg");
+  background-image: url("https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/textures/textura-1.svg");
   background-repeat: no-repeat;
   z-index: 1;
 }
@@ -23,7 +24,7 @@
   left: 0;
   width: 550px;
   height: 101px;
-  background-image: url("/img/textures/textura-2.svg");
+  background-image: url("https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/textures/textura-2.svg");
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 1;

@@ -38,6 +38,8 @@ function Referrals() {
       <ReferredHeader data={referredHeader} />
       <div className="container g-0">
         <ReferredSteps data={referredSteps} />
+        </div>
+        <div >
         <ReferredBaner data={referredBaner} />
         <div className={styles.customContent}>
           <div className="whatsapp">

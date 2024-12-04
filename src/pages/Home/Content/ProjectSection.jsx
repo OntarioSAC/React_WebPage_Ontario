@@ -1,34 +1,24 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom"; // Cambiar useHistory por useNavigate
+import { useNavigate } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import styles from "./ProjectSection.module.css";
-import PropTypes from 'prop-types'; // Importar PropTypes para validación de props
+import PropTypes from 'prop-types';
 
-/**
- * Componente ProjectSection
- * @param {Object} props - Propiedades del componente
- * @param {Object} props.sectionData - Datos para renderizar la sección
- * @param {string} props.sectionData.title - Título de la sección
- * @param {string} props.sectionData.titleBold - Parte en negrita del título
- * @param {string} props.sectionData.subtitle - Subtítulo de la sección
- * @param {Array} props.sectionData.navLinks - Enlaces de navegación
- * @param {Array} props.sectionData.projects - Proyectos a mostrar
- * @param {string} props.sectionData.conditionsLabel - Etiqueta de condiciones
- * @returns {JSX.Element} - Elemento JSX renderizado
- */
 const ProjectSection = ({ sectionData }) => {
   const { title, titleBold, subtitle, navLinks, projects, conditionsLabel } =
     sectionData;
   const [selectedFilter, setSelectedFilter] = useState("PREVENTA");
   const [filteredProjects, setFilteredProjects] = useState(projects);
+  const [swiperKey, setSwiperKey] = useState(0);
 
-  const navigate = useNavigate(); // Usar useNavigate en lugar de useHistory
+  const navigate = useNavigate();
 
   const handleFilterClick = (e, filter) => {
     e.preventDefault();
     setSelectedFilter(filter);
+    setSwiperKey(prevKey => prevKey + 1);
   };
 
   useEffect(() => {
@@ -46,9 +36,47 @@ const ProjectSection = ({ sectionData }) => {
     }
   }, [selectedFilter, projects]);
 
-  // Función para manejar la navegación
   const handleCardClick = (url) => {
     navigate(url);
+  };
+
+  const getSwiperProps = () => {
+    const baseProps = {
+      spaceBetween: 10,
+      slidesPerView: 1,
+      breakpoints: {
+        350: { slidesPerView: 2 },
+        768: { slidesPerView: 2 },
+        1024: { slidesPerView: 3 },
+      },
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      modules: [Autoplay],
+    };
+
+    const specificFilters = ["MEJÍA", "LA JOYA", "TUMBES"];
+    if (specificFilters.includes(selectedFilter)) {
+      return {
+        ...baseProps,
+        onInit: (swiper) => {
+          if (window.innerWidth >= 768) {
+            swiper.wrapperEl.style.justifyContent = "center";
+          }
+        },
+        onResize: (swiper) => {
+          if (window.innerWidth >= 768) {
+            swiper.wrapperEl.style.justifyContent = "center";
+          } else {
+            swiper.wrapperEl.style.justifyContent = "";
+          }
+        }
+      };
+    }
+
+    return baseProps;
   };
 
   return (
@@ -85,6 +113,7 @@ const ProjectSection = ({ sectionData }) => {
               </a>
             ))}
           </nav>
+
           <div
             className={`${styles.customLine} d-none d-lg-none d-xl-block`}
           ></div>
@@ -93,36 +122,14 @@ const ProjectSection = ({ sectionData }) => {
 
       <div className={`${styles.cardOverlap}`}>
         <Swiper
-          spaceBetween={10}
-          slidesPerView={1}
-          breakpoints={{
-            350: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
-          }}
-          loop={true}
-          autoplay={{
-            delay: 3000,
-            disableOnInteraction: false,
-          }}
-          modules={[Autoplay]}
-          onInit={(swiper) => {
-            if (window.innerWidth >= 768) {
-              swiper.wrapperEl.style.justifyContent = "center";
-            }
-          }}
-          onResize={(swiper) => {
-            if (window.innerWidth >= 768) {
-              swiper.wrapperEl.style.justifyContent = "center";
-            } else {
-              swiper.wrapperEl.style.justifyContent = "";
-            }
-          }}
+          key={swiperKey}
+          {...getSwiperProps()}
         >
           {filteredProjects.map((project, index) => (
             <SwiperSlide key={index} className={styles["swiper-modify"]}>
               <div
-                className="d-flex justify-content-center"
-                onClick={() => handleCardClick(project.url)} // Usar navigate para redirigir
+                className="general_body d-flex justify-content-center"
+                onClick={() => handleCardClick(project.url)}
               >
                 <div className={`${styles.customCard} position-relative`}>
                   <img
@@ -153,7 +160,8 @@ const ProjectSection = ({ sectionData }) => {
                         </strong>
                       </span>
                     </div>
-                    <div className="d-flex align-items-center">
+
+                    <div className="prueba1 d-flex align-items-center">
                       <img
                         className={styles.cardIcon2}
                         loading="lazy"
@@ -224,6 +232,7 @@ const ProjectSection = ({ sectionData }) => {
             </SwiperSlide>
           ))}
         </Swiper>
+
         <div className={styles.terms}>
           <p className={styles.conditions}>(*) {conditionsLabel}</p>
         </div>
@@ -233,7 +242,6 @@ const ProjectSection = ({ sectionData }) => {
   );
 };
 
-// Validación de props
 ProjectSection.propTypes = {
   sectionData: PropTypes.shape({
     title: PropTypes.string.isRequired,

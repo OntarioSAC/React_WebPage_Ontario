@@ -19,7 +19,7 @@ import styles from "./ReferredBaner.module.css";
 function ReferredBaner({ data }) {
   return (
     <div className={styles["custom-container"]}>
-      <div className="container g-0">
+      <div className={styles.conten}>
         <div className={styles.overlap}>
           <div className={styles.rectangle}>
             <img
@@ -38,7 +38,11 @@ function ReferredBaner({ data }) {
                 <img src={reward.icon} loading="lazy" alt={`Icono ${index + 1}`} />
                 <p className={styles["s-referido"]}>
                   <span className={styles["text-wrapper-1"]}>{reward.amount}</span>{" "}
-                  <span className={styles["text-wrapper-2"]}>{reward.description}</span>
+                  <div className={styles["s-referido2"]}>
+                    <span className={styles["text-wrapper-2"]}>{reward.description}</span>
+                    <span className={styles["text-wrapper-2"]}>{reward.description2}</span>
+                  </div>
+                  
                 </p>
               </div>
             ))}

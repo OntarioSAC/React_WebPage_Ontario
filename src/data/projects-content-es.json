@@ -301,7 +301,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Condominios de Campo",
-            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/10.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -647,7 +647,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Condominios de Campo",
-            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/10.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -999,7 +999,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Condominios de Campo",
-            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/10.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -1357,7 +1357,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Condominios de Campo",
-            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/10.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -1724,7 +1724,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Condominios de Campo",
-            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/10.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -1800,10 +1800,10 @@
       "infoBox": {
         "logo": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/logo-zafiro.webp",
         "price": {
-          "title": "CUOTAS DESDE",
-          "amount": "$169",
-          "altO": "ó ",
-          "altAmount": "S/ 649 *",
+          "title": "",
+          "amount": "100%",
+          "altO": "",
+          "altAmount": "VENDIDO",
           "conditions": "(*) Aplican términos y condiciones."
         },
         "infoBoxes": [
@@ -1813,9 +1813,9 @@
             "value": "100 m²"
           },
           {
-            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag2.svg",
-            "value": "PRE",
-            "highlighted": "VENTA"
+            "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/car2.svg",
+            "value": "EN",
+            "highlighted": " OBRAS"
           },
           {
             "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/location2.svg",
@@ -2076,7 +2076,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Condominios de Campo",
-            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/10.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -2445,7 +2445,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Condominios de Campo",
-            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/10.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",
@@ -2815,7 +2815,7 @@
           {
             "title": "PUNTA ARENA",
             "description": "Condominios de Campo",
-            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/cards/arena.webp",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/project/10.webp",
             "from": "Desde ",
             "area": "110",
             "unit": "m2",

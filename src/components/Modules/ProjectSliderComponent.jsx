@@ -35,6 +35,7 @@ const ProjectSliderComponent = ({ data }) => {
           disableOnInteraction: false,
         }}
         modules={[Autoplay]}
+       
       >
         {projects.map((project, index) => (
           <SwiperSlide key={project.id || index}>

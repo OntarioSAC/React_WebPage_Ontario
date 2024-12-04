@@ -11,7 +11,7 @@
     justify-content:center;
 }
 .cards{
-    
+    position: relative;
     height: 501px;
     width: 374px;
     border-top-left-radius: 30px;
@@ -20,7 +20,25 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     
 }
-
+.etiquet{
+    border-radius: 37.867px;
+background: #CBF000;    
+width: 107px;
+   left: 25px;
+    top: 20px;
+    position: absolute;
+    
+}
+.textetiquet{
+    color: #273243;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding: 4px 16px;
+}
 .insidecards{
    
     height: 432px;
@@ -29,7 +47,7 @@
 }
 
 .fatherimage{
-    background-color: transparent;
+    
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;

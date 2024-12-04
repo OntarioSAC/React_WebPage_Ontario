@@ -254,7 +254,6 @@ line-height: normal;
 @media (max-width: 768px) {
  
 .furia1{
-  
   width: 80% !important;
   margin-top: 30px;
  display: flex;
@@ -298,6 +297,7 @@ width: 200px;
 }
 .titlefooterisz{
   font-size: 12px;
+  font-weight: 700;
 }
 .link2{
   font-size: 10px !important;

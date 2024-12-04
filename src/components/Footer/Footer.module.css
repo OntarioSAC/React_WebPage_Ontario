@@ -1,20 +1,75 @@
-.customContent {
+
+.customFooter {
   
+  position: relative;
+  font-family: "Inter";
+  font-weight: 600;
+  bottom: 0;
+  width: 100%;
+  flex-shrink: 0;
+}
+.customContent {
+  height: 650px !important;
+  display: flex;
   position: relative; 
   z-index: 30;
   padding: 45px 85px 0; 
 }
+
+.leftr{
+  background-color: transparent;
+}
+.logomobile{
+  width: 160px;
+}
+.anexadoone{
+  
+  margin-top: 60px;
+  
+}
+.titlefooterisz{
+  color: #CBF000;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.footernot{
+  margin-top: -9px !important;
+  margin-left: 4px;
+}
+.link2 {
+ 
+  text-decoration: none;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height:4.5rex ;
+}
+
+
 .leftproject{
   
-  width: 50%;
+  width: 36%;
 }
 .textPrimary{
-  color: var(--primary-color); 
+  color: var(--primary-color);
+  
   
 }
 .textPrimarytiel{
-  color: var(--primary-color);
   text-align: center;
+  color: var(--primary-color);
+  font-size: 18px;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  
 }
 .textPrimary2{
   color: #FFF;
@@ -27,46 +82,81 @@
 .textPrimarytitle{
   
   color: #FFF !important;
-  
   font-size: 16px !important;
   font-style: normal !important;
   font-weight: 600 !important;
-  line-height: normal !important;
+  
 }
-
+.lineh{
+  line-height: 3.5rex !important;
+}
 .content_int{
   
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.anexadoone{
 
-  margin-top: 50px;
+.listafooter{
+  display: flex;
+  align-items: center;
 }
+
+
 .project{
-  width: 600px;
+  
+  width: 500px;
   
 }
 .projectint{
   
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  gap: 60px;
 }
 .ubicationfooter{
-  
+ 
   width: 300px;
 }
-.customFooter {
- 
-  position: relative;
-  font-family: "Inter";
-  font-weight: 600;
-  bottom: 0;
-  width: 100%;
-  flex-shrink: 0;
+.contentlist{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
 }
+.liststilo{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.liststilo2{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 15px;
+  margin-bottom: 1.5rem;
+}
+.contentlisgeneral{
+  margin-top: 25px;
+}
+.sede{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1rex;
+}
+
 
 .contactButton {
   display: block;
@@ -104,11 +194,11 @@
  
   text-decoration: none;
   color: #FFF;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height:4.5rex ;
 }
 
 
@@ -131,7 +221,19 @@ line-height: normal;
 .mobilsocial{
   display: none;
  }
+ .furia1{
+  display: flex;
+  flex-direction: column;
+  
+  
+ }
+ .fotterletralibro{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ }
  .contentsosialdescktop{
+  width: 90%;
   
   display: flex;
   flex-direction: row;
@@ -141,123 +243,110 @@ line-height: normal;
 .iconfooterdesc{
   width: 34px;
 }
+.fatherfooter{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
 
 @media (max-width: 768px) {
  
- .anexadoone > p {
-  display: none;
- }
- .mobilsocial{
-  display: block;
- }
-
-.project{
-  display: none;
+.furia1{
+  
+  width: 95% !important;
+  margin-top: 30px;
+ 
 }
-.socialfooter{
+.customFooter{
+  
+  width: 100% !important;
+ 
+
+}
+.customContent{
+  
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.leftr{
+
+width: 60% !important;
+
+}
+.project{
   display: none;
 }
 .ubicationfooter{
   
-  margin-top: 20px;
-  margin-left: 15px;
-}
+  margin-top: 12px;
+  width: 55%;
 
-.textubimobile{
-  
-  font-size: 10px;
 }
 
 .logomobile{
-  width: 10px !important;
-  color: #CBF000;
+  
+  width: 120px;
+  height: 35px;
+  
 }
-
-.link{
+.anexadoone{
+  margin-top: 30px;
+}
+.titlefooterisz{
+  font-size: 12px;
+}
+.link2{
   font-size: 10px !important;
-    color: #FFF;
+  color: #FFF;
   font-family: Inter;
-  font-size: 10px;
+
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 3.5rex;
+}
+.mobilubi{
+  font-size: 12px;
+  font-weight: 700;
+}
+.sede{
+  font-size: 12px;
+  font-weight: 700;
+}
+.liststilo{
+  
+  font-size: 12px;
+  font-weight: 700;
+  line-height:2rex ;
+}
+.liststilo2{
+  font-size: 10px;
+  margin-bottom: 0.5rem;
+}
+.socialfooter{
+  display: none;
+}
+.reclam{
+  display: none;
+}
+.textreer{
+  
+  margin-top: -25px !important;
+  font-size: 10px;
+  margin-left: -15px;
+}
+.customContent{
+  height: 320px !important;
+}
+.contentlisgeneral{
+  margin-top: 0;
+}
+.mobilsocial{
+  display: block;
 }
 .iconfooterdesc{
-  width: 20px;
+  width: 25px;
 }
 }
 
-
-
-@media (max-width: 576px) {
-  .customContent {
-    position: relative;
-    z-index: 30;
-    padding: 0;
-  }
-  .customFooter {
-    padding: 28px;
-    font-size: 10px;
-    font-weight: 400;
-    margin-left: 0; 
-  }
-
-  .contactButton {
-    width: 100%;
-    height: auto;
-    line-height: normal;
-    font-size: 0.875em;
-    margin-top: 1rem;
-  }
-
-  .customLink {
-    font-size: 0.875em;
-  }
-}
-
-@media (min-width: 576px) { 
-  .customFooter {
-    padding: 30px;
-    font-size: 12px;
-  }
-
-  .contactButton {
-    width: 10em;
-    font-size: 0.95em;
-  }
-
-  .customLink {
-    font-size: 0.95em;
-  }
-}
-
-@media (min-width: 768px) { 
-  .customFooter {
-    padding: 20px;
-    font-size: 14px;
-  }
-
-  .contactButton {
-    width: 11em;
-    font-size: 1em;
-  }
-
-  .customLink {
-    font-size: 1em;
-  }
-}
-
-@media (min-width: 992px) { 
-  .customFooter {
-    padding: 1rem 0;
-    font-size: 16px;
-  }
-
-  .contactButton {
-    width: 12em;
-  }
-
-  .customLink {
-    font-size: 1em;
-  }
-}

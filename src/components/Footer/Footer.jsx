@@ -33,7 +33,7 @@ const Footer = ({ onContactClick }) => {
 
   return (
     <section
-      className={`bg-secondary bottom-0 end-0 ${styles.customContent}`}
+      className={`bg-secondary end-0 ${styles.customContent}`}
       style={getFooterStyle()}
     >
       <footer className={`text-white ${styles.customFooter}`}>
@@ -42,10 +42,11 @@ const Footer = ({ onContactClick }) => {
             
             {/* Sección de contacto */}
             <div className={` ${styles.leftr}`} >
-              <Link className="navbar-brand d-block" to="/" aria-label="Ir a la página principal">
-                <Logo className={`${styles.logo} ${styles.logomobile}`} type={isApartmentRoute ? "logo1" : "default"} />
+              <div className={styles.logooo}  aria-label="Ir a la página principal">
                 
-              </Link>
+                <img  className={styles.logomobile} src="https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/OntarioPos.svg" alt=""
+                 />
+              </div>
               <button
                 onClick={onContactClick}
                 className={`${styles.contactButton} d-none d-sm-block`}
@@ -56,22 +57,22 @@ const Footer = ({ onContactClick }) => {
 
               {/* Sección de Nosotros */}
             <div className={styles.anexadoone}>
-              <p className={`${styles.textPrimary}`}>{t("about.title")}</p>
-              <ul className="list-unstyled">
-                {t("about.items", { returnObjects: true }).map(
-                  (item, index) => (
-                    <li key={index} className="d-flex align-items-center">
-                      <span
-                        className={`icon ico-circle ${styles.textPrimary} ${styles.circle}`}
-                      ></span>
-                      <Link to={item.route} className={`${styles.link} ms-2`}>
-                        {" "}
-                        {item.text}{" "}
-                      </Link>
-                    </li>
-                  )
-                )}
-              </ul>
+              <p className={styles.titlefooterisz}>{t("about.title")}</p>
+                <ul className={`list-unstyled ${styles.footernot}`}>
+                  {t("about.items", { returnObjects: true }).map(
+                    (item, index) => (
+                      <li key={index} className={styles.listafooter}>
+                        <span
+                          className={`icon ico-circle ${styles.textPrimary} ${styles.circle}`}
+                        ></span>
+                        <Link to={item.route} className={`${styles.link2} ms-2`}>
+                          {" "}
+                          {item.text}{" "}
+                        </Link>
+                      </li>
+                    )
+                  )}
+                </ul>
             </div>
 
 
@@ -96,8 +97,6 @@ const Footer = ({ onContactClick }) => {
                   ))}
               </div>
 
-
-
             </div>
 
             
@@ -120,7 +119,8 @@ const Footer = ({ onContactClick }) => {
                       
                       (category, catIndex) => (
                         
-                        <div key={catIndex}>
+                        <div className={styles.lineh} key={catIndex}>
+                          
                           <div className="d-flex align-items-center mb-1">
                             <span
                               className={`icon ico-circle ${styles.textPrimary}  ${styles.circle}`}
@@ -150,7 +150,7 @@ const Footer = ({ onContactClick }) => {
                     )}
                 </div>
 
-                <div>
+                <div className={styles.leftproject}>
                 <p className={`fw-bold ${styles.textPrimary2}`}>
                   {t("projects.subtitle2")}
                   </p>
@@ -191,50 +191,44 @@ const Footer = ({ onContactClick }) => {
 
             {/* Sección de Ubicación */}
             <div className={styles.ubicationfooter}>
-              <p className={`fw-bold ${styles.textPrimary} ${styles.mobilubi}`}>
+              <p className={`${styles.textPrimary} ${styles.mobilubi}`}>
                 {t("conditions.title")}
               </p>
 
-              <p className={`fw-bold ${styles.textPrimary}`}>
+              <p className={styles.sede}>
                 {t("conditions.subtitle1")}
               </p>
               
-              <ul className="list-unstyled">
+              <ul className={` list-unstyled ${styles.contentlisgeneral}`} >
                 {t("conditions.items", { returnObjects: true }).map(
                   (item, index) => (
-                    <li key={index} className="d-flex  mb-1">
-                      <span
-                        className={`icon ico-circle ${styles.textPrimary} ${styles.ubication}`}
-                      ></span>
-                      {item.type === "phone" || item.type === "email" ? (
-                        <a href={item.href} className={`${styles.link} ms-2 ${styles.textubimobile}`}>
-                          {item.text}
-                        </a>
-                      ) : (
-                        <span className="ms-2">{item.text}</span>
-                      )}
-                    </li>
+                    <div className={styles.contentlist} key={index}>
+                        <li key={index} className={` mb-0 ${styles.liststilo}`}>
+                          <span
+                            className={`icon ico-circle ${styles.textPrimary} ${styles.ubication}`}
+                          ></span>
+
+                          {item.type === "phone" || item.type === "email" ? (
+                            <a href={item.href} className={`${styles.liststilo2} ms-2 ${styles.textubimobile}`}>
+                              {item.address}
+                            </a>
+                          ) : (
+                            <span className="ms-2">{item.address}</span>
+                          )}
+                          
+                        </li>
+
+                      
+                            <p className={` ${styles.liststilo2}`}>{item.text}</p>
+                      
+                        
+                    </div>
+                    
+                      
                   )
                 )}
               </ul>
 
-              <p className={`fw-bold ${styles.textPrimary}`}>
-                {t("conditions.subtitle2")}
-              </p>
-              <ul className="list-unstyled">
-                {t("conditions.items2", { returnObjects: true }).map(
-                  (item, index) => (
-                    <li key={index} className="d-flex  mb-1">
-                      <span
-                        className={`icon ico-circle ${styles.textPrimary} ${styles.ubication}`}
-                      ></span>
-                      
-                        <span className="ms-2">{item.text}</span>
-                      
-                    </li>
-                  )
-                )}
-              </ul>
 
               
             </div>
@@ -246,12 +240,19 @@ const Footer = ({ onContactClick }) => {
 
 
           {/* Texto y libro de reclamaciones */}
+          <div className={styles.fotterletralibro}>
+
+          
           <div  className={`mt-4 text-start  ${styles.contentsosialdescktop}`} >
-            <div className="row d-flex align-items-center">
-              <div className="col-12 col-md-auto order-2 order-md-1 my-1">
+            <div className={styles.fatherfooter}>
+              <div 
+              className={`${styles.textreer}`}
+              >
                 <span>{t("footerText")}</span>
+                
               </div>
-              <div className="col-12 col-md-auto order-1 order-md-2 ms-md-6">
+              <div 
+              className={`col-12 col-md-auto order-1 order-md-2 ms-md-6  ${styles.reclam}`}>
                 <Link
                   to={t("footerComplaintBook.route")}
                   className={styles.customLink}
@@ -291,7 +292,7 @@ const Footer = ({ onContactClick }) => {
               </div>
 
           </div>
-          
+          </div>
         </div>
       </footer>
     </section>

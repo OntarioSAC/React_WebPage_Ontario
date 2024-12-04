@@ -53,7 +53,8 @@ line-height: normal;
 
 .leftproject{
   
-  width: 36%;
+  width: 50%;
+  justify-content: center;
 }
 .textPrimary{
   color: var(--primary-color);
@@ -106,7 +107,7 @@ line-height: normal;
 
 .project{
   
-  width: 500px;
+  width: 470px;
   
 }
 .projectint{
@@ -114,7 +115,7 @@ line-height: normal;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 60px;
+  gap: 85px;
 }
 .ubicationfooter{
  
@@ -191,14 +192,14 @@ line-height: normal;
 }
 
 .link {
- 
+  margin-top: 11px;
   text-decoration: none;
   color: #FFF;
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
-  line-height:4.5rex ;
+  
 }
 
 

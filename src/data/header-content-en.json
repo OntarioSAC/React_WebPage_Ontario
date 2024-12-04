@@ -10,7 +10,7 @@
       "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/condominios.svg",
       "subItems": [
         { "name": "Santorini", "to": "/projects/santorini","image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/santorini.webp" },
-        { "name": "Punta Arena", "to": "/projects/punta-arena" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/punta-arena.webp" },
+        { "name": "Punta Arena", "to": "/projects/punta-arena" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/puntaarenaproyecto.webp" },
         { "name": "Coral", "to": "/projects/coral" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/coral.webp" },
         { "name": "Mykonos", "to": "/projects/mykonos" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/mykonos.webp" },
         { "name": "Zafiro", "to": "/projects/zafiro" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/zafiro.webp" },
@@ -23,8 +23,8 @@
       "name": "Multifamily",
       "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/multifamiliares.svg",
       "subItems": [
-        { "name": "O2", "to": "/apartments/o2" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/o2.webp"},
-        { "name": "Killa", "to": "/apartments/killa" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/killa.webp"}
+        { "name": "O2", "to": "/apartments/o2" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/o2proyecto.webp"},
+        { "name": "Killa", "to": "/apartments/killa" ,"image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/nav/killaproyecto.webp"}
       ]
     },
     {

@@ -37,7 +37,7 @@
       {
         "name": "CUSCO",
         "items": [
-          { "text": "Killa", "route": "/projects/prado-piamonte" }
+          { "text": "Killa", "route": "/apartments/killa" }
         ]
       }
     ],
@@ -48,26 +48,26 @@
       {
         "name": "TUMBES",
         "items": [
-          { "text": "Bahia Serena", "route": "/projects/mykonos" }
+          { "text": "Bahia Serena", "route": "/projects/bahia-serena" }
         ]
       },
       {
         "name": "CERRO COLORADO",
         "items": [
-          { "text": "O2", "route": "/projects/zafiro" }
+          { "text": "O2", "route": "/apartments/o2" }
        
         ]
       },
       {
         "name": "PUNTA DE BOMBÓN",
         "items": [
-          { "text": "Punta Arena II" , "route": "/projects/prado-piamonte" }
+          { "text": "Punta Arena II" , "route": "/projects/punta-arena-2" }
         ]
       },
       {
         "name": "MEJÍA",
         "items": [
-          { "text": "Santorini", "route": "/projects/prado-piamonte" }
+          { "text": "Santorini", "route": "/projects/santorini" }
         ]
       },
       {

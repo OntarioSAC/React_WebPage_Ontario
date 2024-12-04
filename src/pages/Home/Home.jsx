@@ -95,12 +95,12 @@ function Home({
           formRef={formRef} 
           autoFocus={autoFocus} 
         />
-        <TestimonialsSection testimonialsData={homeTestimonialsData} />
+        
         <div className="whatsapp">
           <WhatsappButton />
         </div>
       </div>
-      
+      <TestimonialsSection testimonialsData={homeTestimonialsData} />
     </div>
   );
 }

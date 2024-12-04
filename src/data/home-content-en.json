@@ -100,8 +100,8 @@
           "city": "La Joya",
           "region": "Arequipa"
         },
-        "price": "$229",
-        "priceAlt": "or S/ 899*",
+        "price": "$219",
+        "priceAlt": "or S/ 830*",
         "detail1": "From",
         "detail2": "",
         "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
@@ -124,8 +124,8 @@
           "region": "Tumbes"
         },
         "price": "$149",
-        "conector": "ó",
-        "priceAlt": "S/580*",
+        
+        "priceAlt": "or S/ 580*",
         "detail1": "From",
         "detail2": "",
         "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",
@@ -147,8 +147,8 @@
           "city": "Mejía",
           "region": "Arequipa"
         },
-        "price": "$239",
-        "priceAlt": "or S/ 919*",
+        "price": "$270",
+        "priceAlt": "or S/ 1040*",
         "detail1": "From",
         "detail2": "",
         "icon": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/tag.svg",

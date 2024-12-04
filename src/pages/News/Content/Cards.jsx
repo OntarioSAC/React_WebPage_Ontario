@@ -49,7 +49,7 @@ const Cards = ({ selectedTab }) => {
             {/* Título y descripción */}
             <div className={styles.fathertitle}>
               <div className={styles.h1text}>
-                <p className={styles.h1texttitle}>{card.title}</p>
+                <p className={styles.h1texttitle}>{card.titlecards}</p>
               </div>
               <div className={styles.content_text}>
                 <p className={styles.texto}>{card.CardsDescription}</p>

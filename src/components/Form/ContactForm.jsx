@@ -88,48 +88,35 @@ const ContactForm = React.forwardRef(({ data, autoFocus }, ref) => {
     onSubmit: async (values, { resetForm }) => {
       console.log("Datos del formulario:", values); // Agrega este console.log para depurar
       
-      const payload = {
-        fname: values.nombres,
-        lname: values.apellidos,
-        email: values.correo,
-        phone: `+${values.celular}`,
-        document: values.dni,
-        project_id: values.proyecto || null, // Opcional
-        document_type_id: values.documento,
-        input_channel_id: 19,
-        source_id: 4,
-        interest_type_id: 15, // Siempre será 15
-        address: values.address || null, // Opcional
-        observation: values.observation || null, // Opcional
-        extra_fields: {
-          actividad_economica_de_la_empresa: values.actividadEconomica || null, // Opcional,
-          ingresos_mensuales: values.ingresosMensuales || null, // Opcional,
-        },
-      };
+      // Encontrar el nombre del documento seleccionado
+      const selectedDocument = documents.find(doc => doc.id === values.documento)?.label || '';
+
+      // Encontrar el nombre del proyecto seleccionado, si aplica
+      const selectedProject = projects.find(proj => proj.id === values.proyecto)?.label || '';
+
       
       try {
-        const response = await fetch("https://api.eterniasoft.com/v3/clients", {
+        // URL del Google Apps Script
+        const response = await fetch("https://script.google.com/macros/s/AKfycbzCFshU04SJXOahUE9uo5sh4Bi0AECLv7s_Kx1dJdP_IUClLOmXeyjwAyUvwcOPEq2Cww/exec", {
           method: "POST",
-          // mode: 'no-cors',
-          header: {
+          mode: "no-cors",
+          headers: {
             "Content-Type": "application/json",
-            Authorization: "------",
           },
-          body: JSON.stringify(payload),
+          body: JSON.stringify({ 
+            ...values, 
+            formType: "Contactos", // Especificar el tipo de formulario
+            documentName: selectedDocument, // Agregar el nombre del documento seleccionado
+            projectName: selectedProject // Agregar el nombre del proyecto seleccionado, si corresponde
+          }),
         });
-      
-        if (!response.ok) {
-          const errorData = await response.json();
-          console.error("Error en la API:", errorData);
-          throw new Error(`Error ${response.status}: ${response.statusText}`);
-        }
-      
-        const result = await response.json();
-        console.log("Respuesta exitosa:", result);
+
         resetForm();
         setSuccessMessage("Datos enviados correctamente.");
         setTimeout(() => setSuccessMessage(""), 3000);
+    
       } catch (error) {
+        // Manejo de errores en caso de problemas con la solicitud
         console.error("Error en la solicitud:", error.message);
         setSuccessMessage("Error al enviar los datos. Intenta nuevamente.");
         setTimeout(() => setSuccessMessage(""), 3000);

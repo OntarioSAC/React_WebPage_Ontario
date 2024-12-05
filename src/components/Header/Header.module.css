@@ -1,4 +1,5 @@
 .navbar-custom {
+  
   border-radius: 0 0 1.25em 1.25em;
   font-family: Inter, sans-serif;
   font-size: 0.875em;
@@ -13,6 +14,7 @@
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
+
 .custom-container {
   padding: 13px 45px;
   display: flex;
@@ -21,6 +23,7 @@
 }
 
 .navbar-brand {
+  
   display: flex;
   align-items: center;
 }
@@ -30,6 +33,7 @@
 }
 
 .navbar-toggler {
+  
   background: none;
   border: none;
   cursor: pointer;
@@ -37,14 +41,17 @@
 }
 
 .navbar-collapse {
+  
   display: none;
 }
 
 .navbar-collapse.show {
+ 
   display: block !important;
 }
 
 .navbar-nav {
+  
   list-style: none;
   padding: 0;
   margin: 0;
@@ -55,11 +62,19 @@
 }
 
 .nav-item {
+  
+  
   position: relative;
   text-align: left;
   width: 100%;
 }
-
+.nav-item:hover{
+  background-color: transparent;
+  border-bottom: 3px solid var(--primary-color);
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
 .nav-link {
   text-decoration: none;
   text-transform: uppercase;
@@ -76,7 +91,7 @@
 
 .nav-link:hover {
   color: var(--primary-hover-text-color);
-  background-color: rgba(203, 240, 0, 0.2);
+  
 }
 
 .dropdown-toggle {
@@ -254,6 +269,9 @@
 .dropdown-toggle .dropdown-icon {
   margin-left: 0.5em;
 }
+
+
+
 
 @media (min-width: 992px) {
   .navbar-toggler {

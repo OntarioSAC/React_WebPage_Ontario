@@ -61,7 +61,7 @@ const Footer = ({ onContactClick }) => {
                 <ul className={`list-unstyled ${styles.footernot}`}>
                   {t("about.items", { returnObjects: true }).map(
                     (item, index) => (
-                      <li key={index} className={styles.listafooter}>
+                      <li onClick={item.route} key={index} className={styles.listafooter}>
                         <span
                           className={`icon ico-circle ${styles.textPrimary} ${styles.circle}`}
                         ></span>
@@ -138,9 +138,9 @@ const Footer = ({ onContactClick }) => {
                           >
                             {category.items.map((item, index) => (
                               <li key={index}>
-                                <div to={item.route} className={styles.link}>
+                                <div onClick={item.route} className={styles.link}>
                                   {" "}
-                                  {item.text}{" "}
+                                  <Link className={styles.enlacefooter} to={item.route}>{item.text}</Link>{" "}
                                 </div>
                               </li>
                             ))}
@@ -171,9 +171,9 @@ const Footer = ({ onContactClick }) => {
                         <ul className="list-unstyled ms-3">
                           {category.items.map((item, index) => (
                             <li key={index}>
-                              <div to={item.route} className={styles.link}>
+                              <div className={styles.link}>
                                 {" "}
-                                {item.text}{" "}
+                                <Link className={styles.enlacefooter}  to={item.route}>{item.text}</Link>{" "}
                               </div>
                             </li>
                           ))}

@@ -121,6 +121,18 @@ line-height: normal;
  
   width: 300px;
 }
+.enlacefooter{
+  
+  text-decoration: none !important;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+.enlacefooter:hover {
+  text-decoration: none !important; /* Elimina el subrayado al pasar el mouse */
+}
 .contentlist{
   
   display: flex;

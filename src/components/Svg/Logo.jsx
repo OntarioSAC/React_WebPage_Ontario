@@ -11,6 +11,7 @@ const Logo = ({ type }) => {
 		    <path fill="#12b092" d="M15.4 16.6h3.4v22.5h-3.4zM24.4 32.7l-3.3 3V23.1h3.3zM13.1 35.9l-3.4-3.2v-9.6h3.4z"/>
 		</svg>
       );
+	  
     default:
       return (
 		<svg xmlns="http://www.w3.org/2000/svg" width="148" height="43" fill="none">

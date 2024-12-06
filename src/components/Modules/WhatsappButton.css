@@ -4,7 +4,7 @@
   border: none; /* Asegúrate de que el borde esté en none */
   outline: none; /* Elimina cualquier contorno (outline) en enfoque */
   background-color: transparent;
-  
+  z-index: 999999;
   display: flex;
   justify-content: center;
   align-items: center;

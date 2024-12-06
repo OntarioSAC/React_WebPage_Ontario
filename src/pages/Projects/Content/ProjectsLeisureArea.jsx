@@ -15,7 +15,6 @@ function ProjectsLeisureArea({ data, formRef, projectId }) {
   const { title, titleBold, description, icons, contact } = data;
   const [isScrolled, setIsScrolled] = useState(false);
   const [hasReachedTrigger, setHasReachedTrigger] = useState(false); 
-  const [isAt70Percent, setIsAt70Percent] = useState(false);
   const [isFixedAt30, setIsFixedAt30] = useState(false);
   const [isFixedAt15, setIsFixedAt15] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -34,13 +33,35 @@ function ProjectsLeisureArea({ data, formRef, projectId }) {
     return () => window.removeEventListener("resize", checkIfMobile);
   }, []);
 
+
+  const [hig, setHig] = useState(0.161); // Valor por defecto
+  const [hig2, setHig2] = useState(0.67); // Valor por defecto
+
+   // Detectar cambios de tamaño de pantalla
+   useEffect(() => {
+    const updateHeights = () => {
+      if (window.innerWidth <= 1366) {
+        setHig(0.116); // Cambia el valor para pantallas pequeñas
+        setHig2(0.65); // Cambia el valor para pantallas pequeñas
+      } else {
+        setHig(0.161); // Valor original
+        setHig2(0.67); // Valor original
+      }
+    };
+
+    updateHeights(); // Llama al inicio
+    window.addEventListener("resize", updateHeights); // Escucha cambios en tamaño
+
+    return () => window.removeEventListener("resize", updateHeights); // Limpieza
+  }, []);
+
   useEffect(() => {
 
     const handleScroll = () => {
       const scrollTop = window.scrollY;
       const pageHeight = document.documentElement.scrollHeight; // Altura total de la página
-      const triggerHeight15 = pageHeight * 0.161; // 15% de la altura total de la página
-      const triggerHeight30 = pageHeight * 0.67; // 70% de la altura total
+      const triggerHeight15 = pageHeight * hig; // 15% de la altura total de la página
+      const triggerHeight30 = pageHeight * hig2; // 70% de la altura total
 
          // Lógica para el 15%
         if (scrollTop > triggerHeight15 && scrollTop < triggerHeight30) {
@@ -57,21 +78,8 @@ function ProjectsLeisureArea({ data, formRef, projectId }) {
           setIsFixedAt30(true); // El formulario se queda fijo
           setIsFixedAt15(false);
         }
-
-        
-      // Si el usuario sube por encima del 15% desde abajo
-      if (scrollTop > triggerHeight30 && hasReachedTrigger) {
-        setIsScrolled(false); // El formulario se detiene al llegar al 30%
-          setIsFixedAt30(false); // El formulario se queda fijo
-          setIsFixedAt15(false);
-        
-      }
-   
     };
-
-    
     window.addEventListener("scroll", handleScroll);
-
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -156,9 +164,9 @@ function ProjectsLeisureArea({ data, formRef, projectId }) {
                 top: isScrolled
                   ? "20px"
                   : isFixedAt15
-                  ? `${document.documentElement.scrollHeight * 0.161}px`
+                  ? `${document.documentElement.scrollHeight * hig}px`
                   : isFixedAt30
-                  ? `${document.documentElement.scrollHeight * 0.67}px`
+                  ? `${document.documentElement.scrollHeight * hig2}px`
                   : "auto",
               }
             : undefined
@@ -188,6 +196,7 @@ ProjectsLeisureArea.propTypes = {
         text: PropTypes.string.isRequired,
       })
     ),
+
     contact: PropTypes.object.isRequired,
   }).isRequired,
   formRef: PropTypes.object.isRequired,

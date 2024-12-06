@@ -1,5 +1,5 @@
 .custom-container {
-  width: 85%;
+  width: 100% !important;
   
   margin: auto;
   padding: clamp(3rem, 0.8181rem + 8.1188vw, 8.125rem)
@@ -20,9 +20,15 @@
 .extra-bold {
   font-weight: 900 !important;
 }
-
+@media (max-width: 1370px) {
+  .custom-container {
+    width: 100% !important;
+    
+  }
+}
 @media (max-width: 1200px) {
   .custom-container {
+    
     margin-left: 0;
     display: flex;
     justify-content: center;

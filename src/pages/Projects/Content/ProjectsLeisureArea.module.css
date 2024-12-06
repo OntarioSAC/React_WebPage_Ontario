@@ -11,7 +11,7 @@
 .formula{
     
     display: flex;
-    justify-content: flex-end;
+    
 }
 .fixedContactForm.scrolled {
     position: fixed;
@@ -20,8 +20,9 @@
     transition: top 0.4s ease, position 0.4s ease;
 }
 .formula{
-    z-index: 99;
+    z-index: 9;
 }
+
 .contact {
     margin: 30px;
     display: flex;

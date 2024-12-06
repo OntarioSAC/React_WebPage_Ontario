@@ -34,6 +34,7 @@ const ProjectsGallery = ({ data, onButtonClick }) => {
   return (
     <>
       <div className="position-relative">
+        
         <div className={`${styles["custom-card-title"]} d-block`}>
           <div className={styles["custom-margin"]}>
             <h1 className={styles["fw-600"]}>{galleryData.title}</h1>
@@ -41,6 +42,7 @@ const ProjectsGallery = ({ data, onButtonClick }) => {
             <p className={styles["fw-p"]}>{galleryData.note}</p>
           </div>
         </div>
+
       </div>
       <div className={styles["card-overlap"]}>
         <GalleryComponent contentData={galleryData} />

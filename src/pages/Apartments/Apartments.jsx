@@ -88,12 +88,17 @@ const Apartments = () => {
         <ApartmentsLeisureArea data={apartmentLeisureAreaData} formRef={formRef} />
         <ApartmentsGallery data={apartmentGalleryData} onButtonClick={scrollToForm} />
         <ApartmentsProgress data={apartmentVirtualData} />
+        </div>
         <PromoBanner data={apartmentPromoData} onButtonClick={scrollToForm}/>
+
+        <div className="container g-0">
         <ApartmentsLocationMap data={apartmentLocationMapData} />
+        </div>
+        
         <div className="whatsapp">
           <WhatsappButton whatsappUrl="https://wa.me/+51915206928" />
         </div>
-      </div>
+      
     </>
   );
 };

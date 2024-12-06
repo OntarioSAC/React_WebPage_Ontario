@@ -85,12 +85,20 @@ const Projects = () => {
         <ProjectsLeisureArea data={projectLeisureAreaData} formRef={formRef} projectId={projectId} />
         <ProjectsGallery data={projectGalleryData} onButtonClick={scrollToForm} />
         <ProjectsProgress data={projectProgressData} />
-        <ProjectsLocationMap data={projectLocationMapData} />
-        <ProjectsSlider data={relatedProjectsData} />
+        </div>
+        <div className={styles.mapproject}>
+          <ProjectsLocationMap data={projectLocationMapData} />
+        </div>
+        
+
+        <div className="container g-0">
+          <ProjectsSlider data={relatedProjectsData} />
+        </div>
+
         <div className="whatsapp">
           <WhatsappButton />
         </div>
-      </div>
+      
     </>
   );
 };

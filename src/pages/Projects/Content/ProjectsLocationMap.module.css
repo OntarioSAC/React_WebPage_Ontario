@@ -1,4 +1,7 @@
 .custom-container {
+  width: 85%;
+  
+  margin: auto;
   padding: clamp(3rem, 0.8181rem + 8.1188vw, 8.125rem)
     clamp(3.125rem, -0.0681rem + 11.8812vw, 10.625rem)
     clamp(3.875rem, 3.4493rem + 1.5842vw, 4.875rem)

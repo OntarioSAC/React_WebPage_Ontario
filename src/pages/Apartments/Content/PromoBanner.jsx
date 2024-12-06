@@ -14,6 +14,7 @@ const PromoBanner = ({ data, onButtonClick }) => {
 
   return (
     <div className={styles.container}>
+    <div className={styles.container2}>
       <div className={styles.textSection}>
         <h1 className={styles.title}>
           {title} <span>{titleBold}</span>
@@ -33,6 +34,7 @@ const PromoBanner = ({ data, onButtonClick }) => {
           loading="lazy"
         />
       </div>
+    </div>
     </div>
   );
 };

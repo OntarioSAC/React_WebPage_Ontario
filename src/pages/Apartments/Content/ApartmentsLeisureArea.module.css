@@ -3,7 +3,11 @@
     padding-right: 0 !important;
    
 }
-
+.formula{
+    
+    display: flex;
+    justify-content: flex-end;
+}
 .custom-container {
     padding: clamp(4.0625rem, 2.632rem + 6.1033vw, 8.125rem);
     padding-bottom: 0 !important;
@@ -111,7 +115,18 @@
     }
 }
 
+@media (max-width: 768px) {
 
+    .formula{
+        
+        display: flex;
+        justify-content: center;
+        margin-top:43px !important;
+        margin-bottom: 30px !important;
+    }
+    
+
+}
 
 @media (max-width: 576px) {
     .title {

@@ -8,16 +8,18 @@ import styles from "./GalleryComponent.module.css";
 
 const GalleryComponent = ({ contentData }) => {
   const [content, setContent] = useState(null);
-
+  const [activeButton, setActiveButton] = useState("");
   useEffect(() => {
+    
     // Cargar el slider por defecto cuando se actualiza contentData
     if (contentData) {
-      handleSliderClick();
+      handleSliderClick("galeria");
     }
   }, [contentData]); // Escuchar cambios en contentData
 
   // Manejar clic en el enlace de Kuula
-  const handleKuulaClick = () => {
+  const handleKuulaClick = (buttonName) => {
+    setActiveButton(buttonName);
     setContent(
       <iframe
         src={contentData.kuulaUrl}
@@ -31,7 +33,8 @@ const GalleryComponent = ({ contentData }) => {
   };
 
   // Manejar clic en el slider
-  const handleSliderClick = () => {
+  const handleSliderClick = (buttonName) => {
+    setActiveButton(buttonName);
     if (contentData.slider && contentData.slider.length > 0) {
       setContent(
         <Swiper
@@ -65,7 +68,8 @@ const GalleryComponent = ({ contentData }) => {
   };
 
   // Manejar clic en el video
-  const handleVideoClick = () => {
+  const handleVideoClick = (buttonName) => {
+    setActiveButton(buttonName);
     setContent(
       <video className={styles.iframe} controls>
         <source src={contentData.videoUrl} type="video/mp4" />
@@ -74,19 +78,43 @@ const GalleryComponent = ({ contentData }) => {
     );
   };
 
+
+
+ 
   return (
     <div className={styles.container}>
       <div className={styles.contentArea}>{content}</div>
       <div className={styles.buttonGroup}>
-        <button onClick={handleKuulaClick} className={styles.tourButton}>
+
+        <button onClick={() =>handleKuulaClick("recorrido")} 
+         className={`${styles.tourButton} ${
+          activeButton === "recorrido" ? styles.active : ""
+        }`}
+        >
           <span className="icon ico-ico34"></span> Recorrido 360
         </button>
-        <button onClick={handleSliderClick} className={styles.galleryButton}>
+
+        <button onClick={() =>handleSliderClick("galeria")}
+        
+        className={`${styles.galleryButton} ${
+          activeButton === "galeria" ? styles.active : ""
+        }`}
+        >
           <span className="icon ico-ico34"></span> Galeria
         </button>
-        <button onClick={handleVideoClick} className={styles.videoButton}>
+
+        <button onClick={() =>handleVideoClick("video")} 
+         className={`${styles.videoButton} ${
+          activeButton === "video" ? styles.active : ""
+        }`}
+        >
           <span className="icon ico-ico32"></span> Video
         </button>
+
+
+
+
+
       </div>
     </div>
   );

@@ -8,14 +8,20 @@
     z-index: 20;
     transition: top 0.4s ease, position 0.4s ease;
 }
-
+.formula{
+    
+    display: flex;
+    justify-content: flex-end;
+}
 .fixedContactForm.scrolled {
     position: fixed;
     top: 20px;
     right: calc((100vw - 1440px) / 2 + 50px);
     transition: top 0.4s ease, position 0.4s ease;
 }
-
+.formula{
+    z-index: 99;
+}
 .contact {
     margin: 30px;
     display: flex;
@@ -259,6 +265,14 @@
 
 /* Ajustes para pantallas pequeñas */
 @media (max-width: 768px) {
+    .formula{
+        
+        display: flex;
+        justify-content: center;
+        margin-top:43px !important;
+        margin-bottom: 30px !important;
+    }
+
     .custom-card-pt2 {
         grid-template-columns: 1fr;
         gap: 10px;
@@ -315,4 +329,12 @@
         max-width: 300px;
         justify-content: center; /* Centra los iconos */
     }
+
+
+
+
+
+
+
+
 }

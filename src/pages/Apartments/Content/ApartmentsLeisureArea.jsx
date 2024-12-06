@@ -24,17 +24,50 @@ function ApartmentsLeisureArea({
   } = data;
 
   const [isScrolled, setIsScrolled] = useState(false);
+  const [hasReachedTrigger, setHasReachedTrigger] = useState(false); 
+  const [isAt70Percent, setIsAt70Percent] = useState(false);
+  const [isFixedAt30, setIsFixedAt30] = useState(false);
+  const [isFixedAt15, setIsFixedAt15] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    // Detecta si el ancho de la ventana está dentro del rango móvil
+    const checkIfMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    // Agrega un evento de resize para actualizar en tiempo real
+    window.addEventListener("resize", checkIfMobile);
+    checkIfMobile();
+
+    // Limpieza del evento
+    return () => window.removeEventListener("resize", checkIfMobile);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
-      const triggerHeight = window.innerHeight * 0.9;
+      const pageHeight = document.documentElement.scrollHeight; // Altura total de la página
+      const triggerHeight15 = pageHeight * 0.15; // 15% de la altura total de la página
+      const triggerHeight30 = pageHeight * 0.786; // 70% de la altura total
 
-      if (scrollTop > triggerHeight) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
+         // Lógica para el 15%
+         if (scrollTop > triggerHeight15 && scrollTop < triggerHeight30) {
+          setIsScrolled(true); // El formulario se mueve con el scroll
+          
+        } else if (scrollTop < triggerHeight15) {
+          setIsFixedAt15(true);
+          setIsScrolled(false); // El formulario se detiene antes del 15%
+        }
+
+        // Lógica para el 30%
+        if (scrollTop > triggerHeight30) {
+          setIsScrolled(false); // El formulario se detiene al llegar al 30%
+          setIsFixedAt30(true); // El formulario se queda fijo
+          setIsFixedAt15(false);
+        }
+
+
+      
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -67,11 +100,36 @@ function ApartmentsLeisureArea({
             <img src={building} alt="edificio" loading="lazy" className={styles["image-building"]} />
           </div>
         </div>
-        <div className="col-12 col-lg-5 order-0 order-sm-1 order-md-2">
-          <div className={`${styles.fixedContactForm} ${isScrolled ? styles.scrolled : ""}`}>
-            <ContactForm ref={formRef} data={contact} />
-          </div>
+
+        <div className={` col-12 col-lg-5 order-0 order-sm-1 order-md-2 ${styles.formula}`}>
+          
+        <div
+        style={
+          !isMobile
+            ? {
+                position: isScrolled
+                  ? "fixed"
+                  : isFixedAt15 || isFixedAt30
+                  ? "absolute"
+                  : "static",
+                top: isScrolled
+                  ? "20px"
+                  : isFixedAt15
+                  ? `${document.documentElement.scrollHeight * 0.15}px`
+                  : isFixedAt30
+                  ? `${document.documentElement.scrollHeight * 0.786}px`
+                  : "auto",
+              }
+            : undefined
+        }
+        className={`${isMobile ? styles.mobileStyles : ""}`} // Aplica clases específicas para móviles
+      >
+        <ContactForm ref={formRef} data={contact} />
+      </div>
+
         </div>
+
+
       </div>
     </section>
   );

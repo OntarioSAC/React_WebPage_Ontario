@@ -142,7 +142,7 @@
 .popupContent {
   position: relative;
   z-index: 1001;
-  max-width: 80%;
+  max-width: 100%;
   max-height: 70vh;
   display: flex;
   align-items: center;
@@ -202,8 +202,16 @@
 }
 
 @media (max-width: 768px) {
+  .container{
+    display: flex;
+    margin: auto;
+    
+    
+    width: 100% !important;
+  }
+  
   .popupContent {
-    max-width: 90%;
+    width: 100%;
     max-height: 70vh;
   }
 

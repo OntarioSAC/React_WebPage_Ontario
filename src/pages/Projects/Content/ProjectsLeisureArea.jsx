@@ -14,7 +14,7 @@ function ProjectsLeisureArea({ data, formRef, projectId }) {
   // Desestructuración de props
   const { title, titleBold, description, icons, contact } = data;
   const [isScrolled, setIsScrolled] = useState(false);
-  const [hasReachedTrigger, setHasReachedTrigger] = useState(false); 
+
   const [isFixedAt30, setIsFixedAt30] = useState(false);
   const [isFixedAt15, setIsFixedAt15] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -34,18 +34,32 @@ function ProjectsLeisureArea({ data, formRef, projectId }) {
   }, []);
 
 
-  const [hig, setHig] = useState(0.161); // Valor por defecto
-  const [hig2, setHig2] = useState(0.67); // Valor por defecto
-
+  const [hig, setHig] = useState(0.129); // Valor por defecto
+  const [hig2, setHig2] = useState(0.659); // Valor por defecto
+  
    // Detectar cambios de tamaño de pantalla
    useEffect(() => {
     const updateHeights = () => {
+
+      // 1. Altura visible de la ventana del navegador (similar a vh en CSS)
+    const vh = window.innerHeight; 
+
+    // 2. Altura total de la página completa, incluyendo el scroll
+    const alturaverticalpantalla = document.documentElement.scrollHeight;
+
+    // 3. Convertir la altura visible (vh) a un porcentaje en formato decimal (de 0 a 1)
+    const vhComoDecimal = vh / alturaverticalpantalla;
+
       if (window.innerWidth <= 1366) {
-        setHig(0.116); // Cambia el valor para pantallas pequeñas
-        setHig2(0.65); // Cambia el valor para pantallas pequeñas
+       
+        setHig(vhComoDecimal); // Valores para pantallas pequeñas
+        setHig2(0.65);
+      } else if (window.innerWidth <= 1920) {
+        setHig(vhComoDecimal); // Valores para pantallas medianas
+        setHig2(0.659);
       } else {
-        setHig(0.161); // Valor original
-        setHig2(0.67); // Valor original
+        setHig(vhComoDecimal); // Valores originales para pantallas grandes
+        setHig2(0.67);
       }
     };
 
@@ -61,19 +75,19 @@ function ProjectsLeisureArea({ data, formRef, projectId }) {
       const scrollTop = window.scrollY;
       const pageHeight = document.documentElement.scrollHeight; // Altura total de la página
       const triggerHeight15 = pageHeight * hig; // 15% de la altura total de la página
-      const triggerHeight30 = pageHeight * hig2; // 70% de la altura total
+      const triggerHeight30 = pageHeight *hig2; // 70% de la altura total
 
          // Lógica para el 15%
-        if (scrollTop > triggerHeight15 && scrollTop < triggerHeight30) {
+        if (scrollTop >= triggerHeight15 && scrollTop <= triggerHeight30) {
           setIsScrolled(true); // El formulario se mueve con el scroll
           
-        } else if (scrollTop < triggerHeight15) {
+        } else if (scrollTop <= triggerHeight15) {
           setIsFixedAt15(true);
           setIsScrolled(false); // El formulario se detiene antes del 15%
         }
 
         // Lógica para el 30%
-        if (scrollTop > triggerHeight30) {
+        if (scrollTop >= triggerHeight30) {
           setIsScrolled(false); // El formulario se detiene al llegar al 30%
           setIsFixedAt30(true); // El formulario se queda fijo
           setIsFixedAt15(false);
@@ -83,7 +97,8 @@ function ProjectsLeisureArea({ data, formRef, projectId }) {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [hasReachedTrigger]);
+  }, []);
+
 
   return (
     <>

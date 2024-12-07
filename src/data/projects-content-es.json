@@ -2667,7 +2667,7 @@
       },
       "location": {
         "title": "LA MEJOR",
-        "titleBold": "UBICACIÓN en TUMBES",
+        "titleBold": "UBICACIÓN",
         "buttons": [
           {
             "id": "location",

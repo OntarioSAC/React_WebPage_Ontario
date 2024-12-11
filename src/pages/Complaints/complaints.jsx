@@ -198,7 +198,7 @@ const Complaints = () => {
                     const data = await response.json();
 
                     // Mostrar datos completos en la consola
-                    console.log('Respuesta de la API:', data);
+                    // console.log('Respuesta de la API:', data);
     
                     if (data.status === 'success') {
                         setComplaintNumber(data.lastComplaintNumber + 1); // Incrementar el número

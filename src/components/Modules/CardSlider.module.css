@@ -1,0 +1,227 @@
+.bodycard{
+    margin-top: 55px;
+    width: 80%;
+    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    row-gap: 72px;
+    column-gap: 36px;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.cards{
+    background-color: white;
+    position: relative;
+    height: 501px;
+    width: 374px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+}
+.etiquet{
+    border-radius: 37.867px;
+background: #CBF000;    
+width: 107px;
+   left: 25px;
+    top: 20px;
+    position: absolute;
+    
+}
+.textetiquet{
+    color: #273243;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding: 4px 16px;
+}
+.insidecards{
+   
+    height: 432px;
+    width: 100%;
+    
+}
+
+.fatherimage{
+    
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: 216px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+}
+.fathertitle{
+    padding-top: 20px;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+.h1text{
+    background-color: transparent;
+    width: 85%;
+    font-family: Inter;
+    line-height: normal;
+    font-style: normal;
+}
+.h1texttitle{
+    background-color: white;
+    font-weight: 800;
+    font-size: 20px;
+    color: #1C284C;
+}
+.content_text{
+    background-color: transparent;
+    width: 85%;
+    color:#1C284C ;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.texto{
+    font-size: 15px;
+}
+.texto2{
+    display: none;
+}
+.boton{
+    background-color:#CBF000 ;
+    border-radius:37.867px ;
+    color:#1C284C ;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 900;
+    line-height: normal;
+    width: 135px;
+    height: 35.218px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.content_button{
+    background-color: transparent;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    cursor: pointer;
+}
+.general_button{
+    display: flex;
+    justify-content: flex-end;
+    
+    padding: 10px;
+    
+}
+@media (max-width: 768px) {
+    .bodycard{
+        position: relative;
+        width: 80%;
+        margin-top: 20px;
+    }
+    .cards{
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        height: 375.265px;
+        overflow: hidden;
+        flex-shrink: 0;
+        
+    }
+
+    .insidecards{
+       
+        width: 100% !important;
+        height: 85%;
+        flex-shrink: 0;
+        
+    }
+    .image{
+        background-color: transparent;
+        width: 100% !important;
+        height: 176.647px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        
+    }
+
+
+    .h1texttitle{
+        color: #1C284C;
+        font-family: Inter;
+        font-size: 14.633px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .fathertitle{
+        width: 100% !important;
+        margin-left: 0;
+       
+    }
+
+    .texto{
+        display: none;
+    }
+    .texto2{
+        display: block;
+        font-size: 13.559px;
+    }
+
+
+   
+    
+    .fatherimage{
+        height: 176.647px;
+        width: 100%;
+    }
+    .h1text{
+        margin-top: -10px;
+        width: 90%;
+       
+    }
+
+    .general_button{
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px;
+        
+    }
+    .content_button{
+        
+        width: 90.333px;
+        height: 31.265px;
+    }
+    .boton{
+       
+        height: 25px;
+        width: 100% !important;
+        padding: 0px !important;
+    }
+    .botonsize{
+        font-size: 10.284px;
+    }
+    .arrow{
+        width: 6px;
+    }
+}

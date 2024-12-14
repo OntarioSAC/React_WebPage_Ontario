@@ -1,0 +1,379 @@
+.FatherTestimonials{
+    
+    width: 100%;
+    height: 880px;
+    
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.FatherTestimonialsInts{
+    
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+.Testimoabsolute{
+    
+    width: 528px;
+    height: 356px;
+    border-radius: 60px 0px 59px 0px;
+    background: #CBF000;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Testimslider{
+    width: 90%;
+    height: 780px;
+    border-radius: 0px 0px 0px 85px;
+    background: #EEE;  
+    position: absolute;
+    top: 70px;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.contentTestimonials {
+    position: relative;
+    
+       /* Alinea verticalmente en la parte inferior */
+}
+.testimonsliderint{
+    width: 90%;
+    height: 80%;
+    z-index: 10;
+    
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+.testimonImage{
+    width: 100px;
+}
+
+.CardTestimon{
+    background: #ffffff;
+    
+    width: 442px;
+    height: 395px;
+    border-radius: 48.558px 0px 61.385px 0px;
+    display: flex;
+    justify-content: center;
+    z-index: 99;
+}
+.testimonImage{
+    width: 156.668px;
+    height: 156.668px;
+    border-radius: 98.948px 98.948px 0px 98.948px;
+}
+.imageWrapper{
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    margin-top: -90px;
+}
+.swiperSlide {
+    
+    overflow: visible !important; /* Permite que el contenido sobresalga */
+    height: 500px; /* Ajusta la altura */
+    display: flex;
+    align-items: flex-end; /* Alinea el contenido al fondo */
+    justify-content: center; /* Alinea el contenido horizontalmente en el centro (o usa 'flex-start' o 'flex-end' si prefieres a la izquierda o derecha) */
+}
+.textWrapper{
+    
+    width: 355.481px;
+    margin-top: 28px;
+
+}
+.textWrapper > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.parrafo{
+    color: #1C284C;
+    height: 135px;
+
+text-align: justify;
+font-family: Inter;
+font-size: 18.28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.infoslider{
+    padding: 20px;
+    width: 261px;
+    height: 116px;
+    border-radius: 0px 27.486px 27.486px 27.486px;
+    background: #CBF000;
+}
+.titular{
+    width: 150px;
+height: 43px;
+color: #273243;
+
+font-family: Inter;
+font-size: 19.95px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.proyecto{
+    color: #273243;
+
+font-family: Inter;
+font-size: 17.11px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 212px;
+}
+.iconWrapper{
+    
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: -44px;
+}
+.testimonIcon{
+    
+    width: 113.457px;
+    height: 117.39px;   
+    border-radius: 69.807px 69.807px 69.807px 0px;
+    background: #1C284C;
+   
+}
+.testimonCard{
+    position: relative;
+}
+.texttitletesti{
+    color: #1C284C;
+
+font-family: Inter;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 372px;
+}
+.parrafotestimotitle{
+    color: #1C284C;
+
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 310px;
+}
+.containertestiti{
+
+    width: 372px;
+}
+
+.imageframe{
+    
+    position: absolute;
+    z-index: 9999;
+    bottom: 0;
+    left: 0;
+}
+.imageframe2{
+    
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+
+/* Estilo base de los botones */
+.button {
+    background-color: transparent;  /* Fondo transparente por defecto */
+    border: none; /* Borde gris */
+    padding: 2px 4px;
+   box-shadow: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;  /* Suaviza el cambio de color */
+  }
+  
+.buttonsWrapper{
+    
+    
+    bottom: 0;
+}
+.buttonsWrapperFather{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 65px;
+    z-index: 9999;
+
+}
+.botonesfath{
+        
+    width: 33.952px;
+}
+@media (max-width: 768px) {
+    .FatherTestimonials{
+        
+        width: 100% !important;
+        overflow: hidden;
+        height: 750px;
+    }
+    .FatherTestimonialsInts{
+        
+        height: 750px;
+        width: 100% !important;
+    }
+    .Testimoabsolute{
+       
+        width: 100% !important;
+        height: 242px;
+        border-radius: 40px 0px;
+    }
+    .containertestiti{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 286.75px;
+    }
+    .texttitletesti{
+        color: #1C284C;
+        width: 286.75px;
+        font-family: Inter;
+        font-size: 27.75px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+    }
+    .parrafotestimotitle{
+        width: 280.75px;
+        text-align: center;
+        font-family: Inter;
+        font-size: 12.333px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .contentTestimonials{
+       
+        width: 100% !important;
+    }
+    .Testimslider{
+        
+        height: 660px;
+       
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+    }
+    .testimonsliderint{
+        
+        margin-top: -30px;
+        height: 52%;
+        
+    }
+    .swiperSlide{
+        
+        height: 390.25px;
+    }
+    .CardTestimon{
+        
+        width: 100%;
+        height: 296.25px;
+        
+        
+    }
+    .testimonImage{
+        width: 117.501px;
+        height: 117.501px;
+    }
+    .textWrapper{
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .parrafo{
+        margin-top: -38px;
+        width: 80% !important;
+        
+        color: #1C284C;
+        height: 135px;
+        text-align: justify;
+        font-family: Inter;
+        font-size: 14.28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .testimonCard{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+    .infoslider{
+        
+        width: 195.75px;
+        height: 87px;
+        border-radius: 0px 20.614px 20.614px 20.614px;
+    }
+    .infosliderFather{
+        
+        width: 80%;
+        margin-top: -20px !important;
+    }
+    .titular{
+        font-size: 14.963px;
+        
+        height: auto;
+        width: 156.75px;
+    }
+    .proyecto{
+        font-size: 12.833px;
+        margin-top: -5px;
+    }
+    .iconWrapper{
+        
+        right: 0;
+    }
+    .testimonIcon{
+        width: 85.093px;
+        height: 88.043px;
+    }
+    .buttonsWrapperFather{
+        
+        bottom: 80px;
+        position: absolute;
+     
+    }
+    .botonesfath{
+        
+        width: 30.952px;
+    }
+   
+    .arrowLeft{
+        width: 400px;
+        
+    }
+}

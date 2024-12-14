@@ -37,7 +37,7 @@ const News = () => {
           <div className={styles.ContentNotice}>
             <div className={styles.padrecards}>
               {/* Pasa el filtro al componente Cards */}
-              <Cards selectedTab={selectedTab} className={styles.generalcards} />
+              <Cards selectedTab={selectedTab} className={styles.generalcards} useAlternateStyles={false} />
             </div>
             <div className={styles.padrecards}>
               <Sidebar className={styles.generalcards} />

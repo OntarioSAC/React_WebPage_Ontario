@@ -1,0 +1,288 @@
+.FatherNews{
+    background-color: transparent;
+    width: 100%;
+    
+    height: 1400px;
+    display: flex;
+    margin-top: -60px;
+    justify-content: center;
+    position: relative;
+}
+
+
+.SoonFatherNews{
+    width: 100%;
+    height: 1350px;
+    background-color:#1C284C;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0px 0px 90px 90px;
+    position: relative;
+
+}
+.CardsHome{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Yanneport{
+    width: 100%;
+    height: 357px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    
+    background-color:transparent;
+
+}
+.Yanneportint{
+    
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    height: 357px;
+    
+    
+}
+.contentaboutg{
+    background-color:#1C284C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+   ;
+}
+.contentaboutgint{
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 106px;
+    
+    width: 90%;
+    
+}
+
+
+
+
+.tituone{
+    color: #1C284C;
+
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.textone{
+    width: 485px;
+    color: #3D3D3D;
+
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.buttomabout{
+    width: 282px;
+    padding: 12px 10px 12px 10px;
+    border-radius: 15px 15px 0px 15px;
+    border: 1px dashed #1C284C;
+    background: #1C284C;
+
+}
+.textbuttom{
+
+    color: #FFF;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+.buttontext{
+    color: #1C284C;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.buttonnewbu{
+    border-radius: 15px 15px 0px 15px;
+border: 1px dashed #CBF000;
+padding: 12px 60px;
+background: #CBF000;
+}
+.ccontainerbuttonnewbu{
+    background-color: #1C284C;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.image{
+    width: 770px;
+    height: 465px;
+    background-color: transparent;
+    z-index: 99999;
+}
+
+.h1newsabout{
+    
+    color: #FFF;
+
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.h1newsabout2{
+    
+    color: #CBF000;
+    z-index: 0;
+
+}
+.parrafonews{
+    
+    width: 340px;
+    
+    color: #FFF;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Frame2 
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    
+}
+.Frame1 
+{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    
+}
+
+@media (max-width: 768px) {
+
+    .FatherNews{
+        
+        width: 100%;
+        margin-top: 0px;
+        height: 870px !important;
+    }
+    .SoonFatherNews{
+        background-color:#1C284C!important;
+        height: 850px !important;
+        width: 100%;
+        border-radius: 0px 0px 26.875px 26.875px;
+    }
+    .Yanneport{
+        
+        width: 100%;
+        height: 151.769px;
+        z-index: 1 !important;
+
+    }
+    .image{
+        width: 344px;
+        height: 200.769px;
+        z-index: 9 !important;
+    }
+    .Yanneportint{
+    
+        width: 100%;
+        height: 151.769px;
+        z-index: 0 !important;
+    }
+    .Frame2{
+        z-index: 9 !important;
+    }
+    .Frame2intmobil{
+        
+        margin-top: 4px;
+        width: 523px;
+        height: 50px;
+       
+    }
+    
+    .contentaboutgint{
+        
+        margin-top: 75px;
+        
+    }
+    .h1newsabout{
+        
+        
+        text-align: center;
+        font-family: Inter;
+        font-size: 26.124px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;     
+    }
+    .parrafonews{
+        width: 221.403px;
+        text-align: center;
+        font-family: Inter;
+        font-size: 9.797px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .buttonnewbu{
+        width: 189.113px;
+        height: 40px;
+        margin: 0;
+        padding: 0;
+        border-radius: 10.204px 10.204px 0px 10.204px;
+border: 0.68px dashed #CBF000;
+
+background: #CBF000;
+    }
+    .buttontext{
+        font-size: 13.605px;
+        
+    }
+    .Frame1{
+        
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .Frame1intsvg{
+        width: 360px !important;
+        height: 65px;
+    }
+    .Frame1int{
+        
+       display: flex;
+       justify-content: flex-end;
+    }
+}

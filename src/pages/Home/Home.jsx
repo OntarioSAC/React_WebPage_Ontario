@@ -10,6 +10,10 @@ import TestimonialsSection from "./Content/TestimonialsSection";
 import AboutSection from "./Content/AboutSection";
 import FormSection from "./Content/FormSection";
 import InfoBoxHome from "./Content/InfoBoxHome";
+import SliderNew from "./Content/SliderNewSection";
+import AboutSectionNew from "./Content/AboutSectionNew";
+import NewsSectionHome from "./Content/NewsSectionHome";
+import TestimonialSectionHome from "./Content/TestimonialSectionHome";
 import WhatsappButton from "../../components/Modules/WhatsappButton";
 // Importación del popup
 import Popup from "../../components/Modules/PopUp";
@@ -80,16 +84,36 @@ function Home({
   return (
     <div>
       {showPopup && <Popup onClose={closePopup} />}
-      <HomeSlider data={homeSlider} />
       
-      <div className="container g-0">
-        <div className={styles.customContent}>
-          <div className={styles.overlap}>
-            <InfoBoxHome data={homeInfoBoxes} />
-          </div>
+      {<HomeSlider data={homeSlider} />}
+       
+        <div className={styles.homeslidernew}>
+          <SliderNew></SliderNew>
         </div>
-        <AboutSection data={homeAboutSection} />
-        <ProjectSection sectionData={homeSectionData} />
+        
+         <div>
+          <AboutSectionNew></AboutSectionNew>
+        </div>
+        
+        
+
+
+        
+          <div className="container g-0">
+          <ProjectSection sectionData={homeSectionData} />
+          </div>
+        
+          <div>
+            
+          <NewsSectionHome></NewsSectionHome>
+        </div>
+       
+        <div>
+        <TestimonialSectionHome></TestimonialSectionHome>
+
+        </div>
+         
+          <div className="container g-0">
         <FormSection 
           data={homeFormSection} 
           formRef={formRef} 
@@ -99,8 +123,11 @@ function Home({
         <div className="whatsapp">
           <WhatsappButton />
         </div>
-      </div>
-      <TestimonialsSection testimonialsData={homeTestimonialsData} />
+        </div>
+        
+        
+       
+      {/*<TestimonialsSection data={homeTestimonialsData} />*/}
     </div>
   );
 }

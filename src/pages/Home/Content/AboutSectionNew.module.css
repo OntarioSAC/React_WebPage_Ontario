@@ -1,0 +1,136 @@
+
+
+
+.nosotrosmessage{
+    background-image: url('https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/fondohomeslider1.webp'); /* Ruta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    width: 100%; /* Asegúrate de que el div ocupe todo el ancho necesario */
+    height: 387px; /* Ajusta la altura según el contenido */
+    padding: 20px; /* Opcional: espacio interno para que el texto no toque los bordes */
+    color: #fff; /* Opcional: cambia el color del texto si el fondo lo requiere */
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+}
+.secondslider{
+    
+    width: 100%;
+    height: 430px;
+}
+.contentaboutg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 30%;
+}
+.tituone{
+    color: #1C284C;
+
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.textone{
+    width: 485px;
+    color: #3D3D3D;
+
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.buttomabout{
+    width: 282px;
+    padding: 12px 10px 12px 10px;
+    border-radius: 15px 15px 0px 15px;
+    border: 1px dashed #1C284C;
+    background: #1C284C;
+
+}
+.textbuttom{
+
+    color: #FFF;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+@media (max-width: 768px) {
+    .secondslider{
+        background-color: #b9c1d6 !important;
+        width: 100% !important;
+        height: auto;
+        
+    }
+
+    .contentaboutg{
+        width: 100% !important;
+    }
+
+    .nosotrosmessage{
+        background-image: url('https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/fondohomeslider1.webp'); /* Ruta de tu imagen */
+        background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+        background-position: center; /* Centra la imagen */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+        width: 100%; /* Asegúrate de que el div ocupe todo el ancho necesario */
+        height: 253px; /* Ajusta la altura según el contenido */
+        padding: 20px; /* Opcional: espacio interno para que el texto no toque los bordes */
+        color: #fff; /* Opcional: cambia el color del texto si el fondo lo requiere */
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .tituone{
+        color: #1C284C;
+
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .textone{
+        color: #1C284C;
+
+        text-align: center;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 267.793px;
+    }
+    .buttomabout{
+        height: 41.316px;
+        border-radius: 9.908px 9.908px 0px 9.908px;
+        border: 0.661px dashed #1C284C;
+        display: flex;
+        justify-content: center;
+        width: 194.089px;
+        background: #1C284C;
+        margin-top: 10px;
+    }
+    .textbuttom{
+        color: #FFF;
+        font-family: Inter;
+        font-size: 13.21px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+    
+}

@@ -25,6 +25,202 @@
       "line2": "Felices"
     }
   ],
+
+"slidernew": {
+    "icon": "ico.jpg",
+    "slider": [
+      {
+        "id": "1",
+        "imageslider":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/slidernew1.webp",
+        "titleone": "Acerca de nosotros",
+        "title1": "¡TU HOGAR",
+        "title2": "CON ONTARIO!",
+        "text1": "Nos enorgullece tener más de",
+        "textbold": "10 años de experiencia",
+        "text2": "en el sector inmobiliario, operando tanto en el sur como en el norte del país.",
+        "text3": "Doble certificacion internacional",
+        "logo1": [
+          {
+            "id": "1",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/ISO90011-blanco.svg"
+          },
+          {
+            "id": "2",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/ISO140011-blanco.svg"
+          }
+          
+        ],
+        "text3logo": "Doble certificacion internacional",
+        "titlelogo":"Socios de",
+        "logo2": [
+          {
+            "id": "3",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/Capa_1-white.svg"
+            
+          }
+         
+        ],
+        "projects": [
+          {
+            "id": "1",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/iconMedal.svg",
+            "title": "+ 1",
+            "text1": "Años de",
+            "text2": "Trayectoria"
+          },
+          {
+            "id": "2",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/CASA1.svg",
+            "title": "+ 1",
+            "text1": "proyectos",
+            "text2": "Inmobiliarios"
+          },
+          {
+            "id": "3",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/familiasFelices1.svg",
+            "title": "+ 1",
+            "text1": "Familias",
+            "text2": "Felices"
+          }
+        ]
+
+      },
+      {
+        "id": "2",
+        "imageslider":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/slidernew2.webp",
+        "titleone": "Acerca de nosotros",
+        "title1": "¡TU NVERSÍON",
+        "title2": "CON ONTARIO!",
+        "text1": "Desarrollamos proyectos de",
+        "textbold": "altos estandares de calidad y gran rentabilidad",
+        "text2": "incluyendo condominios de playa,campo y departamentos.",
+        "text3": "Doble certificacion internacional",
+        "logo1": [
+          {
+            "id": "1",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/ISO9001-blue.svg"
+          },
+          {
+            "id": "2",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/iso-14001.svg"
+          }
+          
+        ],
+        "text3logo": "Doble certificacion internacional",
+        "titlelogo":"Socios de",
+        "logo2": [
+          {
+            "id": "3",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/ccia.webp"
+          }
+        ],
+        "projects": [
+          {
+            "id": "1",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/Vectorblanco.svg",
+            "title": "+10",
+            "text1": "años de",
+            "text2": "Trayectoria"
+          },
+          {
+            "id": "2",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/Vector2blanco.svg",
+            "title": "+10",
+            "text1": "proyectos",
+            "text2": "Inmobiliarios"
+          },
+          {
+            "id": "3",
+            "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/Vector3blanco.svg",
+            "title": "+1000",
+            "text1": "Familias",
+            "text2": "Felices"
+          }
+        ]
+
+      }
+    ]
+  }
+
+
+,
+
+"NewsHome":{
+  "Frame1":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/Vector5x.svg",
+  "Frame2":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/Vector@2x.svg",
+  "image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/images/yanelanews.webp",
+  "titleuno":"NOTICIAS",
+  "titletwo":"ONTARIO",
+  "Parrafoone":"Entérate de las últimas novedades, avances y eventos de",
+  "parrafotwo":"Ontario Inmobiliaria."
+},
+
+
+"TestimonsHome":{
+  "Frame":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/Frame283.svg",
+  "Frametwo":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/fametop.svg",
+    "Testimon":[
+      {
+        "id":"1",
+        "image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/clients/cliente1.webp",
+        "parrafo":"¡Gracias a Ontario, finalmente tenemos nuestro propio pedacito de paraíso en la playa! No podríamos estar más emocionados por comenzar esta nueva aventura juntos. ¡Ontario hizo que todo fuera tan fácil y emocionante!",
+        "Titular":"Hilda Medina y Jesús Tejada",
+        "Proyecto":"Proyecto Santorini",
+        "icon":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-test.svg"
+      },
+      {
+        "id":"2",
+        "image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/clients/cliente2.webp",
+        "parrafo":"“Como familia celebramos el logro de poder haber adquirido nuestra Casa de Campo soñada”.",
+        "Titular":"Familia Huarsaya",
+        "Proyecto":"Proyecto Prado Piamonte",
+        "icon":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-test.svg"
+      },
+      {
+        "id":"3",
+        "image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/clients/cliente3.webp",
+        "parrafo":"“Fue genial como nos atendieron los asesores, tienen super planes de financiación para todos los casos, me quedé encantada con el acuerdo que llegamos a concretar. Gracias Ontario”.",
+        "Titular":"Familia Canazas Chino",
+        "Proyecto":"Proyecto Coral",
+        "icon":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-test.svg"
+      },
+      {
+        "id":"4",
+        "image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/clients/cliente2.webp",
+        "parrafo":"“Como familia celebramos el logro de poder haber adquirido nuestra Casa de Campo soñada”.",
+        "Titular":"Familia Huarsaya",
+        "Proyecto":"Proyecto Prado Piamonte",
+        "icon":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-test.svg"
+      },
+      {
+        "id":"5",
+        "image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/clients/cliente3.webp",
+        "parrafo":"“Fue genial como nos atendieron los asesores, tienen super planes de financiación para todos los casos, me quedé encantada con el acuerdo que llegamos a concretar. Gracias Ontario”.",
+        "Titular":"Familia Canazas Chino",
+        "Proyecto":"Proyecto Coral",
+        "icon":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-test.svg"
+      },
+      {
+        "id":"6",
+        "image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/clients/cliente2.webp",
+        "parrafo":"“Como familia celebramos el logro de poder haber adquirido nuestra Casa de Campo soñada”.",
+        "Titular":"Familia Huarsaya",
+        "Proyecto":"Proyecto Prado Piamonte",
+        "icon":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-test.svg"
+      },
+      {
+        "id":"7",
+        "image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/clients/cliente3.webp",
+        "parrafo":"“Fue genial como nos atendieron los asesores, tienen super planes de financiación para todos los casos, me quedé encantada con el acuerdo que llegamos a concretar. Gracias Ontario”.",
+        "Titular":"Familia Canazas Chino",
+        "Proyecto":"Proyecto Coral",
+        "icon":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-test.svg"
+      }
+
+
+    ]
+},
+
   "homeAboutSection": {
     "flag": "Acerca de nosotros",
     "flag2": "Acerca de nosotros",

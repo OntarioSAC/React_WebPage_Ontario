@@ -1,0 +1,776 @@
+/* SliderNewSection.module.css */
+
+/* Contenedor principal */
+.container {
+  background-color: #000000;
+  width: 100%;
+  height: 95vh;
+  
+  display: flex;
+  justify-content: center;
+  
+  position: relative;
+}
+.containerslider{
+  
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+
+.midimage {
+  background-color:transparent;
+  position: absolute;
+  width: 393px;
+  height: 705px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Esto asegura que los elementos internos también se centren verticalmente */
+}
+/* Lado izquierdo */
+.leftslider{
+  width: 50%;
+}
+.rigthslider{
+  
+  width: 50%;
+}
+.sideDiv {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+/* Lado central */
+.middleDiv {
+  
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+/* Proyecto */
+.project {
+  width: 362px;
+  height: 184px;
+  border: 4px solid #1C284C;
+  border-radius: 30px 0px 30px 30px;
+}
+
+.project2 {
+  width: 362px;
+  height: 184px;
+  border: 4px solid #ffffff;
+  border-radius: 30px 0px 30px 30px;
+}
+.newClass{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+.iconrigth{
+  
+  width: 200px;
+}
+
+/* Imágenes de los proyectos */
+.projectImage {
+  width: 72px;
+  height: 72px;
+  
+}
+.titlerigth{
+  color: #1C284C;
+
+  font-family: Inter;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.titlerigth2{
+  color: #ffffff;
+
+  font-family: Inter;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.textrigthti{
+  color: #1C284C;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.textrigthti2{
+  color: #ffffff;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+/* Imagen de logo */
+.logoImage {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+/* Estilo de la imagen rotada */
+.imageStyle,
+.imageStyle2 {
+  width: 392.743px;
+  height: 625px;
+  object-fit: cover; /* O usa "contain" si prefieres evitar el recorte */
+}
+
+.imageStyle2 {
+  
+  transform: rotateY(180deg);
+  
+}
+.imageStyleFlipped {
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+
+.leftslider,
+.leftDivLightPurple,
+.leftDivGreen,
+.containerlefti,
+.acercn,
+.acercn2,
+.titlesliderg,
+.textsliderg,
+.textsliderg2 {
+transition: all 0.5s ease; /* Suaviza todos los cambios */
+}
+
+/* También puedes especificar transiciones para propiedades específicas si lo prefieres */
+
+.leftDivLightPurple,
+.leftDivGreen {
+transition: background-color 0.5s ease; /* Transición suave solo para el cambio de color de fondo */
+}
+
+.title1, .title2, .text1, .text11, .textsliderg, .textsliderg2 {
+transition: color 0.5s ease, opacity 0.5s ease; /* Transición para color y opacidad */
+}
+/* Para la transición de fondo del contenedor */
+.rightDivBlue, .rightDivPurple {
+transition: background-color 0.5s ease; /* Suaviza el cambio de color de fondo */
+}
+
+/* Transiciones para los proyectos */
+.project, .project2 {
+transition: transform 0.3s ease, opacity 0.3s ease; /* Suaviza la aparición/desaparición */
+}
+
+/* Títulos de los proyectos */
+.titlerigth, .titlerigth2 {
+transition: color 0.3s ease; /* Suaviza el cambio de color */
+}
+
+/* Descripción de los proyectos */
+.textrigthti, .textrigthti2 {
+transition: color 0.3s ease, opacity 0.3s ease; /* Suaviza el cambio de color y la opacidad */
+}
+
+/* Cuando los proyectos se muestran o se ocultan */
+.recordcu {
+transition: opacity 0.5s ease; /* Transición de opacidad para la aparición de proyectos */
+}
+/* Define la animación de deslizamiento desde arriba */
+@keyframes slideFromTop {
+0% {
+  transform: translateY(-20px);  /* Comienza 20px por encima de su posición */
+  opacity: 0;  /* Comienza invisible */
+}
+100% {
+  transform: translateY(0);  /* Se mueve a su posición final */
+  opacity: 1;  /* Se vuelve completamente visible */
+}
+}
+
+/* Aplica la animación a los elementos que quieres que bajen */
+.bajandoElementos {
+animation: slideFromTop 0.6s ease-out forwards;  /* Duración de la animación */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.imagenlo {
+perspective: 1000px; /* Da profundidad 3D */
+transform-style: preserve-3d; /* Permite que los hijos respeten la transformación 3D */
+transition: transform 0.6s ease; /* Suaviza la animación */
+}
+
+/* Colores dinámicos */
+.leftDivLightPurple {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1C284C;
+}
+
+.leftDivGreen {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightDivBlue {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rigtconte{
+  background-color: transparent;
+  
+}
+.recordcu{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.rightDivPurple {
+  width: 100%;
+  height: 100%;
+  background: #1C284C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerlefti{
+  
+  width: 400px;
+}
+.acercn{
+  width: 256px;
+  height: 38px;  
+  border-radius: 18px;
+  border: 1px solid white;
+  
+      
+}
+.titlesliderg{
+  
+  margin-top:17px ;
+}
+.textsliderg{
+  width: 322px;
+  margin-top:41px ;
+}
+.textsliderg2{
+  
+  width: 340px;
+  margin-top:5px ;
+  margin-bottom: -20px;
+}
+.acercn2{
+  width: 256px;
+  height: 38px;  
+  border-radius: 18px;
+  border: 1px solid #1C284C;;
+  
+      
+}
+.linetext{
+  
+  display: flex;
+  
+  align-items: center;
+  height: 60px;
+
+}
+.linetext1 path {
+  stroke: white; /* Color blanco cuando leftColor sea "lightpurple" */
+}
+.linetext12{
+color:#1C284C;
+
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.linetext11{
+color: #ffffff;
+
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.linetext12 path {
+stroke: #1C284C; /* Color negro para cualquier otro caso */
+}
+.acercn > h2{
+  color: #FFF;
+  
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+      
+}
+.acercn2 > h2{
+  color:#1C284C;
+  
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+      
+}
+.title1{
+  color: #FFF;
+
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.title11{
+  color:#1C284C;
+
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.title2{
+  color: #CBF000;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.title22{
+  color:#1C284C;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.text1{
+  color: #FFF;
+
+  text-align: justify;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.text11{
+  color:#1C284C;
+
+  text-align: justify;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.text1color{
+  color: #CBF000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.text1color2{
+  color:#1C284C;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.imagenesnewslider {
+  
+  width: 340px;
+  justify-content: center;
+  margin-top: -10px;
+ 
+  display: flex;
+  
+  flex-direction: row;
+  gap: 27px;
+  flex-wrap: wrap; /* Permite que los elementos se muevan a la siguiente fila si sobresalen */
+}
+.icoimage{
+  width: 148px;
+  height: 73px;
+  
+}
+
+.buttonsGeneral{
+  
+  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.buttonsGeneralint{
+  width: 100px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.buttonsleft ,.buttonsrigth{
+  
+  width: 50%;
+  height: 100%;
+
+}
+.additionalClassName{
+  
+  width: 100%;
+  height: 40px;
+}
+.iconslideryw{
+  width: 130px;
+  
+  
+}
+.spamlogo ,.spamlogo2{
+  display: none;
+}
+@media (max-width: 768px) {
+  .spamlogo ,.spamlogo2{
+    display: block;
+  }
+  .container{
+    margin-top: 0px;
+    position: relative !important;
+    height: auto !important;
+    z-index: 999999;
+  }
+  .containerslider{
+    display: flex;
+    flex-direction: column;
+    position: relative !important;
+  }
+  .midimage{
+    position: absolute;
+    top: 51%;
+    width: 100%;
+    
+    height: 450px;
+    
+    gap: 0px;
+    z-index: 99999;
+  }
+  
+ .imageStyle2{
+  width: 254.733px;
+  height: 405.374px;
+  flex-shrink: 0;
+ }
+ .imageStyle{
+  width: 254.733px;
+  height: 405.374px;
+  flex-shrink: 0;
+ }
+  .leftslider{
+    
+    width: 100% !important;
+    
+    display: flex;
+    justify-content: center;
+    align-items:start;
+  }
+
+  .leftslider , .rigthslider{
+    height: 568px !important;
+  }
+  .leftDivLightPurple{
+    background-color:#1C284C;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .leftDivGreen{
+    
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .containerlefti
+  {
+     
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+  
+  }
+  .acercn{
+    
+    width: 173.517px;
+    height: 25.756px;
+   
+
+  }
+  .acercn2{
+    
+    width: 173.517px;
+    height: 25.756px;
+    
+  }
+  .movilsize{
+    font-size: 10px !important;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16.267px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+ 
+
+  .title1 , .title11{
+    
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 32.534px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .title2 , .title22{
+    
+    text-align: center;
+    font-family: Inter;
+    font-size: 32.534px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+  .textsliderg{
+    
+    width: 319px;
+    margin-top: 8px;
+  }
+  .text1 , .text11{
+    
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .text1color , .text1color2{
+  
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .linetext{
+    display: none;
+  }
+  .icoimage{
+    width: 83.231px;
+    height: 33.813px;
+    margin-top: -25px;
+  }
+ 
+  .imagenesnewslider{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    
+    width: auto;
+  }
+  .contentlogo{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: -11px;
+  }
+  .textsliderg2{
+    display: none;
+  }
+  .spamlogo{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 9.677px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .spamlogo2{
+    color: #1C284C;
+    text-align: center;
+    font-family: Inter;
+    font-size: 9.677px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .leftDivLightPurple {
+    
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  .rigthslider{
+    
+    width: 100% !important;
+    position: relative;
+    display: flex;
+    justify-content: center;
+   
+  }
+  .rightDivBlue , .rightDivPurple{
+    
+    width: 100% !important;
+    display: flex;
+    align-items: end;
+  }
+  .rigtconte{
+  
+    width: 100%;
+  }
+  .project{
+    
+    width: 85%;
+    height: 90px;
+    border-radius: 17.403px 0px 17.403px 17.403px;
+    border: 2px solid #1C284C;
+    gap: 15px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .project2{
+    width: 85%;
+    height: 90px;
+    border-radius: 17.403px 0px 17.403px 17.403px;
+    border: 2px solid #ffffff;
+    gap: 15px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .newClass{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .iconrigth{
+    
+    width: 100px;
+  }
+  .recordcu{
+    gap:10px;
+   
+    
+  }
+  .projectImage{
+    width: 42.104px;
+    height: 37.309px;
+    
+  }
+  .titlerigth2 , 
+  .titlerigth 
+  
+  {
+    font-size: 30.707px !important; 
+  }
+  .textrigthti2,
+  .textrigthti{
+    font-size: 13.267px !important;
+    width: 150px;
+    margin-top: -10px;
+  }
+ 
+ .buttonsGeneralint{
+  gap: 5px;
+ }
+
+ .iconslideryw{
+    width: 100px;
+ }
+  
+}

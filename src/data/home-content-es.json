@@ -183,39 +183,8 @@
         "Titular":"Familia Canazas Chino",
         "Proyecto":"Proyecto Coral",
         "icon":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-test.svg"
-      },
-      {
-        "id":"4",
-        "image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/clients/cliente2.webp",
-        "parrafo":"“Como familia celebramos el logro de poder haber adquirido nuestra Casa de Campo soñada”.",
-        "Titular":"Familia Huarsaya",
-        "Proyecto":"Proyecto Prado Piamonte",
-        "icon":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-test.svg"
-      },
-      {
-        "id":"5",
-        "image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/clients/cliente3.webp",
-        "parrafo":"“Fue genial como nos atendieron los asesores, tienen super planes de financiación para todos los casos, me quedé encantada con el acuerdo que llegamos a concretar. Gracias Ontario”.",
-        "Titular":"Familia Canazas Chino",
-        "Proyecto":"Proyecto Coral",
-        "icon":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-test.svg"
-      },
-      {
-        "id":"6",
-        "image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/clients/cliente2.webp",
-        "parrafo":"“Como familia celebramos el logro de poder haber adquirido nuestra Casa de Campo soñada”.",
-        "Titular":"Familia Huarsaya",
-        "Proyecto":"Proyecto Prado Piamonte",
-        "icon":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-test.svg"
-      },
-      {
-        "id":"7",
-        "image":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/clients/cliente3.webp",
-        "parrafo":"“Fue genial como nos atendieron los asesores, tienen super planes de financiación para todos los casos, me quedé encantada con el acuerdo que llegamos a concretar. Gracias Ontario”.",
-        "Titular":"Familia Canazas Chino",
-        "Proyecto":"Proyecto Coral",
-        "icon":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/icon-test.svg"
       }
+      
 
 
     ]

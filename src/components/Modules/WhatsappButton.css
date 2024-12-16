@@ -18,8 +18,8 @@
   outline: none;
   border: none;
   box-shadow: none; /* Elimina cualquier sombra del cuadro */
-  width: 80.966px;
-  height: 80.956px; 
+  width: 120.966px;
+  height: 120.956px; 
 }
 
 .whatsapp-button2{
@@ -38,7 +38,9 @@
   }
 
   .whatsapp-icon{
-    width: 50px;
+    width: 100px;
+    height: 100px;
+    z-index: 99999;
     
   }
 

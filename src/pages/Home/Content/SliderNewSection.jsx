@@ -14,14 +14,49 @@ const SliderNewSection = () => {
   const [activeRight, setActiveRight] = useState(false); // El botón derecho está inactivo al inicio
 
   const intervalRef = useRef(null); // Referencia para controlar el intervalo
- // Estado para manejar la animación
- const [animationKey, setAnimationKey] = useState(0);
+  // Estado para manejar la animación
+  const [animationKey, setAnimationKey] = useState(0);
+
+  // Nueva función de animación de números
+  const animateNumber = (element, start, end, duration) => {
+    let startTime = null;
+
+    const step = (currentTime) => {
+      if (!startTime) startTime = currentTime;
+      const progress = Math.min((currentTime - startTime) / duration, 1);
+      const value = Math.floor(progress * (end - start) + start);
+      element.textContent = `+ ${value}`;
+      if (progress < 1) {
+        requestAnimationFrame(step);
+      }
+    };
+
+    requestAnimationFrame(step);
+  };
 
   useEffect(() => {
     if (dataES.slidernew) {
       setSliderData(dataES.slidernew.slider);
     }
   }, []);
+
+  // Efecto para animar los números cuando cambia el slider
+  useEffect(() => {
+    // Espera un poco para asegurar que los elementos estén renderizados
+    const timer = setTimeout(() => {
+      const numberElements = document.querySelectorAll(`.${styless.animatedNumber}`);
+      numberElements.forEach((element) => {
+        const fullText = element.textContent.trim();
+        const numberValue = parseInt(fullText.replace('+', '').trim());
+        
+        if (!isNaN(numberValue)) {
+          animateNumber(element, 0, numberValue, 2000);
+        }
+      });
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, [currentSlider, animationKey]);
 
   const startAutoSlider = () => {
     intervalRef.current = setInterval(() => {
@@ -206,7 +241,11 @@ const SliderNewSection = () => {
                     </div>
                     <div className={styless.iconrigth}>
                       <div>
-                        <h4 className={activeButton === "right" ? styless.titlerigth2 : styless.titlerigth}>{project.title}</h4>
+                        <h4 
+                          className={`${activeButton === "right" ? styless.titlerigth2 : styless.titlerigth} ${styless.animatedNumber}`}
+                        >
+                          {project.title}
+                        </h4>
                       </div>
                       <div>
                         <p className={activeButton === "right" ? styless.textrigthti2 : styless.textrigthti}>{project.text1} <strong>{project.text2}</strong></p>

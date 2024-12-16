@@ -141,8 +141,6 @@
       }
     ]
   }
-
-
 ,
 
 "NewsHome":{
@@ -152,7 +150,8 @@
   "titleuno":"NOTICIAS",
   "titletwo":"ONTARIO",
   "Parrafoone":"Entérate de las últimas novedades, avances y eventos de",
-  "parrafotwo":"Ontario Inmobiliaria."
+  "parrafotwo":"Ontario Inmobiliaria.",
+  "enlace":"/news"
 },
 
 

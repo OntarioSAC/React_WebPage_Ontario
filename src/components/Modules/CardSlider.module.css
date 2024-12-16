@@ -225,3 +225,21 @@ width: 107px;
         width: 6px;
     }
 }
+@media (max-width: 1367px) {
+    .bodycard{
+        
+        width: 94%;
+    }
+    .insidecards{
+        
+        width: 100%;
+        height: 87%;
+    }
+    .cards{
+        
+        height: 460px;
+    }
+    
+
+
+}

@@ -774,3 +774,84 @@ stroke: #1C284C; /* Color negro para cualquier otro caso */
  }
   
 }
+
+@media (max-width: 1367px) {
+  .container{
+   
+    height: 90vh !important;
+  }
+ .textsliderg{
+  
+  margin-top: -0px;
+ }
+ .linetext{
+  margin-top: -18px;
+ }
+  .containerslider{
+    background-color: blue !important;
+    height: 90vh !important;
+  }
+ 
+ 
+  .containerlefti{
+    
+    height: 80% !important;
+  }
+  .movilsize{
+    font-size: 17px !important;
+  }
+  .acercn , .acercn2{
+    width: 205px;
+    height: 22px !important;
+  }
+  .title1 , .title11{
+    font-size: 30px !important;
+  }
+  .title2 , .title22{
+    font-size: 30px !important;
+  }
+  .text1 , .text11{
+    font-size: 14px;
+  }
+  .linetext11 , .linetext12{
+   
+    font-size: 14px;
+  }
+  .icoimage{
+    width: 100px;
+  }
+  .midimage{
+    
+    height: 80% !important;
+    
+  }
+  .middleDiv{
+   
+    width: 80% !important;
+  }
+  .imageStyle2 , .imageStyle{
+    
+    height: 460px !important;
+    width: 290px;
+  }
+  
+  
+  
+  .project , .project2{
+    
+    height: 130px;
+    width: 320px;
+    gap: 17px;
+  }
+  .titlerigth2 , .titlerigth{
+    font-size: 35px !important;
+  }
+  .textrigthti2 , .textrigthti{
+    font-size: 22px !important;
+  }
+  .projectImage{
+    width: 50px;
+    
+    margin-left: 50px !important;
+  }
+}

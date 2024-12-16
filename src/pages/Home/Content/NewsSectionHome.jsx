@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom'; // Importa useNavigate
 import dataES from "../../../data/home-content-es.json";  // Importamos los datos JSON
 import dataEN from "../../../data/home-content-es.json";
 import Cards from '../../../components/Modules/CardSlider';
@@ -8,14 +9,15 @@ import styless from "./NewSectionHome.module.css";  // Importamos el archivo CSS
 const NewsSectionHome = () => {
     const [selectedTab, setSelectedTab] = useState("Todo");  
     const { i18n } = useTranslation();
-
+    const navigate = useNavigate(); // Hook para la navegación
+      const handleNavigation = () => {
+        navigate('/news'); // Redirige a la ruta /about
+      };
  const data = i18n.language === "es" ? dataES : dataEN;
   return (
    
     <div className={styless.FatherNews}>
         <div className={styless.SoonFatherNews}>
-
-          
 
           <div className={styless.Yanneport}>
               
@@ -53,7 +55,7 @@ const NewsSectionHome = () => {
 
          <div className={styless.ccontainerbuttonnewbu}>
             <div >
-              <button className={styless.buttonnewbu}>
+              <button className={styless.buttonnewbu} onClick={handleNavigation}>
                 <span className={styless.buttontext}>Conoce más</span>  
               </button>  
             </div>  
@@ -67,7 +69,6 @@ const NewsSectionHome = () => {
           </div>
 
         </div>     
-
 
         </div>
     </div> 

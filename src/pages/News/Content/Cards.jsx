@@ -15,17 +15,21 @@ const Cards = ({ selectedTab , useAlternateStyles }) => {
   // Selección de datos según idioma
   const data = i18n.language === "es" ? dataES : dataEN;
 
-  // Memoriza las tarjetas filtradas
-  const filteredCards = useMemo(() => {
-    return (selectedTab === "Todo" || selectedTab === "All")
-      ? data.cards
-      : data.cards.filter((card) => card.etiqueta === selectedTab);
-  }, [data, selectedTab]);
+  // Memoriza las tarjetas filtradas y aplica un límite de 6
+const filteredCards = useMemo(() => {
+  const allCards = (selectedTab === "Todo" || selectedTab === "All")
+    ? data.cards
+    : data.cards.filter((card) => card.etiqueta === selectedTab);
+
+  return allCards.slice(0, 6); // Limita a las primeras 6 tarjetas
+}, [data, selectedTab]);
+
   // Usa el conjunto de estilos alternativos si la propiedad `useAlternateStyles` es verdadera
   const styles = useAlternateStyles ? stylesAlternative : stylesDefault;
 
   return (
-    <div className={styles.bodycard}>
+    <div className={styles.bodycardFather}>
+        <div className={styles.bodycard}>
       {filteredCards.map((card) => (
         <div
           key={card.id}
@@ -109,6 +113,8 @@ const Cards = ({ selectedTab , useAlternateStyles }) => {
         </div>
       ))}
     </div>
+    </div>
+    
   );
 };
 

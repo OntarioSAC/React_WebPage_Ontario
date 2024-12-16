@@ -25,6 +25,124 @@
       "line2": "Families"
     }
   ],
+
+  
+"slidernew": {
+  "icon": "ico.jpg",
+  "slider": [
+    {
+      "id": "1",
+      "imageslider": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/slidernew1.webp",
+      "titleone": "About Us",
+      "title1": "YOUR HOME",
+      "title2": "WITH ONTARIO!",
+      "text1": "We are proud to have over",
+      "textbold": "10 years of experience",
+      "text2": "in the real estate sector, operating both in the south and the north of the country.",
+      "text3": "Double international certification",
+      "logo1": [
+        {
+          "id": "1",
+          "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/ISO90011-blanco.svg"
+        },
+        {
+          "id": "2",
+          "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/ISO140011-blanco.svg"
+        }
+        
+      ],
+      "text3logo": "Double international certification",
+      "titlelogo":"Partners of",
+      "logo2": [
+        {
+          "id": "3",
+          "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/Capa_1-white.svg"
+          
+        }
+       
+      ],
+      "projects": [
+        {
+          "id": "1",
+          "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/iconMedal.svg",
+          "title": "+ 10",
+          "text1": "Años de",
+          "text2": "Trayectoria"
+        },
+        {
+          "id": "2",
+          "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/CASA1.svg",
+          "title": "+ 10",
+          "text1": "proyectos",
+          "text2": "Inmobiliarios"
+        },
+        {
+          "id": "3",
+          "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/familiasFelices1.svg",
+          "title": "+ 1000",
+          "text1": "Familias",
+          "text2": "Felices"
+        }
+      ]
+
+    },
+    {
+      "id": "2",
+      "imageslider":"https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/slider-gallery/slidernew2.webp",
+      "titleone": "Acerca de nosotros",
+      "title1": "¡TU INVERSIÓN",
+      "title2": "CON ONTARIO!",
+      "text1": "Desarrollamos proyectos de",
+      "textbold": "altos estandares de calidad y gran rentabilidad",
+      "text2": "incluyendo condominios de playa,campo y departamentos.",
+      "text3": "Doble certificacion internacional",
+      "logo1": [
+        {
+          "id": "1",
+          "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/ISO9001-blue.svg"
+        },
+        {
+          "id": "2",
+          "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/iso-14001.svg"
+        }
+        
+      ],
+      "text3logo": "Doble certificacion internacional",
+      "titlelogo":"Socios de",
+      "logo2": [
+        {
+          "id": "3",
+          "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/logo/ccia.webp"
+        }
+      ],
+      "projects": [
+        {
+          "id": "1",
+          "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/Vectorblanco.svg",
+          "title": "+10",
+          "text1": "años de",
+          "text2": "Trayectoria"
+        },
+        {
+          "id": "2",
+          "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/Vector2blanco.svg",
+          "title": "+10",
+          "text1": "proyectos",
+          "text2": "Inmobiliarios"
+        },
+        {
+          "id": "3",
+          "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/icons/Vector3blanco.svg",
+          "title": "+1000",
+          "text1": "Familias",
+          "text2": "Felices"
+        }
+      ]
+
+    }
+  ]
+}
+,
   "homeAboutSection": {
     "flag": "About Us",
     "flag2": "About Us",

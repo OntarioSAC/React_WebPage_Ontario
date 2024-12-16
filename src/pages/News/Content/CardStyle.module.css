@@ -1,11 +1,16 @@
+.bodycardFather{
+    
+    height: 1700px;
+}
 .bodycard{
     margin-top: 55px;
     width: 900px;
+    height: 600px;
     
     position: relative;
     display: flex;
     flex-direction: row;
-    row-gap: 72px;
+    row-gap: 40px;
     column-gap: 36px;
     flex-wrap: wrap;
     justify-content:center;
@@ -135,6 +140,7 @@ width: 107px;
     .bodycard{
         width: 100%;
         margin-top: 20px;
+        height: auto;
     }
     .cards{
         width: 329.745px;
@@ -188,6 +194,10 @@ width: 107px;
         width: 329.745px;
         height: 375.717px;
         
+    }
+    .bodycardFather{
+    
+        height: auto;
     }
     
 }

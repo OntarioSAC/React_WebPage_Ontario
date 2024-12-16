@@ -7,6 +7,8 @@ import "./WhatsappButton.css";
  * @param {string} whatsappUrl - URL personalizada de WhatsApp (opcional).
  */
 const WhatsappButton2 = ({ whatsappUrl }) => {
+  
+  
   const openWhatsapp = () => {
     const defaultUrl = "https://wa.me/+51972582490";
     const urlToOpen = whatsappUrl || defaultUrl;

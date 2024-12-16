@@ -1,8 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useTranslation } from "react-i18next";
 import dataES from "../../../data/home-content-es.json";  // Importamos los datos JSON
+import dataEN from "../../../data/home-content-en.json";
 import styless from "./SliderNewSection.module.css";  // Importamos el archivo CSS
 
 const SliderNewSection = () => {
+   const { i18n } = useTranslation();
   // Estado para manejar los datos del slider
   const [sliderData, setSliderData] = useState(null);
   const [currentSlider, setCurrentSlider] = useState(0);  // Inicia con el slider izquierdo (0)
@@ -35,8 +38,13 @@ const SliderNewSection = () => {
   };
 
   useEffect(() => {
-    if (dataES.slidernew) {
+    // Asumiendo que tienes una variable que define el idioma, por ejemplo, `language` que puede ser "es" o "en"
+    const language = "es"; // O lo que sea que estés usando para definir el idioma
+  
+    if (language === "es" && dataES.slidernew) {
       setSliderData(dataES.slidernew.slider);
+    } else if (language === "en" && dataEN.slidernew) {
+      setSliderData(dataEN.slidernew.slider);
     }
   }, []);
 
@@ -53,7 +61,7 @@ const SliderNewSection = () => {
           animateNumber(element, 0, numberValue, 2000);
         }
       });
-    }, 100);
+    }, 10);
 
     return () => clearTimeout(timer);
   }, [currentSlider, animationKey]);
@@ -73,7 +81,7 @@ const SliderNewSection = () => {
 
       setLeftColor(prevLeftColor => (prevLeftColor === "lightpurple" ? "green" : "lightpurple"));
       setRightColor(prevRightColor => (prevRightColor === "blue" ? "purple" : "blue"));
-    }, 999995000);
+    }, 3000);
   };
 
   const changeSlider = (direction) => {

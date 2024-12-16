@@ -18,6 +18,131 @@
   "cards": [
     {
       "id": 1,
+      "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/porticobahiaserena.webp",
+      "etiqueta": "Lanzamientos",
+      "fecha": "21 de noviembre 2024",
+
+      "Plataform1":"Card",
+      "titlecards":"Bahía Serena: Invierte en un paraíso junto al mar",
+      "CardsDescription":"Ontario Inmobiliaria lanza Bahía Serena, un condominio exclusivo de playa, ubicado en las costas más hermosas del norte del Perú, muy cerca a Zorritos y Punta Sal. ",
+      "buttonText": "Leer más",
+
+      "Plataform2":"Notice__Ontario",
+      "ButtomNotice":"Regresar",
+      "text": "ONTARIO",
+      "title": "Bahía Serena: Invierte en un paraíso junto al mar",
+      "subdescripcion": "Ontario Inmobiliaria lanza Bahía Serena, un condominio exclusivo de playa, ubicado en las costas más hermosas del norte del Perú, muy cerca a Zorritos y Punta Sal. ",
+      "imagedescrip": "- Bahía Serena",
+      "description": "Este desarrollo inmobiliario te ofrece la posibilidad de construir tu hogar en un entorno único, rodeado de naturaleza frente a una playa virgen que redefine el concepto de tranquilidad y exclusividad.",
+      "title1": "¿Por qué elegir Bahía Serena?",
+      "lista0": [
+        "Ubicación privilegiada: A tan solo una hora de Punta Sal, un destino paradisíaco en una franja costera interminable, con vistas incomparables al océano.",
+        "Lotes accesibles: Lotes desde 100 m² con precios de lanzamiento desde $12,750.00 que comienzan en cuotas de $149 al mes, sin intereses.",
+        "Un entorno de ensueño: Bahía Serena combina la belleza incomparable de la mejor playa del país, con un diseño arquitectónico orgánico concebido para trasmitir serenidad y calma.."
+      ],
+      "parrafoFia":"",
+      "video": "",
+      "parrafo": "",
+      "Parrafo1": "",
+      "parrafo2": "Con financiamiento directo y sin intereses, Bahía Serena se convierte en la mejor opción para aquellos que desean un espacio propio frente al mar. Ya sea como inversión o para construir una casa de playa, este proyecto está diseñado para quienes buscan exclusividad, calidad arquitectónica y el privilegio de vivir frente a la mejor playa del norte del Perú.",
+      "title2": "La oportunidad perfecta para invertir",   
+      "lista1": [
+  
+      ],
+      "title3": "",
+      "lista2": [
+     
+      ],
+      "parrafo3": "No dejes pasar esta oportunidad. Invierte en Bahía Serena y asegura tu lugar en un entorno único que combina lujo, tranquilidad y una conexión inigualable con el océano.",
+      "parrafo4": "Contáctanos ahora para más información sobre precios, disponibilidad y beneficios exclusivos por lanzamiento.",
+      "end": "Bahía Serena: el lugar donde tus sueños frente al mar se hacen realidad.",
+      "Social":"Compartir en:",
+      "redirectTo": "/proyecto-ontario"
+    },
+    {
+      "id": 2,
+      "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/presentaciongianellaneyra.webp",
+      "etiqueta": "Celebridades y Embajadores",
+      "fecha": "12 de noviembre 2024",
+
+      "Plataform1":"Card",
+      "titlecards":"Gianella Neyra se une a Ontario Inmobiliaria ",
+      "CardsDescription":"Estamos muy orgullosos de contar ahora con la reconocida actriz y presentadora Gianella Neyra como nuestra nueva embajadora.",
+      "buttonText": "Leer más",
+
+      "Plataform2":"Notice__Ontario",
+      "ButtomNotice":"Regresar",
+      "text": "ONTARIO",
+      "title": "Gianella Neyra se une a Ontario Inmobiliaria ",
+      "subdescripcion": "Estamos muy orgullosos de contar ahora con la reconocida actriz y presentadora Gianella Neyra como nuestra nueva embajadora. ",
+      "imagedescrip": "",
+      "description": "Su carisma, profesionalismo y conexión con el público transmite  los valores que nos definen: confianza, compromiso y una visión enfocada en mejorar la calidad de vida de las familias.",
+      "title1": "El inicio de una gran historia",
+      "lista0": [
+      
+      ],
+      "parrafoFia":"Esta colaboración nos permite llegar a más personas, contribuyendo a consolidarnos como una inmobiliaria de alcance nacional. A través de campañas, eventos y contenido, Gianella será la voz que inspire a las familias a confiar en Ontario para encontrar su próximo hogar.",
+      "video": "",
+      "parrafo": "",
+      "Parrafo1": "",
+      "parrafo2": "",
+      "title2": "",   
+      "lista1": [
+  
+      ],
+      "title3": "",
+      "lista2": [
+     
+      ],
+      "parrafo3": "",
+      "parrafo4": "",
+      "end": "Juntos, seguiremos construyendo sueños y marcando la diferencia en el sector inmobiliario peruano.",
+      "Social":"Compartir en:",
+      "redirectTo": "/proyecto-ontario"
+    },
+    {
+      "id": 3,
+      "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/PORTADA-NOTICIAS-B.webp",
+      "etiqueta": "Eventos y Ferias",
+      "fecha": "25 de noviembre 2024",
+
+      "Plataform1":"Card",
+      "titlecards":"Gran Debut en Feria Nexo Inmobiliario Lima - 2024",
+      "CardsDescription":"Por primera vez, Ontario Inmobiliaria participó en la reconocida Feria Nexo Inmobiliario, el evento más importante del sector, donde fuimos parte de esta gran fiesta",
+      "buttonText": "Leer más",
+
+      "Plataform2":"Notice__Ontario",
+      "ButtomNotice":"Regresar",
+      "text": "ONTARIO",
+      "title": "Gran Debut en Feria Nexo Inmobiliario Lima - 2024",
+      "subdescripcion": "Por primera vez, Ontario Inmobiliaria participó en la reconocida Feria Nexo Inmobiliario, el evento más importante del sector, donde fuimos parte de esta gran fiesta",
+      "imagedescrip": "",
+      "description": "Del 21 al 24 de noviembre, nuestro stand fue punto de encuentro para cientos de interesados que conocieron de cerca nuestros proyectos destacados, como el lanzamiento de Bahía Serena, Santorini, Prado Piamonte, Punta Arena II y O2 by Ontario. Con propuestas innovadoras y ubicaciones estratégicas, logramos captar la atención de quienes buscan invertir en proyectos inmobiliarios con alto valor agregado.",
+      "title1": "",
+      "lista0": [
+      
+      ],
+      "parrafoFia":"El éxito de nuestra participación refleja el crecimiento y proyección nacional de Ontario Inmobiliaria, que sigue expandiendo sus horizontes más allá del sur del país. Agradecemos a todos los asistentes por confiar en nuestra propuesta y por compartir este gran momento con nosotros.",
+      "video": "",
+      "parrafo": "",
+      "Parrafo1": "",
+      "parrafo2": "",
+      "title2": "",   
+      "lista1": [
+  
+      ],
+      "title3": "",
+      "lista2": [
+     
+      ],
+      "parrafo3": "",
+      "parrafo4": "",
+      "end": "¡Seguiremos llevando nuestras soluciones inmobiliarias a más peruanos!",
+      "Social":"Compartir en:",
+      "redirectTo": "/proyecto-ontario"
+    },
+    {
+      "id": 4,
       "title": "¡Nuevos Departamentos en Arequipa! Descubre O2 by Ontario",
       "titlecards":"¡Nuevos Depas en Arequipa! Conoce O2 by Ontario",
       "ButtomNotice":"Regresar",
@@ -27,7 +152,7 @@
       "subdescripcion": "O2 ofrece espacios pensados para el bienestar y confort ¡Te invitamos a conocer este nuevo concepto de vivienda!",
       "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/o2lanzamiento.webp",
       "fecha": "15 de septiembre 2024",
-      "imagedescrip": "¡Lanzamos nuestro Proyecto de Departamentos: O2 by Ontario!",
+      "imagedescrip": "- ¡Lanzamos nuestro Proyecto de Departamentos: O2 by Ontario!",
       "parrafo1": "Los departamentos cuentan con amplios espacios llenos de luz natural, donde la arquitectura se fusiona con elementos de la naturaleza, creando una sensación de armonía y calma.",
       "title1": "Detalle del proyecto:",
       "lista1": [
@@ -49,7 +174,7 @@
       "Social":"Compartir en:"
     },
     {
-      "id": 2,
+      "id": 5,
       "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/cuestanoticia.webp",
       "title": "¡Bernardo Cuesta se une a Ontario!",
       "titlecards":"¡Bernardo Cuesta se une a Ontario!",
@@ -58,7 +183,7 @@
       "CardsDescription":"¡Nos complace anunciar la incorporación del goleador histórico del equipo representativo de la ciudad de Arequipa! Este fichaje nos fortalece como marca. ",
       "description": "¡Nos complace anunciar la incorporación del goleador histórico del equipo representativo de la ciudad de Arequipa! Este fichaje nos fortalece como marca. ",
       "subdescripcion": "¡Todo está tomando forma gracias a nuestro equipo de ingeniería y el compromiso con cada detalle! ",
-      "imagedescrip": "¡La familia Ontario crece con Bernardo Cuesta",
+      "imagedescrip": "- ¡La familia Ontario crece con Bernardo Cuesta",
       "buttonText": "Leer más",
       "redirectTo": "/proyecto-ontario",
       "etiqueta": "Celebridades y Embajadores",
@@ -84,7 +209,7 @@
       "Social":"Compartir en:"
     },
     {
-      "id": 3,
+      "id": 6,
       "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/puntaarenaiilanzamiento.webp",
       "ButtomNotice":"Regresar",
       "title": "¡Punta Arena II: Tu nuevo hogar frente al mar en Arequipa!",
@@ -119,7 +244,7 @@
       "Social":"Compartir en:"
     },
     {
-      "id": 4,
+      "id": 7,
       "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/avancedeobramykonos.webp",
       "ButtomNotice":"Regresar",
       "descripcion2": "Avance de Obra Proyecto MYKONOS",
@@ -135,7 +260,7 @@
       "redirectTo": "/proyecto-ontario",
       "etiqueta": "Avances de Obra",
       "fecha": "11 de octubre 2024",
-      "imagedescrip": "Avance de Obra Proyecto MYKONOS",
+      "imagedescrip": "- Avance de Obra Proyecto MYKONOS",
       "parrafo1": "Desde los cimientos hasta los acabados, cada aspecto de nuestro proyecto está siendo ejecutado con la máxima precisión y cuidado. Nuestro compromiso con la excelencia nos impulsa a crear espacios únicos que combinen a la perfección el lujo, la comodidad y la belleza natural de Mejía.",
       "video": "",
       
@@ -154,7 +279,7 @@
       "Social":"Compartir en:"
     },
     {
-      "id": 5,
+      "id": 8,
       "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/fiastandontario.webp",
       "ButtomNotice":"Regresar",
       "title": "Diario Gestión: Grupo Ontario lidera la innovación inmobiliaria en el sur del Perú con proyectos sostenibles",
@@ -167,7 +292,7 @@
       "subdescripcion": "La inmobiliaria busca ser una de las más innovadoras y diversificadas de su rubro",
       "etiqueta": "Prensa",
       "fecha": "10 de agosto 2024",
-      "imagedescrip": " Diario Gestión: Grupo Ontario, pioneros en la construcción de un futuro sostenible",
+      "imagedescrip": "- Diario Gestión: Grupo Ontario, pioneros en la construcción de un futuro sostenible",
       "video": "",
       "Parrafo1": "Estamos emocionados de compartir contigo los últimos avances de nuestro proyecto Mykonos. Día a día, nuestro equipo de expertos trabaja incansablemente para convertir esta visión en una realidad tangible",
       "title1": "Innovación y sostenibilidad: Nuestra fórmula del éxito",
@@ -187,7 +312,7 @@
       "Social":"Compartir en:"
     },
     {
-      "id": 6,
+      "id": 9,
       "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/fiainauguracionontario.webp",
       "title": "¡Ontario está presente en la última edición de FIA 2024!",
       "titlecards":"¡Ontario está presente en la última edición de FIA 2024!",
@@ -200,7 +325,7 @@
       "etiqueta": "Eventos y Ferias",
       "subdescripcion": "Presentamos nuestros proyectos inmobiliarios innovadores y sostenibles. Fortaleciendo nuestra presencia en la región y contribuir al desarrollo urbano de Arequipa.",
       "fecha": "10 de agosto 2024",
-      "imagedescrip": "¡Ontario está presente en la última edición de FIA 2024!",
+      "imagedescrip": "- ¡Ontario está presente en la última edición de FIA 2024!",
       "video": "",
       "parrafoFia":"En Grupo Ontario creemos en un futuro donde la sostenibilidad y la tecnología van de la mano. Nuestros proyectos están diseñados para:",
       "Parrafo1": "Estamos emocionados de compartir contigo los últimos avances de nuestro proyecto Mykonos. Día a día, nuestro equipo de expertos trabaja incansablemente para convertir esta visión en una realidad tangible",
@@ -220,6 +345,8 @@
       "end": "Te invitamos el próximo año a conocer todos nuestros proyectos y descubrir cómo podemos ayudarte a encontrar el hogar de tus sueños.",
       "Social":"Compartir en:"
     }
+    
+
   ],
   "Banner": [
     {

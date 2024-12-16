@@ -17,7 +17,116 @@
   ],
   "cards": [
     {
-        "id": 1,
+      "id": 1,
+      "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/porticobahiaserena.webp",
+      "etiqueta": "Launches",
+      "fecha": "November 21, 2024",
+    
+      "Plataform1": "Card",
+      "titlecards": "Bahía Serena: Invest in a paradise by the sea",
+      "CardsDescription": "Ontario Real Estate launches Bahía Serena, an exclusive beach condominium located on the most beautiful coasts of northern Peru, very close to Zorritos and Punta Sal.",
+      "buttonText": "Read more",
+    
+      "Plataform2": "Notice__Ontario",
+      "ButtomNotice": "Back",
+      "text": "ONTARIO",
+      "title": "Bahía Serena: Invest in a paradise by the sea",
+      "subdescripcion": "Ontario Real Estate launches Bahía Serena, an exclusive beach condominium located on the most beautiful coasts of northern Peru, very close to Zorritos and Punta Sal.",
+      "imagedescrip": "- Bahía Serena",
+      "description": "This real estate development offers you the possibility to build your home in a unique environment, surrounded by nature in front of a virgin beach that redefines the concept of tranquility and exclusivity.",
+      "title1": "Why choose Bahía Serena?",
+      "lista0": [
+        "Privileged location: Just one hour away from Punta Sal, a paradise destination on an endless coastal strip, with unparalleled ocean views.",
+        "Affordable lots: Lots starting at 100 m² with launch prices from $12,750.00 and installment plans starting at $149 per month, interest-free.",
+        "A dreamlike setting: Bahía Serena combines the unparalleled beauty of the country’s best beach with an organic architectural design aimed at conveying serenity and calm."
+      ],
+      "parrafoFia": "",
+      "video": "",
+      "parrafo": "",
+      "Parrafo1": "",
+      "parrafo2": "With direct and interest-free financing, Bahía Serena becomes the best option for those who want their own space by the sea. Whether as an investment or to build a beach house, this project is designed for those seeking exclusivity, architectural quality, and the privilege of living by the best beach in northern Peru.",
+      "title2": "The perfect opportunity to invest",
+      "lista1": [],
+      "title3": "",
+      "lista2": [],
+      "parrafo3": "Don’t miss this opportunity. Invest in Bahía Serena and secure your place in a unique environment that combines luxury, tranquility, and an unparalleled connection with the ocean.",
+      "parrafo4": "Contact us now for more information about prices, availability, and exclusive launch benefits.",
+      "end": "Bahía Serena: where your dreams by the sea come true.",
+      "Social": "Share on:",
+      "redirectTo": "/proyecto-ontario"
+    },
+    {
+      "id": 2,
+      "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/presentaciongianellaneyra.webp",
+      "etiqueta": "Celebrities and Ambassadors",
+      "fecha": "November 12, 2024",
+    
+      "Plataform1": "Card",
+      "titlecards": "Gianella Neyra joins Ontario Real Estate",
+      "CardsDescription": "We are very proud to now have the renowned actress and host Gianella Neyra as our new ambassador.",
+      "buttonText": "Read more",
+    
+      "Plataform2": "Notice__Ontario",
+      "ButtomNotice": "Back",
+      "text": "ONTARIO",
+      "title": "Gianella Neyra joins Ontario Real Estate",
+      "subdescripcion": "We are very proud to now have the renowned actress and host Gianella Neyra as our new ambassador.",
+      "imagedescrip": "",
+      "description": "Her charisma, professionalism, and connection with the public reflect the values that define us: trust, commitment, and a vision focused on improving families' quality of life.",
+      "title1": "The beginning of a great story",
+      "lista0": [],
+      "parrafoFia": "This collaboration allows us to reach more people, contributing to our consolidation as a nationwide real estate company. Through campaigns, events, and content, Gianella will be the voice inspiring families to trust Ontario to find their next home.",
+      "video": "",
+      "parrafo": "",
+      "Parrafo1": "",
+      "parrafo2": "",
+      "title2": "",
+      "lista1": [],
+      "title3": "",
+      "lista2": [],
+      "parrafo3": "",
+      "parrafo4": "",
+      "end": "Together, we will continue building dreams and making a difference in the Peruvian real estate sector.",
+      "Social": "Share on:",
+      "redirectTo": "/proyecto-ontario"
+    },
+    {
+      "id": 3,
+      "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/PORTADA-NOTICIAS-B.webp",
+      "etiqueta": "Events and Fairs",
+      "fecha": "November 25, 2024",
+    
+      "Plataform1": "Card",
+      "titlecards": "Grand Debut at Nexo Inmobiliario Fair Lima - 2024",
+      "CardsDescription": "For the first time, Ontario Real Estate participated in the renowned Nexo Inmobiliario Fair, the most important event in the sector, where we were part of this grand celebration.",
+      "buttonText": "Read more",
+    
+      "Plataform2": "Notice__Ontario",
+      "ButtomNotice": "Back",
+      "text": "ONTARIO",
+      "title": "Grand Debut at Nexo Inmobiliario Fair Lima - 2024",
+      "subdescripcion": "For the first time, Ontario Real Estate participated in the renowned Nexo Inmobiliario Fair, the most important event in the sector, where we were part of this grand celebration.",
+      "imagedescrip": "",
+      "description": "From November 21 to 24, our booth was a meeting point for hundreds of visitors who got to know our featured projects up close, including the launch of Bahía Serena, Santorini, Prado Piamonte, Punta Arena II, and O2 by Ontario. With innovative proposals and strategic locations, we captured the attention of those looking to invest in high-value real estate projects.",
+      "title1": "",
+      "lista0": [],
+      "parrafoFia": "The success of our participation reflects the growth and national projection of Ontario Real Estate, which continues to expand its horizons beyond southern Peru. We thank all attendees for trusting our proposal and sharing this great moment with us.",
+      "video": "",
+      "parrafo": "",
+      "Parrafo1": "",
+      "parrafo2": "",
+      "title2": "",
+      "lista1": [],
+      "title3": "",
+      "lista2": [],
+      "parrafo3": "",
+      "parrafo4": "",
+      "end": "We will continue bringing our real estate solutions to more Peruvians!",
+      "Social": "Share on:",
+      "redirectTo": "/proyecto-ontario"
+    },    
+    {
+        "id": 4,
         "title": "New Apartments in Arequipa! Discover O2 by Ontario",
         "titlecards":"New Apartments in Arequipa! Discover O2 by Ontario",
         "text": "ONTARIO",
@@ -49,7 +158,7 @@
         "Social":"Share on:"
     },
     {
-        "id": 2,
+        "id": 5,
         "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/cuestanoticia.webp",
         "title": "Bernardo Cuesta Joins Ontario!",
         "titlecards":"Bernardo Cuesta Joins Ontario!",
@@ -84,7 +193,7 @@
         "Social":"Share on:"
       },
     {
-      "id": 3,
+      "id": 6,
       "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/puntaarenaiilanzamiento.webp",
       "title": "Punta Arena II: Your New Home by the Sea in Arequipa!",
       "titlecards":"Punta Arena II: Your New Home by the Sea in Arequipa!",
@@ -117,7 +226,7 @@
       "Social":"Share on:"
     },
     {
-      "id": 4,
+      "id": 7,
       "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/avancedeobramykonos.webp",
       "descripcion2": "Mykonos Project Construction Progress",
       "ButtomNotice":"go back",
@@ -150,7 +259,7 @@
       "Social":"Share on:"
     },
     {
-      "id": 5,
+      "id": 8,
       "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/fiastandontario.webp",
       "title": "Gestión Newspaper: Ontario Group Leads Real Estate Innovation in Southern Peru with Sustainable Projects",
       "titlecards":"Ontario Group leads real estate innovation in the south.",
@@ -181,7 +290,7 @@
       "Social":"Share on:"
     },
     {
-      "id": 6,
+      "id": 9,
       "image": "https://pub-98ff477fff7c4221ae13325d6258be3b.r2.dev/img/news/fiainauguracionontario.webp",
       "title": "Feria Inmobiliaria Stand: Ontario Group Presenting Sustainable Innovation",
       "titlecards":"Ontario is present at the latest edition of FIA 2024!",

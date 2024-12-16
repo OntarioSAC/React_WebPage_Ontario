@@ -101,91 +101,84 @@ const Sidebar = () => {
    
 
 
-   <div className={styles.derecha_} style={derecha_}>
-         <div className={styles.fathertitle} style={Titulo_general}>
-            <h5 className={styles.fathertitleint}  style={titulo_derecha}>Publicaciones </h5>
-            <p className={styles.fathertitleint} style={titulo_derecha_in}>Recientes</p>
+      <div className={styles.derecha_} style={derecha_}>
+      <div className={styles.fathertitle} style={Titulo_general}>
+         <h5 className={styles.fathertitleint}  style={titulo_derecha}>Publicaciones </h5>
+         <p className={styles.fathertitleint} style={titulo_derecha_in}>Recientes</p>
+      </div>
+      {data.cards.slice(0, 6).map((card) => ( // Aquí usamos slice para limitar a los primeros 6 elementos
+         <div
+            key={card.id}
+            className={styles.derecha_int}
+            style={{
+               ...derecha_int,
+               position: 'relative', // Necesario para que los elementos se apilen
+            }}
+            onMouseEnter={() => setHoveredCard(card.id)}
+            onMouseLeave={() => setHoveredCard(null)}
+            onClick={() => navigate(`/card/${card.id}`)}
+         >
+            {/* Contenedor de la imagen con el filtro */}
+            <div
+               style={{
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  bottom: 0,
+                  backgroundImage: hoveredCard === card.id ? `url(${card.image})` : 'none',
+                  backgroundColor: hoveredCard === card.id ? 'rgba(218, 218, 218, 0.3)' : 'transparent',
+                  backgroundBlendMode: hoveredCard === card.id ? 'darken' : 'normal',
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  filter: hoveredCard === card.id ? 'brightness(60%)' : 'brightness(100%)',
+                  transition: 'filter 0.5s ease, background-image 0.5s ease, background-color 0.5s ease',
+               }}
+            ></div>
+   
+            {/* Contenedor de texto */}
+            <div
+               className={styles.contenttitl}
+               style={{
+                  ...derecha_int_text,
+                  position: 'relative',
+                  zIndex: 2, // Hace que el texto esté por encima de la imagen
+               }}
+            >
+               <h2 className={styles.titleg}
+                  style={{
+                     ...text_texto_dere,
+                     color: hoveredCard === card.id ? 'white' : '#1C284C',
+                     transition: 'color 0.5s ease',
+                  }}
+               >
+                  {card.title}
+               </h2>
+            </div>
+   
+            <div
+               className={styles.descripcionri}
+               style={{
+                  ...derecha_int_fecha_cuerpo,
+                  position: 'relative',
+                  zIndex: 2, // Hace que el texto esté por encima de la imagen
+               }}
+            >
+               <p
+                  className={styles.fecharig}
+                  style={{
+                     ...derecha_int_fecha,
+                     color: hoveredCard === card.id ? 'white' : '#1C284C',
+                     transition: 'color 0.5s ease',
+                  }}
+               >
+                  {card.fecha}
+               </p>
+            </div>
          </div>
-      {data.cards.map((card) => (
-   <div
-      key={card.id}
-      className={styles.derecha_int}
-      style={{
-         ...derecha_int,
-         position: 'relative', // Necesario para que los elementos se apilen
-      }}
-      onMouseEnter={() => setHoveredCard(card.id)}
-      onMouseLeave={() => setHoveredCard(null)}
-      onClick={() => navigate(`/card/${card.id}`)}
-   >
-      {/* Contenedor de la imagen con el filtro */}
-      <div
-         style={{
-            position: 'absolute',
-            top: 0,
-            left: 0,
-            right: 0,
-            bottom: 0,
-            backgroundImage: hoveredCard === card.id ? `url(${card.image})` : 'none',
-            backgroundColor: hoveredCard === card.id ? 'rgba(218, 218, 218, 0.3)' : 'transparent',
-            backgroundBlendMode: hoveredCard === card.id ? 'darken' : 'normal',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            filter: hoveredCard === card.id ? 'brightness(60%)' : 'brightness(100%)',
-            transition: 'filter 0.5s ease, background-image 0.5s ease, background-color 0.5s ease',
-            
-            
-         }}
-         
-      ></div>
-
-      {/* Contenedor de texto */}
-      <div
-         className={styles.contenttitl}
-         style={{
-            ...derecha_int_text,
-            position: 'relative',
-            zIndex: 2, // Hace que el texto esté por encima de la imagen
-         }}
-         
-      >
-         <h2 className={styles.titleg}
-            style={{
-               
-               ...text_texto_dere,
-               color: hoveredCard === card.id ? 'white' : '#1C284C',
-               transition: 'color 0.5s ease',
-            }}
-         >
-            {card.title}
-         </h2>
-      </div>
-
-      <div
-         className={styles.descripcionri}
-         style={{
-            ...derecha_int_fecha_cuerpo,
-            position: 'relative',
-            zIndex: 2, // Hace que el texto esté por encima de la imagen
-         }}
-      >
-         <p
-            className={styles.fecharig}
-            style={{
-               ...derecha_int_fecha,
-               color: hoveredCard === card.id ? 'white' : '#1C284C',
-               transition: 'color 0.5s ease',
-            }}
-         >
-            {card.fecha}
-         </p>
-      </div>
+      ))}
    </div>
-))}
-
-
-   </div>
-
+   
 
 
 

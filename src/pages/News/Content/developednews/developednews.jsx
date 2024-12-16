@@ -76,15 +76,24 @@ function developednews( ) {
           {/* Descripción de la imagen */}
           {(card.fecha || card.imagedescrip) && (
             <div className={styles.fechaimgedescrip}>
-              <div>{`${card.fecha} - ${card.imagedescrip}`}</div>
+              <div>{`${card.fecha}  ${card.imagedescrip}`}</div>
             </div>
           )}
+
 
           {/* Descripciones y párrafos */}
           {card.description && <div className={styles.descrips}>{card.description}</div>}
           {card.tituMYKONOS && <div className={styles.titledown}>{card.tituMYKONOS}</div>}
           {card.parrafo1 && <div className={styles.descrips}>{card.parrafo1}</div>}
           {card.title1 && <h2 className={styles.titledown}>{card.title1}</h2>}
+          {/* Lista 0 */}
+          {card.lista0 && card.lista0.length > 0 && (
+            <ul className={styles.listp}>
+              {card.lista0.map((item, index) => (
+                <li key={index}>•  {item}</li>
+              ))}
+            </ul>
+          )}
           {card.parrafoFia && <div className={styles.descrips}>{card.parrafoFia}</div>}
           {/* Lista 1 */}
           {card.lista1 && card.lista1.length > 0 && (
@@ -115,6 +124,9 @@ function developednews( ) {
               ))}
             </ul>
           )}
+
+          {card.parrafo3 && <div className={styles.descrips}>{card.parrafo3}</div>}
+          {card.parrafo4 && <div className={styles.descrips}>{card.parrafo4}</div>}
 
           {/* Fin */}
           {card.end && (
